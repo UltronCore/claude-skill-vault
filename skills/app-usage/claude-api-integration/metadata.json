@@ -1,0 +1,22 @@
+{
+  "name": "Claude API Integration",
+  "slug": "claude-api-integration",
+  "version": "v1",
+  "status": "active",
+  "path": "skills/app-usage/claude-api-integration",
+  "updated": "2026-03-25",
+  "source": "derived",
+  "derived_from": [
+    "anthropics/anthropic-sdk-python",
+    "anthropics/anthropic-sdk-typescript",
+    "anthropics/anthropic-sdk-go",
+    "anthropics/anthropic-sdk-ruby",
+    "anthropics/anthropic-sdk-php",
+    "anthropics/anthropic-cli",
+    "anthropics/claude-agent-sdk-python"
+  ],
+  "category": "app-usage",
+  "tags": ["anthropic", "claude", "api", "sdk", "integration"],
+  "public_safe": true,
+  "featured": true
+}
