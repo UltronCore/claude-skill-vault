@@ -1,13 +1,15 @@
 # Orchestration Skills
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-25_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
+| [Agent Loop Patterns ⭐](agent-loop-patterns/) | Provides design patterns for building autonomous agent loops, task queues, and multi-agent crew systems with Claude. | v1 | ✅ active |
 | [Brainstorming ⭐](brainstorming/) | Guides collaborative design sessions that turn ideas into fully specified, approved design documents before any implementation begins. Asks clarifying questions one at a time, proposes multiple approaches with trade-offs, presents designs section-by-section for approval, then writes and reviews a spec document before handing off to writing-plans. | v1 | ✅ active |
 | [Dispatching Parallel Agents ⭐](dispatching-parallel-agents/) | Identifies independent problem domains across multiple failures or tasks, then dispatches one focused subagent per domain to work concurrently. Each agent receives precisely crafted context without session history, allowing multiple investigations or implementations to happen simultaneously. | v1 | ✅ active |
 | [Executing Plans](executing-plans/) | Loads a written implementation plan, critically reviews it for gaps or concerns, then executes each task step-by-step with verification checkpoints. Stops immediately when blocked rather than guessing, and concludes by invoking finishing-a-development-branch. | v1 | ✅ active |
 | [Finishing a Development Branch](finishing-a-development-branch/) | Verifies tests pass, then presents exactly four structured options for completing development work: merge locally, push and create a PR, keep as-is, or discard. Handles the chosen option including worktree cleanup. | v1 | ✅ active |
+| [RAG Pipeline Setup ⭐](rag-pipeline-setup/) | Provides patterns for building Retrieval-Augmented Generation pipelines that give Claude access to external knowledge bases, documents, and codebases. | v1 | ✅ active |
 | [Subagent-Driven Development ⭐](subagent-driven-development/) | Executes implementation plans by dispatching a fresh subagent per task with isolated context, followed by a mandatory two-stage review: spec compliance first, then code quality. The orchestrator extracts all tasks upfront, manages the review loop for each, and dispatches a final overall review before completing. | v1 | ✅ active |
 | [Test-Driven Development](test-driven-development/) | Enforces the Red-Green-Refactor TDD cycle: write one failing test, verify it fails for the right reason, write minimal code to pass, verify it passes, then refactor. Any code written before a failing test must be deleted and rewritten from scratch after the test is in place. | v1 | ✅ active |
 | [Using Git Worktrees](using-git-worktrees/) | Creates an isolated git worktree for feature work by following a priority-based directory selection process, verifying the directory is gitignored, running project setup, and confirming a clean test baseline before any implementation begins. | v1 | ✅ active |

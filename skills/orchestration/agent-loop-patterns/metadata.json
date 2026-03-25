@@ -1,0 +1,16 @@
+{
+  "name": "Agent Loop Patterns",
+  "slug": "agent-loop-patterns",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-25",
+  "updated": "2026-03-25",
+  "source": "derived-from-repos",
+  "category": "orchestration",
+  "tags": ["agents", "autonomous", "loops", "orchestration", "crew"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": ["Significant-Gravitas/AutoGPT", "crewAIInc/crewAI", "yoheinakajima/babyagi"],
+  "related_skills": ["dispatching-parallel-agents", "subagent-driven-development", "claude-usage-orchestrator"],
+  "featured": true
+}

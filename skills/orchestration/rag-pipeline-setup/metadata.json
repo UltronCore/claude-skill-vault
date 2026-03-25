@@ -1,0 +1,16 @@
+{
+  "name": "RAG Pipeline Setup",
+  "slug": "rag-pipeline-setup",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-25",
+  "updated": "2026-03-25",
+  "source": "derived-from-repos",
+  "category": "orchestration",
+  "tags": ["rag", "embeddings", "vector-search", "llm", "knowledge-base"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": ["run-llama/llama_index", "langchain-ai/langchain", "chroma-core/chroma", "qdrant/qdrant"],
+  "related_skills": ["supabase-prisma-database-management"],
+  "featured": true
+}

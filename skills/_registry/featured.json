@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24",
+  "updated": "2026-03-25",
   "featured": [
     {
       "name": "Skill Creator",
@@ -115,6 +115,44 @@
       "featured": true
     },
     {
+      "name": "LLM Routing and Fallback",
+      "slug": "llm-routing-and-fallback",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/llm-routing-and-fallback",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "optimization",
+      "tags": [
+        "llm",
+        "routing",
+        "litellm",
+        "cost-optimization",
+        "fallback"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Agent Loop Patterns",
+      "slug": "agent-loop-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/agent-loop-patterns",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "orchestration",
+      "tags": [
+        "agents",
+        "autonomous",
+        "loops",
+        "orchestration",
+        "crew"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "Brainstorming",
       "slug": "brainstorming",
       "version": "v1",
@@ -148,6 +186,25 @@
         "subagents",
         "concurrency",
         "delegation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "RAG Pipeline Setup",
+      "slug": "rag-pipeline-setup",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/rag-pipeline-setup",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "orchestration",
+      "tags": [
+        "rag",
+        "embeddings",
+        "vector-search",
+        "llm",
+        "knowledge-base"
       ],
       "public_safe": true,
       "featured": true

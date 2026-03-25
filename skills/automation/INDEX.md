@@ -1,6 +1,6 @@
 # Automation Skills
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-25_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
@@ -9,3 +9,4 @@ _Last updated: 2026-03-24_
 | [GitHub Actions CI Workflow](github-actions-ci-workflow/) | Sets up comprehensive GitHub Actions CI/CD workflows for modern web applications, covering lint, test, build, and deploy stages with caching strategies and preview deployment URL comments on pull requests. | v1 | ✅ active |
 | [Playwright Flow Recorder](playwright-flow-recorder/) | Generates Playwright E2E test scripts from natural language user flow descriptions, converting user stories, acceptance criteria, and scenario descriptions into executable TypeScript test code with proper assertions, waits, and best practices. | v1 | ✅ active |
 | [Testing Next Stack ⭐](testing-next-stack/) | Scaffolds a comprehensive testing infrastructure for Next.js applications including Vitest unit tests, React Testing Library component tests, and Playwright E2E tests with integrated axe-core accessibility scanning, test utilities, mock factories, and coverage configuration. | v1 | ✅ active |
+| [web-scraping-pipeline](web-scraping-pipeline/) | No description available. | v1 | ✅ active |

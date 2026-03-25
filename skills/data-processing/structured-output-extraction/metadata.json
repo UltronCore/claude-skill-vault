@@ -1,0 +1,16 @@
+{
+  "name": "Structured Output Extraction",
+  "slug": "structured-output-extraction",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-25",
+  "updated": "2026-03-25",
+  "source": "derived-from-repos",
+  "category": "data-processing",
+  "tags": ["structured-output", "pydantic", "json", "extraction", "typing"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": ["instructor-ai/instructor", "pydantic/pydantic-ai", "microsoft/guidance"],
+  "related_skills": ["api-contracts-and-zod-validation", "claude-api-integration"],
+  "featured": false
+}

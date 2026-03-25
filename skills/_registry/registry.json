@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24",
+  "updated": "2026-03-25",
   "skills": [
     {
       "name": "Claude MD Improver",
@@ -266,6 +266,25 @@
       "featured": false
     },
     {
+      "name": "Structured Output Extraction",
+      "slug": "structured-output-extraction",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-processing/structured-output-extraction",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "data-processing",
+      "tags": [
+        "structured-output",
+        "pydantic",
+        "json",
+        "extraction",
+        "typing"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Expo Skills",
       "slug": "expo-skills",
       "version": "v1",
@@ -494,6 +513,25 @@
       "featured": true
     },
     {
+      "name": "LLM Routing and Fallback",
+      "slug": "llm-routing-and-fallback",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/llm-routing-and-fallback",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "optimization",
+      "tags": [
+        "llm",
+        "routing",
+        "litellm",
+        "cost-optimization",
+        "fallback"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "Performance Budget Enforcer",
       "slug": "performance-budget-enforcer",
       "version": "v1",
@@ -532,6 +570,25 @@
       ],
       "public_safe": true,
       "featured": false
+    },
+    {
+      "name": "Agent Loop Patterns",
+      "slug": "agent-loop-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/agent-loop-patterns",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "orchestration",
+      "tags": [
+        "agents",
+        "autonomous",
+        "loops",
+        "orchestration",
+        "crew"
+      ],
+      "public_safe": true,
+      "featured": true
     },
     {
       "name": "Brainstorming",
@@ -609,6 +666,25 @@
       ],
       "public_safe": true,
       "featured": false
+    },
+    {
+      "name": "RAG Pipeline Setup",
+      "slug": "rag-pipeline-setup",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/rag-pipeline-setup",
+      "updated": "2026-03-25",
+      "source": "derived-from-repos",
+      "category": "orchestration",
+      "tags": [
+        "rag",
+        "embeddings",
+        "vector-search",
+        "llm",
+        "knowledge-base"
+      ],
+      "public_safe": true,
+      "featured": true
     },
     {
       "name": "Subagent-Driven Development",
