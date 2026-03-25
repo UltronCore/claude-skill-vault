@@ -1,0 +1,10 @@
+# Integrations Skills
+
+_Last updated: 2026-03-24_
+
+| Skill | Description | Version | Status |
+|-------|-------------|---------|--------|
+| [Expo Skills](expo-skills/) | Provides comprehensive guidance for building Expo React Native mobile apps with a full feature set including RevenueCat in-app purchases, Google AdMob advertising, i18n localization, onboarding flow with video, paywall, and NativeTabs navigation. Enforces mandatory patterns and forbidden anti-patterns to ensure consistent, production-ready apps. | v1 | ✅ active |
+| [Sentry and OpenTelemetry Setup](sentry-and-otel-setup/) | Configures comprehensive error tracking and performance monitoring using Sentry with OpenTelemetry (OTel) instrumentation for Next.js applications. Covers automatic error capture, distributed tracing, structured logging, error boundaries, and custom performance monitoring. | v1 | ✅ active |
+| [Supabase Auth SSR Setup](supabase-auth-ssr-setup/) | Configures Supabase Authentication for Next.js App Router with server-side rendering, secure cookie-based sessions, middleware route protection, and complete login/logout flows. Provides browser, server, and middleware Supabase client configurations along with authentication utility helpers. | v1 | ✅ active |
+| [Supabase + Prisma Database Management](supabase-prisma-database-management/) | Manages database schema, migrations, and seed data using Prisma ORM connected to Supabase PostgreSQL. Covers initial setup, shadow database configuration, migration workflows, idempotent seeding, Prisma Client singleton patterns, and CI/CD schema validation. | v1 | ✅ active |

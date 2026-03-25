@@ -1,0 +1,16 @@
+{
+  "name": "Test-Driven Development",
+  "slug": "test-driven-development",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-24",
+  "updated": "2026-03-24",
+  "source": "imported-existing",
+  "category": "orchestration",
+  "tags": ["tdd", "testing", "red-green-refactor", "quality", "implementation"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": ["systematic-debugging", "subagent-driven-development", "verification-before-completion", "writing-plans"],
+  "featured": false
+}

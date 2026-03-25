@@ -1,0 +1,16 @@
+{
+  "name": "Skill Name",
+  "slug": "skill-name",
+  "version": "v1",
+  "status": "active",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
+  "source": "created-in-vault",
+  "category": "category-name",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}

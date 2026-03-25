@@ -1,0 +1,74 @@
+{
+  "updated": "2026-03-24",
+  "categories": {
+    "app-usage": [
+      "claude-md-improver",
+      "skill-creator",
+      "skillguard",
+      "using-superpowers",
+      "writing-skills"
+    ],
+    "automation": [
+      "a11y-checker-ci",
+      "eslint-prettier-husky-config",
+      "github-actions-ci-workflow",
+      "playwright-flow-recorder",
+      "testing-next-stack"
+    ],
+    "data-processing": [
+      "api-contracts-and-zod-validation",
+      "env-config-validator"
+    ],
+    "integrations": [
+      "expo-skills",
+      "sentry-and-otel-setup",
+      "supabase-auth-ssr-setup",
+      "supabase-prisma-database-management"
+    ],
+    "misc": [
+      "docs-and-changelogs",
+      "feature-flag-manager",
+      "nextjs-fullstack-scaffold",
+      "revalidation-strategy-planner",
+      "role-permission-table-builder"
+    ],
+    "optimization": [
+      "claude-usage-orchestrator",
+      "performance-budget-enforcer",
+      "server-actions-vs-api-optimizer"
+    ],
+    "orchestration": [
+      "brainstorming",
+      "dispatching-parallel-agents",
+      "executing-plans",
+      "finishing-a-development-branch",
+      "subagent-driven-development",
+      "test-driven-development",
+      "using-git-worktrees",
+      "verification-before-completion",
+      "writing-plans"
+    ],
+    "research": [
+      "systematic-debugging"
+    ],
+    "review": [
+      "receiving-code-review",
+      "requesting-code-review",
+      "skill-reviewer-and-enhancer"
+    ],
+    "security": [
+      "auth-route-protection-checker",
+      "csp-config-generator",
+      "security-hardening-checklist",
+      "supabase-rls-policy-generator"
+    ],
+    "ui-ux": [
+      "form-generator-rhf-zod",
+      "frontend-design",
+      "markdown-editor-integrator",
+      "tailwind-shadcn-ui-setup",
+      "ui-library-usage-auditor",
+      "uniapp-frontend"
+    ]
+  }
+}

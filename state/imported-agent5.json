@@ -1,0 +1,175 @@
+{
+  "agent": "official-skills",
+  "skills": [
+    {
+      "slug": "brainstorming",
+      "category": "orchestration",
+      "name": "Brainstorming",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["design", "spec", "planning", "collaborative", "requirements"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "dispatching-parallel-agents",
+      "category": "orchestration",
+      "name": "Dispatching Parallel Agents",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["parallel", "agents", "subagents", "concurrency", "delegation"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "executing-plans",
+      "category": "orchestration",
+      "name": "Executing Plans",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["execution", "plans", "implementation", "tasks", "checkpoints"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "finishing-a-development-branch",
+      "category": "orchestration",
+      "name": "Finishing a Development Branch",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["git", "merge", "pr", "branch", "cleanup", "worktree"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "receiving-code-review",
+      "category": "review",
+      "name": "Receiving Code Review",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["code-review", "feedback", "verification", "pushback", "yagni"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "requesting-code-review",
+      "category": "review",
+      "name": "Requesting Code Review",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["code-review", "subagent", "quality", "git", "sha"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "subagent-driven-development",
+      "category": "orchestration",
+      "name": "Subagent-Driven Development",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["subagents", "implementation", "plans", "review", "tdd", "quality"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "systematic-debugging",
+      "category": "research",
+      "name": "Systematic Debugging",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["debugging", "root-cause", "bugs", "test-failures", "investigation", "hypothesis"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "test-driven-development",
+      "category": "orchestration",
+      "name": "Test-Driven Development",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["tdd", "testing", "red-green-refactor", "quality", "implementation"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "using-git-worktrees",
+      "category": "orchestration",
+      "name": "Using Git Worktrees",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["git", "worktrees", "isolation", "branches", "workspace"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "using-superpowers",
+      "category": "app-usage",
+      "name": "Using Superpowers",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["meta", "skills", "invocation", "claude-code", "workflow"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "verification-before-completion",
+      "category": "orchestration",
+      "name": "Verification Before Completion",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["verification", "evidence", "completion", "honesty", "testing"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "writing-plans",
+      "category": "orchestration",
+      "name": "Writing Plans",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["planning", "implementation", "tasks", "tdd", "specs", "documentation"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "writing-skills",
+      "category": "app-usage",
+      "name": "Writing Skills",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["skills", "tdd", "documentation", "cso", "authoring", "testing"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "frontend-design",
+      "category": "ui-ux",
+      "name": "Frontend Design",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["frontend", "design", "ui", "css", "react", "aesthetics", "web"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "claude-md-improver",
+      "category": "app-usage",
+      "name": "Claude MD Improver",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["claude-md", "project-memory", "audit", "quality", "maintenance"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "skill-creator",
+      "category": "app-usage",
+      "name": "Skill Creator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["skills", "evals", "benchmarking", "iteration", "description-optimization", "creation"],
+      "featured": true,
+      "status": "active"
+    }
+  ]
+}

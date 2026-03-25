@@ -1,0 +1,85 @@
+{
+  "agent": "uiux-optimization",
+  "skills": [
+    {
+      "slug": "form-generator-rhf-zod",
+      "category": "ui-ux",
+      "name": "Form Generator with React Hook Form & Zod",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["react", "forms", "react-hook-form", "zod", "shadcn-ui", "typescript", "validation"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "markdown-editor-integrator",
+      "category": "ui-ux",
+      "name": "Markdown Editor Integrator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["markdown", "editor", "rich-text", "uiw", "react", "next-js", "sanitization"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "tailwind-shadcn-ui-setup",
+      "category": "ui-ux",
+      "name": "Tailwind + shadcn/ui Setup for Next.js",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["tailwind", "shadcn-ui", "next-js", "dark-mode", "design-system", "accessibility", "setup"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "ui-library-usage-auditor",
+      "category": "ui-ux",
+      "name": "UI Library Usage Auditor",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["audit", "shadcn-ui", "accessibility", "wcag", "component-review", "refactoring"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "uniapp-frontend",
+      "category": "ui-ux",
+      "name": "uni-app Frontend Development",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["uniapp", "vue3", "typescript", "wechat", "mini-program", "cross-platform", "scss"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "claude-usage-orchestrator",
+      "category": "optimization",
+      "name": "Claude Usage Orchestrator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["token-optimization", "orchestration", "routing", "codex", "cost-control", "efficiency"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "performance-budget-enforcer",
+      "category": "optimization",
+      "name": "Performance Budget Enforcer",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["lighthouse", "bundle-size", "web-vitals", "ci-cd", "performance", "monitoring"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "server-actions-vs-api-optimizer",
+      "category": "optimization",
+      "name": "Server Actions vs API Routes Optimizer",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["next-js", "server-actions", "api-routes", "architecture", "refactoring", "data-fetching"],
+      "featured": false,
+      "status": "active"
+    }
+  ]
+}

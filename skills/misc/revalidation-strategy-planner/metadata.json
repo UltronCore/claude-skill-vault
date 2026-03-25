@@ -1,0 +1,16 @@
+{
+  "name": "Revalidation Strategy Planner",
+  "slug": "revalidation-strategy-planner",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-24",
+  "updated": "2026-03-24",
+  "source": "imported-existing",
+  "category": "misc",
+  "tags": ["nextjs", "caching", "isr", "ssr", "ssg", "streaming", "revalidation", "cache-tags", "performance", "app-router"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": ["nextjs-fullstack-scaffold", "feature-flag-manager"],
+  "featured": false
+}

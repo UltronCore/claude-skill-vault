@@ -1,0 +1,105 @@
+{
+  "agent": "automation-misc",
+  "skills": [
+    {
+      "slug": "a11y-checker-ci",
+      "category": "automation",
+      "name": "A11y Checker CI",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["accessibility", "a11y", "wcag", "ci-cd", "playwright", "axe-core", "pa11y", "github-actions", "gitlab-ci", "reporting"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "eslint-prettier-husky-config",
+      "category": "automation",
+      "name": "ESLint Prettier Husky Config",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["eslint", "prettier", "husky", "lint-staged", "git-hooks", "code-quality", "nextjs", "react", "ci-cd", "github-actions"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "github-actions-ci-workflow",
+      "category": "automation",
+      "name": "GitHub Actions CI Workflow",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["github-actions", "ci-cd", "deployment", "preview-deployments", "caching", "nextjs", "vercel", "netlify", "aws", "workflow"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "playwright-flow-recorder",
+      "category": "automation",
+      "name": "Playwright Flow Recorder",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["playwright", "e2e", "testing", "test-generation", "user-flows", "acceptance-tests", "typescript", "automation"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "testing-next-stack",
+      "category": "automation",
+      "name": "Testing Next Stack",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["vitest", "react-testing-library", "playwright", "axe-core", "testing", "nextjs", "typescript", "coverage", "e2e", "unit-tests", "component-tests", "accessibility"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "docs-and-changelogs",
+      "category": "misc",
+      "name": "Docs and Changelogs",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["changelog", "documentation", "conventional-commits", "adr", "prd", "semantic-versioning", "release-notes", "markdown"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "feature-flag-manager",
+      "category": "misc",
+      "name": "Feature Flag Manager",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["feature-flags", "feature-toggles", "launchdarkly", "ab-testing", "progressive-rollout", "nextjs", "server-actions", "react", "canary"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "nextjs-fullstack-scaffold",
+      "category": "misc",
+      "name": "Next.js Full-Stack Scaffold",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["nextjs", "react", "typescript", "tailwind", "shadcn-ui", "supabase", "prisma", "postgresql", "zod", "scaffold", "boilerplate", "full-stack", "app-router"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "revalidation-strategy-planner",
+      "category": "misc",
+      "name": "Revalidation Strategy Planner",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["nextjs", "caching", "isr", "ssr", "ssg", "streaming", "revalidation", "cache-tags", "performance", "app-router"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "role-permission-table-builder",
+      "category": "misc",
+      "name": "Role Permission Table Builder",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["rbac", "authorization", "permissions", "roles", "access-control", "sql", "nextjs", "middleware", "security", "typescript"],
+      "featured": false,
+      "status": "active"
+    }
+  ]
+}

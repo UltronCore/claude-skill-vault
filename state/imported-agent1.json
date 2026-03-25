@@ -1,0 +1,65 @@
+{
+  "agent": "security-data",
+  "skills": [
+    {
+      "slug": "auth-route-protection-checker",
+      "category": "security",
+      "name": "Auth Route Protection Checker",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["security", "auth", "routes", "nextjs", "middleware", "rbac", "authorization", "server-actions"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "csp-config-generator",
+      "category": "security",
+      "name": "CSP Config Generator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["security", "csp", "xss", "headers", "nextjs", "middleware", "nonce", "content-security-policy"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "security-hardening-checklist",
+      "category": "security",
+      "name": "Security Hardening Checklist",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["security", "audit", "hardening", "headers", "cookies", "rls", "rate-limiting", "cors", "owasp", "nextjs"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "supabase-rls-policy-generator",
+      "category": "security",
+      "name": "Supabase RLS Policy Generator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["security", "supabase", "rls", "database", "postgresql", "multi-tenant", "rbac", "row-level-security", "jwt"],
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "slug": "api-contracts-and-zod-validation",
+      "category": "data-processing",
+      "name": "API Contracts and Zod Validation",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["zod", "validation", "typescript", "api-contracts", "forms", "server-actions", "type-safety", "runtime-validation", "nextjs"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "env-config-validator",
+      "category": "data-processing",
+      "name": "Environment Configuration Validator",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["environment", "configuration", "secrets", "validation", "nextjs", "dotenv", "security", "ci-cd", "deployment"],
+      "featured": false,
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Environment Configuration Validator",
+  "slug": "env-config-validator",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-24",
+  "updated": "2026-03-24",
+  "source": "imported-existing",
+  "category": "data-processing",
+  "tags": ["environment", "configuration", "secrets", "validation", "nextjs", "dotenv", "security", "ci-cd", "deployment"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": ["api-contracts-and-zod-validation", "security-hardening-checklist"],
+  "featured": false
+}

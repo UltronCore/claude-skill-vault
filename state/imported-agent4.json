@@ -1,0 +1,65 @@
+{
+  "agent": "integrations-review-appusage",
+  "skills": [
+    {
+      "slug": "expo-skills",
+      "category": "integrations",
+      "name": "Expo Skills",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["expo", "react-native", "mobile", "revenuecat", "admob", "i18n", "paywall", "onboarding"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "sentry-and-otel-setup",
+      "category": "integrations",
+      "name": "Sentry and OpenTelemetry Setup",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["sentry", "opentelemetry", "otel", "nextjs", "observability", "error-tracking", "performance-monitoring", "logging"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "supabase-auth-ssr-setup",
+      "category": "integrations",
+      "name": "Supabase Auth SSR Setup",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["supabase", "auth", "ssr", "nextjs", "app-router", "middleware", "oauth", "cookies"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "supabase-prisma-database-management",
+      "category": "integrations",
+      "name": "Supabase + Prisma Database Management",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["supabase", "prisma", "postgresql", "migrations", "orm", "database", "seeding", "ci-cd"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "skill-reviewer-and-enhancer",
+      "category": "review",
+      "name": "Skill Reviewer and Enhancer",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["review", "audit", "quality", "anthropic-standards", "skill-management", "best-practices"],
+      "featured": false,
+      "status": "active"
+    },
+    {
+      "slug": "skillguard",
+      "category": "app-usage",
+      "name": "SkillGuard",
+      "version": "v1",
+      "public_safe": true,
+      "tags": ["security", "pre-install", "gate", "prompt-injection", "skill-management", "safety"],
+      "featured": true,
+      "status": "active"
+    }
+  ]
+}

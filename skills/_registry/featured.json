@@ -1,0 +1,306 @@
+{
+  "updated": "2026-03-24",
+  "featured": [
+    {
+      "name": "Skill Creator",
+      "slug": "skill-creator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/skill-creator",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [
+        "skills",
+        "evals",
+        "benchmarking",
+        "iteration",
+        "description-optimization",
+        "creation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "SkillGuard",
+      "slug": "skillguard",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/skillguard",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [
+        "security",
+        "pre-install",
+        "gate",
+        "prompt-injection",
+        "skill-management",
+        "safety"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Testing Next Stack",
+      "slug": "testing-next-stack",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/testing-next-stack",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "vitest",
+        "react-testing-library",
+        "playwright",
+        "axe-core",
+        "testing",
+        "nextjs",
+        "typescript",
+        "coverage",
+        "e2e",
+        "unit-tests",
+        "component-tests",
+        "accessibility"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Next.js Full-Stack Scaffold",
+      "slug": "nextjs-fullstack-scaffold",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/nextjs-fullstack-scaffold",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "misc",
+      "tags": [
+        "nextjs",
+        "react",
+        "typescript",
+        "tailwind",
+        "shadcn-ui",
+        "supabase",
+        "prisma",
+        "postgresql",
+        "zod",
+        "scaffold",
+        "boilerplate",
+        "full-stack",
+        "app-router"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Claude Usage Orchestrator",
+      "slug": "claude-usage-orchestrator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/claude-usage-orchestrator",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "optimization",
+      "tags": [
+        "token-optimization",
+        "orchestration",
+        "routing",
+        "codex",
+        "cost-control",
+        "efficiency"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Brainstorming",
+      "slug": "brainstorming",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/brainstorming",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "design",
+        "spec",
+        "planning",
+        "collaborative",
+        "requirements"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Dispatching Parallel Agents",
+      "slug": "dispatching-parallel-agents",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/dispatching-parallel-agents",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "parallel",
+        "agents",
+        "subagents",
+        "concurrency",
+        "delegation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Subagent-Driven Development",
+      "slug": "subagent-driven-development",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/subagent-driven-development",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "subagents",
+        "implementation",
+        "plans",
+        "review",
+        "tdd",
+        "quality"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Writing Plans",
+      "slug": "writing-plans",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/writing-plans",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "planning",
+        "implementation",
+        "tasks",
+        "tdd",
+        "specs",
+        "documentation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Systematic Debugging",
+      "slug": "systematic-debugging",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/research/systematic-debugging",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "research",
+      "tags": [
+        "debugging",
+        "root-cause",
+        "bugs",
+        "test-failures",
+        "investigation",
+        "hypothesis"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Auth Route Protection Checker",
+      "slug": "auth-route-protection-checker",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/auth-route-protection-checker",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "security",
+      "tags": [
+        "security",
+        "auth",
+        "routes",
+        "nextjs",
+        "middleware",
+        "rbac",
+        "authorization",
+        "server-actions"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Security Hardening Checklist",
+      "slug": "security-hardening-checklist",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/security-hardening-checklist",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "security",
+      "tags": [
+        "security",
+        "audit",
+        "hardening",
+        "headers",
+        "cookies",
+        "rls",
+        "rate-limiting",
+        "cors",
+        "owasp",
+        "nextjs"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Supabase RLS Policy Generator",
+      "slug": "supabase-rls-policy-generator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/supabase-rls-policy-generator",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "security",
+      "tags": [
+        "security",
+        "supabase",
+        "rls",
+        "database",
+        "postgresql",
+        "multi-tenant",
+        "rbac",
+        "row-level-security",
+        "jwt"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "Frontend Design",
+      "slug": "frontend-design",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/frontend-design",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "css",
+        "react",
+        "aesthetics",
+        "web"
+      ],
+      "public_safe": true,
+      "featured": true
+    }
+  ]
+}

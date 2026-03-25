@@ -1,0 +1,16 @@
+{
+  "name": "Supabase RLS Policy Generator",
+  "slug": "supabase-rls-policy-generator",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-24",
+  "updated": "2026-03-24",
+  "source": "imported-existing",
+  "category": "security",
+  "tags": ["security", "supabase", "rls", "database", "postgresql", "multi-tenant", "rbac", "row-level-security", "jwt"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": ["security-hardening-checklist", "auth-route-protection-checker"],
+  "featured": true
+}
