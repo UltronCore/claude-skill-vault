@@ -54,6 +54,7 @@
     ],
     "orchestration": [
       "agent-loop-patterns",
+      "autonomous-knowledge-system",
       "brainstorming",
       "dispatching-parallel-agents",
       "executing-plans",

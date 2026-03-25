@@ -786,6 +786,19 @@
       "featured": true
     },
     {
+      "name": "autonomous-knowledge-system",
+      "slug": "autonomous-knowledge-system",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/autonomous-knowledge-system",
+      "updated": "2026-03-25",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Brainstorming",
       "slug": "brainstorming",
       "version": "v1",
