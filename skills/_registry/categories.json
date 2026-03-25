@@ -82,6 +82,7 @@
     ],
     "misc": [],
     "optimization": [
+      "adaptive-codex-utilization",
       "claude-usage-orchestrator",
       "llm-routing-and-fallback",
       "performance-budget-enforcer",
