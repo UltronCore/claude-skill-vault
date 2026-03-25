@@ -1,5 +1,5 @@
 **Skill:** autonomous-knowledge-system
-**Version:** v2
+**Version:** v3
 **Status:** active
 **Category:** orchestration
 **Last updated:** 2026-03-25
