@@ -4,13 +4,10 @@
     "app-usage": [
       "claude-api-integration",
       "claude-md-improver",
-      "skill-creator",
       "skillguard",
-      "using-superpowers",
       "writing-skills"
     ],
     "automation": [
-      "a11y-checker-ci",
       "eslint-prettier-husky-config",
       "github-actions-ci-workflow",
       "playwright-flow-recorder",
@@ -19,8 +16,7 @@
     ],
     "data-processing": [
       "api-contracts-and-zod-validation",
-      "env-config-validator",
-      "structured-output-extraction"
+      "env-config-validator"
     ],
     "integrations": [
       "excalidraw-diagram",
@@ -60,18 +56,15 @@
       "executing-plans",
       "finishing-a-development-branch",
       "rag-pipeline-setup",
+      "skill-portfolio-architect",
       "subagent-driven-development",
       "test-driven-development",
       "using-git-worktrees",
       "verification-before-completion",
       "writing-plans"
     ],
-    "research": [
-      "systematic-debugging"
-    ],
+    "research": [],
     "review": [
-      "receiving-code-review",
-      "requesting-code-review",
       "skill-reviewer-and-enhancer"
     ],
     "security": [

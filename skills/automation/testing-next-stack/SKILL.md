@@ -1,6 +1,6 @@
 ---
 name: testing-next-stack
-description: Scaffolds comprehensive testing setup for Next.js applications including Vitest unit tests, React Testing Library component tests, and Playwright E2E flows with accessibility testing via axe-core. This skill should be used when setting up test infrastructure, generating test files, creating test utilities, adding accessibility checks, or configuring testing frameworks for Next.js projects. Trigger terms include setup testing, scaffold tests, vitest, RTL, playwright, e2e tests, component tests, unit tests, accessibility testing, a11y tests, axe-core, test configuration.
+description: Scaffolds comprehensive testing setup for Next.js applications including Vitest unit tests, React Testing Library component tests, Playwright E2E flows, accessibility testing via axe-core, and CI accessibility gates with PR reporting. Use when setting up test infrastructure, generating test files, adding accessibility checks, configuring A11y CI pipelines, or adding WCAG compliance gates to pull requests. Trigger terms include setup testing, scaffold tests, vitest, RTL, playwright, e2e tests, component tests, unit tests, accessibility testing, a11y tests, axe-core, a11y ci, wcag ci, accessibility pipeline, accessibility reports.
 ---
 
 # Testing Next Stack
@@ -318,6 +318,68 @@ Consult the following resources for detailed information:
 - `assets/playwright.config.ts` - Playwright configuration template
 - `assets/test-setup.ts` - Test setup template
 - `assets/examples/` - Example test files
+
+## A11y CI Pipeline
+
+Add automated accessibility gates to CI with PR reporting.
+
+### Setup
+
+```bash
+npm install -D @axe-core/playwright pa11y-ci
+```
+
+### GitHub Actions workflow
+
+```yaml
+name: Accessibility Tests
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20', cache: 'npm' }
+      - run: npm ci
+      - run: npm run build
+      - run: npm start &
+      - run: npx wait-on http://localhost:3000 -t 60000
+      - run: npm run test:a11y
+      - name: Comment PR
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs')
+            const report = fs.readFileSync('accessibility-report.md', 'utf8')
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: report
+            })
+```
+
+### Violation thresholds
+
+```typescript
+// In your a11y test
+const results = await new AxeBuilder({ page }).analyze()
+const critical = results.violations.filter(v => v.impact === 'critical')
+expect(critical).toHaveLength(0)  // Zero critical violations required
+```
+
+### WCAG compliance levels
+
+```typescript
+const results = await new AxeBuilder({ page })
+  .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+  .analyze()
+```
 
 ## Next Steps
 

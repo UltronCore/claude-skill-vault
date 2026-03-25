@@ -40,26 +40,6 @@
       "featured": false
     },
     {
-      "name": "Skill Creator",
-      "slug": "skill-creator",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/app-usage/skill-creator",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "app-usage",
-      "tags": [
-        "skills",
-        "evals",
-        "benchmarking",
-        "iteration",
-        "description-optimization",
-        "creation"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
       "name": "SkillGuard",
       "slug": "skillguard",
       "version": "v1",
@@ -80,25 +60,6 @@
       "featured": true
     },
     {
-      "name": "Using Superpowers",
-      "slug": "using-superpowers",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/app-usage/using-superpowers",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "app-usage",
-      "tags": [
-        "meta",
-        "skills",
-        "invocation",
-        "claude-code",
-        "workflow"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "Writing Skills",
       "slug": "writing-skills",
       "version": "v1",
@@ -114,30 +75,6 @@
         "cso",
         "authoring",
         "testing"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "A11y Checker CI",
-      "slug": "a11y-checker-ci",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/automation/a11y-checker-ci",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "automation",
-      "tags": [
-        "accessibility",
-        "a11y",
-        "wcag",
-        "ci-cd",
-        "playwright",
-        "axe-core",
-        "pa11y",
-        "github-actions",
-        "gitlab-ci",
-        "reporting"
       ],
       "public_safe": true,
       "featured": false
@@ -299,25 +236,6 @@
         "security",
         "ci-cd",
         "deployment"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Structured Output Extraction",
-      "slug": "structured-output-extraction",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/data-processing/structured-output-extraction",
-      "updated": "2026-03-25",
-      "source": "derived-from-repos",
-      "category": "data-processing",
-      "tags": [
-        "structured-output",
-        "pydantic",
-        "json",
-        "extraction",
-        "typing"
       ],
       "public_safe": true,
       "featured": false
@@ -895,6 +813,19 @@
       "featured": true
     },
     {
+      "name": "skill-portfolio-architect",
+      "slug": "skill-portfolio-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/skill-portfolio-architect",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Subagent-Driven Development",
       "slug": "subagent-driven-development",
       "version": "v1",
@@ -990,64 +921,6 @@
       ],
       "public_safe": true,
       "featured": true
-    },
-    {
-      "name": "Systematic Debugging",
-      "slug": "systematic-debugging",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/research/systematic-debugging",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "research",
-      "tags": [
-        "debugging",
-        "root-cause",
-        "bugs",
-        "test-failures",
-        "investigation",
-        "hypothesis"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Receiving Code Review",
-      "slug": "receiving-code-review",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/review/receiving-code-review",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "review",
-      "tags": [
-        "code-review",
-        "feedback",
-        "verification",
-        "pushback",
-        "yagni"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Requesting Code Review",
-      "slug": "requesting-code-review",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/review/requesting-code-review",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "review",
-      "tags": [
-        "code-review",
-        "subagent",
-        "quality",
-        "git",
-        "sha"
-      ],
-      "public_safe": true,
-      "featured": false
     },
     {
       "name": "Skill Reviewer and Enhancer",
