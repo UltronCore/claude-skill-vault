@@ -1,11 +1,11 @@
 ---
 name: claude-api-integration
-description: Integrate the Anthropic Claude API into any project using the official SDKs. Reference for Python, TypeScript, Go, PHP, and Ruby implementations. Use when building applications that call Claude directly via API. Trigger when users mention Anthropic API, Claude API, anthropic SDK, claude client, or API integration.
+description: Integrate the Anthropic Claude API into any project using the official SDKs, with structured output extraction patterns. Reference for Python, TypeScript, Go implementations, tool_use for guaranteed-structured JSON, instructor library, and pydantic-ai agents. Use when building applications that call Claude directly via API. Trigger when users mention Anthropic API, Claude API, anthropic SDK, claude client, API integration, structured output, or typed responses.
 ---
 
 # Claude API Integration
 
-Official SDK patterns for calling Claude across all major languages.
+Official SDK patterns for calling Claude across all major languages, plus structured output extraction.
 
 ## Python
 ```python
@@ -91,5 +91,91 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 # Never hardcode — always use env vars
 ```
 
+---
+
+## Structured Output Extraction
+
+Force Claude to return guaranteed-typed output for code that parses responses.
+
+### Pattern 1: tool_use (most reliable, no extra deps)
+```python
+import json
+
+tools = [{
+    "name": "extract_data",
+    "description": "Extract structured data from text",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "sentiment": {"type": "string", "enum": ["positive", "negative", "neutral"]},
+            "score": {"type": "number", "minimum": 0, "maximum": 10},
+            "keywords": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["name", "sentiment", "score"]
+    }
+}]
+
+response = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    tools=tools,
+    tool_choice={"type": "tool", "name": "extract_data"},
+    messages=[{"role": "user", "content": "Analyze: Great product, love it! Score: 9/10"}]
+)
+
+result = json.loads(response.content[0].input)
+# result = {"name": "product", "sentiment": "positive", "score": 9, "keywords": [...]}
+```
+
+### Pattern 2: instructor library (Pydantic integration)
+```python
+pip install instructor anthropic
+
+import anthropic
+import instructor
+from pydantic import BaseModel
+
+client = instructor.from_anthropic(anthropic.Anthropic())
+
+class SentimentAnalysis(BaseModel):
+    sentiment: str
+    score: float
+    reasoning: str
+
+result = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    messages=[{"role": "user", "content": "Analyze sentiment: Best product ever!"}],
+    response_model=SentimentAnalysis
+)
+# result.sentiment, result.score, result.reasoning are all typed
+```
+
+### Pattern 3: pydantic-ai agent (full agent systems)
+```python
+from pydantic_ai import Agent
+from pydantic import BaseModel
+
+class ExtractedData(BaseModel):
+    title: str
+    summary: str
+    tags: list[str]
+
+agent = Agent("anthropic:claude-sonnet-4-6", result_type=ExtractedData)
+result = agent.run_sync("Extract from: ...")
+print(result.data.title)  # typed, validated
+```
+
+### When to use each
+- **tool_use** → No extra deps, most reliable, works with any SDK
+- **instructor** → Complex schemas, automatic retry on validation failure
+- **pydantic-ai** → Full agent systems needing typed state management
+
+### Common pitfalls
+- Don't use plain JSON prompting for critical parsing — models hallucinate formatting
+- Always validate output even with tool_use (numbers can come as strings)
+- For nested schemas, prefer tool_use over prompt-based JSON
+
 ## Related skills
-llm-routing-and-fallback, claude-usage-orchestrator, structured-output-extraction
+llm-routing-and-fallback, claude-usage-orchestrator, llm-observability
