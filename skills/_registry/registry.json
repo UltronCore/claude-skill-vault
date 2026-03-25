@@ -60,21 +60,23 @@
       "featured": true
     },
     {
-      "name": "Writing Skills",
-      "slug": "writing-skills",
+      "name": "Docs and Changelogs",
+      "slug": "docs-and-changelogs",
       "version": "v1",
       "status": "active",
-      "path": "skills/app-usage/writing-skills",
+      "path": "skills/automation/docs-and-changelogs",
       "updated": "2026-03-24",
       "source": "imported-existing",
-      "category": "app-usage",
+      "category": "automation",
       "tags": [
-        "skills",
-        "tdd",
+        "changelog",
         "documentation",
-        "cso",
-        "authoring",
-        "testing"
+        "conventional-commits",
+        "adr",
+        "prd",
+        "semantic-versioning",
+        "release-notes",
+        "markdown"
       ],
       "public_safe": true,
       "featured": false
@@ -104,6 +106,29 @@
       "featured": false
     },
     {
+      "name": "Feature Flag Manager",
+      "slug": "feature-flag-manager",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/feature-flag-manager",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "feature-flags",
+        "feature-toggles",
+        "launchdarkly",
+        "ab-testing",
+        "progressive-rollout",
+        "nextjs",
+        "server-actions",
+        "react",
+        "canary"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "GitHub Actions CI Workflow",
       "slug": "github-actions-ci-workflow",
       "version": "v1",
@@ -126,6 +151,33 @@
       ],
       "public_safe": true,
       "featured": false
+    },
+    {
+      "name": "Next.js Full-Stack Scaffold",
+      "slug": "nextjs-fullstack-scaffold",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/nextjs-fullstack-scaffold",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "nextjs",
+        "react",
+        "typescript",
+        "tailwind",
+        "shadcn-ui",
+        "supabase",
+        "prisma",
+        "postgresql",
+        "zod",
+        "scaffold",
+        "boilerplate",
+        "full-stack",
+        "app-router"
+      ],
+      "public_safe": true,
+      "featured": true
     },
     {
       "name": "Playwright Flow Recorder",
@@ -289,97 +341,6 @@
       "featured": false
     },
     {
-      "name": "firecrawl-agent",
-      "slug": "firecrawl-agent",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-agent",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-browser",
-      "slug": "firecrawl-browser",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-browser",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-crawl",
-      "slug": "firecrawl-crawl",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-crawl",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-download",
-      "slug": "firecrawl-download",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-download",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-map",
-      "slug": "firecrawl-map",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-map",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-scrape",
-      "slug": "firecrawl-scrape",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-scrape",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "firecrawl-search",
-      "slug": "firecrawl-search",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl-search",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "LLM Observability",
       "slug": "llm-observability",
       "version": "v1",
@@ -396,6 +357,19 @@
         "tracing",
         "llm-monitoring"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "notebooklm",
+      "slug": "notebooklm",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/notebooklm",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
+      "category": "integrations",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -486,126 +460,6 @@
       "featured": false
     },
     {
-      "name": "Docs and Changelogs",
-      "slug": "docs-and-changelogs",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/docs-and-changelogs",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "misc",
-      "tags": [
-        "changelog",
-        "documentation",
-        "conventional-commits",
-        "adr",
-        "prd",
-        "semantic-versioning",
-        "release-notes",
-        "markdown"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Feature Flag Manager",
-      "slug": "feature-flag-manager",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/feature-flag-manager",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "misc",
-      "tags": [
-        "feature-flags",
-        "feature-toggles",
-        "launchdarkly",
-        "ab-testing",
-        "progressive-rollout",
-        "nextjs",
-        "server-actions",
-        "react",
-        "canary"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Next.js Full-Stack Scaffold",
-      "slug": "nextjs-fullstack-scaffold",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/nextjs-fullstack-scaffold",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "misc",
-      "tags": [
-        "nextjs",
-        "react",
-        "typescript",
-        "tailwind",
-        "shadcn-ui",
-        "supabase",
-        "prisma",
-        "postgresql",
-        "zod",
-        "scaffold",
-        "boilerplate",
-        "full-stack",
-        "app-router"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Revalidation Strategy Planner",
-      "slug": "revalidation-strategy-planner",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/revalidation-strategy-planner",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "misc",
-      "tags": [
-        "nextjs",
-        "caching",
-        "isr",
-        "ssr",
-        "ssg",
-        "streaming",
-        "revalidation",
-        "cache-tags",
-        "performance",
-        "app-router"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Role Permission Table Builder",
-      "slug": "role-permission-table-builder",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/role-permission-table-builder",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "misc",
-      "tags": [
-        "rbac",
-        "authorization",
-        "permissions",
-        "roles",
-        "access-control",
-        "sql",
-        "nextjs",
-        "middleware",
-        "security",
-        "typescript"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "Claude Usage Orchestrator",
       "slug": "claude-usage-orchestrator",
       "version": "v1",
@@ -665,6 +519,30 @@
       "featured": false
     },
     {
+      "name": "Revalidation Strategy Planner",
+      "slug": "revalidation-strategy-planner",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/revalidation-strategy-planner",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "optimization",
+      "tags": [
+        "nextjs",
+        "caching",
+        "isr",
+        "ssr",
+        "ssg",
+        "streaming",
+        "revalidation",
+        "cache-tags",
+        "performance",
+        "app-router"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Server Actions vs API Routes Optimizer",
       "slug": "server-actions-vs-api-optimizer",
       "version": "v1",
@@ -717,79 +595,28 @@
       "featured": false
     },
     {
-      "name": "Brainstorming",
-      "slug": "brainstorming",
+      "name": "context-engineer",
+      "slug": "context-engineer",
       "version": "v1",
       "status": "active",
-      "path": "skills/orchestration/brainstorming",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
+      "path": "skills/orchestration/context-engineer",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
       "category": "orchestration",
-      "tags": [
-        "design",
-        "spec",
-        "planning",
-        "collaborative",
-        "requirements"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Dispatching Parallel Agents",
-      "slug": "dispatching-parallel-agents",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/dispatching-parallel-agents",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "parallel",
-        "agents",
-        "subagents",
-        "concurrency",
-        "delegation"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Executing Plans",
-      "slug": "executing-plans",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/executing-plans",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "execution",
-        "plans",
-        "implementation",
-        "tasks",
-        "checkpoints"
-      ],
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
     {
-      "name": "Finishing a Development Branch",
-      "slug": "finishing-a-development-branch",
+      "name": "prompt-deepener",
+      "slug": "prompt-deepener",
       "version": "v1",
       "status": "active",
-      "path": "skills/orchestration/finishing-a-development-branch",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
+      "path": "skills/orchestration/prompt-deepener",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
       "category": "orchestration",
-      "tags": [
-        "git",
-        "merge",
-        "pr",
-        "branch",
-        "cleanup",
-        "worktree"
-      ],
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -813,6 +640,19 @@
       "featured": true
     },
     {
+      "name": "self-healing-execution",
+      "slug": "self-healing-execution",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/self-healing-execution",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "skill-portfolio-architect",
       "slug": "skill-portfolio-architect",
       "version": "v1",
@@ -826,101 +666,17 @@
       "featured": false
     },
     {
-      "name": "Subagent-Driven Development",
-      "slug": "subagent-driven-development",
+      "name": "system-builder",
+      "slug": "system-builder",
       "version": "v1",
       "status": "active",
-      "path": "skills/orchestration/subagent-driven-development",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
+      "path": "skills/orchestration/system-builder",
+      "updated": "2026-03-25",
+      "source": "created-in-vault",
       "category": "orchestration",
-      "tags": [
-        "subagents",
-        "implementation",
-        "plans",
-        "review",
-        "tdd",
-        "quality"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Test-Driven Development",
-      "slug": "test-driven-development",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/test-driven-development",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "tdd",
-        "testing",
-        "red-green-refactor",
-        "quality",
-        "implementation"
-      ],
+      "tags": [],
       "public_safe": true,
       "featured": false
-    },
-    {
-      "name": "Using Git Worktrees",
-      "slug": "using-git-worktrees",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/using-git-worktrees",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "git",
-        "worktrees",
-        "isolation",
-        "branches",
-        "workspace"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Verification Before Completion",
-      "slug": "verification-before-completion",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/verification-before-completion",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "verification",
-        "evidence",
-        "completion",
-        "honesty",
-        "testing"
-      ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Writing Plans",
-      "slug": "writing-plans",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/writing-plans",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [
-        "planning",
-        "implementation",
-        "tasks",
-        "tdd",
-        "specs",
-        "documentation"
-      ],
-      "public_safe": true,
-      "featured": true
     },
     {
       "name": "Skill Reviewer and Enhancer",
@@ -1001,6 +757,30 @@
         "output-validation",
         "nemo",
         "llm-safety"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Role Permission Table Builder",
+      "slug": "role-permission-table-builder",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/role-permission-table-builder",
+      "updated": "2026-03-24",
+      "source": "imported-existing",
+      "category": "security",
+      "tags": [
+        "rbac",
+        "authorization",
+        "permissions",
+        "roles",
+        "access-control",
+        "sql",
+        "nextjs",
+        "middleware",
+        "security",
+        "typescript"
       ],
       "public_safe": true,
       "featured": false
