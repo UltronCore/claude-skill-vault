@@ -10,5 +10,5 @@ _Last updated: 2026-03-25_
 | [prompt-deepener](prompt-deepener/) | TODO: add description | v1 | ✅ active |
 | [RAG Pipeline Setup ⭐](rag-pipeline-setup/) | Provides patterns for building Retrieval-Augmented Generation pipelines that give Claude access to external knowledge bases, documents, and codebases. | v1 | ✅ active |
 | [self-healing-execution](self-healing-execution/) | TODO: add description | v1 | ✅ active |
-| [skill-portfolio-architect](skill-portfolio-architect/) | TODO: add description | v1 | ✅ active |
+| [skill-portfolio-architect](skill-portfolio-architect/) | TODO: add description | v2 | ✅ active |
 | [system-builder](system-builder/) | TODO: add description | v1 | ✅ active |
