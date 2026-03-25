@@ -23,6 +23,7 @@
       "structured-output-extraction"
     ],
     "integrations": [
+      "excalidraw-diagram",
       "expo-skills",
       "firecrawl",
       "firecrawl-agent",

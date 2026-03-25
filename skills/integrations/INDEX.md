@@ -4,6 +4,7 @@ _Last updated: 2026-03-25_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
+| [excalidraw-diagram](excalidraw-diagram/) | TODO: add description | v1 | ✅ active |
 | [Expo Skills](expo-skills/) | Provides comprehensive guidance for building Expo React Native mobile apps with a full feature set including RevenueCat in-app purchases, Google AdMob advertising, i18n localization, onboarding flow with video, paywall, and NativeTabs navigation. Enforces mandatory patterns and forbidden anti-patterns to ensure consistent, production-ready apps. | v1 | ✅ active |
 | [firecrawl](firecrawl/) | TODO: add description | v1 | ✅ active |
 | [firecrawl-agent](firecrawl-agent/) | TODO: add description | v1 | ✅ active |

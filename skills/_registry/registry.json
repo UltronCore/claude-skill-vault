@@ -323,6 +323,19 @@
       "featured": false
     },
     {
+      "name": "excalidraw-diagram",
+      "slug": "excalidraw-diagram",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/excalidraw-diagram",
+      "updated": "2026-03-25",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Expo Skills",
       "slug": "expo-skills",
       "version": "v1",
