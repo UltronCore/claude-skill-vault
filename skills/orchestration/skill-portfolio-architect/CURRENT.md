@@ -1,5 +1,5 @@
 **Skill:** skill-portfolio-architect
-**Version:** v1
+**Version:** v2
 **Status:** active
 **Category:** orchestration
 **Last updated:** 2026-03-25
