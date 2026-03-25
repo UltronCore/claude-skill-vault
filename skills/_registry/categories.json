@@ -4,12 +4,14 @@
     "app-usage": [
       "claude-api-integration",
       "claude-md-improver",
-      "skillguard",
-      "writing-skills"
+      "skillguard"
     ],
     "automation": [
+      "docs-and-changelogs",
       "eslint-prettier-husky-config",
+      "feature-flag-manager",
       "github-actions-ci-workflow",
+      "nextjs-fullstack-scaffold",
       "playwright-flow-recorder",
       "testing-next-stack",
       "web-scraping-pipeline"
@@ -22,46 +24,30 @@
       "excalidraw-diagram",
       "expo-skills",
       "firecrawl",
-      "firecrawl-agent",
-      "firecrawl-browser",
-      "firecrawl-crawl",
-      "firecrawl-download",
-      "firecrawl-map",
-      "firecrawl-scrape",
-      "firecrawl-search",
       "llm-observability",
+      "notebooklm",
       "sentry-and-otel-setup",
       "supabase-auth-ssr-setup",
       "supabase-prisma-database-management",
       "vector-db-integration"
     ],
-    "misc": [
-      "docs-and-changelogs",
-      "feature-flag-manager",
-      "nextjs-fullstack-scaffold",
-      "revalidation-strategy-planner",
-      "role-permission-table-builder"
-    ],
+    "misc": [],
     "optimization": [
       "claude-usage-orchestrator",
       "llm-routing-and-fallback",
       "performance-budget-enforcer",
+      "revalidation-strategy-planner",
       "server-actions-vs-api-optimizer"
     ],
     "orchestration": [
       "agent-loop-patterns",
       "autonomous-knowledge-system",
-      "brainstorming",
-      "dispatching-parallel-agents",
-      "executing-plans",
-      "finishing-a-development-branch",
+      "context-engineer",
+      "prompt-deepener",
       "rag-pipeline-setup",
+      "self-healing-execution",
       "skill-portfolio-architect",
-      "subagent-driven-development",
-      "test-driven-development",
-      "using-git-worktrees",
-      "verification-before-completion",
-      "writing-plans"
+      "system-builder"
     ],
     "research": [],
     "review": [
@@ -71,6 +57,7 @@
       "auth-route-protection-checker",
       "csp-config-generator",
       "output-guardrails",
+      "role-permission-table-builder",
       "security-hardening-checklist",
       "supabase-rls-policy-generator"
     ],
