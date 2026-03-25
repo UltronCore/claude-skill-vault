@@ -7,18 +7,28 @@
       "skillguard"
     ],
     "automation": [
+      "changelog-generator",
       "docs-and-changelogs",
       "eslint-prettier-husky-config",
       "feature-flag-manager",
+      "file-organizer",
       "github-actions-ci-workflow",
       "nextjs-fullstack-scaffold",
       "playwright-flow-recorder",
-      "testing-next-stack",
-      "web-scraping-pipeline"
+      "testing-next-stack"
+    ],
+    "business": [
+      "domain-name-brainstormer",
+      "invoice-organizer",
+      "meeting-insights-analyzer"
     ],
     "data-processing": [
       "api-contracts-and-zod-validation",
       "env-config-validator"
+    ],
+    "dev": [
+      "mcp-builder",
+      "webapp-testing"
     ],
     "integrations": [
       "excalidraw-diagram",
@@ -30,6 +40,45 @@
       "supabase-auth-ssr-setup",
       "supabase-prisma-database-management",
       "vector-db-integration"
+    ],
+    "marketing": [
+      "ab-test-setup",
+      "ad-creative",
+      "ai-seo",
+      "analytics-tracking",
+      "churn-prevention",
+      "cold-email",
+      "competitive-ads-extractor",
+      "competitor-alternatives",
+      "content-strategy",
+      "copy-editing",
+      "copywriting",
+      "developer-growth-analysis",
+      "email-sequence",
+      "form-cro",
+      "free-tool-strategy",
+      "launch-strategy",
+      "lead-magnets",
+      "lead-research-assistant",
+      "marketing-ideas",
+      "marketing-psychology",
+      "onboarding-cro",
+      "page-cro",
+      "paid-ads",
+      "paywall-upgrade-cro",
+      "popup-cro",
+      "pricing-strategy",
+      "product-marketing-context",
+      "programmatic-seo",
+      "referral-program",
+      "revops",
+      "sales-enablement",
+      "schema-markup",
+      "seo-audit",
+      "signup-flow-cro",
+      "site-architecture",
+      "social-content",
+      "twitter-algorithm-optimizer"
     ],
     "misc": [],
     "optimization": [
@@ -49,7 +98,9 @@
       "skill-portfolio-architect",
       "system-builder"
     ],
-    "research": [],
+    "research": [
+      "content-research-writer"
+    ],
     "review": [
       "skill-reviewer-and-enhancer"
     ],
@@ -68,6 +119,11 @@
       "tailwind-shadcn-ui-setup",
       "ui-library-usage-auditor",
       "uniapp-frontend"
+    ],
+    "writing": [
+      "doc-coauthoring",
+      "internal-comms",
+      "tailored-resume-generator"
     ]
   }
 }

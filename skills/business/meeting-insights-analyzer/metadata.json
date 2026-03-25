@@ -1,0 +1,16 @@
+{
+  "name": "meeting-insights-analyzer",
+  "slug": "meeting-insights-analyzer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-25",
+  "updated": "2026-03-25",
+  "source": "ComposioHQ/awesome-claude-skills",
+  "category": "business",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}
