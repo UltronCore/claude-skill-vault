@@ -2,6 +2,25 @@
   "updated": "2026-03-25",
   "skills": [
     {
+      "name": "Claude API Integration",
+      "slug": "claude-api-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/claude-api-integration",
+      "updated": "2026-03-25",
+      "source": "derived",
+      "category": "app-usage",
+      "tags": [
+        "anthropic",
+        "claude",
+        "api",
+        "sdk",
+        "integration"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "Claude MD Improver",
       "slug": "claude-md-improver",
       "version": "v1",
@@ -220,6 +239,25 @@
       "featured": true
     },
     {
+      "name": "Web Scraping Pipeline",
+      "slug": "web-scraping-pipeline",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/web-scraping-pipeline",
+      "updated": "2026-03-25",
+      "source": "skill-architect-agent",
+      "category": "automation",
+      "tags": [
+        "web-scraping",
+        "firecrawl",
+        "playwright",
+        "rag",
+        "content-ingestion"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "API Contracts and Zod Validation",
       "slug": "api-contracts-and-zod-validation",
       "version": "v1",
@@ -307,6 +345,26 @@
       "featured": false
     },
     {
+      "name": "LLM Observability",
+      "slug": "llm-observability",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/llm-observability",
+      "updated": "2026-03-25",
+      "source": "skill-architect-agent",
+      "category": "integrations",
+      "tags": [
+        "observability",
+        "langfuse",
+        "agentops",
+        "mlflow",
+        "tracing",
+        "llm-monitoring"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Sentry and OpenTelemetry Setup",
       "slug": "sentry-and-otel-setup",
       "version": "v1",
@@ -368,6 +426,26 @@
         "database",
         "seeding",
         "ci-cd"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Vector DB Integration",
+      "slug": "vector-db-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/vector-db-integration",
+      "updated": "2026-03-25",
+      "source": "skill-architect-agent",
+      "category": "integrations",
+      "tags": [
+        "vector-db",
+        "embeddings",
+        "chroma",
+        "qdrant",
+        "weaviate",
+        "semantic-search"
       ],
       "public_safe": true,
       "featured": false
@@ -901,6 +979,25 @@
         "middleware",
         "nonce",
         "content-security-policy"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Output Guardrails",
+      "slug": "output-guardrails",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/output-guardrails",
+      "updated": "2026-03-25",
+      "source": "skill-architect-agent",
+      "category": "security",
+      "tags": [
+        "guardrails",
+        "safety",
+        "output-validation",
+        "nemo",
+        "llm-safety"
       ],
       "public_safe": true,
       "featured": false

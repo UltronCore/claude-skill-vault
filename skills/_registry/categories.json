@@ -2,6 +2,7 @@
   "updated": "2026-03-25",
   "categories": {
     "app-usage": [
+      "claude-api-integration",
       "claude-md-improver",
       "skill-creator",
       "skillguard",
@@ -13,7 +14,8 @@
       "eslint-prettier-husky-config",
       "github-actions-ci-workflow",
       "playwright-flow-recorder",
-      "testing-next-stack"
+      "testing-next-stack",
+      "web-scraping-pipeline"
     ],
     "data-processing": [
       "api-contracts-and-zod-validation",
@@ -22,9 +24,11 @@
     ],
     "integrations": [
       "expo-skills",
+      "llm-observability",
       "sentry-and-otel-setup",
       "supabase-auth-ssr-setup",
-      "supabase-prisma-database-management"
+      "supabase-prisma-database-management",
+      "vector-db-integration"
     ],
     "misc": [
       "docs-and-changelogs",
@@ -63,6 +67,7 @@
     "security": [
       "auth-route-protection-checker",
       "csp-config-generator",
+      "output-guardrails",
       "security-hardening-checklist",
       "supabase-rls-policy-generator"
     ],

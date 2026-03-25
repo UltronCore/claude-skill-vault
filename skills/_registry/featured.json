@@ -2,6 +2,25 @@
   "updated": "2026-03-25",
   "featured": [
     {
+      "name": "Claude API Integration",
+      "slug": "claude-api-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/claude-api-integration",
+      "updated": "2026-03-25",
+      "source": "derived",
+      "category": "app-usage",
+      "tags": [
+        "anthropic",
+        "claude",
+        "api",
+        "sdk",
+        "integration"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "Skill Creator",
       "slug": "skill-creator",
       "version": "v1",
