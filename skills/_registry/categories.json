@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25",
+  "updated": "2026-03-26",
   "categories": {
     "app-usage": [
       "claude-api-integration",
@@ -7,7 +7,6 @@
       "skillguard"
     ],
     "automation": [
-      "changelog-generator",
       "docs-and-changelogs",
       "eslint-prettier-husky-config",
       "feature-flag-manager",
@@ -26,16 +25,9 @@
       "api-contracts-and-zod-validation",
       "env-config-validator"
     ],
-    "dev": [
-      "mcp-builder",
-      "webapp-testing"
-    ],
     "integrations": [
-      "excalidraw-diagram",
       "expo-skills",
-      "firecrawl",
       "llm-observability",
-      "notebooklm",
       "sentry-and-otel-setup",
       "supabase-auth-ssr-setup",
       "supabase-prisma-database-management",
@@ -47,20 +39,15 @@
       "ai-seo",
       "analytics-tracking",
       "churn-prevention",
-      "cold-email",
       "competitive-ads-extractor",
       "competitor-alternatives",
       "content-strategy",
       "copy-editing",
       "copywriting",
-      "developer-growth-analysis",
       "email-sequence",
       "form-cro",
-      "free-tool-strategy",
       "launch-strategy",
       "lead-magnets",
-      "lead-research-assistant",
-      "marketing-ideas",
       "marketing-psychology",
       "onboarding-cro",
       "page-cro",
@@ -73,36 +60,21 @@
       "referral-program",
       "revops",
       "sales-enablement",
-      "schema-markup",
       "seo-audit",
       "signup-flow-cro",
       "site-architecture",
-      "social-content",
-      "twitter-algorithm-optimizer"
-    ],
-    "misc": [
-      "adaptive-private-memory-engine"
+      "social-content"
     ],
     "optimization": [
-      "adaptive-codex-utilization",
-      "claude-usage-orchestrator",
       "llm-routing-and-fallback",
       "performance-budget-enforcer",
       "revalidation-strategy-planner",
       "server-actions-vs-api-optimizer"
     ],
     "orchestration": [
+      "adaptive-private-memory-engine",
       "agent-loop-patterns",
-      "autonomous-knowledge-system",
-      "context-engineer",
-      "prompt-deepener",
-      "rag-pipeline-setup",
-      "self-healing-execution",
-      "skill-portfolio-architect",
-      "system-builder"
-    ],
-    "research": [
-      "content-research-writer"
+      "rag-pipeline-setup"
     ],
     "review": [
       "skill-reviewer-and-enhancer"
@@ -117,7 +89,6 @@
     ],
     "ui-ux": [
       "form-generator-rhf-zod",
-      "frontend-design",
       "markdown-editor-integrator",
       "tailwind-shadcn-ui-setup",
       "ui-library-usage-auditor",
@@ -125,7 +96,6 @@
     ],
     "writing": [
       "doc-coauthoring",
-      "internal-comms",
       "tailored-resume-generator"
     ]
   }

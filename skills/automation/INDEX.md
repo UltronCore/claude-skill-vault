@@ -1,10 +1,9 @@
 # Automation Skills
 
-_Last updated: 2026-03-25_
+_Last updated: 2026-03-26_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
-| [changelog-generator](changelog-generator/) | No description available. | v1 | ✅ active |
 | [Docs and Changelogs](docs-and-changelogs/) | Generates comprehensive changelogs from Conventional Commits git history, maintains CHANGELOG.md with semantic versioning, and scaffolds structured project documentation including Architectural Decision Records (ADR) and Product Requirement Documents (PRD). | v1 | ✅ active |
 | [ESLint Prettier Husky Config](eslint-prettier-husky-config/) | Configures comprehensive code quality tooling for Next.js and React projects using ESLint v9 flat config, Prettier formatting, Husky git hooks, lint-staged pre-commit checks, and a GitHub Actions CI lint workflow. | v1 | ✅ active |
 | [Feature Flag Manager](feature-flag-manager/) | Implements feature flag support in Next.js applications using either LaunchDarkly or a local JSON-based configuration, enabling controlled rollouts, A/B testing, user targeting, and gating of UI components and Server Actions behind feature flags. | v1 | ✅ active |

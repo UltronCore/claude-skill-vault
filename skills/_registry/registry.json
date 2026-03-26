@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25",
+  "updated": "2026-03-26",
   "skills": [
     {
       "name": "Claude API Integration",
@@ -58,19 +58,6 @@
       ],
       "public_safe": true,
       "featured": true
-    },
-    {
-      "name": "changelog-generator",
-      "slug": "changelog-generator",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/automation/changelog-generator",
-      "updated": "2026-03-25",
-      "source": "ComposioHQ/awesome-claude-skills",
-      "category": "automation",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
     },
     {
       "name": "Docs and Changelogs",
@@ -339,45 +326,6 @@
       "featured": false
     },
     {
-      "name": "mcp-builder",
-      "slug": "mcp-builder",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/dev/mcp-builder",
-      "updated": "2026-03-25",
-      "source": "anthropics/skills",
-      "category": "dev",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "webapp-testing",
-      "slug": "webapp-testing",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/dev/webapp-testing",
-      "updated": "2026-03-25",
-      "source": "anthropics/skills",
-      "category": "dev",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "excalidraw-diagram",
-      "slug": "excalidraw-diagram",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/excalidraw-diagram",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "Expo Skills",
       "slug": "expo-skills",
       "version": "v1",
@@ -400,19 +348,6 @@
       "featured": false
     },
     {
-      "name": "firecrawl",
-      "slug": "firecrawl",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/firecrawl",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "integrations",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "LLM Observability",
       "slug": "llm-observability",
       "version": "v1",
@@ -429,19 +364,6 @@
         "tracing",
         "llm-monitoring"
       ],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "notebooklm",
-      "slug": "notebooklm",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/integrations/notebooklm",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "integrations",
-      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -597,19 +519,6 @@
       "featured": false
     },
     {
-      "name": "cold-email",
-      "slug": "cold-email",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/cold-email",
-      "updated": "2026-03-25",
-      "source": "coreyhaines31/marketingskills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "competitive-ads-extractor",
       "slug": "competitive-ads-extractor",
       "version": "v1",
@@ -675,19 +584,6 @@
       "featured": false
     },
     {
-      "name": "developer-growth-analysis",
-      "slug": "developer-growth-analysis",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/developer-growth-analysis",
-      "updated": "2026-03-25",
-      "source": "ComposioHQ/awesome-claude-skills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "email-sequence",
       "slug": "email-sequence",
       "version": "v1",
@@ -714,19 +610,6 @@
       "featured": false
     },
     {
-      "name": "free-tool-strategy",
-      "slug": "free-tool-strategy",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/free-tool-strategy",
-      "updated": "2026-03-25",
-      "source": "coreyhaines31/marketingskills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "launch-strategy",
       "slug": "launch-strategy",
       "version": "v1",
@@ -745,32 +628,6 @@
       "version": "v1",
       "status": "active",
       "path": "skills/marketing/lead-magnets",
-      "updated": "2026-03-25",
-      "source": "coreyhaines31/marketingskills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "lead-research-assistant",
-      "slug": "lead-research-assistant",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/lead-research-assistant",
-      "updated": "2026-03-25",
-      "source": "ComposioHQ/awesome-claude-skills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "marketing-ideas",
-      "slug": "marketing-ideas",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/marketing-ideas",
       "updated": "2026-03-25",
       "source": "coreyhaines31/marketingskills",
       "category": "marketing",
@@ -935,19 +792,6 @@
       "featured": false
     },
     {
-      "name": "schema-markup",
-      "slug": "schema-markup",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/schema-markup",
-      "updated": "2026-03-25",
-      "source": "coreyhaines31/marketingskills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "seo-audit",
       "slug": "seo-audit",
       "version": "v1",
@@ -998,65 +842,6 @@
       "tags": [],
       "public_safe": true,
       "featured": false
-    },
-    {
-      "name": "twitter-algorithm-optimizer",
-      "slug": "twitter-algorithm-optimizer",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/marketing/twitter-algorithm-optimizer",
-      "updated": "2026-03-25",
-      "source": "ComposioHQ/awesome-claude-skills",
-      "category": "marketing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "adaptive-private-memory-engine",
-      "slug": "adaptive-private-memory-engine",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/misc/adaptive-private-memory-engine",
-      "updated": "2026-03-25",
-      "source": "unknown",
-      "category": "misc",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "adaptive-codex-utilization",
-      "slug": "adaptive-codex-utilization",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/optimization/adaptive-codex-utilization",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "optimization",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "Claude Usage Orchestrator",
-      "slug": "claude-usage-orchestrator",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/optimization/claude-usage-orchestrator",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "optimization",
-      "tags": [
-        "token-optimization",
-        "orchestration",
-        "routing",
-        "codex",
-        "cost-control",
-        "efficiency"
-      ],
-      "public_safe": true,
-      "featured": true
     },
     {
       "name": "LLM Routing and Fallback",
@@ -1142,6 +927,19 @@
       "featured": false
     },
     {
+      "name": "adaptive-private-memory-engine",
+      "slug": "adaptive-private-memory-engine",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/adaptive-private-memory-engine",
+      "updated": "2026-03-25",
+      "source": "unknown",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Agent Loop Patterns",
       "slug": "agent-loop-patterns",
       "version": "v1",
@@ -1161,45 +959,6 @@
       "featured": true
     },
     {
-      "name": "autonomous-knowledge-system",
-      "slug": "autonomous-knowledge-system",
-      "version": "v3",
-      "status": "active",
-      "path": "skills/orchestration/autonomous-knowledge-system",
-      "updated": "2026-03-25",
-      "source": "imported-existing",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "context-engineer",
-      "slug": "context-engineer",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/context-engineer",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "prompt-deepener",
-      "slug": "prompt-deepener",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/prompt-deepener",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
       "name": "RAG Pipeline Setup",
       "slug": "rag-pipeline-setup",
       "version": "v1",
@@ -1217,58 +976,6 @@
       ],
       "public_safe": true,
       "featured": true
-    },
-    {
-      "name": "self-healing-execution",
-      "slug": "self-healing-execution",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/self-healing-execution",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "skill-portfolio-architect",
-      "slug": "skill-portfolio-architect",
-      "version": "v2",
-      "status": "active",
-      "path": "skills/orchestration/skill-portfolio-architect",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "system-builder",
-      "slug": "system-builder",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/orchestration/system-builder",
-      "updated": "2026-03-25",
-      "source": "created-in-vault",
-      "category": "orchestration",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "content-research-writer",
-      "slug": "content-research-writer",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/research/content-research-writer",
-      "updated": "2026-03-25",
-      "source": "ComposioHQ/awesome-claude-skills",
-      "category": "research",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
     },
     {
       "name": "Skill Reviewer and Enhancer",
@@ -1446,27 +1153,6 @@
       "featured": false
     },
     {
-      "name": "Frontend Design",
-      "slug": "frontend-design",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/ui-ux/frontend-design",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "ui-ux",
-      "tags": [
-        "frontend",
-        "design",
-        "ui",
-        "css",
-        "react",
-        "aesthetics",
-        "web"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
       "name": "Markdown Editor Integrator",
       "slug": "markdown-editor-integrator",
       "version": "v1",
@@ -1555,19 +1241,6 @@
       "version": "v1",
       "status": "active",
       "path": "skills/writing/doc-coauthoring",
-      "updated": "2026-03-25",
-      "source": "anthropics/skills",
-      "category": "writing",
-      "tags": [],
-      "public_safe": true,
-      "featured": false
-    },
-    {
-      "name": "internal-comms",
-      "slug": "internal-comms",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/writing/internal-comms",
       "updated": "2026-03-25",
       "source": "anthropics/skills",
       "category": "writing",
