@@ -1,6 +1,6 @@
 # Claude Skill Vault — Master Index
 
-_Last updated: 2026-03-25 | Total: 95 skills across 14 categories_
+_Last updated: 2026-03-25 | Total: 97 skills across 14 categories_
 
 ---
 
@@ -19,7 +19,7 @@ _Last updated: 2026-03-25 | Total: 95 skills across 14 categories_
 | [optimization](#optimization) | 5 | Usage orchestration, LLM routing, performance |
 | [orchestration](#orchestration) | 8 | Agent loops, RAG, context engineering, execution |
 | [research](#research) | 1 | Content research writing |
-| [review](#review) | 1 | Skill reviewer and enhancer |
+| [review](#review) | 2 | Skill reviewer and enhancer, vault push guardian |
 | [security](#security) | 6 | Auth, CSP, RLS, RBAC, security hardening |
 | [ui-ux](#ui-ux) | 6 | Frontend, forms, Tailwind, shadcn/ui |
 | [writing](#writing) | 3 | Doc co-authoring, internal comms, resume generation |
@@ -151,6 +151,7 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | Skill | Description |
 |-------|-------------|
 | skill-reviewer-and-enhancer | Audit and improve existing skills against best practices |
+| vault-push-guardian | Pre-push safety scan and weekly sync for Skill Vault and Project Vault |
 
 ## security
 
