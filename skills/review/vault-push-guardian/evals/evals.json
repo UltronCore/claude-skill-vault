@@ -1,0 +1,29 @@
+{
+  "skill_name": "vault-push-guardian",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I just updated the manga-downloader project-memory.md with some new architecture notes and also added a new skill to the skill vault. Push both vaults to GitHub.",
+      "expected_output": "Should invoke vault-push-guardian, run safety scan on both vaults, find no issues, do structure check, commit and push both repos cleanly with no verbose output.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Push the skill vault — I just added a new skill but I accidentally left my MangaDex API key in a comment in one of the files.",
+      "expected_output": "Should invoke vault-push-guardian, detect the API key pattern during safety scan, BLOCK the push, and output one concise PUSH BLOCKED message with the file and fix instructions. Should NOT push.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Do the weekly vault maintenance run — check both vaults, clean up anything that needs cleaning, and sync to GitHub.",
+      "expected_output": "Should invoke vault-push-guardian for a full weekly cycle: check for pending changes in both vaults, scan all memory files for non-operational content, run structure optimization check, apply any small fixes, commit with 'review: weekly sync' message, and push. Silent unless issues found.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I updated a project-memory.md file and accidentally included a note about my upcoming dentist appointment mixed in with the architecture notes. Push the project vault.",
+      "expected_output": "Should detect the personal/non-operational content in the memory file during Phase 2D review, sanitize by removing the personal sentence while keeping architecture content intact, then push the cleaned version with a 'review: sanitize pre-push' commit message.",
+      "files": []
+    }
+  ]
+}

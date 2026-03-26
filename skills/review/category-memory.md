@@ -1,14 +1,17 @@
 # Category Memory: review
 
 ## Purpose
-Skills for code review workflows — both requesting and receiving structured feedback.
+Skills for quality control — auditing skills, reviewing code, and enforcing safety gates before pushes.
 
-## Skills here
-Populated automatically by vault-index-refresh.py.
+## Active skills
+- **skill-reviewer-and-enhancer** — audits individual skills for structure and quality
+- **vault-push-guardian** — pre-push safety review + weekly sync for Skill Vault and Project Vault
 
 ## Related categories
-research (debugging), orchestration (review workflows)
+- orchestration (review request/receive workflows)
+- research (debugging and investigation)
+- optimization (performance and token efficiency reviews)
 
 ## Maintenance notes
-- Created 2026-03-24 during vault initialization
-- Review if category exceeds 15 skills — consider subcategories at that point
+- vault-push-guardian added 2026-03-25 — covers both skill and project vault safety
+- Review if category exceeds 15 skills — consider subcategories (code-review, vault-ops) at that point
