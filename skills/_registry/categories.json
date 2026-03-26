@@ -80,7 +80,9 @@
       "social-content",
       "twitter-algorithm-optimizer"
     ],
-    "misc": [],
+    "misc": [
+      "adaptive-private-memory-engine"
+    ],
     "optimization": [
       "adaptive-codex-utilization",
       "claude-usage-orchestrator",

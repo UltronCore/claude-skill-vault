@@ -1013,6 +1013,19 @@
       "featured": false
     },
     {
+      "name": "adaptive-private-memory-engine",
+      "slug": "adaptive-private-memory-engine",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/adaptive-private-memory-engine",
+      "updated": "2026-03-25",
+      "source": "unknown",
+      "category": "misc",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "adaptive-codex-utilization",
       "slug": "adaptive-codex-utilization",
       "version": "v1",
@@ -1150,7 +1163,7 @@
     {
       "name": "autonomous-knowledge-system",
       "slug": "autonomous-knowledge-system",
-      "version": "v1",
+      "version": "v3",
       "status": "active",
       "path": "skills/orchestration/autonomous-knowledge-system",
       "updated": "2026-03-25",
