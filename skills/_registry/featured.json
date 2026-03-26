@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25",
+  "updated": "2026-03-26",
   "featured": [
     {
       "name": "Claude API Integration",
@@ -89,26 +89,6 @@
         "unit-tests",
         "component-tests",
         "accessibility"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Claude Usage Orchestrator",
-      "slug": "claude-usage-orchestrator",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/optimization/claude-usage-orchestrator",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "optimization",
-      "tags": [
-        "token-optimization",
-        "orchestration",
-        "routing",
-        "codex",
-        "cost-control",
-        "efficiency"
       ],
       "public_safe": true,
       "featured": true
@@ -235,27 +215,6 @@
         "rbac",
         "row-level-security",
         "jwt"
-      ],
-      "public_safe": true,
-      "featured": true
-    },
-    {
-      "name": "Frontend Design",
-      "slug": "frontend-design",
-      "version": "v1",
-      "status": "active",
-      "path": "skills/ui-ux/frontend-design",
-      "updated": "2026-03-24",
-      "source": "imported-existing",
-      "category": "ui-ux",
-      "tags": [
-        "frontend",
-        "design",
-        "ui",
-        "css",
-        "react",
-        "aesthetics",
-        "web"
       ],
       "public_safe": true,
       "featured": true

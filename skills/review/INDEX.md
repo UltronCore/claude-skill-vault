@@ -1,8 +1,8 @@
 # Review Skills
 
-_Last updated: 2026-03-25_
+_Last updated: 2026-03-26_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
-| [Skill Reviewer and Enhancer](skill-reviewer-and-enhancer/) | Audits and improves existing skills — checks structure, frontmatter, instruction quality, and domain-specific patterns. Use before deploying a skill or updating old ones to current standards. | v1 | ✅ active |
-| [Vault Push Guardian](vault-push-guardian/) | Pre-push safety scan and weekly sync for both vaults. Blocks pushes containing secrets or personal info; runs silently when clean. Also handles scheduled maintenance and structure checks. | v1 | ✅ active |
+| [Skill Reviewer and Enhancer](skill-reviewer-and-enhancer/) | Reviews, audits, and enhances existing Claude Code skills to ensure they follow Anthropic best practices, proper structure, current domain-specific patterns, and include all necessary resources. Performs multi-step analysis covering frontmatter validation, instruction style, resource completeness, and domain-specific quality checks. | v1 | ✅ active |
+| [vault-push-guardian](vault-push-guardian/) | No description available. | v1 | ✅ active |
