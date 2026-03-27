@@ -3,14 +3,14 @@ name: Release
 on:
   push:
     branches: [main]
-    paths:
-      - 'VERSION'
   workflow_dispatch:
     inputs:
-      version:
-        description: 'Version to release (e.g., 1.1.0). Must be higher than current latest tag.'
+      bump:
+        description: 'Version bump type'
         required: true
-        type: string
+        type: choice
+        options: [patch, minor, major]
+        default: patch
 
 permissions:
   contents: write
@@ -18,44 +18,111 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # Never run on our own version-bump commits
+    if: "!contains(github.event.head_commit.message, '[skip-release]') && github.actor != 'github-actions[bot]'"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Determine version
-        id: version
+      - name: Get latest tag
+        id: latest_tag
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "version=${{ inputs.version }}" >> $GITHUB_OUTPUT
+          LATEST=$(git tag -l 'v*' --sort=-version:refname | head -1)
+          echo "tag=${LATEST:-v0.0.0}" >> $GITHUB_OUTPUT
+          echo "Latest tag: ${LATEST:-none}"
+
+      - name: Determine bump type from commits
+        id: bump
+        run: |
+          LATEST="${{ steps.latest_tag.outputs.tag }}"
+
+          if [ "$LATEST" = "v0.0.0" ]; then
+            COMMITS=$(git log --pretty=format:"%s" --no-merges)
           else
-            VERSION=$(cat VERSION | tr -d '[:space:]')
-            echo "version=${VERSION}" >> $GITHUB_OUTPUT
+            COMMITS=$(git log "${LATEST}..HEAD" --pretty=format:"%s" --no-merges)
           fi
 
-      - name: Check if release already exists
-        id: check
+          if [ -z "$COMMITS" ]; then
+            echo "No new commits since last tag — skipping."
+            echo "type=none" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ inputs.bump }}" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Breaking change → major
+          if echo "$COMMITS" | grep -qiE "(BREAKING CHANGE|^feat!:|^fix!:|^improve!:)"; then
+            echo "type=major" >> $GITHUB_OUTPUT
+          # New skills or features → minor
+          elif echo "$COMMITS" | grep -qE "^(feat|add|improve):"; then
+            echo "type=minor" >> $GITHUB_OUTPUT
+          # Fixes, updates, refactors → patch
+          elif echo "$COMMITS" | grep -qE "^(fix|update|refactor):"; then
+            echo "type=patch" >> $GITHUB_OUTPUT
+          # Chore/docs/maintenance only → no release
+          else
+            echo "Maintenance-only commits — no release needed."
+            echo "type=none" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Calculate next version
+        id: next
+        if: steps.bump.outputs.type != 'none'
         run: |
-          VERSION="${{ steps.version.outputs.version }}"
-          if gh release view "v${VERSION}" &>/dev/null 2>&1; then
+          LATEST="${{ steps.latest_tag.outputs.tag }}"
+          BUMP="${{ steps.bump.outputs.type }}"
+          CURRENT="${LATEST#v}"
+
+          MAJOR=$(echo "$CURRENT" | cut -d. -f1)
+          MINOR=$(echo "$CURRENT" | cut -d. -f2)
+          PATCH=$(echo "$CURRENT" | cut -d. -f3)
+
+          case "$BUMP" in
+            major) NEXT="$((MAJOR+1)).0.0" ;;
+            minor) NEXT="${MAJOR}.$((MINOR+1)).0" ;;
+            patch) NEXT="${MAJOR}.${MINOR}.$((PATCH+1))" ;;
+          esac
+
+          echo "version=${NEXT}" >> $GITHUB_OUTPUT
+          echo "Next version: v${NEXT} (${BUMP} bump from ${LATEST})"
+
+      - name: Check tag does not already exist
+        id: tag_check
+        if: steps.bump.outputs.type != 'none'
+        run: |
+          VERSION="${{ steps.next.outputs.version }}"
+          if git tag -l "v${VERSION}" | grep -q .; then
+            echo "Tag v${VERSION} already exists — skipping."
             echo "exists=true" >> $GITHUB_OUTPUT
-            echo "Release v${VERSION} already exists — skipping."
           else
             echo "exists=false" >> $GITHUB_OUTPUT
-            echo "Release v${VERSION} does not exist — will create."
           fi
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update VERSION file
+        if: steps.bump.outputs.type != 'none' && steps.tag_check.outputs.exists == 'false'
+        run: |
+          VERSION="${{ steps.next.outputs.version }}"
+          echo "${VERSION}" > VERSION
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add VERSION
+          git commit -m "chore: bump version to ${VERSION} [skip-release]"
+          git push
 
       - name: Create GitHub Release
-        if: steps.check.outputs.exists == 'false'
+        if: steps.bump.outputs.type != 'none' && steps.tag_check.outputs.exists == 'false'
         run: |
-          VERSION="${{ steps.version.outputs.version }}"
+          VERSION="${{ steps.next.outputs.version }}"
           gh release create "v${VERSION}" \
             --title "v${VERSION}" \
             --generate-notes \
             --latest
-          echo "Created release v${VERSION}"
+          echo "Released v${VERSION}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
