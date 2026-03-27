@@ -1,0 +1,61 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'VERSION'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 1.1.0). Must be higher than current latest tag.'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "version=${{ inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            VERSION=$(cat VERSION | tr -d '[:space:]')
+            echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if release already exists
+        id: check
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          if gh release view "v${VERSION}" &>/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Release v${VERSION} already exists — skipping."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Release v${VERSION} does not exist — will create."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create GitHub Release
+        if: steps.check.outputs.exists == 'false'
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          gh release create "v${VERSION}" \
+            --title "v${VERSION}" \
+            --generate-notes \
+            --latest
+          echo "Created release v${VERSION}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
