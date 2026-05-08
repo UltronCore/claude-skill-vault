@@ -1260,6 +1260,28 @@
       "tags": [],
       "public_safe": true,
       "featured": false
+    },
+    {
+      "name": "Public Release Review",
+      "slug": "public-release-review",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/public-release-review",
+      "updated": "2026-03-26",
+      "source": "created-in-vault",
+      "category": "review",
+      "tags": [
+        "public-release",
+        "safety",
+        "documentation",
+        "versioning",
+        "changelog",
+        "pre-push",
+        "publication",
+        "quality-gate"
+      ],
+      "public_safe": true,
+      "featured": false
     }
   ]
 }

@@ -118,6 +118,34 @@ For `claude-skill-vault` (public repo), additionally scan ALL skill SKILL.md fil
 
 This scan only needs to run on skills modified in the current diff, plus a spot-check of 3-5 random skills to catch drift.
 
+### 2F — Public release quality review
+
+After Phase 2E, run the **public-release-review** skill on every skill in the diff where `public_safe: true`.
+
+**Trigger check:**
+```bash
+# Identify public-facing skills in the current diff
+git diff --cached --name-only | grep 'skills/' | grep -v '_archive\|_templates\|_registry\|_obsolete' | \
+  sed 's|/[^/]*$||' | sort -u | while read skill_path; do
+    public=$(cat "${skill_path}/metadata.json" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('public_safe', False))" 2>/dev/null)
+    [ "$public" = "True" ] && echo "$skill_path"
+  done
+```
+
+For each public-facing skill path identified, run the public-release-review skill covering:
+1. Public safety (credentials, personal paths, private references)
+2. README completeness (purpose, use cases, version, status visible)
+3. Version consistency (README, CURRENT.md, metadata.json agree)
+4. CHANGELOG quality (meaningful entries, no trivial noise)
+5. Public update notes (auto-generate if meaningful changes since last version)
+6. Download readiness (no junk files, clean structure)
+
+**If any skill is BLOCKED:** treat as a Phase 2 blocking issue — stop push, output the PUSH BLOCKED block.
+
+**If update notes were auto-generated:** stage those changes before Phase 5 commit, and note `(public docs refreshed)` in the commit message.
+
+**Run silently** if all public-facing skills pass. No output for clean skills.
+
 ---
 
 ## Phase 3: Decision

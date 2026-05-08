@@ -78,7 +78,9 @@
       "rag-pipeline-setup"
     ],
     "review": [
-      "skill-reviewer-and-enhancer"
+      "public-release-review",
+      "skill-reviewer-and-enhancer",
+      "vault-push-guardian"
     ],
     "security": [
       "auth-route-protection-checker",

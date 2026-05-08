@@ -1,0 +1,16 @@
+{
+  "name": "temporal-developer",
+  "slug": "temporal-developer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "created-in-vault",
+  "category": "integrations",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}

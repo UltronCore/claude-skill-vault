@@ -39,6 +39,9 @@ _How to choose the right skill for common task types. Lighter skills preferred o
 | RLS policies | `supabase-rls-policy-generator` | Multi-tenant RLS patterns |
 | Postgres optimization | `postgres-best-practices` (plugin) | Supabase-endorsed patterns |
 | API validation | `api-contracts-and-zod-validation` | Zod + TypeScript end-to-end |
+| Temporal workflow / activity | `temporal-developer` | Official Temporal skill: durable execution, determinism, SDK patterns (Python/TS/Go) |
+| Temporal non-determinism error | `temporal-developer` | Covers history replay rules, versioning, gotchas |
+| Temporal worker / task queue setup | `temporal-developer` | Architecture, worker config, observability |
 
 ## Security
 

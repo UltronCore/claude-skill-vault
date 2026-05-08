@@ -1,0 +1,28 @@
+{
+  "name": "Public Release Review",
+  "slug": "public-release-review",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-26",
+  "updated": "2026-03-26",
+  "source": "created-in-vault",
+  "category": "review",
+  "tags": [
+    "public-release",
+    "safety",
+    "documentation",
+    "versioning",
+    "changelog",
+    "pre-push",
+    "publication",
+    "quality-gate"
+  ],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [
+    "vault-push-guardian",
+    "skill-reviewer-and-enhancer"
+  ],
+  "featured": false
+}

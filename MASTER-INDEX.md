@@ -1,6 +1,6 @@
 # Claude Skill Vault — Master Index
 
-_Last updated: 2026-03-25 | Total: 97 skills across 14 categories_
+_Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 
 ---
 
@@ -13,7 +13,7 @@ _Last updated: 2026-03-25 | Total: 97 skills across 14 categories_
 | [business](#business) | 3 | Meetings, invoices, domain naming |
 | [data-processing](#data-processing) | 2 | API contracts, env validation |
 | [dev](#dev) | 2 | MCP servers, webapp testing |
-| [integrations](#integrations) | 9 | Supabase, Sentry, vector DB, NotebookLM, Firecrawl |
+| [integrations](#integrations) | 10 | Supabase, Sentry, vector DB, NotebookLM, Firecrawl, Temporal |
 | [marketing](#marketing) | 37 | Full marketing stack: SEO, CRO, copy, ads, growth |
 | [misc](#misc) | 0 | (empty — reserved) |
 | [optimization](#optimization) | 5 | Usage orchestration, LLM routing, performance |
@@ -85,6 +85,7 @@ _Last updated: 2026-03-25 | Total: 97 skills across 14 categories_
 | llm-observability | LLM tracing with Langfuse/AgentOps/MLflow |
 | vector-db-integration | Chroma, Qdrant, Weaviate vector DB for RAG systems |
 | expo-skills | Expo React Native with RevenueCat, AdMob, i18n, NativeTabs |
+| temporal-developer | Temporal durable execution: workflows, activities, workers, determinism, Python/TS/Go SDK patterns |
 
 ## marketing
 

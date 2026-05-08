@@ -133,6 +133,19 @@ All skills in `~/.claude/plugins/cache/local/` under categories: automation, sec
 
 ---
 
+### 6. temporalio/skill-temporal-developer (Manual Clone — Official Temporal org)
+**Install:** `git clone https://github.com/temporalio/skill-temporal-developer.git ~/.claude/skills/temporal-developer`
+**Version:** 0.1.0 (Public Preview, announced 2026-03-20)
+**Vault entry:** `skills/integrations/temporal-developer/`
+
+**Skills installed:**
+- `temporal-developer` — Temporal durable execution: workflows, activities, workers, determinism, Python/TS/Go SDK patterns
+
+**Companion marketplace:** `temporalio/agent-skills` (alternative install path, not used)
+**Trust:** HIGH — official org, pure markdown, MIT licensed, verified commits, no executables
+
+---
+
 ## Update Instructions
 
 To update marketing skills: re-fetch from `coreyhaines31/marketingskills` master branch.
@@ -142,3 +155,5 @@ To update Anthropic skills: `/plugin install example-skills@anthropic-agent-skil
 To update ComposioHQ skills: re-fetch from `ComposioHQ/awesome-claude-skills` master branch.
 
 To update Superpowers: `/plugin update superpowers@claude-plugins-official`
+
+To update temporal-developer: `cd ~/.claude/skills/temporal-developer && git pull origin main`
