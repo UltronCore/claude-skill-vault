@@ -1,0 +1,16 @@
+{
+  "name": "agent-native-automation-research-install",
+  "slug": "agent-native-automation-research-install",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "imported-existing",
+  "category": "automation",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}

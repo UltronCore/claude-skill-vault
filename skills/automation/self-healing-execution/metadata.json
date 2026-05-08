@@ -1,0 +1,16 @@
+{
+  "name": "self-healing-execution",
+  "slug": "self-healing-execution",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "imported-existing",
+  "category": "automation",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}

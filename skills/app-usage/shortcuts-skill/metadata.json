@@ -1,0 +1,16 @@
+{
+  "name": "shortcuts-skill",
+  "slug": "shortcuts-skill",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "imported-existing",
+  "category": "app-usage",
+  "tags": [],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": [],
+  "featured": false
+}
