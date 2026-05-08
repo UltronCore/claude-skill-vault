@@ -1,10 +1,13 @@
 {
   "name": "adaptive-private-memory-engine",
   "slug": "adaptive-private-memory-engine",
-  "version": "v1",
+  "version": "v2",
   "status": "active",
   "category": "misc",
-  "updated": "2026-03-25",
+  "updated": "2026-05-08",
   "description": "Use when recalling personal context, resuming prior work, looking up project state, writing to private memory, saving resumable state, or maintaining the memory system.",
-  "supporting_files": ["memory-schema.md", "skill-optimizer.md"]
+  "supporting_files": [
+    "memory-schema.md",
+    "skill-optimizer.md"
+  ]
 }

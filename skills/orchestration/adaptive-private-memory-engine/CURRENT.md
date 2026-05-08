@@ -1,5 +1,6 @@
 **Skill:** adaptive-private-memory-engine
-**Version:** v1
+**Version:** v2
 **Status:** active
-**Category:** misc
-**Last updated:** 2026-03-25
+**Category:** orchestration
+**Last updated:** 2026-05-08
+**Source:** created-in-vault
