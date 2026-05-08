@@ -10,6 +10,7 @@ _Last updated: 2026-05-08_
 | [Feature Flag Manager](feature-flag-manager/) | Implements feature flag support in Next.js applications using either LaunchDarkly or a local JSON-based configuration, enabling controlled rollouts, A/B testing, user targeting, and gating of UI components and Server Actions behind feature flags. | v1 | ✅ active |
 | [file-organizer](file-organizer/) | No description available. | v1 | ✅ active |
 | [git-guardrails-claude-code](git-guardrails-claude-code/) | TODO: add description | v1 | ✅ active |
+| [private-cleaners-project-autopush](private-cleaners-project-autopush/) | Auto-commit and push Example Cleaners Site site to GitHub — triggers on explicit requests ("push to github", "ship it") and proactively at end of any session where project files were modified. | v1 | ✅ active |
 | [GitHub Actions CI Workflow](github-actions-ci-workflow/) | Sets up comprehensive GitHub Actions CI/CD workflows for modern web applications, covering lint, test, build, and deploy stages with caching strategies and preview deployment URL comments on pull requests. | v1 | ✅ active |
 | [Next.js Full-Stack Scaffold ⭐](nextjs-fullstack-scaffold/) | Scaffolds a production-ready full-stack Next.js 16 application with React 19, TypeScript, Tailwind CSS v4, shadcn/ui components, Supabase authentication, Prisma ORM with PostgreSQL, Zod validation, and a comprehensive testing setup including Vitest and Playwright. | v1 | ✅ active |
 | [playwright](playwright/) | TODO: add description | v1 | ✅ active |
