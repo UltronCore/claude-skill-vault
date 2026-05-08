@@ -1,0 +1,12 @@
+{
+  "name": "Statistical Analyst",
+  "slug": "statistical-analyst",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "data-engineering",
+  "tags": ["statistics", "ab-testing", "hypothesis-testing", "data-science"],
+  "public_safe": true
+}

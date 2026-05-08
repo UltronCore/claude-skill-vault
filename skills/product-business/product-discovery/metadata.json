@@ -1,0 +1,12 @@
+{
+  "name": "Product Discovery",
+  "slug": "product-discovery",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "product-business",
+  "tags": ["product", "discovery", "user-research"],
+  "public_safe": true
+}

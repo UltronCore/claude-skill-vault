@@ -2,6 +2,374 @@
   "updated": "2026-05-08",
   "skills": [
     {
+      "name": "Chroma",
+      "slug": "chroma",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/chroma",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "chroma",
+        "vector-db",
+        "rag",
+        "embeddings"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "CrewAI",
+      "slug": "crewai",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/crewai",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "crewai",
+        "multi-agent",
+        "orchestration"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "DSPy",
+      "slug": "dspy",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/dspy",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "dspy",
+        "prompt-engineering",
+        "optimization"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "FAISS",
+      "slug": "faiss",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/faiss",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "faiss",
+        "vector-search",
+        "similarity"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "HuggingFace CLI",
+      "slug": "hf-cli",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/hf-cli",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "huggingface",
+        "cli",
+        "hub"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "HuggingFace Datasets",
+      "slug": "huggingface-datasets",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/huggingface-datasets",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "huggingface",
+        "datasets",
+        "ml"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "HuggingFace Gradio",
+      "slug": "huggingface-gradio",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/huggingface-gradio",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "gradio",
+        "ml-demo",
+        "python",
+        "ui"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "HuggingFace LLM Trainer",
+      "slug": "huggingface-llm-trainer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/huggingface-llm-trainer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "fine-tuning",
+        "huggingface",
+        "trl",
+        "lora"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "HuggingFace Local Models",
+      "slug": "huggingface-local-models",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/huggingface-local-models",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "local-ai",
+        "llama-cpp",
+        "gguf",
+        "ollama"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Instructor",
+      "slug": "instructor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/instructor",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "structured-output",
+        "pydantic",
+        "llm"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "LangChain",
+      "slug": "langchain",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/langchain",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "langchain",
+        "rag",
+        "agents",
+        "llm"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "LangGraph",
+      "slug": "langgraph",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/langgraph",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "langgraph",
+        "multi-agent",
+        "stateful",
+        "llm"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "LLM Evaluation",
+      "slug": "llm-evaluation",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/llm-evaluation",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "evaluation",
+        "llm",
+        "testing",
+        "metrics"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "LLM Prompt Optimizer",
+      "slug": "llm-prompt-optimizer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/llm-prompt-optimizer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "prompt-engineering",
+        "optimization",
+        "llm"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "PEFT Fine-Tuning",
+      "slug": "peft-fine-tuning",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/peft-fine-tuning",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "peft",
+        "lora",
+        "qlora",
+        "fine-tuning"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Pinecone",
+      "slug": "pinecone",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/pinecone",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "pinecone",
+        "vector-db",
+        "rag"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Qdrant",
+      "slug": "qdrant",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/qdrant",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "qdrant",
+        "vector-db",
+        "rag"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Train Sentence Transformers",
+      "slug": "train-sentence-transformers",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/train-sentence-transformers",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "embeddings",
+        "sentence-transformers",
+        "fine-tuning"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Transformers.js",
+      "slug": "transformers-js",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/transformers-js",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "javascript",
+        "ml",
+        "webgpu",
+        "transformers"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Unsloth LLM Fine-Tuning",
+      "slug": "unsloth",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/unsloth",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ai-ml",
+      "tags": [
+        "fine-tuning",
+        "unsloth",
+        "lora",
+        "qlora"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Agents MD Creator",
+      "slug": "agents-md-creator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/agents-md-creator",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "app-usage",
+      "tags": [
+        "claude-md",
+        "agents-md",
+        "meta",
+        "documentation"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "apple-docs",
       "slug": "apple-docs",
       "version": "v1",
@@ -48,6 +416,24 @@
         "audit",
         "quality",
         "maintenance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Claude Settings Audit",
+      "slug": "claude-settings-audit",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/claude-settings-audit",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "app-usage",
+      "tags": [
+        "claude-code",
+        "settings",
+        "permissions",
+        "audit"
       ],
       "public_safe": true,
       "featured": false
@@ -151,6 +537,26 @@
         "workflow",
         "automation",
         "push"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "cloudflare-pages-autopush",
+      "slug": "cloudflare-pages-autopush",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/cloudflare-pages-autopush",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "automation",
+      "tags": [
+        "git",
+        "cloudflare",
+        "pages",
+        "autopush",
+        "deploy",
+        "workflow"
       ],
       "public_safe": true,
       "featured": false
@@ -275,6 +681,26 @@
       "featured": false
     },
     {
+      "name": "multi-repo-push-workflow",
+      "slug": "multi-repo-push-workflow",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/multi-repo-push-workflow",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "automation",
+      "tags": [
+        "git",
+        "workflow",
+        "multi-repo",
+        "backup",
+        "push",
+        "client-projects"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "new-website-repo",
       "slug": "new-website-repo",
       "version": "v1",
@@ -355,22 +781,21 @@
       "featured": false
     },
     {
-      "name": "private-repo-backup",
-      "slug": "private-repo-backup",
+      "name": "Remotion Video Builder",
+      "slug": "remotion-video-builder",
       "version": "v1",
       "status": "active",
-      "path": "skills/automation/private-repo-backup",
+      "path": "skills/automation/remotion-video-builder",
       "updated": "2026-05-08",
-      "source": "imported-existing",
+      "source": "github-import",
       "category": "automation",
       "tags": [
-        "git",
-        "backup",
-        "workflow",
-        "push",
-        "client-projects"
+        "remotion",
+        "video",
+        "react",
+        "animation"
       ],
-      "public_safe": false,
+      "public_safe": true,
       "featured": false
     },
     {
@@ -424,6 +849,23 @@
       ],
       "public_safe": true,
       "featured": true
+    },
+    {
+      "name": "Vercel Deploy",
+      "slug": "vercel-deploy",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/vercel-deploy",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "automation",
+      "tags": [
+        "vercel",
+        "deployment",
+        "hosting"
+      ],
+      "public_safe": true,
+      "featured": false
     },
     {
       "name": "webapp-testing",
@@ -487,6 +929,382 @@
       "source": "imported-existing",
       "category": "business",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "AWS Solution Architect",
+      "slug": "aws-solution-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/aws-solution-architect",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "aws",
+        "cloud",
+        "architecture"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Azure Cloud Architect",
+      "slug": "azure-cloud-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/azure-cloud-architect",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "azure",
+        "cloud",
+        "architecture"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Docker Expert",
+      "slug": "docker-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/docker-expert",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "K8s Manifest Generator",
+      "slug": "k8s-manifest-generator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/k8s-manifest-generator",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "kubernetes",
+        "manifests",
+        "deployment",
+        "devops"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Kubernetes Architect",
+      "slug": "kubernetes-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/kubernetes-architect",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "gitops",
+        "cloud-native"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Observability Engineer",
+      "slug": "observability-engineer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/observability-engineer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "observability",
+        "monitoring",
+        "logging",
+        "tracing",
+        "sre"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Senior DevOps Engineer",
+      "slug": "senior-devops",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/senior-devops",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "devops",
+        "ci-cd",
+        "infrastructure",
+        "monitoring"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Terraform Code Generation",
+      "slug": "terraform-code-generation",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/terraform-code-generation",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "cloud-devops",
+      "tags": [
+        "terraform",
+        "infrastructure-as-code",
+        "hcl",
+        "hashicorp"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "GDPR Expert",
+      "slug": "gdpr-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/compliance/gdpr-expert",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "compliance",
+      "tags": [
+        "gdpr",
+        "privacy",
+        "compliance",
+        "data-protection"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "ISO 27001 ISMS",
+      "slug": "iso27001-isms",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/compliance/iso27001-isms",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "compliance",
+      "tags": [
+        "iso27001",
+        "isms",
+        "information-security",
+        "compliance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Risk Management",
+      "slug": "risk-management",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/compliance/risk-management",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "compliance",
+      "tags": [
+        "risk-management",
+        "fair",
+        "enterprise",
+        "compliance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Security Pen Testing",
+      "slug": "security-pen-testing",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/compliance/security-pen-testing",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "compliance",
+      "tags": [
+        "penetration-testing",
+        "owasp",
+        "red-team",
+        "security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SOC 2 Compliance",
+      "slug": "soc2-compliance",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/compliance/soc2-compliance",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "compliance",
+      "tags": [
+        "soc2",
+        "compliance",
+        "audit",
+        "security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Airflow DAG Patterns",
+      "slug": "airflow-dag-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/airflow-dag-patterns",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "airflow",
+        "dag",
+        "orchestration",
+        "pipelines"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Async Python Patterns",
+      "slug": "async-python-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/async-python-patterns",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "python",
+        "async",
+        "asyncio",
+        "concurrency"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Data Pipeline Engineer",
+      "slug": "data-pipeline-engineer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/data-pipeline-engineer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "data-pipelines",
+        "spark",
+        "dbt",
+        "airflow"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Database Schema Designer",
+      "slug": "database-schema-designer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/database-schema-designer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "database",
+        "schema",
+        "erd",
+        "sql"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "MLOps Engineer",
+      "slug": "mlops-engineer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/mlops-engineer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "mlops",
+        "mlflow",
+        "kubeflow",
+        "ml-pipelines"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Polars DataFrame Library",
+      "slug": "polars",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/polars",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "polars",
+        "dataframes",
+        "python",
+        "data"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SQL Expert",
+      "slug": "sql-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/sql-expert",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "sql",
+        "database",
+        "query-optimization",
+        "orm"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Statistical Analyst",
+      "slug": "statistical-analyst",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/statistical-analyst",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "data-engineering",
+      "tags": [
+        "statistics",
+        "ab-testing",
+        "hypothesis-testing",
+        "data-science"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -563,6 +1381,166 @@
       "featured": false
     },
     {
+      "name": "API Design Reviewer",
+      "slug": "api-design-reviewer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/api-design-reviewer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "api",
+        "rest",
+        "openapi",
+        "design-review"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Codebase Onboarding",
+      "slug": "codebase-onboarding",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/codebase-onboarding",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "onboarding",
+        "documentation",
+        "architecture"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Dependency Auditor",
+      "slug": "dependency-auditor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/dependency-auditor",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "dependencies",
+        "cve",
+        "security",
+        "license-compliance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Migration Architect",
+      "slug": "migration-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/migration-architect",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "migration",
+        "database",
+        "platform"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Monorepo Architect",
+      "slug": "monorepo-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/monorepo-architect",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "monorepo",
+        "turborepo",
+        "nx",
+        "bazel"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "OpenAPI Spec Generation",
+      "slug": "openapi-spec-generation",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/openapi-spec-generation",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "openapi",
+        "api-spec",
+        "sdk",
+        "swagger"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Performance Profiler",
+      "slug": "performance-profiler",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/performance-profiler",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "profiling",
+        "performance",
+        "flamegraph",
+        "node",
+        "python"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Release Manager",
+      "slug": "release-manager",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/release-manager",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "release",
+        "versioning",
+        "changelog",
+        "deployment"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Tech Debt Tracker",
+      "slug": "tech-debt-tracker",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/tech-debt-tracker",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "tech-debt",
+        "code-quality",
+        "refactoring"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "agent-fetch",
       "slug": "agent-fetch",
       "version": "v1",
@@ -572,6 +1550,24 @@
       "source": "imported-existing",
       "category": "integrations",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Deep Research",
+      "slug": "deep-research",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/deep-research",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "integrations",
+      "tags": [
+        "research",
+        "deep-research",
+        "recursive",
+        "information"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -698,6 +1694,41 @@
       "source": "imported-existing",
       "category": "integrations",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Gmail Integration",
+      "slug": "gmail-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/gmail-integration",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "integrations",
+      "tags": [
+        "gmail",
+        "email",
+        "google",
+        "integration"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Linear Integration",
+      "slug": "linear-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/linear-integration",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "integrations",
+      "tags": [
+        "linear",
+        "project-management",
+        "issues"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -829,6 +1860,151 @@
         "qdrant",
         "weaviate",
         "semantic-search"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "YouTube Transcript",
+      "slug": "youtube-transcript",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/youtube-transcript",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "integrations",
+      "tags": [
+        "youtube",
+        "transcript",
+        "video",
+        "content"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "iOS Architecture",
+      "slug": "ios-architecture",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-architecture",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "ios",
+        "swift",
+        "architecture",
+        "mvvm",
+        "tca"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "iOS Concurrency",
+      "slug": "ios-concurrency",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-concurrency",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "swift",
+        "concurrency",
+        "async-await",
+        "actors"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "iOS Networking",
+      "slug": "ios-networking",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-networking",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "ios",
+        "networking",
+        "urlsession",
+        "oauth2"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "iOS Performance",
+      "slug": "ios-performance",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-performance",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "ios",
+        "performance",
+        "instruments",
+        "profiling"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SwiftUI Expert",
+      "slug": "ios-swiftui-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-swiftui-expert",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "swiftui",
+        "ios",
+        "animations",
+        "state-management"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "iOS Testing",
+      "slug": "ios-testing",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/ios-testing",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "ios",
+        "testing",
+        "xctest",
+        "swift-testing"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "React Native Best Practices",
+      "slug": "react-native-best-practices",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/react-native-best-practices",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ios-swift",
+      "tags": [
+        "react-native",
+        "mobile",
+        "new-architecture",
+        "performance"
       ],
       "public_safe": true,
       "featured": false
@@ -1514,6 +2690,146 @@
       "featured": true
     },
     {
+      "name": "Agile Product Owner",
+      "slug": "agile-product-owner",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/agile-product-owner",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "agile",
+        "product-owner",
+        "scrum",
+        "backlog"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "CEO Advisor",
+      "slug": "ceo-advisor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/ceo-advisor",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "ceo",
+        "strategy",
+        "leadership"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Competitive Teardown",
+      "slug": "competitive-teardown",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/competitive-teardown",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "competitive-analysis",
+        "product",
+        "market-research"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "CTO Advisor",
+      "slug": "cto-advisor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/cto-advisor",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "cto",
+        "technology-strategy",
+        "architecture"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Founder Coach",
+      "slug": "founder-coach",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/founder-coach",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "startup",
+        "founder",
+        "coaching",
+        "fundraising"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Investor Materials",
+      "slug": "investor-materials",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/investor-materials",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "investor",
+        "pitch-deck",
+        "fundraising",
+        "startup"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Product Discovery",
+      "slug": "product-discovery",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/product-discovery",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "product",
+        "discovery",
+        "user-research"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Product Strategist",
+      "slug": "product-strategist",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/product-business/product-strategist",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "product-business",
+      "tags": [
+        "product",
+        "strategy",
+        "roadmap",
+        "okr"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "improve-codebase-architecture",
       "slug": "improve-codebase-architecture",
       "version": "v1",
@@ -1624,6 +2940,24 @@
       "featured": true
     },
     {
+      "name": "C/C++ Security Review",
+      "slug": "c-security-review",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/c-security-review",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "c",
+        "cpp",
+        "security-review",
+        "static-analysis"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "CSP Config Generator",
       "slug": "csp-config-generator",
       "version": "v1",
@@ -1726,6 +3060,40 @@
       "featured": false
     },
     {
+      "name": "Semgrep Rule Creator",
+      "slug": "semgrep-rule-creator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/semgrep-rule-creator",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "semgrep",
+        "vulnerability-detection",
+        "custom-rules"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Static Code Analysis",
+      "slug": "static-code-analysis",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/static-code-analysis",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "codeql",
+        "semgrep",
+        "static-analysis"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Supabase RLS Policy Generator",
       "slug": "supabase-rls-policy-generator",
       "version": "v1",
@@ -1764,6 +3132,24 @@
         "a11y",
         "compliance",
         "audit"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "D3.js Visualizations",
+      "slug": "d3js-visualizations",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/d3js-visualizations",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ui-ux",
+      "tags": [
+        "d3js",
+        "data-visualization",
+        "charts",
+        "javascript"
       ],
       "public_safe": true,
       "featured": false
@@ -1819,6 +3205,24 @@
         "react",
         "next-js",
         "sanitization"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "React Best Practices",
+      "slug": "react-best-practices",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/react-best-practices",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "ui-ux",
+      "tags": [
+        "react",
+        "nextjs",
+        "performance",
+        "best-practices"
       ],
       "public_safe": true,
       "featured": false
@@ -1977,6 +3381,23 @@
       "featured": false
     },
     {
+      "name": "Engineering Blog Writer",
+      "slug": "engineering-blog-writer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/engineering-blog-writer",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "writing",
+      "tags": [
+        "blog",
+        "writing",
+        "technical-writing"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "office-docx",
       "slug": "office-docx",
       "version": "v1",
@@ -2038,6 +3459,24 @@
       "source": "ComposioHQ/awesome-claude-skills",
       "category": "writing",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Tufte Report Creator",
+      "slug": "tufte-report-creator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/tufte-report-creator",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "writing",
+      "tags": [
+        "tufte",
+        "data-visualization",
+        "reports",
+        "writing"
+      ],
       "public_safe": true,
       "featured": false
     },

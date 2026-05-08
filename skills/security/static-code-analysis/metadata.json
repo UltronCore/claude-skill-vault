@@ -1,0 +1,12 @@
+{
+  "name": "Static Code Analysis",
+  "slug": "static-code-analysis",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["codeql", "semgrep", "static-analysis"],
+  "public_safe": true
+}

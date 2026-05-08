@@ -12,4 +12,4 @@ _Last updated: 2026-05-08_
 | [data-orchestration](data-orchestration/) | TODO: add description | v1 | ✅ active |
 | [rag-pipeline](rag-pipeline/) | TODO: add description | v1 | ✅ active |
 | [system-builder](system-builder/) | TODO: add description | v1 | ✅ active |
-| [ultra-lovable-orchestrator](ultra-lovable-orchestrator/) | No description available. | v1 | ✅ active |
+| [ultra-lovable-orchestrator ⭐](ultra-lovable-orchestrator/) | No description available. | v1 | ✅ active |

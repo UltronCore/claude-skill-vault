@@ -1,0 +1,12 @@
+{
+  "name": "C/C++ Security Review",
+  "slug": "c-security-review",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["c", "cpp", "security-review", "static-analysis"],
+  "public_safe": true
+}

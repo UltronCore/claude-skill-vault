@@ -1,0 +1,12 @@
+{
+  "name": "Database Schema Designer",
+  "slug": "database-schema-designer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "data-engineering",
+  "tags": ["database", "schema", "erd", "sql"],
+  "public_safe": true
+}

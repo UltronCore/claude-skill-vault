@@ -1,0 +1,12 @@
+{
+  "name": "YARA Rule Authoring",
+  "slug": "yara-rule-authoring",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["yara", "malware-detection", "threat-hunting"],
+  "public_safe": true
+}

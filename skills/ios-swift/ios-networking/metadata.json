@@ -1,0 +1,12 @@
+{
+  "name": "iOS Networking",
+  "slug": "ios-networking",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["ios", "networking", "urlsession", "oauth2"],
+  "public_safe": true
+}

@@ -1,0 +1,1 @@
+**Skill:** semgrep-rule-creator | **Status:** active | **Category:** security | **Last updated:** 2026-05-08

@@ -1,0 +1,12 @@
+{
+  "name": "Unsloth LLM Fine-Tuning",
+  "slug": "unsloth",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ai-ml",
+  "tags": ["fine-tuning", "unsloth", "lora", "qlora"],
+  "public_safe": true
+}

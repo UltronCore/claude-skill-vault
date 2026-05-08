@@ -1,0 +1,12 @@
+{
+  "name": "iOS Architecture",
+  "slug": "ios-architecture",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["ios", "swift", "architecture", "mvvm", "tca"],
+  "public_safe": true
+}

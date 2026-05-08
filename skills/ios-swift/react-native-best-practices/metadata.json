@@ -1,0 +1,12 @@
+{
+  "name": "React Native Best Practices",
+  "slug": "react-native-best-practices",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["react-native", "mobile", "new-architecture", "performance"],
+  "public_safe": true
+}

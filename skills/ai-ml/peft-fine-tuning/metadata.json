@@ -1,0 +1,12 @@
+{
+  "name": "PEFT Fine-Tuning",
+  "slug": "peft-fine-tuning",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ai-ml",
+  "tags": ["peft", "lora", "qlora", "fine-tuning"],
+  "public_safe": true
+}

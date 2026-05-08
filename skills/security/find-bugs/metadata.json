@@ -1,0 +1,12 @@
+{
+  "name": "Find Bugs",
+  "slug": "find-bugs",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["bug-finding", "security", "code-review"],
+  "public_safe": true
+}

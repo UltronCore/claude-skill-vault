@@ -4,9 +4,11 @@ _Last updated: 2026-05-08_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
+| [Agents MD Creator](agents-md-creator/) | No description available. | v1 | ✅ active |
 | [apple-docs](apple-docs/) | TODO: add description | v1 | ✅ active |
 | [Claude API Integration ⭐](claude-api-integration/) | No description available. | v1 | ✅ active |
 | [Claude MD Improver](claude-md-improver/) | Discovers all CLAUDE.md files in a repository, evaluates each against a quality rubric (commands, architecture clarity, non-obvious patterns, conciseness, currency, actionability), outputs a scored quality report, then applies targeted improvements after user approval. | v1 | ✅ active |
+| [Claude Settings Audit](claude-settings-audit/) | No description available. | v1 | ✅ active |
 | [ios-simulator](ios-simulator/) | TODO: add description | v1 | ✅ active |
 | [notebooklm](notebooklm/) | TODO: add description | v1 | ✅ active |
 | [shortcuts-skill](shortcuts-skill/) | TODO: add description | v1 | ✅ active |

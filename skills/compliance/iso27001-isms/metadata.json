@@ -1,0 +1,12 @@
+{
+  "name": "ISO 27001 ISMS",
+  "slug": "iso27001-isms",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "compliance",
+  "tags": ["iso27001", "isms", "information-security", "compliance"],
+  "public_safe": true
+}

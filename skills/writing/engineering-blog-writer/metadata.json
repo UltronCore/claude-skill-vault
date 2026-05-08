@@ -1,0 +1,12 @@
+{
+  "name": "Engineering Blog Writer",
+  "slug": "engineering-blog-writer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "writing",
+  "tags": ["blog", "writing", "technical-writing"],
+  "public_safe": true
+}

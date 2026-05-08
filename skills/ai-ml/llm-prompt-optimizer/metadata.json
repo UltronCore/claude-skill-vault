@@ -1,0 +1,12 @@
+{
+  "name": "LLM Prompt Optimizer",
+  "slug": "llm-prompt-optimizer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ai-ml",
+  "tags": ["prompt-engineering", "optimization", "llm"],
+  "public_safe": true
+}

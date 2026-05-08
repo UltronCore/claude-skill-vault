@@ -1,0 +1,12 @@
+{
+  "name": "Competitive Teardown",
+  "slug": "competitive-teardown",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "product-business",
+  "tags": ["competitive-analysis", "product", "market-research"],
+  "public_safe": true
+}

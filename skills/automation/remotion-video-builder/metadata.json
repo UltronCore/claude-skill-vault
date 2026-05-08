@@ -1,0 +1,12 @@
+{
+  "name": "Remotion Video Builder",
+  "slug": "remotion-video-builder",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "automation",
+  "tags": ["remotion", "video", "react", "animation"],
+  "public_safe": true
+}

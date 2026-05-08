@@ -1,0 +1,12 @@
+{
+  "name": "HuggingFace Local Models",
+  "slug": "huggingface-local-models",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ai-ml",
+  "tags": ["local-ai", "llama-cpp", "gguf", "ollama"],
+  "public_safe": true
+}

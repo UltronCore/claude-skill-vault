@@ -1,0 +1,12 @@
+{
+  "name": "Gmail Integration",
+  "slug": "gmail-integration",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "integrations",
+  "tags": ["gmail", "email", "google", "integration"],
+  "public_safe": true
+}

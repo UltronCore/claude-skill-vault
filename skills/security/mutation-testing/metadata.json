@@ -1,0 +1,12 @@
+{
+  "name": "Mutation Testing",
+  "slug": "mutation-testing",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["mutation-testing", "test-quality", "code-coverage"],
+  "public_safe": true
+}

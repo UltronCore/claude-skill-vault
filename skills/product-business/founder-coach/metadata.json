@@ -1,0 +1,12 @@
+{
+  "name": "Founder Coach",
+  "slug": "founder-coach",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "product-business",
+  "tags": ["startup", "founder", "coaching", "fundraising"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Tech Debt Tracker",
+  "slug": "tech-debt-tracker",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "engineering-practices",
+  "tags": ["tech-debt", "code-quality", "refactoring"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "SOC 2 Compliance",
+  "slug": "soc2-compliance",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "compliance",
+  "tags": ["soc2", "compliance", "audit", "security"],
+  "public_safe": true
+}

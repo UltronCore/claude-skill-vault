@@ -1,0 +1,12 @@
+{
+  "name": "SwiftUI Expert",
+  "slug": "ios-swiftui-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["swiftui", "ios", "animations", "state-management"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Data Pipeline Engineer",
+  "slug": "data-pipeline-engineer",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "data-engineering",
+  "tags": ["data-pipelines", "spark", "dbt", "airflow"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Async Python Patterns",
+  "slug": "async-python-patterns",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "data-engineering",
+  "tags": ["python", "async", "asyncio", "concurrency"],
+  "public_safe": true
+}

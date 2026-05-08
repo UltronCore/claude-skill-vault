@@ -1,0 +1,12 @@
+{
+  "name": "Docker Expert",
+  "slug": "docker-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "cloud-devops",
+  "tags": ["docker", "containers", "devops"],
+  "public_safe": true
+}

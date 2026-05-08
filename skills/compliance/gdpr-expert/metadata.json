@@ -1,0 +1,12 @@
+{
+  "name": "GDPR Expert",
+  "slug": "gdpr-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "compliance",
+  "tags": ["gdpr", "privacy", "compliance", "data-protection"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Differential Security Review",
+  "slug": "differential-security-review",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["code-diff", "security-review", "pull-request"],
+  "public_safe": true
+}

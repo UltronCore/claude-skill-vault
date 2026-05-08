@@ -1,0 +1,12 @@
+{
+  "name": "Linear Integration",
+  "slug": "linear-integration",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "integrations",
+  "tags": ["linear", "project-management", "issues"],
+  "public_safe": true
+}

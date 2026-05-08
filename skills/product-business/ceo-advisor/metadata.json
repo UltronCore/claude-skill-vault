@@ -1,0 +1,12 @@
+{
+  "name": "CEO Advisor",
+  "slug": "ceo-advisor",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "product-business",
+  "tags": ["ceo", "strategy", "leadership"],
+  "public_safe": true
+}

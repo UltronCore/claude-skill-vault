@@ -1,0 +1,12 @@
+{
+  "name": "React Best Practices",
+  "slug": "react-best-practices",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ui-ux",
+  "tags": ["react", "nextjs", "performance", "best-practices"],
+  "public_safe": true
+}

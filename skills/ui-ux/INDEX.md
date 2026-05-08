@@ -5,9 +5,11 @@ _Last updated: 2026-05-08_
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
 | [ada-wcag-compliance](ada-wcag-compliance/) | No description available. | v1 | ✅ active |
+| [D3.js Visualizations](d3js-visualizations/) | No description available. | v1 | ✅ active |
 | [excalidraw-diagram](excalidraw-diagram/) | TODO: add description | v1 | ✅ active |
 | [Form Generator with React Hook Form & Zod](form-generator-rhf-zod/) | Generates production-ready React forms using React Hook Form, Zod validation schemas, and accessible shadcn/ui form controls. Creates forms with client-side and server-side validation, proper TypeScript types, and consistent error handling. | v1 | ✅ active |
 | [Markdown Editor Integrator](markdown-editor-integrator/) | Installs and configures @uiw/react-md-editor with theme integration, server-side sanitization, controlled/uncontrolled modes, and proper persistence for content-heavy applications. | v1 | ✅ active |
+| [React Best Practices](react-best-practices/) | No description available. | v1 | ✅ active |
 | [swiftui-empty-app-init](swiftui-empty-app-init/) | TODO: add description | v1 | ✅ active |
 | [swiftui-liquid-glass](swiftui-liquid-glass/) | TODO: add description | v1 | ✅ active |
 | [swiftui-ui-patterns](swiftui-ui-patterns/) | TODO: add description | v1 | ✅ active |

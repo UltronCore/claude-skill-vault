@@ -1,0 +1,12 @@
+{
+  "name": "iOS Performance",
+  "slug": "ios-performance",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["ios", "performance", "instruments", "profiling"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Senior DevOps Engineer",
+  "slug": "senior-devops",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "cloud-devops",
+  "tags": ["devops", "ci-cd", "infrastructure", "monitoring"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "OpenAPI Spec Generation",
+  "slug": "openapi-spec-generation",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "engineering-practices",
+  "tags": ["openapi", "api-spec", "sdk", "swagger"],
+  "public_safe": true
+}

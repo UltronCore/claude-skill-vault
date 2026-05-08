@@ -1,0 +1,12 @@
+{
+  "name": "K8s Manifest Generator",
+  "slug": "k8s-manifest-generator",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "cloud-devops",
+  "tags": ["kubernetes", "manifests", "deployment", "devops"],
+  "public_safe": true
+}

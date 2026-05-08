@@ -1,0 +1,12 @@
+{
+  "name": "DSPy",
+  "slug": "dspy",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ai-ml",
+  "tags": ["dspy", "prompt-engineering", "optimization"],
+  "public_safe": true
+}

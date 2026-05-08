@@ -1,0 +1,1 @@
+**Skill:** ffuf-web-fuzzing | **Status:** active | **Category:** security | **Last updated:** 2026-05-08

@@ -1,6 +1,6 @@
 # Claude Skill Vault — Master Index
 
-_Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
+_Last updated: 2026-05-08 | Total: 189 skills across 22 categories (+91 imported 2026-05-08)_
 
 ---
 
@@ -8,25 +8,59 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 
 | Category | Skills | Purpose |
 |----------|--------|---------|
-| [app-usage](#app-usage) | 3 | Meta-tools: Claude config, security gate, CLAUDE.md |
-| [automation](#automation) | 9 | CI/CD, testing, scaffolding, DevOps |
+| [ai-ml](#ai-ml) | 20 | LLM fine-tuning, HuggingFace, agents, RAG, prompt engineering |
+| [app-usage](#app-usage) | 5 | Meta-tools: Claude config, security gate, CLAUDE.md |
+| [automation](#automation) | 20 | CI/CD, testing, scaffolding, DevOps, video, deploy |
 | [business](#business) | 3 | Meetings, invoices, domain naming |
+| [cloud-devops](#cloud-devops) | 8 | Docker, Kubernetes, Terraform, AWS, Azure, observability |
+| [compliance](#compliance) | 5 | GDPR, SOC2, ISO27001, risk management, pen testing |
+| [data-engineering](#data-engineering) | 8 | Polars, Airflow, MLOps, statistics, SQL, data pipelines |
 | [data-processing](#data-processing) | 2 | API contracts, env validation |
-| [dev](#dev) | 2 | MCP servers, webapp testing |
-| [integrations](#integrations) | 10 | Supabase, Sentry, vector DB, NotebookLM, Firecrawl, Temporal |
+| [engineering-practices](#engineering-practices) | 12 | API design, profiling, monorepo, migration, FastAPI |
+| [integrations](#integrations) | 14 | Supabase, Sentry, vector DB, NotebookLM, Firecrawl, Gmail, Linear |
+| [ios-swift](#ios-swift) | 7 | iOS architecture, Swift concurrency, SwiftUI, networking, testing |
 | [marketing](#marketing) | 37 | Full marketing stack: SEO, CRO, copy, ads, growth |
-| [misc](#misc) | 0 | (empty — reserved) |
 | [optimization](#optimization) | 5 | Usage orchestration, LLM routing, performance |
 | [orchestration](#orchestration) | 8 | Agent loops, RAG, context engineering, execution |
+| [product-business](#product-business) | 8 | CTO/CEO advisor, product strategy, competitive teardown |
 | [research](#research) | 1 | Content research writing |
 | [review](#review) | 2 | Skill reviewer and enhancer, vault push guardian |
-| [security](#security) | 6 | Auth, CSP, RLS, RBAC, security hardening |
-| [ui-ux](#ui-ux) | 6 | Frontend, forms, Tailwind, shadcn/ui |
-| [writing](#writing) | 3 | Doc co-authoring, internal comms, resume generation |
+| [security](#security) | 17 | Auth, CSP, RLS, RBAC, hardening, semgrep, fuzzing, YARA |
+| [ui-ux](#ui-ux) | 8 | Frontend, forms, Tailwind, shadcn/ui, D3.js, React best practices |
+| [writing](#writing) | 5 | Doc co-authoring, internal comms, resume, blog writing |
+| [misc](#misc) | 0 | (empty — reserved) |
+| [workflow](#workflow) | — | Workflow automation patterns |
 
 **Active plugins (not in vault):** superpowers (14 skills), frontend-design, claude-md-management, skill-creator, swift-lsp, postgres-best-practices, marketing-skills (33 skills)
 
 ---
+
+## ai-ml
+
+_20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databases, prompt engineering frameworks, multi-agent systems_
+
+| Skill | Description |
+|-------|-------------|
+| huggingface-llm-trainer | Fine-tune LLMs using TRL: SFT, DPO, GRPO, reward modeling, GGUF export |
+| huggingface-datasets | Explore, query, and extract data from any HuggingFace dataset |
+| huggingface-local-models | Select and run models locally with llama.cpp and GGUF formats |
+| hf-cli | Execute HuggingFace Hub operations: download/upload models, datasets, spaces |
+| huggingface-gradio | Build Gradio web UIs and interactive ML demos in Python |
+| transformers-js | Run state-of-the-art ML models in JavaScript/TypeScript with WebGPU/WASM |
+| train-sentence-transformers | Fine-tune sentence embedding and reranking models |
+| unsloth | 2-5x faster LLM fine-tuning with 50-80% less memory using Unsloth |
+| peft-fine-tuning | Parameter-efficient fine-tuning: LoRA, QLoRA, 25+ methods for large models |
+| langchain | Build LLM apps with agents, chains, RAG; 500+ integrations, memory, tools |
+| langgraph | Production-grade stateful multi-actor AI apps with graph construction |
+| crewai | Multi-agent orchestration: role-based collaboration, sequential/hierarchical |
+| dspy | Declarative AI programming: auto-optimize prompts, modular RAG, agents |
+| instructor | Extract structured Pydantic-validated data from LLM responses |
+| chroma | Open-source embedding database: vector + full-text search, metadata filter |
+| qdrant | High-performance Qdrant vector search engine for production RAG |
+| pinecone | Managed Pinecone vector database: auto-scaling, hybrid search |
+| faiss | Facebook FAISS similarity search: billions of vectors, GPU acceleration |
+| llm-prompt-optimizer | Improve prompts for any LLM using proven engineering techniques |
+| llm-evaluation | Comprehensive LLM evaluation: automated metrics, human eval, A/B testing |
 
 ## app-usage
 
@@ -35,6 +69,8 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 | skillguard | Security gate: mandatory pre-install review for any external file/skill/script |
 | claude-api-integration | Anthropic Claude API integration patterns (Python, TS, Go, structured output) |
 | claude-md-improver | Audit and improve CLAUDE.md files across a repository |
+| agents-md-creator | Create and maintain concise AGENTS.md / CLAUDE.md reference files |
+| claude-settings-audit | Generate recommended Claude Code settings.json permissions |
 
 ## automation
 
@@ -49,6 +85,8 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 | feature-flag-manager | LaunchDarkly or JSON-based feature flags for Next.js |
 | file-organizer | Organize files and directories intelligently |
 | changelog-generator | Generate changelogs from git history and commits |
+| vercel-deploy | Deploy applications to Vercel instantly from conversations |
+| remotion-video-builder | Build programmatic videos with React and Remotion: animations, audio, 3D |
 
 ## business
 
@@ -58,6 +96,48 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 | domain-name-brainstormer | Brainstorm and evaluate domain names for products/projects |
 | invoice-organizer | Organize, parse, and summarize invoices and billing data |
 
+## cloud-devops
+
+_8 skills — Docker, Kubernetes, Terraform, cloud architecture, DevOps, observability_
+
+| Skill | Description |
+|-------|-------------|
+| docker-expert | Advanced Docker: multi-stage builds, security hardening, production orchestration |
+| kubernetes-architect | Expert Kubernetes: cloud-native, GitOps with ArgoCD/Flux, enterprise patterns |
+| k8s-manifest-generator | Generate production-ready Kubernetes manifests: Deployments, Services, PVCs |
+| terraform-code-generation | Write Terraform HCL: modules, providers, tests, CI/CD integration |
+| aws-solution-architect | AWS architecture: services, patterns, cost optimization, Well-Architected |
+| azure-cloud-architect | Azure architecture, Azure DevOps, cloud-native patterns |
+| senior-devops | DevOps engineering: CI/CD, monitoring, infrastructure, SRE practices |
+| observability-engineer | Build monitoring, logging, tracing systems: SLI/SLO, incident response |
+
+## compliance
+
+_5 skills — Regulatory compliance, security frameworks, risk management_
+
+| Skill | Description |
+|-------|-------------|
+| gdpr-expert | GDPR/DSGVO compliance: data mapping, privacy notices, consent flows |
+| soc2-compliance | SOC 2 Type II: controls, evidence gathering, audit preparation |
+| iso27001-isms | ISO 27001 Information Security Management System implementation |
+| risk-management | Enterprise risk management: risk registers, FAIR framework, assessments |
+| security-pen-testing | Penetration testing methodology: OWASP, PTES, reporting |
+
+## data-engineering
+
+_8 skills — Data pipelines, Python data science, MLOps, SQL, statistics_
+
+| Skill | Description |
+|-------|-------------|
+| polars | Fast in-memory DataFrame library: lazy evaluation, parallel, Arrow backend |
+| data-pipeline-engineer | Scalable data pipelines: Apache Spark, dbt, Airflow, modern data stack |
+| airflow-dag-patterns | Apache Airflow DAGs: operators, sensors, testing, deployment patterns |
+| async-python-patterns | Asynchronous Python: asyncio, concurrent programming, high-performance I/O |
+| mlops-engineer | ML pipelines, experiment tracking with MLflow, Kubeflow, model registries |
+| statistical-analyst | Hypothesis tests, A/B experiment analysis, sample sizes, effect sizes |
+| database-schema-designer | ERD design, schema normalization, table relationships, migration planning |
+| sql-expert | SQL queries, performance optimization, ORM integration (Prisma, Drizzle, SQLAlchemy) |
+
 ## data-processing
 
 | Skill | Description |
@@ -65,12 +145,24 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 | api-contracts-and-zod-validation | Zod schemas and TypeScript types for forms, API routes, Server Actions |
 | env-config-validator | Validate .env files across environments, check scoping |
 
-## dev
+## engineering-practices
+
+_12 skills — API design, profiling, tech debt, monorepo, migration, FastAPI_
 
 | Skill | Description |
 |-------|-------------|
-| mcp-builder | Create high-quality MCP servers (Python FastMCP or Node/TS SDK) |
-| webapp-testing | Playwright-based testing of local web applications |
+| api-design-reviewer | Comprehensive API design analysis: REST conventions, breaking changes, scorecards |
+| openapi-spec-generation | Generate OpenAPI 3.1 specs from code; SDK generation, contract compliance |
+| performance-profiler | Systematic profiling: Node/Python/Go, flamegraphs, bundle sizes, load testing |
+| dependency-auditor | Audit dependencies: CVE scanning, license compliance, upgrade planning |
+| codebase-onboarding | Onboard developers to unfamiliar codebases systematically |
+| tech-debt-tracker | Scan for technical debt, score severity, generate prioritized remediation plans |
+| migration-architect | Database and platform migration architecture and execution planning |
+| monorepo-architect | Nx/Turborepo/Bazel expert for efficient multi-project monorepo development |
+| release-manager | Plan releases, manage changelogs, coordinate deployments, automate versioning |
+| ci-cd-pipeline-builder | Generate CI/CD pipelines for any detected project stack |
+| spec-driven-workflow | Spec-first development: write acceptance criteria and specs before code |
+| fastapi-expert | High-performance async APIs with FastAPI, SQLAlchemy 2.0, Pydantic V2, microservices |
 
 ## integrations
 
@@ -85,7 +177,25 @@ _Last updated: 2026-03-26 | Total: 98 skills across 14 categories_
 | llm-observability | LLM tracing with Langfuse/AgentOps/MLflow |
 | vector-db-integration | Chroma, Qdrant, Weaviate vector DB for RAG systems |
 | expo-skills | Expo React Native with RevenueCat, AdMob, i18n, NativeTabs |
-| temporal-developer | Temporal durable execution: workflows, activities, workers, determinism, Python/TS/Go SDK patterns |
+| temporal-developer | Temporal durable execution: workflows, activities, workers, Python/TS/Go SDK |
+| gmail-integration | Gmail: compose, search, label, filter, thread management |
+| linear-integration | Linear project management: issues, projects, cycles, team workflows |
+| youtube-transcript | Fetch and analyze YouTube video transcripts for content extraction |
+| deep-research | PhD-level recursive research across any domain with source tiering |
+
+## ios-swift
+
+_7 skills — iOS architecture, Swift concurrency, SwiftUI, networking, testing, React Native_
+
+| Skill | Description |
+|-------|-------------|
+| ios-architecture | iOS MVVM with @Observable, Clean Architecture, TCA, modular SPM, Coordinator |
+| ios-concurrency | Swift Concurrency: async/await, structured concurrency, actors, Swift 6 |
+| ios-networking | iOS networking: URLSession async/await, type-safe API clients, OAuth2, WebSocket |
+| ios-performance | iOS performance: ARC, retain cycles, SwiftUI opt, Instruments profiling |
+| ios-testing | iOS testing: Swift Testing framework, XCTest, UI Testing, snapshot testing |
+| ios-swiftui-expert | Expert SwiftUI: layout system, state management, NavigationStack, animations |
+| react-native-best-practices | React Native New Architecture: animations, audio, gestures, JSI, on-device AI |
 
 ## marketing
 
@@ -141,6 +251,21 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | agent-loop-patterns | Autonomous agent loops, task queues, crew systems |
 | rag-pipeline-setup | RAG pipelines with embeddings and vector search |
 
+## product-business
+
+_8 skills — C-level advisors, product strategy, competitive analysis, investor materials_
+
+| Skill | Description |
+|-------|-------------|
+| cto-advisor | CTO technology strategy: tech roadmap, architecture governance, build vs buy |
+| ceo-advisor | CEO strategic advisor: vision, growth strategy, stakeholder management |
+| product-discovery | Product discovery: user research, problem definition, opportunity sizing |
+| product-strategist | Product strategy: vision, positioning, roadmap, OKRs, metrics |
+| competitive-teardown | Deep competitive analysis: feature comparison, positioning, gap analysis |
+| founder-coach | Startup founder coaching: fundraising, team building, pivots, scaling |
+| agile-product-owner | Agile product ownership: story writing, backlog refinement, sprint planning |
+| investor-materials | Create investor pitch decks, one-pagers, financial models |
+
 ## research
 
 | Skill | Description |
@@ -156,6 +281,8 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 
 ## security
 
+_17 skills — Auth, CSP, RLS, RBAC, hardening, Semgrep rules, fuzzing, YARA, supply chain_
+
 | Skill | Description |
 |-------|-------------|
 | auth-route-protection-checker | Audit Next.js routes for missing auth checks |
@@ -164,6 +291,17 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | role-permission-table-builder | RBAC permission matrices in markdown or SQL |
 | security-hardening-checklist | Full security audit: headers, cookies, RLS, rate limiting |
 | output-guardrails | Safety validation and content constraints for LLM outputs |
+| c-security-review | Comprehensive C/C++ security review with clustered parallel workers |
+| static-code-analysis | Multi-tool static analysis with CodeQL and Semgrep |
+| semgrep-rule-creator | Create custom Semgrep vulnerability detection rules |
+| supply-chain-risk-auditor | Audit supply-chain threat landscape of project dependencies |
+| insecure-defaults-finder | Identify weak configurations and hardcoded secrets |
+| gha-security-review | GitHub Actions workflow security review for CI vulnerabilities |
+| find-bugs | Find bugs and security vulnerabilities systematically |
+| differential-security-review | Analyze code changes with emphasis on security implications |
+| ffuf-web-fuzzing | Expert web fuzzing with ffuf during penetration testing |
+| yara-rule-authoring | Develop YARA malware detection rules with quality checks |
+| mutation-testing | Configure mutation testing campaigns for code robustness |
 
 ## ui-ux
 
@@ -175,6 +313,8 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | ui-library-usage-auditor | Audit shadcn/ui usage for accessibility and consistency |
 | markdown-editor-integrator | @uiw/react-md-editor integration |
 | uniapp-frontend | uni-app cross-platform (WeChat, H5) with Vue 3 + TS |
+| react-best-practices | React/Next.js 40+ performance optimization rules across 8 categories |
+| d3js-visualizations | D3.js charts and interactive data visualizations |
 
 ## writing
 
@@ -183,6 +323,8 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | doc-coauthoring | Structured co-authoring workflow for docs, specs, proposals |
 | internal-comms | Internal communications: status updates, newsletters, incident reports |
 | tailored-resume-generator | Generate tailored resumes and cover letters |
+| engineering-blog-writer | Write and improve technical/engineering blog posts |
+| tufte-report-creator | Data-driven reports in Edward Tufte's visual style |
 
 ---
 

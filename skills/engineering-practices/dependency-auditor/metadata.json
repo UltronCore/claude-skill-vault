@@ -1,0 +1,12 @@
+{
+  "name": "Dependency Auditor",
+  "slug": "dependency-auditor",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "engineering-practices",
+  "tags": ["dependencies", "cve", "security", "license-compliance"],
+  "public_safe": true
+}

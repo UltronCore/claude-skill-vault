@@ -1,0 +1,16 @@
+{
+  "name": "multi-repo-push-workflow",
+  "slug": "multi-repo-push-workflow",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "created-in-vault",
+  "category": "automation",
+  "tags": ["git", "workflow", "multi-repo", "backup", "push", "client-projects"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": "private-repo-backup",
+  "related_skills": ["cloudflare-pages-autopush", "auto-push"],
+  "featured": false
+}

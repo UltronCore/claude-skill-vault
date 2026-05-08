@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/UltronCore/claude-skill-vault?color=blue)](https://github.com/UltronCore/claude-skill-vault/releases)
-[![Skills](https://img.shields.io/badge/active%20skills-131-brightgreen)](skills/)
+[![Skills](https://img.shields.io/badge/active%20skills-222-brightgreen)](skills/)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code-orange)](https://claude.ai/code)
 [![Maintained](https://img.shields.io/badge/maintained-yes-green)](https://github.com/UltronCore/claude-skill-vault/commits/main)
 
-A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **131 active skills** across 13 categories, with full version history, lineage tracking, and auto-save tooling.
+A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **222 active skills** across 20 categories, with full version history, lineage tracking, and auto-save tooling.
 
 ---
 
@@ -37,19 +37,26 @@ This is not a plugin marketplace. It is a structured, actively maintained person
 | Category | Count | What's in it |
 |----------|-------|--------------|
 | [marketing](skills/marketing/) | 30 | Content strategy, SEO, ads, CRO, email, pricing, growth |
-| [integrations](skills/integrations/) | 17 | Firecrawl (8 skills), Temporal, MCP builder, Supabase, Expo, Sentry, vector DB, LLM observability |
-| [automation](skills/automation/) | 18 | CI/CD, scaffolding, linting, testing, file automation, git workflows |
-| [ui-ux](skills/ui-ux/) | 11 | SwiftUI (5 skills), Tailwind/shadcn, forms, accessibility, visual creation |
+| [integrations](skills/integrations/) | 21 | Firecrawl, Temporal, MCP, Supabase, Gmail, Linear, YouTube, deep research |
+| [automation](skills/automation/) | 20 | CI/CD, scaffolding, linting, testing, git workflows, Vercel, Remotion |
+| [ai-ml](skills/ai-ml/) | 20 | LLM frameworks, RAG tools, vector DBs, AI agents (CrewAI, DSPy, Chroma, Instructor) |
+| [security](skills/security/) | 18 | Auth, CSP, RLS, SAST, fuzzing, YARA rules, supply chain, mutation testing |
+| [ui-ux](skills/ui-ux/) | 13 | SwiftUI, Tailwind/shadcn, D3.js, React patterns, accessibility, forms |
+| [engineering-practices](skills/engineering-practices/) | 12 | Code review, architecture, testing strategies, refactoring patterns |
+| [writing](skills/writing/) | 10 | Office docs, prompt deepening, research writing, engineering blog, Tufte reports |
+| [app-usage](skills/app-usage/) | 10 | Claude Code management, NotebookLM, Apple Docs, iOS simulator, SkillGuard |
 | [orchestration](skills/orchestration/) | 9 | Agent loops, RAG pipelines, memory engines, context engineering |
-| [writing](skills/writing/) | 8 | Office docs (DOCX/PDF/PPTX), prompt deepening, research writing, resume |
-| [app-usage](skills/app-usage/) | 8 | Claude Code management, NotebookLM, Apple Docs, iOS simulator, SkillGuard |
-| [security](skills/security/) | 7 | Auth, CSP, RLS policies, output guardrails, hardening, security scanning |
-| [optimization](skills/optimization/) | 6 | LLM routing, performance budgets, server actions, SwiftUI perf audit |
+| [product-business](skills/product-business/) | 8 | Product strategy, roadmaps, user research, metrics, OKRs |
+| [data-engineering](skills/data-engineering/) | 8 | ETL pipelines, data modeling, Spark, dbt, data quality |
+| [cloud-devops](skills/cloud-devops/) | 8 | Docker, AWS, Azure, Kubernetes, infrastructure patterns |
+| [ios-swift](skills/ios-swift/) | 7 | iOS development, Swift patterns, Xcode tooling |
+| [optimization](skills/optimization/) | 6 | LLM routing, performance budgets, server actions, SwiftUI perf |
 | [review](skills/review/) | 5 | Skill review, vault-push guardian, public release review, issue triage |
-| [misc](skills/misc/) | 4 | Code sandbox, Excalidraw diagrams, skill portfolio architect, Codex utilization |
+| [compliance](skills/compliance/) | 5 | Regulatory compliance, privacy, audit trails, policy enforcement |
+| [misc](skills/misc/) | 4 | Code sandbox, Excalidraw diagrams, skill portfolio, Codex utilization |
 | [data-processing](skills/data-processing/) | 4 | API contracts, Zod validation, env config, LLM eval |
 | [business](skills/business/) | 4 | Domain brainstorming, invoicing, meeting insights, PRD to issues |
-| [_archive](skills/_archive/) | 51 | Preserved: superseded, consolidated, or plugin-managed |
+| [_archive](skills/_archive/) | 53 | Preserved: superseded, consolidated, or plugin-managed |
 
 ---
 
@@ -63,9 +70,11 @@ This is not a plugin marketplace. It is a structured, actively maintained person
 | [ultra-lovable-orchestrator](skills/orchestration/ultra-lovable-orchestrator/) | orchestration | Full-stack autonomous app generation with multi-agent coordination |
 | [output-guardrails](skills/security/output-guardrails/) | security | Prevent sensitive data leakage from LLM outputs |
 | [context-engineer](skills/orchestration/context-engineer/) | orchestration | Build and maintain structured context windows for long-running Claude sessions |
-| [rag-pipeline](skills/orchestration/rag-pipeline/) | orchestration | Full RAG pipeline setup — ingestion, indexing, retrieval, search backends |
+| [rag-pipeline](skills/orchestration/rag-pipeline/) | orchestration | Full RAG pipeline — ingestion, indexing, retrieval, multiple search backends |
 | [tdd](skills/automation/tdd/) | automation | Test-driven development workflow — red/green/refactor with Claude |
-| [security-scanner](skills/security/security-scanner/) | security | Automated security scanning and vulnerability detection in codebases |
+| [security-scanner](skills/security/security-scanner/) | security | Automated security scanning and vulnerability detection |
+| [cloudflare-pages-autopush](skills/automation/cloudflare-pages-autopush/) | automation | Auto-commit and push Cloudflare Pages projects — on demand and proactively |
+| [multi-repo-push-workflow](skills/automation/multi-repo-push-workflow/) | automation | Git push discipline across multiple related repos (client, vault, template) |
 
 > Many powerful skills (brainstorming, systematic-debugging, writing-plans, etc.) are maintained in external plugins and live in `_archive/` here as reference copies. See [SOURCE-MAP.md](SOURCE-MAP.md) for origins.
 
@@ -93,14 +102,10 @@ skills/{category}/{skill-slug}/
 
 ### Versioning: two levels
 
-This vault uses two independent versioning systems:
-
 | Level | What it tracks | Where |
 |-------|---------------|-------|
 | **Skill-level** | Iterations of a single skill (v1, v2, v3...) | `versions/` inside each skill folder |
-| **Repo-level** | Official vault releases (1.0.0, 1.1.0...) | `VERSION` file + GitHub Releases |
-
-Skill versions track incremental improvements to one skill. Repo versions represent meaningful milestones — new capability areas, infrastructure changes, or significant skill additions.
+| **Repo-level** | Official vault releases (1.0.0, 1.2.0...) | `VERSION` file + GitHub Releases |
 
 ### Lineage tracking
 
@@ -110,17 +115,11 @@ When a skill is replaced, merged, or split, the relationship is recorded in `ski
 
 Old skills are never deleted — they move to `skills/_archive/` with a notice pointing to the current version. Roll back to any previous version by reading `versions/vN/SKILL.md`.
 
-### Category organization
-
-Skills are organized by primary use case. Categories are reviewed when any single category exceeds 15 skills or when a clearly better structure emerges. Current state is documented in `state/structure-state.json`.
-
 ---
 
 ## Quick start
 
 ### Use an individual skill
-
-Browse the vault, find a skill you want, and copy `SKILL.md` to your Claude Code skills directory:
 
 ```bash
 # Install the vault-push-guardian skill
@@ -173,13 +172,11 @@ See [docs/repository-guidelines.md](docs/repository-guidelines.md) for the full 
 
 ## How releases work
 
-This vault uses automated GitHub Releases tied to the `VERSION` file:
-
 1. Update `VERSION` to the next semantic version (e.g., `1.3.0`)
 2. Commit and push to `main`
-3. GitHub Actions automatically creates a tagged release with notes generated from commits since the last tag
+3. GitHub Actions automatically creates a tagged release
 
-Manual release: use the **Release** workflow dispatch from the [Actions tab](https://github.com/UltronCore/claude-skill-vault/actions) with a version input.
+Manual release: use the **Release** workflow dispatch from the [Actions tab](https://github.com/UltronCore/claude-skill-vault/actions).
 
 See [CHANGELOG.md](CHANGELOG.md) for the full release history.
 
@@ -188,8 +185,8 @@ See [CHANGELOG.md](CHANGELOG.md) for the full release history.
 ## What does not get saved
 
 - Personal notes, private data, or credential-adjacent content
-- API keys, tokens, or secrets of any kind
-- Personal file paths or identity details
+- API keys, tokens, or secrets
+- Personal file paths or client names
 - Project files unrelated to skills
 
 All content is reviewed against [docs/public-safety-policy.md](docs/public-safety-policy.md) before committing.

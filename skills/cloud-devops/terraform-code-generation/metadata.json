@@ -1,0 +1,12 @@
+{
+  "name": "Terraform Code Generation",
+  "slug": "terraform-code-generation",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "cloud-devops",
+  "tags": ["terraform", "infrastructure-as-code", "hcl", "hashicorp"],
+  "public_safe": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Risk Management",
+  "slug": "risk-management",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "compliance",
+  "tags": ["risk-management", "fair", "enterprise", "compliance"],
+  "public_safe": true
+}

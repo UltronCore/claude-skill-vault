@@ -1,0 +1,12 @@
+{
+  "name": "iOS Testing",
+  "slug": "ios-testing",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "ios-swift",
+  "tags": ["ios", "testing", "xctest", "swift-testing"],
+  "public_safe": true
+}

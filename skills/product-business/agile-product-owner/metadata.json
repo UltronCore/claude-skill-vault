@@ -1,0 +1,12 @@
+{
+  "name": "Agile Product Owner",
+  "slug": "agile-product-owner",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "product-business",
+  "tags": ["agile", "product-owner", "scrum", "backlog"],
+  "public_safe": true
+}

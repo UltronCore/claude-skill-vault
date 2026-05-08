@@ -1,0 +1,12 @@
+{
+  "name": "Azure Cloud Architect",
+  "slug": "azure-cloud-architect",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "cloud-devops",
+  "tags": ["azure", "cloud", "architecture"],
+  "public_safe": true
+}

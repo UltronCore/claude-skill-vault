@@ -1,0 +1,12 @@
+{
+  "name": "SQL Expert",
+  "slug": "sql-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "data-engineering",
+  "tags": ["sql", "database", "query-optimization", "orm"],
+  "public_safe": true
+}

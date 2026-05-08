@@ -1,0 +1,12 @@
+{
+  "name": "Semgrep Rule Creator",
+  "slug": "semgrep-rule-creator",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-08",
+  "updated": "2026-05-08",
+  "source": "github-import",
+  "category": "security",
+  "tags": ["semgrep", "vulnerability-detection", "custom-rules"],
+  "public_safe": true
+}

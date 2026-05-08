@@ -1,0 +1,1 @@
+**Skill:** yara-rule-authoring | **Status:** active | **Category:** security | **Last updated:** 2026-05-08
