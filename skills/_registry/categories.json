@@ -13,15 +13,18 @@
     ],
     "automation": [
       "agent-native-automation-research-install",
+      "auto-push",
       "docs-and-changelogs",
       "eslint-prettier-husky-config",
       "feature-flag-manager",
       "file-organizer",
       "git-guardrails-claude-code",
       "github-actions-ci-workflow",
+      "new-website-repo",
       "nextjs-fullstack-scaffold",
       "playwright",
       "playwright-flow-recorder",
+      "private-repo-backup",
       "self-healing-execution",
       "tdd",
       "testing-next-stack",
@@ -112,13 +115,15 @@
       "context-engineer",
       "data-orchestration",
       "rag-pipeline",
-      "system-builder"
+      "system-builder",
+      "ultra-lovable-orchestrator"
     ],
     "review": [
       "improve-codebase-architecture",
       "public-release-review",
       "skill-reviewer-and-enhancer",
-      "triage-issue"
+      "triage-issue",
+      "vault-push-guardian"
     ],
     "security": [
       "auth-route-protection-checker",
@@ -130,6 +135,7 @@
       "supabase-rls-policy-generator"
     ],
     "ui-ux": [
+      "ada-wcag-compliance",
       "excalidraw-diagram",
       "form-generator-rhf-zod",
       "markdown-editor-integrator",
@@ -142,6 +148,7 @@
       "ui-visual-creation-stack",
       "uniapp-frontend"
     ],
+    "workflow": [],
     "writing": [
       "content-research-writer",
       "doc-coauthoring",

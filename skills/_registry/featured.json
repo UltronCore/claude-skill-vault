@@ -132,6 +132,45 @@
       "featured": true
     },
     {
+      "name": "ultra-lovable-orchestrator",
+      "slug": "ultra-lovable-orchestrator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/ultra-lovable-orchestrator",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "orchestration",
+        "full-stack",
+        "autonomous",
+        "multi-agent",
+        "app-generation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
+      "name": "vault-push-guardian",
+      "slug": "vault-push-guardian",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/vault-push-guardian",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "review",
+      "tags": [
+        "git",
+        "safety",
+        "credentials",
+        "pre-commit",
+        "vault",
+        "review"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "Auth Route Protection Checker",
       "slug": "auth-route-protection-checker",
       "version": "v1",

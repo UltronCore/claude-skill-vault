@@ -138,6 +138,24 @@
       "featured": false
     },
     {
+      "name": "auto-push",
+      "slug": "auto-push",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/auto-push",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "git",
+        "workflow",
+        "automation",
+        "push"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Docs and Changelogs",
       "slug": "docs-and-changelogs",
       "version": "v1",
@@ -257,6 +275,24 @@
       "featured": false
     },
     {
+      "name": "new-website-repo",
+      "slug": "new-website-repo",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/new-website-repo",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "git",
+        "workflow",
+        "automation",
+        "push"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Next.js Full-Stack Scaffold",
       "slug": "nextjs-fullstack-scaffold",
       "version": "v1",
@@ -316,6 +352,25 @@
         "automation"
       ],
       "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "private-repo-backup",
+      "slug": "private-repo-backup",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/private-repo-backup",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [
+        "git",
+        "backup",
+        "workflow",
+        "push",
+        "client-projects"
+      ],
+      "public_safe": false,
       "featured": false
     },
     {
@@ -1440,6 +1495,25 @@
       "featured": false
     },
     {
+      "name": "ultra-lovable-orchestrator",
+      "slug": "ultra-lovable-orchestrator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/ultra-lovable-orchestrator",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [
+        "orchestration",
+        "full-stack",
+        "autonomous",
+        "multi-agent",
+        "app-generation"
+      ],
+      "public_safe": true,
+      "featured": true
+    },
+    {
       "name": "improve-codebase-architecture",
       "slug": "improve-codebase-architecture",
       "version": "v1",
@@ -1506,6 +1580,26 @@
       "tags": [],
       "public_safe": true,
       "featured": false
+    },
+    {
+      "name": "vault-push-guardian",
+      "slug": "vault-push-guardian",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/vault-push-guardian",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "review",
+      "tags": [
+        "git",
+        "safety",
+        "credentials",
+        "pre-commit",
+        "vault",
+        "review"
+      ],
+      "public_safe": true,
+      "featured": true
     },
     {
       "name": "Auth Route Protection Checker",
@@ -1653,6 +1747,26 @@
       ],
       "public_safe": true,
       "featured": true
+    },
+    {
+      "name": "ada-wcag-compliance",
+      "slug": "ada-wcag-compliance",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/ada-wcag-compliance",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "ui-ux",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "ada",
+        "a11y",
+        "compliance",
+        "audit"
+      ],
+      "public_safe": true,
+      "featured": false
     },
     {
       "name": "excalidraw-diagram",

@@ -1,0 +1,16 @@
+{
+  "name": "ultra-lovable-orchestrator",
+  "slug": "ultra-lovable-orchestrator",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-03-25",
+  "updated": "2026-05-08",
+  "source": "imported-existing",
+  "category": "orchestration",
+  "tags": ["orchestration", "full-stack", "autonomous", "multi-agent", "app-generation"],
+  "public_safe": true,
+  "replaced_by": null,
+  "derived_from": null,
+  "related_skills": ["agent-loop-patterns", "context-engineer"],
+  "featured": true
+}
