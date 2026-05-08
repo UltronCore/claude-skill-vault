@@ -1,6 +1,6 @@
 # Marketing Skills
 
-_Last updated: 2026-03-26_
+_Last updated: 2026-05-08_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|

@@ -1,7 +1,10 @@
 # Misc Skills
 
-_Last updated: 2026-03-26_
+_Last updated: 2026-05-08_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
-| [adaptive-private-memory-engine](adaptive-private-memory-engine/) | No description available. | v1 | ✅ active |
+| [adaptive-codex-utilization](adaptive-codex-utilization/) | TODO: add description | v1 | ✅ active |
+| [code-sandbox](code-sandbox/) | TODO: add description | v1 | ✅ active |
+| [grill-me](grill-me/) | TODO: add description | v1 | ✅ active |
+| [skill-portfolio-architect](skill-portfolio-architect/) | TODO: add description | v1 | ✅ active |

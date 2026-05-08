@@ -1,36 +1,61 @@
 {
-  "updated": "2026-03-26",
+  "updated": "2026-05-08",
   "categories": {
     "app-usage": [
+      "apple-docs",
       "claude-api-integration",
       "claude-md-improver",
-      "skillguard"
+      "ios-simulator",
+      "notebooklm",
+      "shortcuts-skill",
+      "skillguard",
+      "swift-concurrency-expert"
     ],
     "automation": [
+      "agent-native-automation-research-install",
       "docs-and-changelogs",
       "eslint-prettier-husky-config",
       "feature-flag-manager",
       "file-organizer",
+      "git-guardrails-claude-code",
       "github-actions-ci-workflow",
       "nextjs-fullstack-scaffold",
+      "playwright",
       "playwright-flow-recorder",
-      "testing-next-stack"
+      "self-healing-execution",
+      "tdd",
+      "testing-next-stack",
+      "webapp-testing"
     ],
     "business": [
       "domain-name-brainstormer",
       "invoice-organizer",
-      "meeting-insights-analyzer"
+      "meeting-insights-analyzer",
+      "prd-to-issues"
     ],
     "data-processing": [
       "api-contracts-and-zod-validation",
-      "env-config-validator"
+      "env-config-validator",
+      "llm-eval",
+      "office-xlsx"
     ],
     "integrations": [
+      "agent-fetch",
       "expo-skills",
+      "firecrawl",
+      "firecrawl-agent",
+      "firecrawl-browser",
+      "firecrawl-crawl",
+      "firecrawl-download",
+      "firecrawl-map",
+      "firecrawl-scrape",
+      "firecrawl-search",
       "llm-observability",
+      "mcp-builder",
       "sentry-and-otel-setup",
       "supabase-auth-ssr-setup",
       "supabase-prisma-database-management",
+      "temporal-developer",
       "vector-db-integration"
     ],
     "marketing": [
@@ -65,22 +90,35 @@
       "site-architecture",
       "social-content"
     ],
-    "misc": [],
+    "misc": [
+      "adaptive-codex-utilization",
+      "code-sandbox",
+      "grill-me",
+      "skill-portfolio-architect"
+    ],
     "optimization": [
+      "instruments-profiling",
       "llm-routing-and-fallback",
       "performance-budget-enforcer",
       "revalidation-strategy-planner",
-      "server-actions-vs-api-optimizer"
+      "server-actions-vs-api-optimizer",
+      "swiftui-performance-audit"
     ],
     "orchestration": [
       "adaptive-private-memory-engine",
       "agent-loop-patterns",
-      "rag-pipeline-setup"
+      "agent-safety",
+      "autonomous-knowledge-system",
+      "context-engineer",
+      "data-orchestration",
+      "rag-pipeline",
+      "system-builder"
     ],
     "review": [
+      "improve-codebase-architecture",
       "public-release-review",
       "skill-reviewer-and-enhancer",
-      "vault-push-guardian"
+      "triage-issue"
     ],
     "security": [
       "auth-route-protection-checker",
@@ -88,18 +126,31 @@
       "output-guardrails",
       "role-permission-table-builder",
       "security-hardening-checklist",
+      "security-scanner",
       "supabase-rls-policy-generator"
     ],
     "ui-ux": [
+      "excalidraw-diagram",
       "form-generator-rhf-zod",
       "markdown-editor-integrator",
+      "swiftui-empty-app-init",
+      "swiftui-liquid-glass",
+      "swiftui-ui-patterns",
+      "swiftui-view-refactor",
       "tailwind-shadcn-ui-setup",
       "ui-library-usage-auditor",
+      "ui-visual-creation-stack",
       "uniapp-frontend"
     ],
     "writing": [
+      "content-research-writer",
       "doc-coauthoring",
-      "tailored-resume-generator"
+      "office-docx",
+      "office-pdf",
+      "office-pptx",
+      "prompt-deepener",
+      "tailored-resume-generator",
+      "ubiquitous-language"
     ]
   }
 }

@@ -1,6 +1,19 @@
 {
-  "updated": "2026-03-26",
+  "updated": "2026-05-08",
   "skills": [
+    {
+      "name": "apple-docs",
+      "slug": "apple-docs",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/apple-docs",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
     {
       "name": "Claude API Integration",
       "slug": "claude-api-integration",
@@ -40,12 +53,51 @@
       "featured": false
     },
     {
+      "name": "ios-simulator",
+      "slug": "ios-simulator",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/ios-simulator",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "notebooklm",
+      "slug": "notebooklm",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/notebooklm",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "shortcuts-skill",
+      "slug": "shortcuts-skill",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/shortcuts-skill",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "SkillGuard",
       "slug": "skillguard",
       "version": "v1",
       "status": "active",
       "path": "skills/app-usage/skillguard",
-      "updated": "2026-03-24",
+      "updated": "2026-04-11",
       "source": "imported-existing",
       "category": "app-usage",
       "tags": [
@@ -58,6 +110,32 @@
       ],
       "public_safe": true,
       "featured": true
+    },
+    {
+      "name": "swift-concurrency-expert",
+      "slug": "swift-concurrency-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/swift-concurrency-expert",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "app-usage",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "agent-native-automation-research-install",
+      "slug": "agent-native-automation-research-install",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/agent-native-automation-research-install",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
     },
     {
       "name": "Docs and Changelogs",
@@ -142,6 +220,19 @@
       "featured": false
     },
     {
+      "name": "git-guardrails-claude-code",
+      "slug": "git-guardrails-claude-code",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/git-guardrails-claude-code",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "GitHub Actions CI Workflow",
       "slug": "github-actions-ci-workflow",
       "version": "v1",
@@ -193,6 +284,19 @@
       "featured": true
     },
     {
+      "name": "playwright",
+      "slug": "playwright",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/playwright",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Playwright Flow Recorder",
       "slug": "playwright-flow-recorder",
       "version": "v1",
@@ -211,6 +315,32 @@
         "typescript",
         "automation"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "self-healing-execution",
+      "slug": "self-healing-execution",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/self-healing-execution",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "tdd",
+      "slug": "tdd",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/tdd",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -239,6 +369,19 @@
       ],
       "public_safe": true,
       "featured": true
+    },
+    {
+      "name": "webapp-testing",
+      "slug": "webapp-testing",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/webapp-testing",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "automation",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
     },
     {
       "name": "domain-name-brainstormer",
@@ -274,6 +417,19 @@
       "path": "skills/business/meeting-insights-analyzer",
       "updated": "2026-03-25",
       "source": "ComposioHQ/awesome-claude-skills",
+      "category": "business",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "prd-to-issues",
+      "slug": "prd-to-issues",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/business/prd-to-issues",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
       "category": "business",
       "tags": [],
       "public_safe": true,
@@ -326,6 +482,45 @@
       "featured": false
     },
     {
+      "name": "llm-eval",
+      "slug": "llm-eval",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-processing/llm-eval",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "data-processing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "office-xlsx",
+      "slug": "office-xlsx",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-processing/office-xlsx",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "data-processing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "agent-fetch",
+      "slug": "agent-fetch",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/agent-fetch",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Expo Skills",
       "slug": "expo-skills",
       "version": "v1",
@@ -348,6 +543,110 @@
       "featured": false
     },
     {
+      "name": "firecrawl",
+      "slug": "firecrawl",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-agent",
+      "slug": "firecrawl-agent",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-agent",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-browser",
+      "slug": "firecrawl-browser",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-browser",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-crawl",
+      "slug": "firecrawl-crawl",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-crawl",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-download",
+      "slug": "firecrawl-download",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-download",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-map",
+      "slug": "firecrawl-map",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-map",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-scrape",
+      "slug": "firecrawl-scrape",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-scrape",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "firecrawl-search",
+      "slug": "firecrawl-search",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/firecrawl-search",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "LLM Observability",
       "slug": "llm-observability",
       "version": "v1",
@@ -364,6 +663,19 @@
         "tracing",
         "llm-monitoring"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "mcp-builder",
+      "slug": "mcp-builder",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/mcp-builder",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "integrations",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -430,6 +742,19 @@
         "seeding",
         "ci-cd"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "temporal-developer",
+      "slug": "temporal-developer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/integrations/temporal-developer",
+      "updated": "2026-05-08",
+      "source": "created-in-vault",
+      "category": "integrations",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -844,6 +1169,71 @@
       "featured": false
     },
     {
+      "name": "adaptive-codex-utilization",
+      "slug": "adaptive-codex-utilization",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/adaptive-codex-utilization",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "misc",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "code-sandbox",
+      "slug": "code-sandbox",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/code-sandbox",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "misc",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "grill-me",
+      "slug": "grill-me",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/grill-me",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "misc",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "skill-portfolio-architect",
+      "slug": "skill-portfolio-architect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/misc/skill-portfolio-architect",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "misc",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "instruments-profiling",
+      "slug": "instruments-profiling",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/instruments-profiling",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "optimization",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "LLM Routing and Fallback",
       "slug": "llm-routing-and-fallback",
       "version": "v1",
@@ -927,12 +1317,25 @@
       "featured": false
     },
     {
-      "name": "adaptive-private-memory-engine",
-      "slug": "adaptive-private-memory-engine",
+      "name": "swiftui-performance-audit",
+      "slug": "swiftui-performance-audit",
       "version": "v1",
       "status": "active",
+      "path": "skills/optimization/swiftui-performance-audit",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "optimization",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "adaptive-private-memory-engine",
+      "slug": "adaptive-private-memory-engine",
+      "version": "v2",
+      "status": "active",
       "path": "skills/orchestration/adaptive-private-memory-engine",
-      "updated": "2026-03-25",
+      "updated": "2026-05-08",
       "source": "unknown",
       "category": "orchestration",
       "tags": [],
@@ -959,23 +1362,117 @@
       "featured": true
     },
     {
-      "name": "RAG Pipeline Setup",
-      "slug": "rag-pipeline-setup",
+      "name": "agent-safety",
+      "slug": "agent-safety",
       "version": "v1",
       "status": "active",
-      "path": "skills/orchestration/rag-pipeline-setup",
-      "updated": "2026-03-25",
-      "source": "derived-from-repos",
+      "path": "skills/orchestration/agent-safety",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
       "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "autonomous-knowledge-system",
+      "slug": "autonomous-knowledge-system",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/autonomous-knowledge-system",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "context-engineer",
+      "slug": "context-engineer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/context-engineer",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "data-orchestration",
+      "slug": "data-orchestration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/data-orchestration",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "rag-pipeline",
+      "slug": "rag-pipeline",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/rag-pipeline",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "system-builder",
+      "slug": "system-builder",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/orchestration/system-builder",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "orchestration",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "slug": "improve-codebase-architecture",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/improve-codebase-architecture",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "review",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Public Release Review",
+      "slug": "public-release-review",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/public-release-review",
+      "updated": "2026-03-26",
+      "source": "created-in-vault",
+      "category": "review",
       "tags": [
-        "rag",
-        "embeddings",
-        "vector-search",
-        "llm",
-        "knowledge-base"
+        "public-release",
+        "safety",
+        "documentation",
+        "versioning",
+        "changelog",
+        "pre-push",
+        "publication",
+        "quality-gate"
       ],
       "public_safe": true,
-      "featured": true
+      "featured": false
     },
     {
       "name": "Skill Reviewer and Enhancer",
@@ -994,6 +1491,19 @@
         "skill-management",
         "best-practices"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "triage-issue",
+      "slug": "triage-issue",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/review/triage-issue",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "review",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -1109,6 +1619,19 @@
       "featured": true
     },
     {
+      "name": "security-scanner",
+      "slug": "security-scanner",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/security-scanner",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "security",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Supabase RLS Policy Generator",
       "slug": "supabase-rls-policy-generator",
       "version": "v1",
@@ -1130,6 +1653,19 @@
       ],
       "public_safe": true,
       "featured": true
+    },
+    {
+      "name": "excalidraw-diagram",
+      "slug": "excalidraw-diagram",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/excalidraw-diagram",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
     },
     {
       "name": "Form Generator with React Hook Form & Zod",
@@ -1170,6 +1706,58 @@
         "next-js",
         "sanitization"
       ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "swiftui-empty-app-init",
+      "slug": "swiftui-empty-app-init",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/swiftui-empty-app-init",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "swiftui-liquid-glass",
+      "slug": "swiftui-liquid-glass",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/swiftui-liquid-glass",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "swiftui-ui-patterns",
+      "slug": "swiftui-ui-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/swiftui-ui-patterns",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "swiftui-view-refactor",
+      "slug": "swiftui-view-refactor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/swiftui-view-refactor",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
       "public_safe": true,
       "featured": false
     },
@@ -1215,6 +1803,19 @@
       "featured": false
     },
     {
+      "name": "ui-visual-creation-stack",
+      "slug": "ui-visual-creation-stack",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/ui-visual-creation-stack",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "ui-ux",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "uni-app Frontend Development",
       "slug": "uniapp-frontend",
       "version": "v1",
@@ -1236,6 +1837,19 @@
       "featured": false
     },
     {
+      "name": "content-research-writer",
+      "slug": "content-research-writer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/content-research-writer",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "writing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "doc-coauthoring",
       "slug": "doc-coauthoring",
       "version": "v1",
@@ -1243,6 +1857,58 @@
       "path": "skills/writing/doc-coauthoring",
       "updated": "2026-03-25",
       "source": "anthropics/skills",
+      "category": "writing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "office-docx",
+      "slug": "office-docx",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/office-docx",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "writing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "office-pdf",
+      "slug": "office-pdf",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/office-pdf",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "writing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "office-pptx",
+      "slug": "office-pptx",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/office-pptx",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "writing",
+      "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "prompt-deepener",
+      "slug": "prompt-deepener",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/prompt-deepener",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
       "category": "writing",
       "tags": [],
       "public_safe": true,
@@ -1262,24 +1928,15 @@
       "featured": false
     },
     {
-      "name": "Public Release Review",
-      "slug": "public-release-review",
+      "name": "ubiquitous-language",
+      "slug": "ubiquitous-language",
       "version": "v1",
       "status": "active",
-      "path": "skills/review/public-release-review",
-      "updated": "2026-03-26",
-      "source": "created-in-vault",
-      "category": "review",
-      "tags": [
-        "public-release",
-        "safety",
-        "documentation",
-        "versioning",
-        "changelog",
-        "pre-push",
-        "publication",
-        "quality-gate"
-      ],
+      "path": "skills/writing/ubiquitous-language",
+      "updated": "2026-05-08",
+      "source": "imported-existing",
+      "category": "writing",
+      "tags": [],
       "public_safe": true,
       "featured": false
     }
