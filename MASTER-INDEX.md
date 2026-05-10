@@ -1,6 +1,6 @@
 # Claude Skill Vault — Master Index
 
-_Last updated: 2026-05-08 | Total: 189 skills across 22 categories (+91 imported 2026-05-08)_
+_Last updated: 2026-05-10 | Total: 239 skills across 22 categories (+50 added 2026-05-10)_
 
 ---
 
@@ -8,26 +8,26 @@ _Last updated: 2026-05-08 | Total: 189 skills across 22 categories (+91 imported
 
 | Category | Skills | Purpose |
 |----------|--------|---------|
-| [ai-ml](#ai-ml) | 20 | LLM fine-tuning, HuggingFace, agents, RAG, prompt engineering |
-| [app-usage](#app-usage) | 5 | Meta-tools: Claude config, security gate, CLAUDE.md |
-| [automation](#automation) | 20 | CI/CD, testing, scaffolding, DevOps, video, deploy |
-| [business](#business) | 3 | Meetings, invoices, domain naming |
-| [cloud-devops](#cloud-devops) | 8 | Docker, Kubernetes, Terraform, AWS, Azure, observability |
+| [ai-ml](#ai-ml) | 30 | LLM fine-tuning, HuggingFace, RAG, Ollama, Claude tools, streaming, vision |
+| [app-usage](#app-usage) | 9 | Claude config, Obsidian, Raycast, AppleScript, Keyboard Maestro |
+| [automation](#automation) | 24 | CI/CD, testing, scaffolding, Prisma, Zapier/Make, FFmpeg, Cursor |
+| [business](#business) | 7 | Meetings, invoices, e-commerce, Shopify, Stripe, Resend email |
+| [cloud-devops](#cloud-devops) | 13 | Docker, K8s, Terraform, Cloudflare, Vercel, Fly.io, PocketBase |
 | [compliance](#compliance) | 5 | GDPR, SOC2, ISO27001, risk management, pen testing |
-| [data-engineering](#data-engineering) | 8 | Polars, Airflow, MLOps, statistics, SQL, data pipelines |
-| [data-processing](#data-processing) | 2 | API contracts, env validation |
-| [engineering-practices](#engineering-practices) | 12 | API design, profiling, monorepo, migration, FastAPI |
+| [data-engineering](#data-engineering) | 11 | Polars, SQL, GraphQL, Drizzle ORM, WebSocket, realtime |
+| [data-processing](#data-processing) | 3 | API contracts, env validation, Zod expert |
+| [engineering-practices](#engineering-practices) | 13 | API design, profiling, monorepo, migration, FastAPI, Bun |
 | [integrations](#integrations) | 14 | Supabase, Sentry, vector DB, NotebookLM, Firecrawl, Gmail, Linear |
-| [ios-swift](#ios-swift) | 7 | iOS architecture, Swift concurrency, SwiftUI, networking, testing |
+| [ios-swift](#ios-swift) | 15 | SwiftUI, StoreKit, SwiftData, WidgetKit, macros, SPM, Xcode Cloud |
 | [marketing](#marketing) | 37 | Full marketing stack: SEO, CRO, copy, ads, growth |
-| [optimization](#optimization) | 5 | Usage orchestration, LLM routing, performance |
+| [optimization](#optimization) | 6 | Usage orchestration, LLM routing, Core Web Vitals |
 | [orchestration](#orchestration) | 8 | Agent loops, RAG, context engineering, execution |
 | [product-business](#product-business) | 8 | CTO/CEO advisor, product strategy, competitive teardown |
 | [research](#research) | 1 | Content research writing |
 | [review](#review) | 2 | Skill reviewer and enhancer, vault push guardian |
-| [security](#security) | 17 | Auth, CSP, RLS, RBAC, hardening, semgrep, fuzzing, YARA |
-| [ui-ux](#ui-ux) | 8 | Frontend, forms, Tailwind, shadcn/ui, D3.js, React best practices |
-| [writing](#writing) | 5 | Doc co-authoring, internal comms, resume, blog writing |
+| [security](#security) | 18 | Auth, CSP, RLS, RBAC, hardening, semgrep, API security |
+| [ui-ux](#ui-ux) | 15 | TypeScript, TanStack Query, tRPC, Framer Motion, a11y, Storybook |
+| [writing](#writing) | 6 | Doc co-authoring, internal comms, resume, blog, technical docs |
 | [misc](#misc) | 0 | (empty — reserved) |
 | [workflow](#workflow) | — | Workflow automation patterns |
 
@@ -37,7 +37,7 @@ _Last updated: 2026-05-08 | Total: 189 skills across 22 categories (+91 imported
 
 ## ai-ml
 
-_20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databases, prompt engineering frameworks, multi-agent systems_
+_30 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG, Ollama local LLMs, Claude tool use, streaming, vision, cost optimization_
 
 | Skill | Description |
 |-------|-------------|
@@ -61,6 +61,16 @@ _20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databa
 | faiss | Facebook FAISS similarity search: billions of vectors, GPU acceleration |
 | llm-prompt-optimizer | Improve prompts for any LLM using proven engineering techniques |
 | llm-evaluation | Comprehensive LLM evaluation: automated metrics, human eval, A/B testing |
+| ollama-integration | Local LLM deployment: Ollama CLI, REST API, Python/JS libraries, Modelfiles |
+| claude-tool-use | Advanced Claude tool/function calling: parallel tools, agentic loops, tool choice |
+| llm-streaming | Streaming LLM responses: SSE, Next.js Route Handlers, React streaming UI |
+| multimodal-ai | Vision and multimodal AI: Claude image API, PDF analysis, manga OCR |
+| ai-cost-optimizer | LLM cost reduction: prompt caching, batch API, model routing, token budgets |
+| embeddings-expert | Text embeddings: semantic search, cosine similarity, chunking, hybrid RAG |
+| openrouter-litellm | Multi-provider LLM routing with OpenRouter and LiteLLM; fallback strategies |
+| prompt-versioning | Prompt management: YAML versioning, A/B testing, eval tracking, Langfuse |
+| computer-vision | PIL/Pillow, OpenCV, OCR (Tesseract/EasyOCR), YOLO, manga panel detection |
+| vector-rag-advanced | Advanced RAG: chunking, pgvector, hybrid search, reranking, HyDE, RAGAS eval |
 
 ## app-usage
 
@@ -71,6 +81,10 @@ _20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databa
 | claude-md-improver | Audit and improve CLAUDE.md files across a repository |
 | agents-md-creator | Create and maintain concise AGENTS.md / CLAUDE.md reference files |
 | claude-settings-audit | Generate recommended Claude Code settings.json permissions |
+| obsidian-automation | Obsidian vault automation: Templater, Dataview, QuickAdd, MCP integration |
+| raycast-extensions | Build Raycast extensions: List/Form/Detail commands, Preferences API, actions |
+| applescript-jxa | macOS automation with AppleScript and JavaScript for Automation (JXA) |
+| keyboard-maestro | Keyboard Maestro macros via kmtrigger, KMVAR_, osascript; common patterns |
 
 ## automation
 
@@ -87,6 +101,10 @@ _20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databa
 | changelog-generator | Generate changelogs from git history and commits |
 | vercel-deploy | Deploy applications to Vercel instantly from conversations |
 | remotion-video-builder | Build programmatic videos with React and Remotion: animations, audio, 3D |
+| prisma-patterns | Prisma ORM: schema design, relations, transactions, pagination, Supabase |
+| zapier-make | Zapier and Make.com automation: webhooks, data mapping, loops, error handling |
+| ffmpeg-media | FFmpeg video/audio: transcoding (H.264/265/AV1), HLS, thumbnails, batch |
+| cursor-expert | Cursor AI IDE: .cursorrules, Composer, Agent mode, @Codebase context |
 
 ## business
 
@@ -95,10 +113,14 @@ _20 skills — AI/ML development, fine-tuning, HuggingFace ecosystem, RAG databa
 | meeting-insights-analyzer | Extract insights, action items, decisions from meeting transcripts |
 | domain-name-brainstormer | Brainstorm and evaluate domain names for products/projects |
 | invoice-organizer | Organize, parse, and summarize invoices and billing data |
+| ecommerce-patterns | E-commerce: cart state (Zustand), checkout flow, inventory, orders, pagination |
+| shopify-integration | Shopify Storefront + Admin API, headless Next.js, cart mutations, webhooks |
+| stripe-expert | Stripe: Checkout Sessions, Payment Intents, subscriptions, webhooks, CLI |
+| resend-email | Resend + React Email: order/welcome/reset templates, batch send, webhooks |
 
 ## cloud-devops
 
-_8 skills — Docker, Kubernetes, Terraform, cloud architecture, DevOps, observability_
+_13 skills — Docker, Kubernetes, Terraform, Cloudflare, Vercel, Fly.io, PocketBase_
 
 | Skill | Description |
 |-------|-------------|
@@ -110,6 +132,11 @@ _8 skills — Docker, Kubernetes, Terraform, cloud architecture, DevOps, observa
 | azure-cloud-architect | Azure architecture, Azure DevOps, cloud-native patterns |
 | senior-devops | DevOps engineering: CI/CD, monitoring, infrastructure, SRE practices |
 | observability-engineer | Build monitoring, logging, tracing systems: SLI/SLO, incident response |
+| cloudflare-expert | Cloudflare Workers, D1 (SQLite), R2 storage, KV, Pages Functions, Durable Objects |
+| vercel-advanced | Vercel ISR/PPR, unstable_cache, Edge Runtime, middleware, Speed Insights |
+| github-actions-advanced | Matrix builds, reusable workflows, OIDC auth, artifact passing, deploy pipelines |
+| pocketbase | PocketBase self-hosted backend: CRUD, auth, realtime, file storage, Fly.io deploy |
+| flyio-deploy | Fly.io: fly.toml, secrets, volumes, Postgres, scaling, multi-region, health checks |
 
 ## compliance
 
@@ -125,7 +152,7 @@ _5 skills — Regulatory compliance, security frameworks, risk management_
 
 ## data-engineering
 
-_8 skills — Data pipelines, Python data science, MLOps, SQL, statistics_
+_11 skills — Data pipelines, Python data science, MLOps, SQL, GraphQL, Drizzle, WebSocket_
 
 | Skill | Description |
 |-------|-------------|
@@ -137,6 +164,9 @@ _8 skills — Data pipelines, Python data science, MLOps, SQL, statistics_
 | statistical-analyst | Hypothesis tests, A/B experiment analysis, sample sizes, effect sizes |
 | database-schema-designer | ERD design, schema normalization, table relationships, migration planning |
 | sql-expert | SQL queries, performance optimization, ORM integration (Prisma, Drizzle, SQLAlchemy) |
+| graphql-expert | GraphQL schema design, DataLoader N+1 fix, codegen, Apollo vs graphql-request |
+| drizzle-orm | Drizzle ORM: pgTable schema, query API, migrations, Supabase integration |
+| websocket-realtime | WebSocket/SSE/Supabase Realtime: Next.js Route Handlers, reconnection hooks |
 
 ## data-processing
 
@@ -144,6 +174,7 @@ _8 skills — Data pipelines, Python data science, MLOps, SQL, statistics_
 |-------|-------------|
 | api-contracts-and-zod-validation | Zod schemas and TypeScript types for forms, API routes, Server Actions |
 | env-config-validator | Validate .env files across environments, check scoping |
+| zod-expert | Zod v3 advanced: discriminated unions, transforms, superRefine, RHF integration |
 
 ## engineering-practices
 
@@ -163,6 +194,7 @@ _12 skills — API design, profiling, tech debt, monorepo, migration, FastAPI_
 | ci-cd-pipeline-builder | Generate CI/CD pipelines for any detected project stack |
 | spec-driven-workflow | Spec-first development: write acceptance criteria and specs before code |
 | fastapi-expert | High-performance async APIs with FastAPI, SQLAlchemy 2.0, Pydantic V2, microservices |
+| bun-runtime | Bun: Bun.serve(), Bun.file(), bun:sqlite, test runner, bundler, shell scripting |
 
 ## integrations
 
@@ -185,7 +217,7 @@ _12 skills — API design, profiling, tech debt, monorepo, migration, FastAPI_
 
 ## ios-swift
 
-_7 skills — iOS architecture, Swift concurrency, SwiftUI, networking, testing, React Native_
+_15 skills — iOS architecture, Swift concurrency, SwiftUI, StoreKit, SwiftData, WidgetKit, macros, SPM_
 
 | Skill | Description |
 |-------|-------------|
@@ -196,6 +228,14 @@ _7 skills — iOS architecture, Swift concurrency, SwiftUI, networking, testing,
 | ios-testing | iOS testing: Swift Testing framework, XCTest, UI Testing, snapshot testing |
 | ios-swiftui-expert | Expert SwiftUI: layout system, state management, NavigationStack, animations |
 | react-native-best-practices | React Native New Architecture: animations, audio, gestures, JSI, on-device AI |
+| storekit-iap | StoreKit 2: Product.products(), purchase(), Transaction.updates, entitlements |
+| swiftdata-expert | SwiftData: @Model, @Query, relationships, SchemaMigrationPlan, CloudKit |
+| widgetkit | WidgetKit: TimelineProvider, AppIntent interactive widgets, Live Activities |
+| swift-macros | Swift 5.9+ macros: freestanding, attached, SwiftSyntax, macro testing |
+| app-store-connect | App Store: xcodebuild archive/export, ASC API, fastlane, rejection reasons |
+| xcode-cloud | Xcode Cloud: ci_scripts/, hooks, env vars, test plans, TestFlight distribution |
+| spm-author | SPM package authoring: Package.swift, resources, binary targets, local dev |
+| swiftui-navigation | SwiftUI navigation: NavigationPath, deep links, sheet coordination, tab stacks |
 
 ## marketing
 
@@ -237,6 +277,7 @@ _37 skills — installed as marketing-skills@local plugin (auto-loads next sessi
 | performance-budget-enforcer | Lighthouse CI, bundle size monitoring, regression detection |
 | revalidation-strategy-planner | Next.js ISR/SSR/SSG caching strategy advisor |
 | server-actions-vs-api-optimizer | Choose between Server Actions and API routes |
+| core-web-vitals | LCP/CLS/INP optimization for Next.js: images, fonts, code splitting, Vercel |
 
 ## orchestration
 
@@ -302,6 +343,7 @@ _17 skills — Auth, CSP, RLS, RBAC, hardening, Semgrep rules, fuzzing, YARA, su
 | ffuf-web-fuzzing | Expert web fuzzing with ffuf during penetration testing |
 | yara-rule-authoring | Develop YARA malware detection rules with quality checks |
 | mutation-testing | Configure mutation testing campaigns for code robustness |
+| api-security-hardening | API security: Upstash rate limiting, JWT/API key middleware, CORS, security headers |
 
 ## ui-ux
 
@@ -315,6 +357,13 @@ _17 skills — Auth, CSP, RLS, RBAC, hardening, Semgrep rules, fuzzing, YARA, su
 | uniapp-frontend | uni-app cross-platform (WeChat, H5) with Vue 3 + TS |
 | react-best-practices | React/Next.js 40+ performance optimization rules across 8 categories |
 | d3js-visualizations | D3.js charts and interactive data visualizations |
+| typescript-expert | Advanced TypeScript: generics, conditional types, template literals, satisfies |
+| react-query-tanstack | TanStack Query v5: useQuery, useMutation, optimistic updates, Suspense |
+| trpc-expert | tRPC v11: type-safe APIs, Next.js App Router, protected procedures, middleware |
+| framer-motion | Framer Motion: AnimatePresence, layout animations, layoutId, scroll, drag |
+| a11y-wcag | WCAG 2.2 accessibility: ARIA, focus management, keyboard nav, axe-core |
+| storybook-expert | Storybook 8: stories, play functions, MSW mocking, Chromatic visual testing |
+| image-optimization | next/image, WebP/AVIF, blur placeholders, CDN loaders, lazy loading |
 
 ## writing
 
@@ -325,6 +374,7 @@ _17 skills — Auth, CSP, RLS, RBAC, hardening, Semgrep rules, fuzzing, YARA, su
 | tailored-resume-generator | Generate tailored resumes and cover letters |
 | engineering-blog-writer | Write and improve technical/engineering blog posts |
 | tufte-report-creator | Data-driven reports in Edward Tufte's visual style |
+| technical-docs | Docusaurus/VitePress docs sites: sidebars, MDX, versioning, Algolia search |
 
 ---
 

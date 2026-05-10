@@ -1,0 +1,528 @@
+---
+name: technical-docs
+description: >
+  Technical documentation with Docusaurus, VitePress, or MDX — site setup, content structure, and versioning. Triggers on: Docusaurus, VitePress, docs site, MDX, documentation, changelog, .mdx, sidebar configuration.
+---
+
+# Technical Docs
+
+## When to Use
+Use when building a documentation site, API reference, changelog, or developer portal for a product or open-source library.
+
+---
+
+## Core Rules
+- Docusaurus for large docs sites (versioning, i18n, Algolia, plugin ecosystem)
+- VitePress for smaller sites (simpler, faster, Vue-based, great for libraries)
+- MDX lets you embed React components in Markdown — use for interactive docs
+- Sidebar configuration is the primary navigation structure — design it first
+- Versioned docs require discipline: only bump version at actual releases
+- Algolia DocSearch is free for open-source projects; apply at docsearch.algolia.com
+
+---
+
+## Docusaurus vs VitePress
+
+| Feature | Docusaurus | VitePress |
+|---|---|---|
+| Framework | React | Vue 3 |
+| Build tool | Webpack (v2) / Vite (v3) | Vite |
+| Versioning | Built-in | Plugin (vitepress-versioning) |
+| i18n | Built-in | Built-in |
+| Search | Algolia / local | Algolia / local |
+| Plugins | Extensive ecosystem | Minimal, Vue-focused |
+| MDX | Yes | No (Markdown + Vue components) |
+| Best for | Large API docs, SDKs | Library docs, small-medium sites |
+| GitHub Stars | ~55k | ~12k |
+
+---
+
+## Docusaurus Setup
+
+```bash
+# Create new site
+npx create-docusaurus@latest my-docs classic --typescript
+
+# Or with npm
+npm init docusaurus@latest my-docs classic -- --typescript
+
+cd my-docs
+npm start
+```
+
+### Project Structure
+```
+my-docs/
+├── docs/                    # documentation pages
+│   ├── intro.md
+│   ├── tutorial-basics/
+│   │   ├── _category_.json  # folder config
+│   │   └── create-a-page.md
+│   └── api/
+│       └── reference.md
+├── blog/                    # optional blog/changelog
+├── src/
+│   ├── components/          # custom React components
+│   ├── css/custom.css
+│   └── pages/               # custom pages
+├── static/                  # static assets
+├── docusaurus.config.ts     # main config
+└── sidebars.ts              # sidebar configuration
+```
+
+### docusaurus.config.ts
+```typescript
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+const config: Config = {
+  title: 'My Project',
+  tagline: 'Build things fast',
+  favicon: 'img/favicon.ico',
+  url: 'https://docs.myproject.com',
+  baseUrl: '/',
+  organizationName: 'myorg',
+  projectName: 'myproject',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          editUrl: 'https://github.com/myorg/myproject/tree/main/docs/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+        },
+        blog: {
+          showReadingTime: true,
+          blogTitle: 'Changelog',
+          blogDescription: 'What\'s new in MyProject',
+          postsPerPage: 10,
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    navbar: {
+      title: 'MyProject',
+      logo: { alt: 'MyProject Logo', src: 'img/logo.svg' },
+      items: [
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', label: 'Docs' },
+        { to: '/blog', label: 'Changelog' },
+        { type: 'docsVersionDropdown' },
+        { href: 'https://github.com/myorg/myproject', label: 'GitHub', position: 'right' },
+      ],
+    },
+    algolia: {
+      appId: 'YOUR_APP_ID',
+      apiKey: 'YOUR_SEARCH_API_KEY',
+      indexName: 'myproject',
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'typescript', 'sql'],
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;
+```
+
+---
+
+## Sidebar Configuration
+
+```typescript
+// sidebars.ts
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
+
+const sidebars: SidebarsConfig = {
+  tutorialSidebar: [
+    'intro',                                    // single doc by ID
+    {
+      type: 'category',
+      label: 'Getting Started',
+      collapsed: false,                         // open by default
+      items: [
+        'getting-started/installation',
+        'getting-started/quick-start',
+        'getting-started/configuration',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      items: [
+        'concepts/overview',
+        { type: 'doc', id: 'concepts/architecture', label: 'Architecture' },
+        {
+          type: 'link',
+          label: 'External Reference',
+          href: 'https://example.com',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'API Reference',
+      items: [{ type: 'autogenerated', dirName: 'api' }], // auto from folder
+    },
+  ],
+};
+
+export default sidebars;
+```
+
+### _category_.json (folder-level config)
+```json
+{
+  "label": "Tutorial - Basics",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn the basics of our project."
+  }
+}
+```
+
+---
+
+## MDX Components
+
+```mdx
+<!-- docs/api/client.mdx -->
+---
+sidebar_label: Client
+description: API client configuration and usage
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+# Client API
+
+The client connects to your backend. Choose your installation method:
+
+<Tabs>
+  <TabItem value="npm" label="npm" default>
+    ```bash
+    npm install @myproject/client
+    ```
+  </TabItem>
+  <TabItem value="bun" label="bun">
+    ```bash
+    bun add @myproject/client
+    ```
+  </TabItem>
+</Tabs>
+
+## Initialize
+
+```typescript
+import { createClient } from '@myproject/client';
+
+const client = createClient({
+  apiKey: process.env.API_KEY,
+  baseUrl: 'https://api.myproject.com',
+});
+```
+
+:::tip
+Store your API key in environment variables — never hardcode it.
+:::
+
+:::warning
+The client is not safe to use in browser environments with `serviceKey`.
+:::
+```
+
+### Custom MDX Component
+```tsx
+// src/components/ApiMethod.tsx
+interface ApiMethodProps {
+  method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
+  path: string;
+  description: string;
+}
+
+const colors = {
+  GET: 'bg-green-100 text-green-800',
+  POST: 'bg-blue-100 text-blue-800',
+  PUT: 'bg-yellow-100 text-yellow-800',
+  DELETE: 'bg-red-100 text-red-800',
+  PATCH: 'bg-purple-100 text-purple-800',
+};
+
+export function ApiMethod({ method, path, description }: ApiMethodProps) {
+  return (
+    <div className="border rounded-lg p-4 mb-4">
+      <div className="flex items-center gap-3 mb-2">
+        <span className={`px-2 py-1 rounded text-sm font-mono font-bold ${colors[method]}`}>
+          {method}
+        </span>
+        <code className="text-sm">{path}</code>
+      </div>
+      <p className="text-gray-600 text-sm">{description}</p>
+    </div>
+  );
+}
+
+// Usage in MDX:
+// import { ApiMethod } from '@site/src/components/ApiMethod';
+// <ApiMethod method="POST" path="/api/users" description="Create a new user" />
+```
+
+---
+
+## Versioned Docs
+
+```bash
+# Create a new version snapshot (copies docs/ to versioned_docs/version-X.Y.Z/)
+npm run docusaurus docs:version 1.0.0
+
+# After running, you'll see:
+# versioned_docs/version-1.0.0/
+# versioned_sidebars/version-1.0.0-sidebars.json
+# versions.json: ["1.0.0"]
+
+# Version 2.0.0 later
+npm run docusaurus docs:version 2.0.0
+```
+
+```typescript
+// docusaurus.config.ts — version config
+docs: {
+  lastVersion: 'current',       // which version is labeled "next"
+  versions: {
+    current: {
+      label: '2.0.0 (next)',
+      path: 'next',
+    },
+    '1.0.0': {
+      label: '1.0.0',
+      path: '1.0.0',
+      banner: 'unmaintained',   // shows "unmaintained" warning
+    },
+  },
+},
+```
+
+---
+
+## VitePress Setup
+
+```bash
+# Create new VitePress site
+npm init vitepress
+
+cd docs
+npm install
+
+# Dev server
+npm run docs:dev
+
+# Build
+npm run docs:build
+```
+
+### .vitepress/config.ts
+```typescript
+import { defineConfig } from 'vitepress';
+
+export default defineConfig({
+  title: 'MyProject',
+  description: 'Documentation for MyProject',
+  base: '/',                      // or '/repo-name/' for GitHub Pages subdirectory
+
+  themeConfig: {
+    nav: [
+      { text: 'Guide', link: '/guide/getting-started' },
+      { text: 'API', link: '/api/overview' },
+      { text: 'GitHub', link: 'https://github.com/myorg/myproject' },
+    ],
+
+    sidebar: {
+      '/guide/': [
+        {
+          text: 'Introduction',
+          items: [
+            { text: 'Getting Started', link: '/guide/getting-started' },
+            { text: 'Configuration', link: '/guide/configuration' },
+          ],
+        },
+      ],
+      '/api/': [
+        {
+          text: 'API Reference',
+          items: [
+            { text: 'Overview', link: '/api/overview' },
+            { text: 'Client', link: '/api/client' },
+          ],
+        },
+      ],
+    },
+
+    search: {
+      provider: 'local',          // built-in search (no Algolia needed for small sites)
+      // provider: 'algolia',
+      // options: { appId: '...', apiKey: '...', indexName: '...' },
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/myorg/myproject' },
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Example User',
+    },
+  },
+});
+```
+
+---
+
+## Deploying to GitHub Pages
+
+```yaml
+# .github/workflows/docs.yml
+name: Deploy Docs
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**']
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+
+      - run: npm ci
+        working-directory: docs
+
+      - run: npm run build    # or: npm run docs:build for VitePress
+        working-directory: docs
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/build  # or docs/.vitepress/dist for VitePress
+      - uses: actions/deploy-pages@v4
+```
+
+---
+
+## Changelog Automation
+
+```bash
+# Install conventional commits tooling
+npm install -D @commitlint/cli @commitlint/config-conventional standard-version
+
+# Or modern alternative
+npm install -D release-it @release-it/conventional-changelog
+```
+
+```json
+// .commitlintrc.json
+{
+  "extends": ["@commitlint/config-conventional"],
+  "rules": {
+    "type-enum": [2, "always", ["feat", "fix", "docs", "style", "refactor", "test", "chore", "perf"]]
+  }
+}
+```
+
+```json
+// package.json scripts
+{
+  "scripts": {
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
+  }
+}
+```
+
+```markdown
+<!-- CHANGELOG.md auto-generated by standard-version -->
+
+## [2.1.0](https://github.com/myorg/myproject/compare/v2.0.0...v2.1.0) (2024-01-15)
+
+### Features
+
+* add OAuth2 support ([#42](https://github.com/myorg/myproject/issues/42)) ([abc1234](https://github.com/myorg/myproject/commit/abc1234))
+* add rate limiting middleware ([def5678](https://github.com/myorg/myproject/commit/def5678))
+
+### Bug Fixes
+
+* fix token refresh on 401 ([#40](https://github.com/myorg/myproject/issues/40)) ([ghi9012](https://github.com/myorg/myproject/commit/ghi9012))
+```
+
+---
+
+## Algolia DocSearch
+
+```bash
+# 1. Apply at docsearch.algolia.com (free for open-source)
+# 2. Wait for approval email with credentials
+# 3. Add to config:
+```
+
+```typescript
+// Docusaurus
+themeConfig: {
+  algolia: {
+    appId: 'R2IYF7ETH7',    // from Algolia dashboard
+    apiKey: 'PUBLIC_SEARCH_KEY',
+    indexName: 'myproject',
+    contextualSearch: true,  // filters by version
+    searchParameters: {},
+    searchPagePath: 'search',
+  },
+},
+```
+
+---
+
+## Quick Reference
+
+| Task | Docusaurus | VitePress |
+|---|---|---|
+| Init | `npx create-docusaurus@latest` | `npm init vitepress` |
+| Dev server | `npm start` | `npm run docs:dev` |
+| Build | `npm run build` | `npm run docs:build` |
+| Sidebar | `sidebars.ts` | `themeConfig.sidebar` |
+| Versioning | `npm run docusaurus docs:version X` | Plugin required |
+| Custom components | React (MDX) | Vue SFC |
+| Search | Algolia or local | Local (built-in) or Algolia |
+| Deploy output | `build/` | `.vitepress/dist/` |
+| Admonitions | `:::tip` / `:::warning` / `:::danger` | Same syntax |
+| Tabs | `<Tabs>` / `<TabItem>` component | `<script setup>` + Vue |
