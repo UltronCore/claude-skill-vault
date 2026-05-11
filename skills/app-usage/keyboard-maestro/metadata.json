@@ -1,0 +1,17 @@
+{
+  "name": "Keyboard Maestro",
+  "slug": "keyboard-maestro",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "app-usage",
+  "tags": [
+    "keyboard-maestro",
+    "macos",
+    "macro",
+    "automation"
+  ],
+  "public_safe": true
+}

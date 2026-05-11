@@ -1,0 +1,17 @@
+{
+  "name": "Resend Email",
+  "slug": "resend-email",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "business",
+  "tags": [
+    "resend",
+    "react-email",
+    "transactional",
+    "smtp"
+  ],
+  "public_safe": true
+}

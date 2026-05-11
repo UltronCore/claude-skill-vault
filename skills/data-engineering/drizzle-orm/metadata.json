@@ -1,0 +1,17 @@
+{
+  "name": "Drizzle ORM",
+  "slug": "drizzle-orm",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "data-engineering",
+  "tags": [
+    "drizzle",
+    "orm",
+    "postgresql",
+    "supabase"
+  ],
+  "public_safe": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Multimodal AI",
+  "slug": "multimodal-ai",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "ai-ml",
+  "tags": [
+    "vision",
+    "multimodal",
+    "claude",
+    "pdf"
+  ],
+  "public_safe": true
+}

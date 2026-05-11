@@ -1,36 +1,19 @@
-# Engineering Practices Skills — Index
+# Engineering Practices Skills
 
-**Category:** engineering-practices
-**Created:** 2026-05-08
-**Skills:** 12
+_Last updated: 2026-05-10_
 
-## Skills
-
-| Slug | Name | Tags | Status |
-|------|------|------|--------|
-| api-design-reviewer | API Design Reviewer | api, rest, openapi, design-review | active |
-| openapi-spec-generation | OpenAPI Spec Generation | openapi, api-spec, sdk, swagger | active |
-| performance-profiler | Performance Profiler | profiling, performance, flamegraph, node, python | active |
-| dependency-auditor | Dependency Auditor | dependencies, cve, security, license-compliance | active |
-| codebase-onboarding | Codebase Onboarding | onboarding, documentation, architecture | active |
-| tech-debt-tracker | Tech Debt Tracker | tech-debt, code-quality, refactoring | active |
-| migration-architect | Migration Architect | migration, database, platform | active |
-| monorepo-architect | Monorepo Architect | monorepo, turborepo, nx, bazel | active |
-| release-manager | Release Manager | release, versioning, changelog, deployment | active |
-| ci-cd-pipeline-builder | CI/CD Pipeline Builder | ci-cd, github-actions, gitlab-ci, devops | active |
-| spec-driven-workflow | Spec-Driven Workflow | spec-driven, tdd, acceptance-criteria, bdd | active |
-| fastapi-expert | FastAPI Expert | fastapi, python, async, api, pydantic | active |
-
-## When to Use This Category
-- Reviewing API design quality or detecting breaking changes
-- Generating OpenAPI specs or client SDKs
-- Profiling slow Node/Python/Go code
-- Auditing dependencies for CVEs or license issues
-- Onboarding engineers to unfamiliar codebases
-- Tracking and remediating technical debt
-- Planning database or platform migrations
-- Structuring monorepo workspaces
-- Managing releases and changelogs
-- Building or improving CI/CD pipelines
-- Adopting spec-first/BDD development
-- Building async Python APIs with FastAPI
+| Skill | Description | Version | Status |
+|-------|-------------|---------|--------|
+| [API Design Reviewer](api-design-reviewer/) | No description available. | v1 | ✅ active |
+| [Bun Runtime](bun-runtime/) | No description available. | v1 | ✅ active |
+| [CI/CD Pipeline Builder](ci-cd-pipeline-builder/) | No description available. | v1 | ✅ active |
+| [Codebase Onboarding](codebase-onboarding/) | No description available. | v1 | ✅ active |
+| [Dependency Auditor](dependency-auditor/) | No description available. | v1 | ✅ active |
+| [FastAPI Expert](fastapi-expert/) | No description available. | v1 | ✅ active |
+| [Migration Architect](migration-architect/) | No description available. | v1 | ✅ active |
+| [Monorepo Architect](monorepo-architect/) | No description available. | v1 | ✅ active |
+| [OpenAPI Spec Generation](openapi-spec-generation/) | No description available. | v1 | ✅ active |
+| [Performance Profiler](performance-profiler/) | No description available. | v1 | ✅ active |
+| [Release Manager](release-manager/) | No description available. | v1 | ✅ active |
+| [Spec-Driven Workflow](spec-driven-workflow/) | No description available. | v1 | ✅ active |
+| [Tech Debt Tracker](tech-debt-tracker/) | No description available. | v1 | ✅ active |

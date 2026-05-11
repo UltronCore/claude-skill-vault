@@ -1,0 +1,17 @@
+{
+  "name": "Prompt Versioning",
+  "slug": "prompt-versioning",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "ai-ml",
+  "tags": [
+    "prompts",
+    "versioning",
+    "ab-testing",
+    "langfuse"
+  ],
+  "public_safe": true
+}

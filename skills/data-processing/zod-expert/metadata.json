@@ -1,0 +1,17 @@
+{
+  "name": "Zod Expert",
+  "slug": "zod-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "data-processing",
+  "tags": [
+    "zod",
+    "validation",
+    "typescript",
+    "schema"
+  ],
+  "public_safe": true
+}

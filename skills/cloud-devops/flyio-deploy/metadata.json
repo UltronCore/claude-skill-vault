@@ -1,0 +1,17 @@
+{
+  "name": "Fly.io Deploy",
+  "slug": "flyio-deploy",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "cloud-devops",
+  "tags": [
+    "flyio",
+    "deploy",
+    "postgres",
+    "scaling"
+  ],
+  "public_safe": true
+}

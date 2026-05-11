@@ -1,0 +1,17 @@
+{
+  "name": "TypeScript Expert",
+  "slug": "typescript-expert",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "ui-ux",
+  "tags": [
+    "typescript",
+    "generics",
+    "utility-types",
+    "types"
+  ],
+  "public_safe": true
+}

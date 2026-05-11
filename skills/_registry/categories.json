@@ -1,10 +1,14 @@
 {
-  "updated": "2026-05-08",
+  "updated": "2026-05-10",
   "categories": {
     "ai-ml": [
+      "ai-cost-optimizer",
       "chroma",
+      "claude-tool-use",
+      "computer-vision",
       "crewai",
       "dspy",
+      "embeddings-expert",
       "faiss",
       "hf-cli",
       "huggingface-datasets",
@@ -16,21 +20,31 @@
       "langgraph",
       "llm-evaluation",
       "llm-prompt-optimizer",
+      "llm-streaming",
+      "multimodal-ai",
+      "ollama-integration",
+      "openrouter-litellm",
       "peft-fine-tuning",
       "pinecone",
+      "prompt-versioning",
       "qdrant",
       "train-sentence-transformers",
       "transformers-js",
-      "unsloth"
+      "unsloth",
+      "vector-rag-advanced"
     ],
     "app-usage": [
       "agents-md-creator",
       "apple-docs",
+      "applescript-jxa",
       "claude-api-integration",
       "claude-md-improver",
       "claude-settings-audit",
       "ios-simulator",
+      "keyboard-maestro",
       "notebooklm",
+      "obsidian-automation",
+      "raycast-extensions",
       "shortcuts-skill",
       "skillguard",
       "swift-concurrency-expert"
@@ -39,9 +53,11 @@
       "agent-native-automation-research-install",
       "auto-push",
       "cloudflare-pages-autopush",
+      "cursor-expert",
       "docs-and-changelogs",
       "eslint-prettier-husky-config",
       "feature-flag-manager",
+      "ffmpeg-media",
       "file-organizer",
       "git-guardrails-claude-code",
       "github-actions-ci-workflow",
@@ -50,28 +66,39 @@
       "nextjs-fullstack-scaffold",
       "playwright",
       "playwright-flow-recorder",
+      "prisma-patterns",
       "remotion-video-builder",
       "self-healing-execution",
       "tdd",
       "testing-next-stack",
       "vercel-deploy",
-      "webapp-testing"
+      "webapp-testing",
+      "zapier-make"
     ],
     "business": [
       "domain-name-brainstormer",
+      "ecommerce-patterns",
       "invoice-organizer",
       "meeting-insights-analyzer",
-      "prd-to-issues"
+      "prd-to-issues",
+      "resend-email",
+      "shopify-integration",
+      "stripe-expert"
     ],
     "cloud-devops": [
       "aws-solution-architect",
       "azure-cloud-architect",
+      "cloudflare-expert",
       "docker-expert",
+      "flyio-deploy",
+      "github-actions-advanced",
       "k8s-manifest-generator",
       "kubernetes-architect",
       "observability-engineer",
+      "pocketbase",
       "senior-devops",
-      "terraform-code-generation"
+      "terraform-code-generation",
+      "vercel-advanced"
     ],
     "compliance": [
       "gdpr-expert",
@@ -85,26 +112,34 @@
       "async-python-patterns",
       "data-pipeline-engineer",
       "database-schema-designer",
+      "drizzle-orm",
+      "graphql-expert",
       "mlops-engineer",
       "polars",
       "sql-expert",
-      "statistical-analyst"
+      "statistical-analyst",
+      "websocket-realtime"
     ],
     "data-processing": [
       "api-contracts-and-zod-validation",
       "env-config-validator",
       "llm-eval",
-      "office-xlsx"
+      "office-xlsx",
+      "zod-expert"
     ],
     "engineering-practices": [
       "api-design-reviewer",
+      "bun-runtime",
+      "ci-cd-pipeline-builder",
       "codebase-onboarding",
       "dependency-auditor",
+      "fastapi-expert",
       "migration-architect",
       "monorepo-architect",
       "openapi-spec-generation",
       "performance-profiler",
       "release-manager",
+      "spec-driven-workflow",
       "tech-debt-tracker"
     ],
     "integrations": [
@@ -131,13 +166,21 @@
       "youtube-transcript"
     ],
     "ios-swift": [
+      "app-store-connect",
       "ios-architecture",
       "ios-concurrency",
       "ios-networking",
       "ios-performance",
       "ios-swiftui-expert",
       "ios-testing",
-      "react-native-best-practices"
+      "react-native-best-practices",
+      "spm-author",
+      "storekit-iap",
+      "swift-macros",
+      "swiftdata-expert",
+      "swiftui-navigation",
+      "widgetkit",
+      "xcode-cloud"
     ],
     "marketing": [
       "ab-test-setup",
@@ -178,6 +221,7 @@
       "skill-portfolio-architect"
     ],
     "optimization": [
+      "core-web-vitals",
       "instruments-profiling",
       "llm-routing-and-fallback",
       "performance-budget-enforcer",
@@ -214,29 +258,45 @@
       "vault-push-guardian"
     ],
     "security": [
+      "api-security-hardening",
       "auth-route-protection-checker",
       "c-security-review",
       "csp-config-generator",
+      "differential-security-review",
+      "ffuf-web-fuzzing",
+      "find-bugs",
+      "gha-security-review",
+      "insecure-defaults-finder",
+      "mutation-testing",
       "output-guardrails",
       "role-permission-table-builder",
       "security-hardening-checklist",
       "security-scanner",
       "semgrep-rule-creator",
       "static-code-analysis",
-      "supabase-rls-policy-generator"
+      "supabase-rls-policy-generator",
+      "supply-chain-risk-auditor",
+      "yara-rule-authoring"
     ],
     "ui-ux": [
+      "a11y-wcag",
       "ada-wcag-compliance",
       "d3js-visualizations",
       "excalidraw-diagram",
       "form-generator-rhf-zod",
+      "framer-motion",
+      "image-optimization",
       "markdown-editor-integrator",
       "react-best-practices",
+      "react-query-tanstack",
+      "storybook-expert",
       "swiftui-empty-app-init",
       "swiftui-liquid-glass",
       "swiftui-ui-patterns",
       "swiftui-view-refactor",
       "tailwind-shadcn-ui-setup",
+      "trpc-expert",
+      "typescript-expert",
       "ui-library-usage-auditor",
       "ui-visual-creation-stack",
       "uniapp-frontend"
@@ -251,6 +311,7 @@
       "office-pptx",
       "prompt-deepener",
       "tailored-resume-generator",
+      "technical-docs",
       "tufte-report-creator",
       "ubiquitous-language"
     ]

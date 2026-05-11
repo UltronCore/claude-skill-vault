@@ -1,0 +1,17 @@
+{
+  "name": "App Store Connect",
+  "slug": "app-store-connect",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "ios-swift",
+  "tags": [
+    "app-store",
+    "testflight",
+    "submission",
+    "ios"
+  ],
+  "public_safe": true
+}

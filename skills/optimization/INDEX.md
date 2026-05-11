@@ -1,9 +1,10 @@
 # Optimization Skills
 
-_Last updated: 2026-05-08_
+_Last updated: 2026-05-10_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
+| [Core Web Vitals](core-web-vitals/) | No description available. | v1 | ✅ active |
 | [instruments-profiling](instruments-profiling/) | TODO: add description | v1 | ✅ active |
 | [LLM Routing and Fallback ⭐](llm-routing-and-fallback/) | Provides patterns for routing LLM API calls through cost-efficient proxy layers with automatic model fallback, budget enforcement, and multi-provider support. | v1 | ✅ active |
 | [Performance Budget Enforcer](performance-budget-enforcer/) | Implements automated performance monitoring and budget enforcement to prevent performance regressions by tracking Lighthouse scores, JavaScript bundle sizes, and Core Web Vitals across deployments with CI/CD integration and automated alerts. | v1 | ✅ active |

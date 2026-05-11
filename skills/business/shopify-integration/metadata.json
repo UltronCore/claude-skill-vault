@@ -1,0 +1,17 @@
+{
+  "name": "Shopify Integration",
+  "slug": "shopify-integration",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "business",
+  "tags": [
+    "shopify",
+    "storefront-api",
+    "headless",
+    "commerce"
+  ],
+  "public_safe": true
+}

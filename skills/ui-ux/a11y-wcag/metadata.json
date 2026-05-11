@@ -1,0 +1,17 @@
+{
+  "name": "Accessibility WCAG",
+  "slug": "a11y-wcag",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "ui-ux",
+  "tags": [
+    "accessibility",
+    "wcag",
+    "aria",
+    "a11y"
+  ],
+  "public_safe": true
+}

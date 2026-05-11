@@ -1,26 +1,17 @@
-# Data Engineering Skills — Index
+# Data Engineering Skills
 
-**Category:** data-engineering
-**Created:** 2026-05-08
-**Skills:** 8
+_Last updated: 2026-05-10_
 
-## Skills
-
-| Slug | Name | Tags | Status |
-|------|------|------|--------|
-| polars | Polars DataFrame Library | polars, dataframes, python, data | active |
-| data-pipeline-engineer | Data Pipeline Engineer | data-pipelines, spark, dbt, airflow | active |
-| airflow-dag-patterns | Airflow DAG Patterns | airflow, dag, orchestration, pipelines | active |
-| async-python-patterns | Async Python Patterns | python, async, asyncio, concurrency | active |
-| mlops-engineer | MLOps Engineer | mlops, mlflow, kubeflow, ml-pipelines | active |
-| statistical-analyst | Statistical Analyst | statistics, ab-testing, hypothesis-testing, data-science | active |
-| database-schema-designer | Database Schema Designer | database, schema, erd, sql | active |
-| sql-expert | SQL Expert | sql, database, query-optimization, orm | active |
-
-## When to Use This Category
-- Processing large datasets (1GB+)
-- Building ETL/ELT pipelines
-- Designing data warehouse schemas
-- Orchestrating batch or streaming workflows
-- Running experiments and statistical analyses
-- Productionizing ML models
+| Skill | Description | Version | Status |
+|-------|-------------|---------|--------|
+| [Airflow DAG Patterns](airflow-dag-patterns/) | No description available. | v1 | ✅ active |
+| [Async Python Patterns](async-python-patterns/) | No description available. | v1 | ✅ active |
+| [Data Pipeline Engineer](data-pipeline-engineer/) | No description available. | v1 | ✅ active |
+| [Database Schema Designer](database-schema-designer/) | No description available. | v1 | ✅ active |
+| [Drizzle ORM](drizzle-orm/) | No description available. | v1 | ✅ active |
+| [GraphQL Expert](graphql-expert/) | No description available. | v1 | ✅ active |
+| [MLOps Engineer](mlops-engineer/) | No description available. | v1 | ✅ active |
+| [Polars DataFrame Library](polars/) | No description available. | v1 | ✅ active |
+| [SQL Expert](sql-expert/) | No description available. | v1 | ✅ active |
+| [Statistical Analyst](statistical-analyst/) | No description available. | v1 | ✅ active |
+| [WebSocket Realtime](websocket-realtime/) | No description available. | v1 | ✅ active |

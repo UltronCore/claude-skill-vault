@@ -1,6 +1,24 @@
 {
-  "updated": "2026-05-08",
+  "updated": "2026-05-10",
   "skills": [
+    {
+      "name": "AI Cost Optimizer",
+      "slug": "ai-cost-optimizer",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/ai-cost-optimizer",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "cost",
+        "caching",
+        "batch",
+        "tokens"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
     {
       "name": "Chroma",
       "slug": "chroma",
@@ -15,6 +33,43 @@
         "vector-db",
         "rag",
         "embeddings"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Claude Tool Use",
+      "slug": "claude-tool-use",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/claude-tool-use",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "claude",
+        "tool-use",
+        "function-calling",
+        "agents"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Computer Vision",
+      "slug": "computer-vision",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/computer-vision",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "cv",
+        "opencv",
+        "ocr",
+        "yolo",
+        "manga"
       ],
       "public_safe": true,
       "featured": false
@@ -49,6 +104,24 @@
         "dspy",
         "prompt-engineering",
         "optimization"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Embeddings Expert",
+      "slug": "embeddings-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/embeddings-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "embeddings",
+        "semantic-search",
+        "rag",
+        "vectors"
       ],
       "public_safe": true,
       "featured": false
@@ -247,6 +320,78 @@
       "featured": false
     },
     {
+      "name": "LLM Streaming",
+      "slug": "llm-streaming",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/llm-streaming",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "streaming",
+        "sse",
+        "claude",
+        "nextjs"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Multimodal AI",
+      "slug": "multimodal-ai",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/multimodal-ai",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "vision",
+        "multimodal",
+        "claude",
+        "pdf"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Ollama Integration",
+      "slug": "ollama-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/ollama-integration",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "ollama",
+        "local-llm",
+        "inference",
+        "embedding"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "OpenRouter LiteLLM",
+      "slug": "openrouter-litellm",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/openrouter-litellm",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "openrouter",
+        "litellm",
+        "routing",
+        "fallback"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "PEFT Fine-Tuning",
       "slug": "peft-fine-tuning",
       "version": "v1",
@@ -277,6 +422,24 @@
         "pinecone",
         "vector-db",
         "rag"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Prompt Versioning",
+      "slug": "prompt-versioning",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/prompt-versioning",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "prompts",
+        "versioning",
+        "ab-testing",
+        "langfuse"
       ],
       "public_safe": true,
       "featured": false
@@ -352,6 +515,24 @@
       "featured": false
     },
     {
+      "name": "Vector RAG Advanced",
+      "slug": "vector-rag-advanced",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ai-ml/vector-rag-advanced",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ai-ml",
+      "tags": [
+        "rag",
+        "pgvector",
+        "hybrid-search",
+        "reranking"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Agents MD Creator",
       "slug": "agents-md-creator",
       "version": "v1",
@@ -379,6 +560,24 @@
       "source": "imported-existing",
       "category": "app-usage",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "AppleScript JXA",
+      "slug": "applescript-jxa",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/applescript-jxa",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "app-usage",
+      "tags": [
+        "applescript",
+        "jxa",
+        "macos",
+        "automation"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -452,6 +651,24 @@
       "featured": false
     },
     {
+      "name": "Keyboard Maestro",
+      "slug": "keyboard-maestro",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/keyboard-maestro",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "app-usage",
+      "tags": [
+        "keyboard-maestro",
+        "macos",
+        "macro",
+        "automation"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "notebooklm",
       "slug": "notebooklm",
       "version": "v1",
@@ -461,6 +678,42 @@
       "source": "imported-existing",
       "category": "app-usage",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Obsidian Automation",
+      "slug": "obsidian-automation",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/obsidian-automation",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "app-usage",
+      "tags": [
+        "obsidian",
+        "templater",
+        "dataview",
+        "automation"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Raycast Extensions",
+      "slug": "raycast-extensions",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/app-usage/raycast-extensions",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "app-usage",
+      "tags": [
+        "raycast",
+        "macos",
+        "extension",
+        "productivity"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -562,6 +815,24 @@
       "featured": false
     },
     {
+      "name": "Cursor Expert",
+      "slug": "cursor-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/cursor-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "automation",
+      "tags": [
+        "cursor",
+        "ai-ide",
+        "cursorrules",
+        "composer"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Docs and Changelogs",
       "slug": "docs-and-changelogs",
       "version": "v1",
@@ -626,6 +897,24 @@
         "server-actions",
         "react",
         "canary"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "FFmpeg Media",
+      "slug": "ffmpeg-media",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/ffmpeg-media",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "automation",
+      "tags": [
+        "ffmpeg",
+        "video",
+        "media",
+        "transcoding"
       ],
       "public_safe": true,
       "featured": false
@@ -781,6 +1070,24 @@
       "featured": false
     },
     {
+      "name": "Prisma Patterns",
+      "slug": "prisma-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/prisma-patterns",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "automation",
+      "tags": [
+        "prisma",
+        "orm",
+        "postgresql",
+        "nextjs"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Remotion Video Builder",
       "slug": "remotion-video-builder",
       "version": "v1",
@@ -881,6 +1188,24 @@
       "featured": false
     },
     {
+      "name": "Zapier Make",
+      "slug": "zapier-make",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/automation/zapier-make",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "automation",
+      "tags": [
+        "zapier",
+        "make",
+        "automation",
+        "webhook"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "domain-name-brainstormer",
       "slug": "domain-name-brainstormer",
       "version": "v1",
@@ -890,6 +1215,24 @@
       "source": "ComposioHQ/awesome-claude-skills",
       "category": "business",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Ecommerce Patterns",
+      "slug": "ecommerce-patterns",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/business/ecommerce-patterns",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "business",
+      "tags": [
+        "ecommerce",
+        "cart",
+        "checkout",
+        "nextjs"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -933,6 +1276,60 @@
       "featured": false
     },
     {
+      "name": "Resend Email",
+      "slug": "resend-email",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/business/resend-email",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "business",
+      "tags": [
+        "resend",
+        "react-email",
+        "transactional",
+        "smtp"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Shopify Integration",
+      "slug": "shopify-integration",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/business/shopify-integration",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "business",
+      "tags": [
+        "shopify",
+        "storefront-api",
+        "headless",
+        "commerce"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Stripe Expert",
+      "slug": "stripe-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/business/stripe-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "business",
+      "tags": [
+        "stripe",
+        "payments",
+        "subscriptions",
+        "webhooks"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "AWS Solution Architect",
       "slug": "aws-solution-architect",
       "version": "v1",
@@ -967,6 +1364,25 @@
       "featured": false
     },
     {
+      "name": "Cloudflare Expert",
+      "slug": "cloudflare-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/cloudflare-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "cloud-devops",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "d1",
+        "r2",
+        "kv"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Docker Expert",
       "slug": "docker-expert",
       "version": "v1",
@@ -979,6 +1395,42 @@
         "docker",
         "containers",
         "devops"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Fly.io Deploy",
+      "slug": "flyio-deploy",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/flyio-deploy",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "cloud-devops",
+      "tags": [
+        "flyio",
+        "deploy",
+        "postgres",
+        "scaling"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "GitHub Actions Advanced",
+      "slug": "github-actions-advanced",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/github-actions-advanced",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "cloud-devops",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "matrix",
+        "oidc"
       ],
       "public_safe": true,
       "featured": false
@@ -1039,6 +1491,24 @@
       "featured": false
     },
     {
+      "name": "PocketBase",
+      "slug": "pocketbase",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/pocketbase",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "cloud-devops",
+      "tags": [
+        "pocketbase",
+        "backend",
+        "realtime",
+        "auth"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Senior DevOps Engineer",
       "slug": "senior-devops",
       "version": "v1",
@@ -1070,6 +1540,25 @@
         "infrastructure-as-code",
         "hcl",
         "hashicorp"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Vercel Advanced",
+      "slug": "vercel-advanced",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/cloud-devops/vercel-advanced",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "cloud-devops",
+      "tags": [
+        "vercel",
+        "isr",
+        "ppr",
+        "edge",
+        "nextjs"
       ],
       "public_safe": true,
       "featured": false
@@ -1237,6 +1726,42 @@
       "featured": false
     },
     {
+      "name": "Drizzle ORM",
+      "slug": "drizzle-orm",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/drizzle-orm",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "data-engineering",
+      "tags": [
+        "drizzle",
+        "orm",
+        "postgresql",
+        "supabase"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "GraphQL Expert",
+      "slug": "graphql-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/graphql-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "data-engineering",
+      "tags": [
+        "graphql",
+        "apollo",
+        "codegen",
+        "dataloader"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "MLOps Engineer",
       "slug": "mlops-engineer",
       "version": "v1",
@@ -1304,6 +1829,24 @@
         "ab-testing",
         "hypothesis-testing",
         "data-science"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "WebSocket Realtime",
+      "slug": "websocket-realtime",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-engineering/websocket-realtime",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "data-engineering",
+      "tags": [
+        "websocket",
+        "sse",
+        "realtime",
+        "supabase"
       ],
       "public_safe": true,
       "featured": false
@@ -1381,6 +1924,24 @@
       "featured": false
     },
     {
+      "name": "Zod Expert",
+      "slug": "zod-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/data-processing/zod-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "data-processing",
+      "tags": [
+        "zod",
+        "validation",
+        "typescript",
+        "schema"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "API Design Reviewer",
       "slug": "api-design-reviewer",
       "version": "v1",
@@ -1394,6 +1955,42 @@
         "rest",
         "openapi",
         "design-review"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Bun Runtime",
+      "slug": "bun-runtime",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/bun-runtime",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "engineering-practices",
+      "tags": [
+        "bun",
+        "javascript",
+        "runtime",
+        "bundler"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "CI/CD Pipeline Builder",
+      "slug": "ci-cd-pipeline-builder",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/ci-cd-pipeline-builder",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "ci-cd",
+        "github-actions",
+        "gitlab-ci",
+        "devops"
       ],
       "public_safe": true,
       "featured": false
@@ -1429,6 +2026,25 @@
         "cve",
         "security",
         "license-compliance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "FastAPI Expert",
+      "slug": "fastapi-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/fastapi-expert",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "fastapi",
+        "python",
+        "async",
+        "api",
+        "pydantic"
       ],
       "public_safe": true,
       "featured": false
@@ -1519,6 +2135,24 @@
         "versioning",
         "changelog",
         "deployment"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Spec-Driven Workflow",
+      "slug": "spec-driven-workflow",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/engineering-practices/spec-driven-workflow",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "engineering-practices",
+      "tags": [
+        "spec-driven",
+        "tdd",
+        "acceptance-criteria",
+        "bdd"
       ],
       "public_safe": true,
       "featured": false
@@ -1883,6 +2517,24 @@
       "featured": false
     },
     {
+      "name": "App Store Connect",
+      "slug": "app-store-connect",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/app-store-connect",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "app-store",
+        "testflight",
+        "submission",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "iOS Architecture",
       "slug": "ios-architecture",
       "version": "v1",
@@ -2005,6 +2657,132 @@
         "mobile",
         "new-architecture",
         "performance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SPM Author",
+      "slug": "spm-author",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/spm-author",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "spm",
+        "swift-package-manager",
+        "package",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "StoreKit IAP",
+      "slug": "storekit-iap",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/storekit-iap",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "storekit",
+        "iap",
+        "subscription",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Swift Macros",
+      "slug": "swift-macros",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/swift-macros",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "swift-macros",
+        "swift",
+        "metaprogramming",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SwiftData Expert",
+      "slug": "swiftdata-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/swiftdata-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "swiftdata",
+        "coredata",
+        "persistence",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "SwiftUI Navigation",
+      "slug": "swiftui-navigation",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/swiftui-navigation",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "swiftui",
+        "navigation",
+        "deep-link",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "WidgetKit",
+      "slug": "widgetkit",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/widgetkit",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "widgetkit",
+        "widget",
+        "live-activities",
+        "ios"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Xcode Cloud",
+      "slug": "xcode-cloud",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ios-swift/xcode-cloud",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ios-swift",
+      "tags": [
+        "xcode-cloud",
+        "ci-cd",
+        "ios",
+        "automation"
       ],
       "public_safe": true,
       "featured": false
@@ -2448,6 +3226,25 @@
       "source": "imported-existing",
       "category": "misc",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Core Web Vitals",
+      "slug": "core-web-vitals",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/optimization/core-web-vitals",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "optimization",
+      "tags": [
+        "lcp",
+        "cls",
+        "inp",
+        "nextjs",
+        "lighthouse"
+      ],
       "public_safe": true,
       "featured": false
     },
@@ -2918,6 +3715,24 @@
       "featured": true
     },
     {
+      "name": "API Security Hardening",
+      "slug": "api-security-hardening",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/api-security-hardening",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "security",
+      "tags": [
+        "rate-limiting",
+        "auth",
+        "cors",
+        "security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Auth Route Protection Checker",
       "slug": "auth-route-protection-checker",
       "version": "v1",
@@ -2975,6 +3790,108 @@
         "middleware",
         "nonce",
         "content-security-policy"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Differential Security Review",
+      "slug": "differential-security-review",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/differential-security-review",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "code-diff",
+        "security-review",
+        "pull-request"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "ffuf Web Fuzzing",
+      "slug": "ffuf-web-fuzzing",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/ffuf-web-fuzzing",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "fuzzing",
+        "penetration-testing",
+        "web-security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Find Bugs",
+      "slug": "find-bugs",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/find-bugs",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "bug-finding",
+        "security",
+        "code-review"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "GitHub Actions Security Review",
+      "slug": "gha-security-review",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/gha-security-review",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "github-actions",
+        "ci-security",
+        "workflow-security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Insecure Defaults Finder",
+      "slug": "insecure-defaults-finder",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/insecure-defaults-finder",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "secrets",
+        "misconfiguration",
+        "security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Mutation Testing",
+      "slug": "mutation-testing",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/mutation-testing",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "mutation-testing",
+        "test-quality",
+        "code-coverage"
       ],
       "public_safe": true,
       "featured": false
@@ -3117,6 +4034,58 @@
       "featured": true
     },
     {
+      "name": "Supply Chain Risk Auditor",
+      "slug": "supply-chain-risk-auditor",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/supply-chain-risk-auditor",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "supply-chain",
+        "dependencies",
+        "security"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "YARA Rule Authoring",
+      "slug": "yara-rule-authoring",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/security/yara-rule-authoring",
+      "updated": "2026-05-08",
+      "source": "github-import",
+      "category": "security",
+      "tags": [
+        "yara",
+        "malware-detection",
+        "threat-hunting"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Accessibility WCAG",
+      "slug": "a11y-wcag",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/a11y-wcag",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "aria",
+        "a11y"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "ada-wcag-compliance",
       "slug": "ada-wcag-compliance",
       "version": "v1",
@@ -3189,6 +4158,43 @@
       "featured": false
     },
     {
+      "name": "Framer Motion",
+      "slug": "framer-motion",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/framer-motion",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "framer-motion",
+        "animation",
+        "react",
+        "motion"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Image Optimization",
+      "slug": "image-optimization",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/image-optimization",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "images",
+        "webp",
+        "nextjs",
+        "cdn",
+        "performance"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
       "name": "Markdown Editor Integrator",
       "slug": "markdown-editor-integrator",
       "version": "v1",
@@ -3223,6 +4229,41 @@
         "nextjs",
         "performance",
         "best-practices"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "React Query TanStack",
+      "slug": "react-query-tanstack",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/react-query-tanstack",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "tanstack-query",
+        "react-query",
+        "data-fetching"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Storybook Expert",
+      "slug": "storybook-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/storybook-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "storybook",
+        "component",
+        "visual-testing",
+        "chromatic"
       ],
       "public_safe": true,
       "featured": false
@@ -3296,6 +4337,42 @@
         "design-system",
         "accessibility",
         "setup"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "tRPC Expert",
+      "slug": "trpc-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/trpc-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "trpc",
+        "type-safe",
+        "api",
+        "nextjs"
+      ],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "TypeScript Expert",
+      "slug": "typescript-expert",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/ui-ux/typescript-expert",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "ui-ux",
+      "tags": [
+        "typescript",
+        "generics",
+        "utility-types",
+        "types"
       ],
       "public_safe": true,
       "featured": false
@@ -3459,6 +4536,24 @@
       "source": "ComposioHQ/awesome-claude-skills",
       "category": "writing",
       "tags": [],
+      "public_safe": true,
+      "featured": false
+    },
+    {
+      "name": "Technical Docs",
+      "slug": "technical-docs",
+      "version": "v1",
+      "status": "active",
+      "path": "skills/writing/technical-docs",
+      "updated": "2026-05-10",
+      "source": "custom-2026-05-10",
+      "category": "writing",
+      "tags": [
+        "docusaurus",
+        "vitepress",
+        "documentation",
+        "mdx"
+      ],
       "public_safe": true,
       "featured": false
     },

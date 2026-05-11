@@ -1,6 +1,6 @@
 # Data Processing Skills
 
-_Last updated: 2026-05-08_
+_Last updated: 2026-05-10_
 
 | Skill | Description | Version | Status |
 |-------|-------------|---------|--------|
@@ -8,3 +8,4 @@ _Last updated: 2026-05-08_
 | [Environment Configuration Validator](env-config-validator/) | Validates `.env` files across local, staging, and production environments for required variables, correct scoping (NEXT_PUBLIC_* vs private), naming conventions, and security issues like weak secrets or credentials exposed in public variables. Includes a Python automation script for CI/CD integration. | v1 | ✅ active |
 | [llm-eval](llm-eval/) | TODO: add description | v1 | ✅ active |
 | [office-xlsx](office-xlsx/) | TODO: add description | v1 | ✅ active |
+| [Zod Expert](zod-expert/) | No description available. | v1 | ✅ active |

@@ -1,0 +1,18 @@
+{
+  "name": "Vercel Advanced",
+  "slug": "vercel-advanced",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "cloud-devops",
+  "tags": [
+    "vercel",
+    "isr",
+    "ppr",
+    "edge",
+    "nextjs"
+  ],
+  "public_safe": true
+}

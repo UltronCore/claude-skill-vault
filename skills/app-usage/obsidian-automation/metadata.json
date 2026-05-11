@@ -1,0 +1,17 @@
+{
+  "name": "Obsidian Automation",
+  "slug": "obsidian-automation",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "app-usage",
+  "tags": [
+    "obsidian",
+    "templater",
+    "dataview",
+    "automation"
+  ],
+  "public_safe": true
+}

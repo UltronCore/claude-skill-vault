@@ -1,0 +1,17 @@
+{
+  "name": "GitHub Actions Advanced",
+  "slug": "github-actions-advanced",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "source": "custom-2026-05-10",
+  "category": "cloud-devops",
+  "tags": [
+    "github-actions",
+    "ci-cd",
+    "matrix",
+    "oidc"
+  ],
+  "public_safe": true
+}
