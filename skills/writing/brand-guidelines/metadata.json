@@ -1,0 +1,12 @@
+{
+  "name": "Brand Guidelines",
+  "slug": "brand-guidelines",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-12",
+  "updated": "2026-05-12",
+  "source": "anthropic-agent-skills-marketplace",
+  "category": "writing",
+  "tags": ["brand", "design-standards", "colors", "typography", "anthropic"],
+  "public_safe": true
+}

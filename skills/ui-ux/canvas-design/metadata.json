@@ -1,0 +1,12 @@
+{
+  "name": "Canvas Design",
+  "slug": "canvas-design",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-12",
+  "updated": "2026-05-12",
+  "source": "anthropic-agent-skills-marketplace",
+  "category": "ui-ux",
+  "tags": ["design", "visual-art", "png", "pdf", "poster"],
+  "public_safe": true
+}

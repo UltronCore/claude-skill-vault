@@ -1,0 +1,12 @@
+{
+  "name": "Web Artifacts Builder",
+  "slug": "web-artifacts-builder",
+  "version": "v1",
+  "status": "active",
+  "created": "2026-05-12",
+  "updated": "2026-05-12",
+  "source": "anthropic-agent-skills-marketplace",
+  "category": "ui-ux",
+  "tags": ["react", "tailwind", "shadcn", "html-artifacts", "frontend"],
+  "public_safe": true
+}
