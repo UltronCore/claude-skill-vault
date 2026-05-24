@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/UltronCore/claude-skill-vault?color=blue)](https://github.com/UltronCore/claude-skill-vault/releases)
-[![Skills](https://img.shields.io/badge/active%20skills-222-brightgreen)](skills/)
+[![Skills](https://img.shields.io/badge/active%20skills-379-brightgreen)](skills/)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code-orange)](https://claude.ai/code)
 [![Maintained](https://img.shields.io/badge/maintained-yes-green)](https://github.com/UltronCore/claude-skill-vault/commits/main)
 
-A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **222 active skills** across 20 categories, with full version history, lineage tracking, and auto-save tooling.
+A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **379 active skills** across 28 categories, with full version history, lineage tracking, and auto-save tooling.
 
 ---
 
@@ -36,27 +36,33 @@ This is not a plugin marketplace. It is a structured, actively maintained person
 
 | Category | Count | What's in it |
 |----------|-------|--------------|
-| [marketing](skills/marketing/) | 30 | Content strategy, SEO, ads, CRO, email, pricing, growth |
-| [integrations](skills/integrations/) | 21 | Firecrawl, Temporal, MCP, Supabase, Gmail, Linear, YouTube, deep research |
-| [automation](skills/automation/) | 20 | CI/CD, scaffolding, linting, testing, git workflows, Vercel, Remotion |
-| [ai-ml](skills/ai-ml/) | 20 | LLM frameworks, RAG tools, vector DBs, AI agents (CrewAI, DSPy, Chroma, Instructor) |
-| [security](skills/security/) | 18 | Auth, CSP, RLS, SAST, fuzzing, YARA rules, supply chain, mutation testing |
-| [ui-ux](skills/ui-ux/) | 13 | SwiftUI, Tailwind/shadcn, D3.js, React patterns, accessibility, forms |
-| [engineering-practices](skills/engineering-practices/) | 12 | Code review, architecture, testing strategies, refactoring patterns |
-| [writing](skills/writing/) | 10 | Office docs, prompt deepening, research writing, engineering blog, Tufte reports |
-| [app-usage](skills/app-usage/) | 10 | Claude Code management, NotebookLM, Apple Docs, iOS simulator, SkillGuard |
-| [orchestration](skills/orchestration/) | 9 | Agent loops, RAG pipelines, memory engines, context engineering |
+| [marketing](skills/marketing/) | 63 | Content strategy, SEO, ads, CRO, email, pricing, growth |
+| [integrations](skills/integrations/) | 38 | Firecrawl, Temporal, MCP, Supabase, Gmail, Linear, YouTube, deep research |
+| [ai-ml](skills/ai-ml/) | 46 | LLM frameworks, RAG, vector DBs, AI agents, fine-tuning, embeddings, semantic search |
+| [automation](skills/automation/) | 43 | CI/CD, scaffolding, linting, testing, git workflows, Vercel, Remotion |
+| [security](skills/security/) | 29 | Auth, CSP, RLS, SAST, fuzzing, YARA rules, supply chain, prompt injection defense |
+| [backend](skills/backend/) | 29 | Go, gRPC, GraphQL, Redis, Postgres, Kafka, auth, API design, architecture patterns |
+| [ui-ux](skills/ui-ux/) | 35 | SwiftUI, Tailwind/shadcn, D3.js, React patterns, accessibility, forms |
+| [app-usage](skills/app-usage/) | 23 | Claude Code management, NotebookLM, Apple Docs, iOS simulator, SkillGuard |
+| [devops](skills/devops/) | 12 | Kubernetes, platform engineering, chaos, blue-green, tracing, service mesh |
+| [engineering-practices](skills/engineering-practices/) | 13 | Code review, architecture, testing strategies, refactoring patterns |
+| [writing](skills/writing/) | 21 | Office docs, prompt deepening, research writing, engineering blog, Tufte reports |
+| [orchestration](skills/orchestration/) | 18 | Agent loops, RAG pipelines, memory engines, context engineering |
+| [frontend](skills/frontend/) | 11 | React Server Components, Next.js perf, micro-frontends, TypeScript patterns |
+| [productivity](skills/productivity/) | 10 | GitNexus tools, planning, multi-agent orchestration, knowledge graphs |
+| [cloud-devops](skills/cloud-devops/) | 13 | Docker, AWS, Azure, Kubernetes, infrastructure patterns |
+| [ios-swift](skills/ios-swift/) | 15 | iOS development, Swift patterns, Xcode tooling |
+| [ios-mobile](skills/ios-mobile/) | 4 | Android, Flutter, mobile CI/CD, SwiftUI data flow |
+| [data-engineering](skills/data-engineering/) | 11 | ETL pipelines, data modeling, Spark, dbt, data quality |
+| [data](skills/data/) | 5 | ClickHouse, Elasticsearch, Ray, dbt analytics, data quality |
+| [optimization](skills/optimization/) | 13 | LLM routing, performance budgets, server actions, SwiftUI perf |
 | [product-business](skills/product-business/) | 8 | Product strategy, roadmaps, user research, metrics, OKRs |
-| [data-engineering](skills/data-engineering/) | 8 | ETL pipelines, data modeling, Spark, dbt, data quality |
-| [cloud-devops](skills/cloud-devops/) | 8 | Docker, AWS, Azure, Kubernetes, infrastructure patterns |
-| [ios-swift](skills/ios-swift/) | 7 | iOS development, Swift patterns, Xcode tooling |
-| [optimization](skills/optimization/) | 6 | LLM routing, performance budgets, server actions, SwiftUI perf |
-| [review](skills/review/) | 5 | Skill review, vault-push guardian, public release review, issue triage |
+| [review](skills/review/) | 11 | Skill review, vault-push guardian, public release review, issue triage |
 | [compliance](skills/compliance/) | 5 | Regulatory compliance, privacy, audit trails, policy enforcement |
-| [misc](skills/misc/) | 4 | Code sandbox, Excalidraw diagrams, skill portfolio, Codex utilization |
-| [data-processing](skills/data-processing/) | 4 | API contracts, Zod validation, env config, LLM eval |
-| [business](skills/business/) | 4 | Domain brainstorming, invoicing, meeting insights, PRD to issues |
-| [_archive](skills/_archive/) | 53 | Preserved: superseded, consolidated, or plugin-managed |
+| [business](skills/business/) | 13 | Domain brainstorming, invoicing, meeting insights, PRD to issues |
+| [misc](skills/misc/) | 8 | Code sandbox, Excalidraw diagrams, skill portfolio, Codex utilization |
+| [data-processing](skills/data-processing/) | 9 | API contracts, Zod validation, env config, LLM eval |
+| [_archive](skills/_archive/) | 108 | Preserved: superseded, consolidated, or plugin-managed |
 
 ---
 
