@@ -6,3 +6,15 @@ __pycache__/
 .env.*
 node_modules/
 .firecrawl/
+
+# GitNexus index
+.gitnexus/
+
+# Claude Code generated
+.claude/skills/
+AGENTS.md
+
+# Build output
+dist/
+build/
+.cache/
