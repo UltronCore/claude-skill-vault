@@ -223,7 +223,12 @@ git pull origin alex-hair-design-site
 
 *Last updated: 2026-05-08*
 
+## Related Skills
+- `nextjs-fullstack-scaffold` — Next.js scaffold
+- `tailwind-shadcn-ui-setup` — UI setup
+- `vercel-deploy` — deployment
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/new-website-repo/.gitnexus
+Index path: /Users/localuser/.claude/skills/new-website-repo/.gitnexus
 Last indexed: 2026-05-23

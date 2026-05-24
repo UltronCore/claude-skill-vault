@@ -479,7 +479,12 @@ Common issues:
 - **Inconsistent Checks**: Ensure same logic in middleware, components, and actions
 - **Performance Issues**: Cache permission checks, use database indexes
 
+## Related Skills
+- `auth-route-protection-checker` — route protection
+- `supabase-rls-policy-generator` — row-level security
+- `oauth2-oidc-implementation` — authentication
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/role-permission-table-builder/.gitnexus
+Index path: /Users/localuser/.claude/skills/role-permission-table-builder/.gitnexus
 Last indexed: 2026-05-23

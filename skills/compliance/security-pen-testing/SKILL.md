@@ -305,7 +305,12 @@ Automated security checks on every PR: secret scanning (TruffleHog), dependency 
 | [dependency-auditor](../../engineering/dependency-auditor/SKILL.md) | Deep supply chain security — SBOMs, license compliance, transitive risk |
 | [code-reviewer](../code-reviewer/SKILL.md) | Code review practices — includes security review checklist |
 
+## Related Skills
+- `ffuf-web-fuzzing` — web fuzzing
+- `semgrep-rule-creator` — vulnerability detection
+- `yara-rule-authoring` — malware detection
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/compliance/security-pen-testing/.gitnexus
+Index path: /Users/localuser/.claude/skills/security-pen-testing/.gitnexus
 Last indexed: 2026-05-23

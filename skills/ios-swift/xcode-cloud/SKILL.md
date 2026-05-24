@@ -281,7 +281,12 @@ fi
 /usr/libexec/PlistBuddy -c "Add :BuildCommit string $CI_COMMIT" "$PLIST"
 ```
 
+## Related Skills
+- `ios-testing` — automated testing
+- `app-store-connect` — App Store submission
+- `mobile-ci-cd` — mobile CI/CD patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/xcode-cloud/.gitnexus
+Index path: /Users/localuser/.claude/skills/xcode-cloud/.gitnexus
 Last indexed: 2026-05-23

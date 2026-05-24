@@ -522,7 +522,12 @@ for label, prob in results:
 | Manga panel detection | OpenCV contours | Custom thresholds |
 | Batch processing | ThreadPoolExecutor | I/O bound → threads |
 
+## Related Skills
+- `diffusion-models` — image generation models
+- `multimodal-ai` — multimodal systems
+- `huggingface-llm-trainer` — model training
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/computer-vision/.gitnexus
+Index path: /Users/localuser/.claude/skills/computer-vision/.gitnexus
 Last indexed: 2026-05-23

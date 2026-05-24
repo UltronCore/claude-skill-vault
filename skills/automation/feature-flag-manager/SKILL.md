@@ -399,7 +399,12 @@ Common issues:
 - **Testing Challenges**: Use proper mocking in tests
 - **Configuration Conflicts**: Ensure environment-specific overrides work correctly
 
+## Related Skills
+- `ab-test-setup` — A/B testing with flags
+- `blue-green-deployments` — progressive rollouts
+- `release-manager` — release management
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/feature-flag-manager/.gitnexus
+Index path: /Users/localuser/.claude/skills/feature-flag-manager/.gitnexus
 Last indexed: 2026-05-23

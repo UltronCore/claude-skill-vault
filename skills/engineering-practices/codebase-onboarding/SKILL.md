@@ -83,7 +83,12 @@ Detailed template and section examples live in:
 3. Update docs in the same PR as behavior changes.
 4. Treat onboarding docs as living operational assets, not one-time deliverables.
 
+## Related Skills
+- `gitnexus-exploring` — codebase exploration
+- `technical-docs` — technical documentation
+- `agents-md-creator` — create onboarding files
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/codebase-onboarding/.gitnexus
+Index path: /Users/localuser/.claude/skills/codebase-onboarding/.gitnexus
 Last indexed: 2026-05-23

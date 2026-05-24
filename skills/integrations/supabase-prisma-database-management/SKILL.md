@@ -392,7 +392,12 @@ No executable scripts needed for this skill.
 - `prisma-client.ts` - Singleton Prisma Client for Next.js to prevent connection exhaustion
 - `github-workflows-schema-check.yml` - CI workflow for schema validation and migration checks
 
+## Related Skills
+- `prisma-patterns` — Prisma ORM
+- `supabase-auth-ssr-setup` — Supabase auth
+- `supabase-rls-policy-generator` — security policies
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/supabase-prisma-database-management/.gitnexus
+Index path: /Users/localuser/.claude/skills/supabase-prisma-database-management/.gitnexus
 Last indexed: 2026-05-23

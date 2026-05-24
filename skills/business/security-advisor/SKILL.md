@@ -224,7 +224,12 @@ For risk assessments: Risk register table with treatment recommendations
 For policy reviews: Gap analysis → priority fixes
 For vendor reviews: Scored questionnaire with pass/fail/needs-improvement
 
+## Related Skills
+- `security-hardening-checklist` — hardening checklist
+- `security-scanner` — automated scanning
+- `soc2-compliance` — compliance framework
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/security-advisor/.gitnexus
+Index path: /Users/localuser/.claude/skills/security-advisor/.gitnexus
 Last indexed: 2026-05-23

@@ -287,7 +287,12 @@ The script returns JSON with error details:
 - Add comments to cells with complex formulas or important assumptions
 - Document data sources for hardcoded values
 - Include notes for key calculations and model sections
+## Related Skills
+- `office-docx` — document output
+- `statistical-analyst` — data in spreadsheets
+- `data-pipeline-engineer` — data to Excel
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-processing/office-xlsx/.gitnexus
+Index path: /Users/localuser/.claude/skills/office-xlsx/.gitnexus
 Last indexed: 2026-05-23

@@ -223,7 +223,12 @@ No executable scripts needed for this skill.
 - `.prettierignore` - Files and directories to exclude from formatting
 - `github-workflows-lint.yml` - GitHub Actions workflow for automated lint checks
 
+## Related Skills
+- `typescript-expert` — TypeScript linting
+- `git-guardrails-claude-code` — git hooks
+- `ci-cd-pipeline-builder` — lint in CI
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/eslint-prettier-husky-config/.gitnexus
+Index path: /Users/localuser/.claude/skills/eslint-prettier-husky-config/.gitnexus
 Last indexed: 2026-05-23

@@ -534,7 +534,12 @@ function StaggeredList({ items }: { items: string[] }) {
 }
 ```
 
+## Related Skills
+- `react-best-practices` — React animation context
+- `frontend-design` — animated UI design
+- `core-web-vitals` — animation performance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/framer-motion/.gitnexus
+Index path: /Users/localuser/.claude/skills/framer-motion/.gitnexus
 Last indexed: 2026-05-23

@@ -265,7 +265,12 @@ All rights must be fulfilled within **30 days** (extendable to 90 for complex re
 | Video | § 4 | Signage and proportionality |
 | Scoring | § 31 | Explainable algorithms |
 
+## Related Skills
+- `soc2-compliance` — compliance framework
+- `iso27001-isms` — information security
+- `security-advisor` — security guidance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/compliance/gdpr-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/gdpr-expert/.gitnexus
 Last indexed: 2026-05-23

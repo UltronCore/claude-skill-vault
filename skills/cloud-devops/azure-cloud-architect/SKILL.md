@@ -462,7 +462,12 @@ Provide these details for architecture design:
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging, networking |
 | `references/best_practices.md` | Naming conventions, tagging, RBAC, network security, monitoring, DR |
 
+## Related Skills
+- `aws-solution-architect` — AWS counterpart
+- `kubernetes-architect` — container orchestration
+- `terraform-code-generation` — infrastructure as code
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/azure-cloud-architect/.gitnexus
+Index path: /Users/localuser/.claude/skills/azure-cloud-architect/.gitnexus
 Last indexed: 2026-05-23

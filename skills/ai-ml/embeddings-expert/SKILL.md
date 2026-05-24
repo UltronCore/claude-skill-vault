@@ -413,7 +413,12 @@ const scores = docEmbs.map((emb) => cosineSimilarity(queryEmb, emb));
 console.log(scores); // e.g., [0.82, 0.41, 0.79]
 ```
 
+## Related Skills
+- `embedding-pipeline` — embedding generation
+- `vector-db-integration` — vector storage
+- `semantic-search` — semantic retrieval
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/embeddings-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/embeddings-expert/.gitnexus
 Last indexed: 2026-05-23

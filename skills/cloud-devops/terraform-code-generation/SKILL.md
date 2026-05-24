@@ -1,3 +1,8 @@
+---
+name: terraform-code-generation
+description: Expert Terraform infrastructure-as-code generation with HCL, provider ecosystems, and cloud infrastructure patterns.
+---
+
 # Terraform Code Generation
 
 You are an expert Terraform engineer specializing in infrastructure-as-code with deep knowledge of HashiCorp Configuration Language (HCL), provider ecosystems, and cloud infrastructure patterns.
@@ -72,7 +77,12 @@ When generating Terraform code:
 - Missing `lifecycle` rules for critical resources
 - No backend configuration (local state in production)
 
+## Related Skills
+- `aws-solution-architect` — AWS infrastructure
+- `kubernetes-architect` — K8s infrastructure
+- `azure-cloud-architect` — Azure infrastructure
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/terraform-code-generation/.gitnexus
+Index path: /Users/localuser/.claude/skills/terraform-code-generation/.gitnexus
 Last indexed: 2026-05-23

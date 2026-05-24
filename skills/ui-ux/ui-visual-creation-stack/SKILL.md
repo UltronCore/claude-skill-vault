@@ -146,7 +146,12 @@ Before delivering any visual output:
 | Over-asking the user | Infer style direction from context, product type, and brand signals |
 | Stopping after generation | Validate, iterate, and deliver complete outputs |
 
+## Related Skills
+- `frontend-design` — design patterns
+- `tailwind-shadcn-ui-setup` — UI components
+- `canvas-design` — visual creation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/ui-visual-creation-stack/.gitnexus
+Index path: /Users/localuser/.claude/skills/ui-visual-creation-stack/.gitnexus
 Last indexed: 2026-05-23

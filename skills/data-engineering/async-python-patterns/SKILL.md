@@ -46,7 +46,12 @@ Refer to `resources/implementation-playbook.md` for detailed patterns and exampl
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `fastapi-expert` — async FastAPI
+- `langchain` — async LangChain
+- `data-pipeline-engineer` — async data pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/async-python-patterns/.gitnexus
+Index path: /Users/localuser/.claude/skills/async-python-patterns/.gitnexus
 Last indexed: 2026-05-23

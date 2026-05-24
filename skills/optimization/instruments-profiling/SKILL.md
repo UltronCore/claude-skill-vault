@@ -88,7 +88,12 @@ Use these rules:
 - Capture covers the slow operation (startup/refresh). 
 - Export stacks for automated diffing if optimizing.
 
+## Related Skills
+- `ios-performance` — iOS performance profiling
+- `performance-profiler` — general profiling
+- `swiftui-performance-audit` — SwiftUI performance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/optimization/instruments-profiling/.gitnexus
+Index path: /Users/localuser/.claude/skills/instruments-profiling/.gitnexus
 Last indexed: 2026-05-23

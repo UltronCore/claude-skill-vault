@@ -271,7 +271,12 @@ curl "$BASE/betaTesters?filter[email]=tester@example.com" \
   -H "Authorization: Bearer $TOKEN"
 ```
 
+## Related Skills
+- `ios-testing` — iOS testing before submission
+- `xcode-cloud` — automated App Store builds
+- `storekit-iap` — in-app purchase integration
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/app-store-connect/.gitnexus
+Index path: /Users/localuser/.claude/skills/app-store-connect/.gitnexus
 Last indexed: 2026-05-23

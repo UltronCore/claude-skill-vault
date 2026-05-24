@@ -385,7 +385,12 @@ import.meta.file  // full path of current file
 | Shell command | `await $\`command\`` (Bun shell) |
 | Current dir | `import.meta.dir` |
 
+## Related Skills
+- `typescript-expert` — TypeScript with Bun
+- `fastapi-expert` — alternative backend
+- `edge-computing-patterns` — edge deployment
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/bun-runtime/.gitnexus
+Index path: /Users/localuser/.claude/skills/bun-runtime/.gitnexus
 Last indexed: 2026-05-23

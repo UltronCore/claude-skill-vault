@@ -240,7 +240,12 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 - **Validate as you go**: Summarize each section and confirm before moving on
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
 
+## Related Skills
+- `copywriting` — marketing copy
+- `brand-guidelines` — brand voice
+- `launch-strategy` — product launch
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/marketing/product-marketing-context/.gitnexus
+Index path: /Users/localuser/.claude/skills/product-marketing-context/.gitnexus
 Last indexed: 2026-05-23

@@ -169,7 +169,12 @@ API
 6. **Cache invalidation strategy** — cache aggressively, invalidate precisely
 7. **Document the win** — before/after in the PR description motivates the team
 
+## Related Skills
+- `instruments-profiling` — iOS profiling
+- `ios-performance` — mobile performance
+- `core-web-vitals` — web performance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/performance-profiler/.gitnexus
+Index path: /Users/localuser/.claude/skills/performance-profiler/.gitnexus
 Last indexed: 2026-05-23

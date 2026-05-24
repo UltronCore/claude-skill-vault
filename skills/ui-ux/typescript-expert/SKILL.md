@@ -421,7 +421,12 @@ function formatError(err: unknown): string {
 }
 ```
 
+## Related Skills
+- `typescript-advanced-patterns` — advanced TypeScript
+- `zod-expert` — TypeScript validation
+- `react-best-practices` — TypeScript React
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/typescript-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/typescript-expert/.gitnexus
 Last indexed: 2026-05-23

@@ -315,7 +315,12 @@ Only include the package manager actually used by the project:
 
 If multiple lock files exist, include only the commands for each detected manager.
 
+## Related Skills
+- `claude-md-improver` — improve CLAUDE.md
+- `adaptive-codex-utilization` — Codex routing
+- `context-engineer` — context optimization
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/claude-settings-audit/.gitnexus
+Index path: /Users/localuser/.claude/skills/claude-settings-audit/.gitnexus
 Last indexed: 2026-05-23

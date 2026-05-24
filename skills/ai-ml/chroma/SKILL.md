@@ -405,7 +405,12 @@ collection = client.get_or_create_collection("my_docs")
 
 
 
+## Related Skills
+- `qdrant` — alternative vector DB
+- `pinecone` — managed vector service
+- `rag-pipeline` — RAG with vector storage
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/chroma/.gitnexus
+Index path: /Users/localuser/.claude/skills/chroma/.gitnexus
 Last indexed: 2026-05-23

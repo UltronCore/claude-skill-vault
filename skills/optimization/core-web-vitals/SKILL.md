@@ -597,7 +597,12 @@ Bundle:
 □ Remove unused dependencies
 ```
 
+## Related Skills
+- `nextjs-performance` — Next.js performance
+- `react-best-practices` — React optimization
+- `image-optimization` — image performance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/optimization/core-web-vitals/.gitnexus
+Index path: /Users/localuser/.claude/skills/core-web-vitals/.gitnexus
 Last indexed: 2026-05-23

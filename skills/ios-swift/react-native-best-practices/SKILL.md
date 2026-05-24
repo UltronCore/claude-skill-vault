@@ -23,7 +23,12 @@ Read the relevant sub-skill for the topic at hand. All sub-skills are in `refere
 | `references/audio/SKILL.md` | Audio playback (buffer sources, oscillators, streaming, queued playback), recording (file, data callback, graph processing), audio effects (gain, filters, delay, convolver, panner, waveshaper), real-time analysis and visualization, audio worklets (custom processing, synthesis), system integration (sessions, interruptions, notifications, permissions), testing with mocks -- any audio feature with react-native-audio-api |
 | `references/jsi/SKILL.md` | JSI, C++ native modules, jsi::Runtime, jsi::Value, jsi::Object, jsi::Function, jsi::HostObject, jsi::HostFunction, jsi::NativeState, jsi::PropNameID, jsi::ArrayBuffer, jsi::WeakObject, jsi::Scope, jsi::BigInt, JSIException, JSError, JSINativeException, calling JS from C++, calling C++ from JS, HostObject destructor constraints, shared_ptr<jsi::Value>, CallInvoker, invokeAsync, JSI threading safety, zero-copy ArrayBuffer, rt.global(), ISerialization, WithRuntimeDecorator, jsi.h |
 
+## Related Skills
+- `react-native-performance` — React Native performance
+- `expo-skills` — Expo framework
+- `ios-architecture` — iOS patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/react-native-best-practices/.gitnexus
+Index path: /Users/localuser/.claude/skills/react-native-best-practices/.gitnexus
 Last indexed: 2026-05-23

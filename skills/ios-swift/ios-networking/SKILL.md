@@ -208,7 +208,12 @@ XCTAssertEqual(user.name, "Test")
 - [Error Handling & Retry](references/error-retry.md) — NetworkError, exponential backoff, token management
 - [Advanced Topics](references/advanced.md) — WebSocket, caching, NWPathMonitor, multipart, GraphQL
 
+## Related Skills
+- `ios-concurrency` — async networking
+- `api-security-hardening` — network security
+- `ios-architecture` — networking layer
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-networking/.gitnexus
+Index path: /Users/localuser/.claude/skills/ios-networking/.gitnexus
 Last indexed: 2026-05-23

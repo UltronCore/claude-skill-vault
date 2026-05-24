@@ -101,7 +101,12 @@ A numbered list of RED-GREEN cycles:
 
 After creating the issue, print the issue URL and a one-line summary of the root cause.
 
+## Related Skills
+- `agile-product-owner` — issue management
+- `linear-integration` — issue tracker
+- `prd-to-issues` — PRD to issues
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/triage-issue/.gitnexus
+Index path: /Users/localuser/.claude/skills/triage-issue/.gitnexus
 Last indexed: 2026-05-23

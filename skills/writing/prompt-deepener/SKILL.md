@@ -89,7 +89,12 @@ Reuse relevant prior context automatically.
 
 Weak prompts consistently produce strong, complete, high-quality results.
 
+## Related Skills
+- `llm-prompt-optimizer` — prompt optimization
+- `dspy` — programmatic prompting
+- `context-engineer` — context design
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/prompt-deepener/.gitnexus
+Index path: /Users/localuser/.claude/skills/prompt-deepener/.gitnexus
 Last indexed: 2026-05-23

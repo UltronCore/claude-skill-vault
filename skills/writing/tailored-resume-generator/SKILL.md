@@ -344,7 +344,12 @@ Ask if user wants to:
 
 This skill processes your personal and professional information to generate tailored resumes. Always review the output before submitting to ensure accuracy and appropriateness. Remove or modify any information you prefer not to share with potential employers.
 
+## Related Skills
+- `copywriting` — resume copy
+- `brand-guidelines` — personal brand
+- `cold-email` — outreach after resume
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/tailored-resume-generator/.gitnexus
+Index path: /Users/localuser/.claude/skills/tailored-resume-generator/.gitnexus
 Last indexed: 2026-05-23

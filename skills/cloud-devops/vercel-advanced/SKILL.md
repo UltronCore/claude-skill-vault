@@ -542,7 +542,12 @@ const blob = await put("product.jpg", file, { access: "public" });
 console.log(blob.url);
 ```
 
+## Related Skills
+- `vercel-deploy` — basic deployment
+- `nextjs-fullstack-scaffold` — Next.js on Vercel
+- `edge-computing-patterns` — Vercel edge functions
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/vercel-advanced/.gitnexus
+Index path: /Users/localuser/.claude/skills/vercel-advanced/.gitnexus
 Last indexed: 2026-05-23

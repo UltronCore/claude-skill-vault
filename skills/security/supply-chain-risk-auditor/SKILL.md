@@ -1,3 +1,8 @@
+---
+name: supply-chain-risk-auditor
+description: Audit supply-chain threat landscape: typosquatting, dependency confusion, abandoned packages, CVEs, malicious packages, permission scopes.
+---
+
 # Supply Chain Risk Auditor
 
 ## Overview
@@ -88,7 +93,12 @@ Structured report with:
 - Recommended dependency pinning and lockfile strategies
 - Suggested replacements for high-risk dependencies
 
+## Related Skills
+- `dependency-auditor` — dependency scanning
+- `container-security` — container supply chain
+- `security-scanner` — automated scanning
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/supply-chain-risk-auditor/.gitnexus
+Index path: /Users/localuser/.claude/skills/supply-chain-risk-auditor/.gitnexus
 Last indexed: 2026-05-23

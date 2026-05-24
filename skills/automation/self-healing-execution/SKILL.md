@@ -111,7 +111,12 @@ Be concise and specific. One question, not a list.
 
 Work is complete, stable, and does not require user correction.
 
+## Related Skills
+- `agent-loop-patterns` — agent execution
+- `systematic-debugging` — error diagnosis
+- `output-guardrails` — output validation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/self-healing-execution/.gitnexus
+Index path: /Users/localuser/.claude/skills/self-healing-execution/.gitnexus
 Last indexed: 2026-05-23

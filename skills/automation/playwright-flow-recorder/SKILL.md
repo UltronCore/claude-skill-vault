@@ -388,7 +388,12 @@ Consult the following resources for detailed information:
 - Add comments for complex flows
 - Group related tests with describe blocks
 
+## Related Skills
+- `playwright` — Playwright testing
+- `webapp-testing` — test automation
+- `ci-cd-pipeline-builder` — CI testing
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/playwright-flow-recorder/.gitnexus
+Index path: /Users/localuser/.claude/skills/playwright-flow-recorder/.gitnexus
 Last indexed: 2026-05-23

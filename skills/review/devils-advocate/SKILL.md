@@ -211,7 +211,12 @@ Do not execute until Example User has engaged with at least the top vulnerabilit
 | Send a formal escalation | "Are you sure you want to escalate?" | "Escalating to Tyrone before Samantha has responded puts her in a corner — she'll either look like she dropped it or like she's being managed around. Has she already seen this and not acted, or is this going over her head cold?" |
 | 90-day vending contract with Amiya | "Have you had a lawyer look at this?" | "The 90-day term gives Amiya the ability to leave right after the install cost is absorbed. If she pulls the machines at day 91 after you've built out the donor room, you're back to square one with no revenue and a refurbed space. What's the exit clause look like, and is there a minimum term with a penalty?" |
 
+## Related Skills
+- `grill-me` — adversarial questioning
+- `brainstorming` — idea generation
+- `planning-with-files` — structured planning
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/devils-advocate/.gitnexus
+Index path: /Users/localuser/.claude/skills/devils-advocate/.gitnexus
 Last indexed: 2026-05-23

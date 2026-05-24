@@ -113,7 +113,12 @@ CLI utility that:
 
 See `references/discovery-frameworks.md` for framework details.
 
+## Related Skills
+- `product-strategist` — product strategy
+- `agile-product-owner` — product management
+- `brainstorming` — idea generation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/product-business/product-discovery/.gitnexus
+Index path: /Users/localuser/.claude/skills/product-discovery/.gitnexus
 Last indexed: 2026-05-23

@@ -609,7 +609,12 @@ After enhancing skills:
 5. Adjust review criteria based on findings
 6. Schedule regular skill audits
 
+## Related Skills
+- `skill-creator` — skill creation
+- `skillguard` — skill validation
+- `skill-portfolio-architect` — skill architecture
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/skill-reviewer-and-enhancer/.gitnexus
+Index path: /Users/localuser/.claude/skills/skill-reviewer-and-enhancer/.gitnexus
 Last indexed: 2026-05-23

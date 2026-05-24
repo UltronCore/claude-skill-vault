@@ -197,7 +197,12 @@ Never optimize friction before value is clear.
 ## Output Format
 When analyzing a flow or page: **Audit → Prioritized Issues → Specific Fixes → Copy Rewrites → Test Hypotheses**
 
+## Related Skills
+- `page-cro` — page-level optimization
+- `ab-test-setup` — A/B testing
+- `analytics-tracking` — conversion tracking
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/marketing/cro-master/.gitnexus
+Index path: /Users/localuser/.claude/skills/cro-master/.gitnexus
 Last indexed: 2026-05-23

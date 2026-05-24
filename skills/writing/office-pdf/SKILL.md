@@ -293,7 +293,12 @@ with open("encrypted.pdf", "wb") as output:
 - If you need to fill out a PDF form, follow the instructions in forms.md
 - For troubleshooting guides, see reference.md
 
+## Related Skills
+- `office-docx` — Word documents
+- `office-xlsx` — Excel documents
+- `invoice-organizer` — PDF invoices
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/office-pdf/.gitnexus
+Index path: /Users/localuser/.claude/skills/office-pdf/.gitnexus
 Last indexed: 2026-05-23

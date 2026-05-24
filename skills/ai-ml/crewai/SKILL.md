@@ -497,7 +497,12 @@ os.environ["CREWAI_STORAGE_DIR"] = "./my_storage"
 - **Version**: 1.2.0+
 - **License**: MIT
 
+## Related Skills
+- `langgraph` — alternative agent framework
+- `multi-agent-orchestration` — agent orchestration patterns
+- `dispatching-parallel-agents` — parallel agents
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/crewai/.gitnexus
+Index path: /Users/localuser/.claude/skills/crewai/.gitnexus
 Last indexed: 2026-05-23

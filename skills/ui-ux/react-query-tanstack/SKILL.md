@@ -440,7 +440,12 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 )}
 ```
 
+## Related Skills
+- `react-best-practices` — React patterns
+- `react-server-components` — RSC data patterns
+- `revalidation-strategy-planner` — cache revalidation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/react-query-tanstack/.gitnexus
+Index path: /Users/localuser/.claude/skills/react-query-tanstack/.gitnexus
 Last indexed: 2026-05-23

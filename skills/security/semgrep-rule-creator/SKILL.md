@@ -1,3 +1,8 @@
+---
+name: semgrep-rule-creator
+description: Create custom Semgrep rules to detect project-specific vulnerability patterns and enforce security policies.
+---
+
 # Semgrep Rule Creator
 
 ## Overview
@@ -117,7 +122,12 @@ Deliver:
 - Test case files demonstrating true positives and true negatives
 - Brief explanation of what each rule detects and why
 
+## Related Skills
+- `static-code-analysis` — broader static analysis
+- `c-security-review` — C/C++ rules
+- `differential-security-review` — diff-based rules
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/semgrep-rule-creator/.gitnexus
+Index path: /Users/localuser/.claude/skills/semgrep-rule-creator/.gitnexus
 Last indexed: 2026-05-23

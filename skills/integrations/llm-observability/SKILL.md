@@ -107,7 +107,12 @@ def traced_call(prompt: str, run_id: str) -> str:
 ## Related skills
 sentry-and-otel-setup, claude-usage-orchestrator
 
+## Related Skills
+- `observability-engineer` — general observability
+- `opentelemetry-instrumentation` — OTel for LLMs
+- `llm-evaluation` — evaluation metrics
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/llm-observability/.gitnexus
+Index path: /Users/localuser/.claude/skills/llm-observability/.gitnexus
 Last indexed: 2026-05-23

@@ -220,7 +220,12 @@ vector_store = FaissVectorStore(faiss_index=faiss_index)
 
 
 
+## Related Skills
+- `qdrant` — alternative vector DB
+- `pinecone` — managed vector service
+- `embedding-pipeline` — embedding generation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/faiss/.gitnexus
+Index path: /Users/localuser/.claude/skills/faiss/.gitnexus
 Last indexed: 2026-05-23

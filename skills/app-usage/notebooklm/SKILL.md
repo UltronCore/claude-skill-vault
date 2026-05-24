@@ -564,7 +564,12 @@ notebooklm language --help     # Language settings
 **Check version:** `notebooklm --version`
 **Update skill:** `notebooklm skill install`
 
+## Related Skills
+- `deep-research` — research workflows
+- `content-research-writer` — research to content
+- `knowledge-graph` — knowledge management
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/notebooklm/.gitnexus
+Index path: /Users/localuser/.claude/skills/notebooklm/.gitnexus
 Last indexed: 2026-05-23

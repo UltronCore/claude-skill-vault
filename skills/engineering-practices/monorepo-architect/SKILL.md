@@ -68,7 +68,12 @@ Expert in monorepo architecture, build systems, and dependency management at sca
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `micro-frontend-architecture` — monorepo frontends
+- `ci-cd-pipeline-builder` — monorepo CI
+- `eslint-prettier-husky-config` — monorepo linting
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/monorepo-architect/.gitnexus
+Index path: /Users/localuser/.claude/skills/monorepo-architect/.gitnexus
 Last indexed: 2026-05-23

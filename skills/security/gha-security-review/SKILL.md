@@ -185,7 +185,12 @@ If any link is broken, mark MEDIUM (needs verification) or drop the finding.
 
 If no findings: "No exploitable vulnerabilities identified. All workflows reviewed and cleared."
 
+## Related Skills
+- `github-actions-advanced` — GitHub Actions patterns
+- `github-actions-ci-workflow` — CI workflow setup
+- `security-hardening-checklist` — security review
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/gha-security-review/.gitnexus
+Index path: /Users/localuser/.claude/skills/gha-security-review/.gitnexus
 Last indexed: 2026-05-23

@@ -27,7 +27,6 @@ For any task involving code understanding, debugging, impact analysis, or refact
 | Rename / extract / split / refactor          | `gitnexus-refactoring`       |
 | Tools, resources, schema reference           | `gitnexus-guide` (this file) |
 | Index, status, clean, wiki CLI commands      | `gitnexus-cli`               |
-| Review a pull request                        | `gitnexus-pr-review`         |
 
 ## Tools Reference
 
@@ -63,26 +62,3 @@ Lightweight reads (~100-500 tokens) for navigation:
 MATCH (caller)-[:CodeRelation {type: 'CALLS'}]->(f:Function {name: "myFunc"})
 RETURN caller.name, caller.filePath
 ```
-
-## Ecosystem Integration
-
-| Tool | Integration Point |
-|------|------------------|
-| obsidian-automation | Use GitNexus graph to surface vault notes related to current codebase context |
-| git-guardrails-claude-code | Safety hooks that complement gitnexus_detect_changes pre-commit advisory |
-| github-actions-advanced | Trigger `npx gitnexus analyze` in PostMerge CI step to keep graph current |
-| gitnexus-pr-review | Full PR review workflow powered by this graph — see that skill |
-
-## Related Skills
-- `gitnexus-cli` — full CLI command reference
-- `gitnexus-pr-review` — PR review workflow (uses impact, context, detect_changes)
-- `gitnexus-exploring` — deep graph traversal
-- `gitnexus-impact-analysis` — blast radius analysis
-- `gitnexus-debugging` — debugging with graph context
-- `gitnexus-refactoring` — safe refactoring with graph
-- `obsidian-automation` — Obsidian vault indexed as knowledge graph (port 27123)
-
-## GitNexus Index
-This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/.claude/skills/gitnexus-guide/.gitnexus
-Last indexed: 2026-05-23

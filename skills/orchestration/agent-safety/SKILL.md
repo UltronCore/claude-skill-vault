@@ -197,7 +197,12 @@ async def safety_middleware(request: Request, call_next):
 No API key required for local inference mode.
 Cloud-mode (dashboard, reporting) requires `SUPERAGENT_API_KEY`.
 
+## Related Skills
+- `output-guardrails` — output safety controls
+- `prompt-injection-defense` — prompt injection prevention
+- `multi-agent-orchestration` — safe multi-agent systems
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/agent-safety/.gitnexus
+Index path: /Users/localuser/.claude/skills/agent-safety/.gitnexus
 Last indexed: 2026-05-23

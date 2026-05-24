@@ -478,7 +478,12 @@ const meta: Meta<typeof Button> = {
 9. Integrate into page:      copy from Storybook into real page — already battle-tested
 ```
 
+## Related Skills
+- `react-best-practices` — component patterns
+- `frontend-design` — design system docs
+- `a11y-checker-ci` — accessibility in Storybook
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/storybook-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/storybook-expert/.gitnexus
 Last indexed: 2026-05-23

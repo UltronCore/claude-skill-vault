@@ -486,7 +486,12 @@ return NextResponse.json({ error: 'Invalid or expired token' }, { status: 401 })
 | API scraping | API key auth + rate limiting |
 | Timing attacks | `timingSafeEqual` for secret comparison |
 
+## Related Skills
+- `api-rate-limiting` — rate limiting for APIs
+- `api-design-reviewer` — API design best practices
+- `oauth2-oidc-implementation` — authentication security
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/api-security-hardening/.gitnexus
+Index path: /Users/localuser/.claude/skills/api-security-hardening/.gitnexus
 Last indexed: 2026-05-23

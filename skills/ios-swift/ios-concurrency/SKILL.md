@@ -329,7 +329,12 @@ withCheckedContinuation { continuation in
 - [actors.md](references/actors.md) — actor, @MainActor, GlobalActor, nonisolated, Sendable
 - [patterns.md](references/patterns.md) — common patterns, Swift 6 migration, Combine vs async/await
 
+## Related Skills
+- `swift-concurrency-expert` — Swift concurrency
+- `ios-performance` — performance with concurrency
+- `ios-networking` — async networking
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-concurrency/.gitnexus
+Index path: /Users/localuser/.claude/skills/ios-concurrency/.gitnexus
 Last indexed: 2026-05-23

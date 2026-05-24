@@ -543,7 +543,12 @@ import { open } from "@raycast/api";
 await open("https://example.com");
 ```
 
+## Related Skills
+- `applescript-jxa` — Mac automation
+- `keyboard-maestro` — workflow automation
+- `shortcuts-skill` — Apple Shortcuts
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/raycast-extensions/.gitnexus
+Index path: /Users/localuser/.claude/skills/raycast-extensions/.gitnexus
 Last indexed: 2026-05-23

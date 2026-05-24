@@ -481,7 +481,12 @@ Common issues:
 - **Cache Not Working**: Verify fetch options and dynamic/static configuration
 - **Development vs Production**: Remember ISR only works in production builds
 
+## Related Skills
+- `react-query-tanstack` — client-side caching
+- `nextjs-performance` — Next.js caching
+- `redis-patterns` — server-side caching
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/optimization/revalidation-strategy-planner/.gitnexus
+Index path: /Users/localuser/.claude/skills/revalidation-strategy-planner/.gitnexus
 Last indexed: 2026-05-23

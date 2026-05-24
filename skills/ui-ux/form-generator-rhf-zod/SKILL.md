@@ -656,7 +656,12 @@ Use assets/ directory for starting templates:
 - assets/field-templates/ - Individual field implementations
 - assets/validation-schemas.ts - Common validation patterns
 
+## Related Skills
+- `zod-expert` — form validation schemas
+- `react-best-practices` — React form patterns
+- `form-cro` — form optimization
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/form-generator-rhf-zod/.gitnexus
+Index path: /Users/localuser/.claude/skills/form-generator-rhf-zod/.gitnexus
 Last indexed: 2026-05-23

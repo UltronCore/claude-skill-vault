@@ -210,7 +210,12 @@ Some command examples:
 - Authenticate with `HF_TOKEN` env var (recommended) or with `--token`
 - Update the CLI with `hf update` (uses the correct command for the detected install method)
 
+## Related Skills
+- `huggingface-llm-trainer` — HuggingFace training
+- `huggingface-datasets` — dataset management
+- `huggingface-gradio` — model demos
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/hf-cli/.gitnexus
+Index path: /Users/localuser/.claude/skills/hf-cli/.gitnexus
 Last indexed: 2026-05-23

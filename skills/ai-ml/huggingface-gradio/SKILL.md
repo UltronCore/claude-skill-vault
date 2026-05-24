@@ -297,7 +297,12 @@ Both commands accept `--token` for accessing private Spaces.
 
 - [End-to-End Examples](examples.md) — complete working apps
 
+## Related Skills
+- `hf-cli` — HuggingFace CLI
+- `huggingface-llm-trainer` — model demos after training
+- `multimodal-ai` — multimodal model demos
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/huggingface-gradio/.gitnexus
+Index path: /Users/localuser/.claude/skills/huggingface-gradio/.gitnexus
 Last indexed: 2026-05-23

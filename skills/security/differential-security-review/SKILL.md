@@ -1,3 +1,8 @@
+---
+name: differential-security-review
+description: Analyze code diffs and PRs specifically for security implications, identifying newly introduced vulnerabilities and security regressions.
+---
+
 # Differential Security Review
 
 ## Overview
@@ -80,7 +85,12 @@ PR review comments (inline where possible) or a structured diff security report 
 - Pass/Fail recommendation with justification
 - Questions for the author about intent
 
+## Related Skills
+- `c-security-review` — C/C++ security review
+- `semgrep-rule-creator` — custom detection rules
+- `gha-security-review` — CI/CD security
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/differential-security-review/.gitnexus
+Index path: /Users/localuser/.claude/skills/differential-security-review/.gitnexus
 Last indexed: 2026-05-23

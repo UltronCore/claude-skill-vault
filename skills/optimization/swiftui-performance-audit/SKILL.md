@@ -105,7 +105,12 @@ Use `references/report-template.md` when formatting the final audit.
 - Understanding hangs in your app: `references/understanding-hangs-in-your-app.md`
 - Demystify SwiftUI performance (WWDC23): `references/demystify-swiftui-performance-wwdc23.md`
 
+## Related Skills
+- `instruments-profiling` — profiling tools
+- `ios-performance` — iOS performance
+- `ios-swiftui-expert` — SwiftUI optimization
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/optimization/swiftui-performance-audit/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftui-performance-audit/.gitnexus
 Last indexed: 2026-05-23

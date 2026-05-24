@@ -402,7 +402,12 @@ fly apps destroy my-app
 | Scale to zero | `min_machines_running = 0` in fly.toml |
 | Run migration | `release_command` in fly.toml `[deploy]` |
 
+## Related Skills
+- `docker-expert` — containerized deployment
+- `vercel-deploy` — alternative deployment
+- `ci-cd-pipeline-builder` — deployment pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/flyio-deploy/.gitnexus
+Index path: /Users/localuser/.claude/skills/flyio-deploy/.gitnexus
 Last indexed: 2026-05-23

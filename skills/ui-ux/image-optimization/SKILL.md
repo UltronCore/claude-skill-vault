@@ -389,7 +389,12 @@ function LazySection() {
 | Intersection Observer | Custom hook for non-image lazy loading |
 | Supabase images | Storage transform API (width/height/format) |
 
+## Related Skills
+- `core-web-vitals` — performance impact
+- `nextjs-performance` — Next.js image optimization
+- `ffmpeg-media` — media processing
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/image-optimization/.gitnexus
+Index path: /Users/localuser/.claude/skills/image-optimization/.gitnexus
 Last indexed: 2026-05-23

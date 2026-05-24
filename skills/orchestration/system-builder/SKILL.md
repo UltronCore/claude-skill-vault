@@ -78,7 +78,12 @@ digraph system_builder {
 
 When a gap, inefficiency, or duplicate is detected in existing skills or systems — flag it and propose an upgrade.
 
+## Related Skills
+- `clean-architecture` — architectural patterns
+- `spec-driven-workflow` — specification-driven
+- `improve-codebase-architecture` — architecture improvement
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/system-builder/.gitnexus
+Index path: /Users/localuser/.claude/skills/system-builder/.gitnexus
 Last indexed: 2026-05-23

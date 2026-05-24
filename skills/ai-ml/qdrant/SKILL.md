@@ -492,7 +492,12 @@ client = QdrantClient(
 - **Version**: 1.12.0+
 - **License**: Apache 2.0
 
+## Related Skills
+- `pinecone` — managed alternative
+- `faiss` — local alternative
+- `rag-pipeline` — RAG with Qdrant
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/qdrant/.gitnexus
+Index path: /Users/localuser/.claude/skills/qdrant/.gitnexus
 Last indexed: 2026-05-23

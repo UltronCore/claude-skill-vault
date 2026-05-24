@@ -74,7 +74,12 @@ If you find nothing significant, say so - don't invent issues.
 
 Do not make changes - just report findings. I'll decide what to address.
 
+## Related Skills
+- `systematic-debugging` — debugging methodology
+- `gitnexus-debugging` — code graph debugging
+- `static-code-analysis` — automated bug finding
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/find-bugs/.gitnexus
+Index path: /Users/localuser/.claude/skills/find-bugs/.gitnexus
 Last indexed: 2026-05-23

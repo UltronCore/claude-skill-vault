@@ -1,3 +1,8 @@
+---
+name: yara-rule-authoring
+description: Develop YARA rules for malware detection, threat hunting, and file classification across malware families and attack tools.
+---
+
 # YARA Rule Authoring
 
 ## Overview
@@ -138,7 +143,12 @@ Deliver:
 - Notes on expected false positive rate and tuning tips
 - References to samples or threat reports used
 
+## Related Skills
+- `security-pen-testing` — penetration testing
+- `static-code-analysis` — code analysis
+- `semgrep-rule-creator` — alternative rule format
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/yara-rule-authoring/.gitnexus
+Index path: /Users/localuser/.claude/skills/yara-rule-authoring/.gitnexus
 Last indexed: 2026-05-23

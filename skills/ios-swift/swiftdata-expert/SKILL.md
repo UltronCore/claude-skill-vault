@@ -340,7 +340,12 @@ let count = try context.fetchCount(FetchDescriptor<Chapter>(
 ))
 ```
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI + SwiftData
+- `database-migration-strategies` — data migrations
+- `swiftui-data-flow` — data flow patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/swiftdata-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftdata-expert/.gitnexus
 Last indexed: 2026-05-23

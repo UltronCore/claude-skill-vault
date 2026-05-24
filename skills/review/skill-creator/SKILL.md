@@ -484,7 +484,12 @@ Please add steps to your TodoList, if you have such a thing, to make sure you do
 
 Good luck!
 
+## Related Skills
+- `skill-reviewer-and-enhancer` — skill quality review
+- `skill-portfolio-architect` — skill architecture
+- `skillguard` — skill validation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/skill-creator/.gitnexus
+Index path: /Users/localuser/.claude/skills/skill-creator/.gitnexus
 Last indexed: 2026-05-23

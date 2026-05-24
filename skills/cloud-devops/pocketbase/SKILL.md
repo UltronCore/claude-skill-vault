@@ -408,7 +408,12 @@ fly secrets set PB_ADMIN_EMAIL=admin@example.com PB_ADMIN_PASSWORD=secret
 | Subscribe | `pb.collection('x').subscribe('*', handler)` |
 | Expand relation | `{ expand: 'fieldName' }` option |
 
+## Related Skills
+- `supabase-prisma-database-management` — alternative backend
+- `fastapi-expert` — alternative API backend
+- `drizzle-orm` — ORM patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/pocketbase/.gitnexus
+Index path: /Users/localuser/.claude/skills/pocketbase/.gitnexus
 Last indexed: 2026-05-23

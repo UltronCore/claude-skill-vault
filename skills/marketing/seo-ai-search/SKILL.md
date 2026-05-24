@@ -223,7 +223,12 @@ For audits: Issue → Impact → Fix → Priority (High/Med/Low)
 For strategy: Keyword cluster → content plan → timeline
 For programmatic: Template spec → data requirements → quality checklist
 
+## Related Skills
+- `seo-audit` — SEO analysis
+- `ai-seo` — AI-specific SEO
+- `content-strategy` — content for SEO
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/marketing/seo-ai-search/.gitnexus
+Index path: /Users/localuser/.claude/skills/seo-ai-search/.gitnexus
 Last indexed: 2026-05-23

@@ -382,7 +382,12 @@ No executable scripts needed for this skill.
 - `error-page.tsx` - Custom error page for Server Component errors
 - `global-error.tsx` - Global error handler for root layout errors
 
+## Related Skills
+- `observability-engineer` — observability stack
+- `opentelemetry-instrumentation` — OTel setup
+- `llm-observability` — LLM monitoring
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/sentry-and-otel-setup/.gitnexus
+Index path: /Users/localuser/.claude/skills/sentry-and-otel-setup/.gitnexus
 Last indexed: 2026-05-23

@@ -123,7 +123,12 @@ When given a research goal, proceed autonomously:
 
 Do not ask for permission between steps. Deliver a complete research package.
 
+## Related Skills
+- `firecrawl` — web scraping
+- `deep-research` — in-depth research
+- `lead-research-assistant` — lead research
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/research/web-researcher/.gitnexus
+Index path: /Users/localuser/.claude/skills/web-researcher/.gitnexus
 Last indexed: 2026-05-23

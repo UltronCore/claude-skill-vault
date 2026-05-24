@@ -299,7 +299,12 @@ pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 - `~/.gmail_credentials/token.pickle` - Cached auth token
 - `~/.gmail_credentials/scope.txt` - Current scope setting
 
+## Related Skills
+- `zapier-make` — automation platforms
+- `applescript-jxa` — Mac Mail automation
+- `keyboard-maestro` — email workflow automation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/gmail-integration/.gitnexus
+Index path: /Users/localuser/.claude/skills/gmail-integration/.gitnexus
 Last indexed: 2026-05-23

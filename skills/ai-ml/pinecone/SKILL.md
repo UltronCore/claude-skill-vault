@@ -357,7 +357,12 @@ index.delete(delete_all=True)
 
 
 
+## Related Skills
+- `qdrant` — alternative vector DB
+- `faiss` — local vector search
+- `embedding-pipeline` — embedding generation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/pinecone/.gitnexus
+Index path: /Users/localuser/.claude/skills/pinecone/.gitnexus
 Last indexed: 2026-05-23

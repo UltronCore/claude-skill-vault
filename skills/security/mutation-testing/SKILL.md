@@ -1,3 +1,8 @@
+---
+name: mutation-testing
+description: Configure and run mutation testing to evaluate test suite quality, revealing gaps in coverage and security-critical logic verification.
+---
+
 # Mutation Testing
 
 ## Overview
@@ -145,7 +150,12 @@ Produce:
 - Specific test cases to write for critical survivors
 - CI configuration snippet for ongoing monitoring
 
+## Related Skills
+- `test-driven-development` — TDD foundation
+- `static-code-analysis` — code quality
+- `find-bugs` — bug detection
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/mutation-testing/.gitnexus
+Index path: /Users/localuser/.claude/skills/mutation-testing/.gitnexus
 Last indexed: 2026-05-23

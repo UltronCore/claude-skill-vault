@@ -94,7 +94,12 @@ Good:
 - project-wide commands when file-scoped commands are available
 - nested `AGENTS.md` files that repeat root instructions
 
+## Related Skills
+- `claude-md-improver` — improve CLAUDE.md files
+- `context-engineer` — context optimization
+- `codebase-onboarding` — codebase documentation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/agents-md-creator/.gitnexus
+Index path: /Users/localuser/.claude/skills/agents-md-creator/.gitnexus
 Last indexed: 2026-05-23

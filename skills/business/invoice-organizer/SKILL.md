@@ -445,7 +445,12 @@ For unusual receipt formats:
 - Tracking subscription costs over time
 
 
+## Related Skills
+- `file-organizer` — file organization
+- `applescript-jxa` — Mac automation
+- `office-pdf` — PDF handling
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/invoice-organizer/.gitnexus
+Index path: /Users/localuser/.claude/skills/invoice-organizer/.gitnexus
 Last indexed: 2026-05-23

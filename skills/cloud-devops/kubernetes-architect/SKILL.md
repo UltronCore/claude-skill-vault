@@ -169,7 +169,12 @@ Expert Kubernetes architect with comprehensive knowledge of container orchestrat
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `docker-expert` — container foundation
+- `k8s-manifest-generator` — manifest generation
+- `service-mesh-istio` — service mesh
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/kubernetes-architect/.gitnexus
+Index path: /Users/localuser/.claude/skills/kubernetes-architect/.gitnexus
 Last indexed: 2026-05-23

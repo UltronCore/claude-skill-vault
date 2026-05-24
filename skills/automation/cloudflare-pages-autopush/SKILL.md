@@ -107,7 +107,12 @@ At the end of any session where project files were modified:
 - Never skip pre-commit hooks (`--no-verify`)
 - Always include `Co-Authored-By` trailer in commit message
 
+## Related Skills
+- `cloudflare-expert` — Cloudflare configuration
+- `vercel-deploy` — alternative deployment
+- `ci-cd-pipeline-builder` — deployment pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/cloudflare-pages-autopush/.gitnexus
+Index path: /Users/localuser/.claude/skills/cloudflare-pages-autopush/.gitnexus
 Last indexed: 2026-05-23

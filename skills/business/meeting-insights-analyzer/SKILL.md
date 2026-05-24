@@ -326,7 +326,12 @@ today."
 - Studying negotiation tactics and outcomes
 
 
+## Related Skills
+- `internal-comms` — meeting follow-up
+- `doc-coauthoring` — meeting notes
+- `agile-product-owner` — sprint meetings
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/meeting-insights-analyzer/.gitnexus
+Index path: /Users/localuser/.claude/skills/meeting-insights-analyzer/.gitnexus
 Last indexed: 2026-05-23

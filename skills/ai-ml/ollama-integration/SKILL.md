@@ -352,7 +352,12 @@ if not is_ollama_available("llama3.2"):
 | `OLLAMA_KEEP_ALIVE` | `5m` | How long to keep model loaded |
 | `OLLAMA_DEBUG` | `0` | Enable debug logging |
 
+## Related Skills
+- `huggingface-local-models` — alternative local models
+- `openrouter-litellm` — routing to local models
+- `llm-routing-and-fallback` — local model fallback
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/ollama-integration/.gitnexus
+Index path: /Users/localuser/.claude/skills/ollama-integration/.gitnexus
 Last indexed: 2026-05-23

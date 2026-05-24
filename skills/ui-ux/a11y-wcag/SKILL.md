@@ -499,7 +499,12 @@ test('Home page is accessible', async ({ page }) => {
 <input id="email" placeholder="name@example.com" />
 ```
 
+## Related Skills
+- `a11y-checker-ci` — automated accessibility checking in CI
+- `frontend-design` — accessible design patterns
+- `react-best-practices` — accessible React components
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/a11y-wcag/.gitnexus
+Index path: /Users/localuser/.claude/skills/a11y-wcag/.gitnexus
 Last indexed: 2026-05-23

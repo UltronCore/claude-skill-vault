@@ -381,7 +381,12 @@ osascript -e 'tell application "Keyboard Maestro Engine" to setvariable "Test" t
 osascript -e 'tell application "Keyboard Maestro Engine" to getvariable "Test"'
 ```
 
+## Related Skills
+- `applescript-jxa` — AppleScript integration
+- `shortcuts-skill` — Apple Shortcuts
+- `obsidian-automation` — Obsidian automation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/keyboard-maestro/.gitnexus
+Index path: /Users/localuser/.claude/skills/keyboard-maestro/.gitnexus
 Last indexed: 2026-05-23

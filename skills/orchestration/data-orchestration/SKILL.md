@@ -301,7 +301,12 @@ DBT_PROFILES_DIR=~/.dbt/
 AIRBYTE_API_KEY=          # for Airbyte Cloud
 ```
 
+## Related Skills
+- `airflow-dag-patterns` — Airflow DAGs
+- `data-pipeline-engineer` — pipeline construction
+- `dbt-analytics` — data transformation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/data-orchestration/.gitnexus
+Index path: /Users/localuser/.claude/skills/data-orchestration/.gitnexus
 Last indexed: 2026-05-23

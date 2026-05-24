@@ -394,7 +394,12 @@ After scaffolding the testing infrastructure:
 7. Set up coverage reporting in CI
 8. Document testing guidelines for team
 
+## Related Skills
+- `webapp-testing` — web app testing
+- `playwright` — E2E testing
+- `tdd` — TDD approach
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/testing-next-stack/.gitnexus
+Index path: /Users/localuser/.claude/skills/testing-next-stack/.gitnexus
 Last indexed: 2026-05-23

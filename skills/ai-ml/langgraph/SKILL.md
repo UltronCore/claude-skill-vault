@@ -1,3 +1,8 @@
+---
+name: langgraph
+description: Build stateful multi-actor AI applications with LangGraph: cyclic graphs, agent workflows, fine-grained state/flow/memory control.
+---
+
 # LangGraph Skill
 
 ## Overview
@@ -105,7 +110,12 @@ pip install langgraph-checkpoint-postgres
 - Sub-graphs can be compiled and used as nodes in parent graphs
 - Fan-out to parallel nodes: `graph.add_edge("start", ["node_a", "node_b"])`
 
+## Related Skills
+- `langchain` — LangChain foundation
+- `multi-agent-orchestration` — multi-agent patterns
+- `crewai` — alternative agent framework
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/langgraph/.gitnexus
+Index path: /Users/localuser/.claude/skills/langgraph/.gitnexus
 Last indexed: 2026-05-23

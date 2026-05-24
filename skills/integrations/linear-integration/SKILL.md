@@ -85,7 +85,12 @@ linear labels --team GLE
 - The CLI outputs human-readable text by default; pass `--json` for machine-readable output.
 - When creating issues from conversation context, write a concise title and structured markdown description.
 
+## Related Skills
+- `github-actions-ci-workflow` — issue automation
+- `agile-product-owner` — project management
+- `triage-issue` — issue triage
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/linear-integration/.gitnexus
+Index path: /Users/localuser/.claude/skills/linear-integration/.gitnexus
 Last indexed: 2026-05-23

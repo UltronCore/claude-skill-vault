@@ -261,7 +261,12 @@ Live documentation URLs are in `shared/live-sources.md`.
 - **Don't define custom types for SDK data structures:** The SDK exports types for all API objects. Use `Anthropic.MessageParam` for messages, `Anthropic.Tool` for tool definitions, `Anthropic.ToolUseBlock` / `Anthropic.ToolResultBlockParam` for tool results, `Anthropic.Message` for responses. Defining your own `interface ChatMessage { role: string; content: unknown }` duplicates what the SDK already provides and loses type safety.
 - **Report and document output:** For tasks that produce reports, documents, or visualizations, the code execution sandbox has `python-docx`, `python-pptx`, `matplotlib`, `pillow`, and `pypdf` pre-installed. Claude can generate formatted files (DOCX, PDF, charts) and return them via the Files API — consider this for "report" or "document" type requests instead of plain stdout text.
 
+## Related Skills
+- `claude-api-integration` — integration patterns
+- `llm-caching-strategies` — prompt caching
+- `claude-tool-use` — tool use
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/claude-api-skill/.gitnexus
+Index path: /Users/localuser/.claude/skills/claude-api-skill/.gitnexus
 Last indexed: 2026-05-23

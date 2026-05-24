@@ -470,7 +470,12 @@ curl -N -X POST http://localhost:3000/api/chat \
 # -N disables curl buffering so you see chunks as they arrive
 ```
 
+## Related Skills
+- `claude-api-skill` — streaming with Claude
+- `websocket-realtime` — streaming over WebSockets
+- `streaming-llm-responses` — response streaming patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/llm-streaming/.gitnexus
+Index path: /Users/localuser/.claude/skills/llm-streaming/.gitnexus
 Last indexed: 2026-05-23

@@ -305,7 +305,12 @@ Use this table when deciding update note depth:
 
 When in doubt: if a public downloader would notice or benefit from knowing, include it. If they wouldn't care, skip it.
 
+## Related Skills
+- `release-manager` — release management
+- `changelog-generator` — release notes
+- `security-advisor` — security review
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/public-release-review/.gitnexus
+Index path: /Users/localuser/.claude/skills/public-release-review/.gitnexus
 Last indexed: 2026-05-23

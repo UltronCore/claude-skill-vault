@@ -226,7 +226,12 @@ Expert data engineer specializing in building robust, scalable data pipelines an
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `data-orchestration` — orchestration layer
+- `airflow-dag-patterns` — Airflow scheduling
+- `dbt-analytics` — transformation layer
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/data-pipeline-engineer/.gitnexus
+Index path: /Users/localuser/.claude/skills/data-pipeline-engineer/.gitnexus
 Last indexed: 2026-05-23

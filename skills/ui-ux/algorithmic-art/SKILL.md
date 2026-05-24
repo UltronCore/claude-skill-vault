@@ -403,7 +403,12 @@ This skill includes helpful templates and documentation:
 - The **algorithm is where to create** something unique
 - Don't copy the flow field example - build what the philosophy demands
 - But DO keep the exact UI structure and Anthropic branding from the template
+## Related Skills
+- `d3js-visualizations` — data-driven art with D3
+- `remotion-video-builder` — programmatic video
+- `canvas-design` — canvas-based art
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/algorithmic-art/.gitnexus
+Index path: /Users/localuser/.claude/skills/algorithmic-art/.gitnexus
 Last indexed: 2026-05-23

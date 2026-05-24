@@ -395,7 +395,12 @@ Load these references as needed when users require detailed information about sp
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `statistical-analyst` — data analysis
+- `data-pipeline-engineer` — data pipelines
+- `dbt-analytics` — data transformation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/polars/.gitnexus
+Index path: /Users/localuser/.claude/skills/polars/.gitnexus
 Last indexed: 2026-05-23

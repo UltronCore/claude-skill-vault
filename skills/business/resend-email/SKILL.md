@@ -584,7 +584,12 @@ const text = render(OrderConfirmation(props), { plainText: true });
 - [ ] Tested in Gmail, Apple Mail, Outlook
 - [ ] Mobile-responsive (single column, 600px max width)
 
+## Related Skills
+- `email-sequence` — email automation
+- `shopify-integration` — e-commerce emails
+- `zapier-make` — email automation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/resend-email/.gitnexus
+Index path: /Users/localuser/.claude/skills/resend-email/.gitnexus
 Last indexed: 2026-05-23

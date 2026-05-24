@@ -551,7 +551,12 @@ uv run playwright install chromium
 26. **Readable at export size**: Text is legible in the rendered PNG
 27. **Balanced composition**: No large empty voids or overcrowded regions
 
+## Related Skills
+- `d3js-visualizations` — programmatic diagrams
+- `gitnexus-guide` — architecture diagrams
+- `technical-docs` — diagrams in docs
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/excalidraw-diagram/.gitnexus
+Index path: /Users/localuser/.claude/skills/excalidraw-diagram/.gitnexus
 Last indexed: 2026-05-23

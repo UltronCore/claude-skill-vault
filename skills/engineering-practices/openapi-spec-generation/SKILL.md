@@ -40,7 +40,12 @@ Comprehensive patterns for creating, maintaining, and validating OpenAPI 3.1 spe
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `openapi-first-development` — design-first workflow
+- `api-design-reviewer` — API review
+- `api-contracts-and-zod-validation` — validation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/openapi-spec-generation/.gitnexus
+Index path: /Users/localuser/.claude/skills/openapi-spec-generation/.gitnexus
 Last indexed: 2026-05-23

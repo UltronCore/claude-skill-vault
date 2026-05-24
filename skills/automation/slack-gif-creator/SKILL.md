@@ -253,7 +253,12 @@ Be creative! Combine concepts (bouncing + rotating, pulsing + sliding, etc.) and
 pip install pillow imageio numpy
 ```
 
+## Related Skills
+- `social-content` — social media content
+- `algorithmic-art` — generative visuals
+- `internal-comms` — internal communications
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/slack-gif-creator/.gitnexus
+Index path: /Users/localuser/.claude/skills/slack-gif-creator/.gitnexus
 Last indexed: 2026-05-23

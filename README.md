@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/UltronCore/claude-skill-vault?color=blue)](https://github.com/UltronCore/claude-skill-vault/releases)
-[![Skills](https://img.shields.io/badge/active%20skills-379-brightgreen)](skills/)
+[![Skills](https://img.shields.io/badge/active%20skills-534-brightgreen)](skills/)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code-orange)](https://claude.ai/code)
 [![Maintained](https://img.shields.io/badge/maintained-yes-green)](https://github.com/UltronCore/claude-skill-vault/commits/main)
 
-A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **379 active skills** across 28 categories, with full version history, lineage tracking, and auto-save tooling.
+A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **534 active skills** across 28 categories, with full version history, lineage tracking, and auto-save tooling.
 
 ---
 

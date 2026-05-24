@@ -105,7 +105,12 @@ Automatically detect when:
 
 Claude consistently works with the correct context, producing structured, accurate, and efficient outputs without confusion or drift.
 
+## Related Skills
+- `claude-md-improver` — CLAUDE.md optimization
+- `adaptive-private-memory-engine` — persistent context
+- `agents-md-creator` — agent configuration
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/context-engineer/.gitnexus
+Index path: /Users/localuser/.claude/skills/context-engineer/.gitnexus
 Last indexed: 2026-05-23

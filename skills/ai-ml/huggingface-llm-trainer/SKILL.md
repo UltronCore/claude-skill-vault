@@ -737,7 +737,12 @@ Add to PEP 723 header:
 9. **Validate dataset format** before training with dataset inspector (see Dataset Validation section)
 10. **Choose appropriate hardware** for model size; use LoRA for models >7B
 
+## Related Skills
+- `peft-fine-tuning` — parameter-efficient fine-tuning
+- `hf-cli` — HuggingFace CLI
+- `mlops-engineer` — training operations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/huggingface-llm-trainer/.gitnexus
+Index path: /Users/localuser/.claude/skills/huggingface-llm-trainer/.gitnexus
 Last indexed: 2026-05-23

@@ -89,7 +89,12 @@ Button("Confirm") { }
 - Reference guide: `references/liquid-glass.md`
 - Prefer Apple docs for up-to-date API details.
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI expert
+- `swiftui-ui-patterns` — UI patterns
+- `ios-performance` — glass effect performance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/swiftui-liquid-glass/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftui-liquid-glass/.gitnexus
 Last indexed: 2026-05-23

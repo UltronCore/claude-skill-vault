@@ -94,7 +94,12 @@ Before delivering:
 - the story is clear without hype language
 - the final asset is defensible in a partner meeting
 
+## Related Skills
+- `founder-coach` — startup guidance
+- `ceo-advisor` — executive presentation
+- `product-marketing-context` — positioning
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/product-business/investor-materials/.gitnexus
+Index path: /Users/localuser/.claude/skills/investor-materials/.gitnexus
 Last indexed: 2026-05-23

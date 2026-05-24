@@ -418,7 +418,12 @@ Application Security (A.8.26): PARTIAL
 Overall Compliance: 87%
 ```
 
+## Related Skills
+- `soc2-compliance` — SOC 2 compliance
+- `gdpr-expert` — data privacy
+- `security-advisor` — security management
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/compliance/iso27001-isms/.gitnexus
+Index path: /Users/localuser/.claude/skills/iso27001-isms/.gitnexus
 Last indexed: 2026-05-23

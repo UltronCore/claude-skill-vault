@@ -221,7 +221,12 @@ Expert MLOps engineer specializing in building scalable ML infrastructure and au
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `mlflow-experiment-tracking` — experiment tracking
+- `huggingface-llm-trainer` — model training
+- `data-pipeline-engineer` — ML data pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/mlops-engineer/.gitnexus
+Index path: /Users/localuser/.claude/skills/mlops-engineer/.gitnexus
 Last indexed: 2026-05-23

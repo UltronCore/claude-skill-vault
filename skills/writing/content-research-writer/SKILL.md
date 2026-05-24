@@ -536,7 +536,13 @@ Recommended structure for writing projects:
 - Writing case studies
 - Developing course outlines
 
+
+## Related Skills
+- `deep-research` — in-depth research
+- `copywriting` — persuasive writing
+- `social-content` — social media content
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/content-research-writer/.gitnexus
+Index path: /Users/localuser/.claude/skills/content-research-writer/.gitnexus
 Last indexed: 2026-05-23

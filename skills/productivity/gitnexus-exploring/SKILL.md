@@ -76,23 +76,3 @@ gitnexus_context({name: "validateUser"})
    → Outgoing: validateCard, chargeStripe, saveTransaction
 4. Read src/payments/processor.ts for implementation details
 ```
-
-## Exploring the Obsidian Vault
-The Obsidian vault at ~/obsidian-vault/ is also indexed by GitNexus. Apply the same exploration workflow:
-```bash
-gitnexus analyze --skip-git ~/obsidian-vault/
-# Then use gitnexus MCP tools to explore vault structure, MOCs, and note clusters
-```
-See `obsidian-automation` for vault-specific workflows and Obsidian MCP (port 27123).
-
-## Related Skills
-- `gitnexus-guide` — tool and resource reference
-- `gitnexus-debugging` — debugging with graph context
-- `gitnexus-impact-analysis` — blast radius analysis
-- `gitnexus-refactoring` — refactoring after exploration
-- `obsidian-automation` — Obsidian vault exploration via MCP
-
-## GitNexus Index
-This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/.claude/skills/gitnexus-exploring/.gitnexus
-Last indexed: 2026-05-23

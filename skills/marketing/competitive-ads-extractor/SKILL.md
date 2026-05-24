@@ -292,7 +292,12 @@ Which gets more engagement? (if data available)
 - Inspiring social media content
 
 
+## Related Skills
+- `competitive-teardown` — competitor analysis
+- `competitor-alternatives` — alternatives positioning
+- `ad-creative` — ad creative development
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/marketing/competitive-ads-extractor/.gitnexus
+Index path: /Users/localuser/.claude/skills/competitive-ads-extractor/.gitnexus
 Last indexed: 2026-05-23

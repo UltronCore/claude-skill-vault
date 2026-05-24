@@ -119,22 +119,3 @@ RETURN caller.name, caller.filePath ORDER BY caller.filePath
    → Affected: LoginFlow, TokenRefresh
    → Risk: MEDIUM — run tests for these flows
 ```
-
-## Post-Refactor Documentation
-After a major refactoring, update the relevant Obsidian project note:
-- Open `~/obsidian-vault/Projects/<project-name>.md`
-- Log the architectural change, rationale, and affected modules
-- Run `gitnexus analyze .` to refresh the graph after refactoring
-
-See `obsidian-automation` for Obsidian MCP write workflows.
-
-## Related Skills
-- `gitnexus-impact-analysis` — run this FIRST before any refactoring
-- `gitnexus-exploring` — understand the codebase structure before restructuring
-- `gitnexus-pr-review` — review the refactoring PR
-- `obsidian-automation` — log architectural decisions to vault
-
-## GitNexus Index
-This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/.claude/skills/gitnexus-refactoring/.gitnexus
-Last indexed: 2026-05-23

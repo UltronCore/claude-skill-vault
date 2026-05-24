@@ -92,7 +92,12 @@ Codex fails → retry once with tighter scope → if still failing, resolve in C
 - Keep outputs concise — no unnecessary explanation in either tool
 - `~/.agents/skills/` is Codex's skill directory — this skill is installed there too
 
+## Related Skills
+- `adaptive-private-memory-engine` — persistent Claude memory
+- `context-engineer` — context optimization
+- `claude-settings-audit` — Claude configuration
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/misc/adaptive-codex-utilization/.gitnexus
+Index path: /Users/localuser/.claude/skills/adaptive-codex-utilization/.gitnexus
 Last indexed: 2026-05-23

@@ -123,7 +123,12 @@ Common patterns for applications:
 
 Consult `references/zod_patterns.md` for specific validation patterns applicable to your data models.
 
+## Related Skills
+- `zod-expert` — Zod schema validation
+- `openapi-spec-generation` — API specification
+- `api-design-reviewer` — API design review
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-processing/api-contracts-and-zod-validation/.gitnexus
+Index path: /Users/localuser/.claude/skills/api-contracts-and-zod-validation/.gitnexus
 Last indexed: 2026-05-23

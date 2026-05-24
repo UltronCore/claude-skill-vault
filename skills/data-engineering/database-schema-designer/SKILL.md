@@ -288,7 +288,12 @@ Effective database design requires balancing multiple competing concerns: perfor
 
 The included tools automate common analysis and optimization tasks, while the comprehensive guides provide the theoretical foundation for making sound architectural decisions. Whether building a new system or optimizing an existing one, these resources provide expert-level guidance for creating robust, scalable database solutions.
 
+## Related Skills
+- `prisma-patterns` — ORM schema design
+- `drizzle-orm` — alternative ORM
+- `database-migration-strategies` — schema migrations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/database-schema-designer/.gitnexus
+Index path: /Users/localuser/.claude/skills/database-schema-designer/.gitnexus
 Last indexed: 2026-05-23

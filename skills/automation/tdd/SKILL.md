@@ -106,7 +106,12 @@ After all tests pass, look for [refactor candidates](refactoring.md):
 [ ] No speculative features added
 ```
 
+## Related Skills
+- `test-driven-development` — TDD methodology
+- `mutation-testing` — test quality verification
+- `systematic-debugging` — debugging with tests
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/tdd/.gitnexus
+Index path: /Users/localuser/.claude/skills/tdd/.gitnexus
 Last indexed: 2026-05-23

@@ -475,7 +475,12 @@ To re-analyze the source repos and update this skill:
 - `references/repo-intake.md` — Per-repo analysis and source data
 - `references/changelog.md` — Version history of this skill
 
+## Related Skills
+- `multi-agent-orchestration` — agent orchestration
+- `subagent-driven-development` — subagent patterns
+- `dispatching-parallel-agents` — parallel execution
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/ultra-lovable-orchestrator/.gitnexus
+Index path: /Users/localuser/.claude/skills/ultra-lovable-orchestrator/.gitnexus
 Last indexed: 2026-05-23

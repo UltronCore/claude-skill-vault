@@ -106,7 +106,12 @@ hf repos create <namespace>/<repo> --type dataset --private --exist-ok
 hf upload <namespace>/<repo> ~/.codex/sessions codex/<project-or-cwd> --type dataset
 ```
 
+## Related Skills
+- `hf-cli` — HuggingFace CLI
+- `huggingface-llm-trainer` — training with datasets
+- `data-quality-validation` — dataset quality
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/huggingface-datasets/.gitnexus
+Index path: /Users/localuser/.claude/skills/huggingface-datasets/.gitnexus
 Last indexed: 2026-05-23

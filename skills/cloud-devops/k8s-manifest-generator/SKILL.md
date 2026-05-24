@@ -42,7 +42,12 @@ Use this skill when you need to:
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `kubernetes-architect` — K8s architecture
+- `terraform-code-generation` — infrastructure as code
+- `ci-cd-pipeline-builder` — deployment pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/k8s-manifest-generator/.gitnexus
+Index path: /Users/localuser/.claude/skills/k8s-manifest-generator/.gitnexus
 Last indexed: 2026-05-23

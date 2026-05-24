@@ -211,7 +211,12 @@ After picking a domain:
 - Plan brand identity colors/fonts
 
 
+## Related Skills
+- `launch-strategy` — product launch
+- `brand-guidelines` — brand naming
+- `seo-audit` — domain SEO considerations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/domain-name-brainstormer/.gitnexus
+Index path: /Users/localuser/.claude/skills/domain-name-brainstormer/.gitnexus
 Last indexed: 2026-05-23

@@ -177,7 +177,12 @@ If dangerous permission modes are active: Explicitly warn that installing malici
 - `references/report-template.md` — Complete 12-section report template (copy and fill)
 - `references/reviewer-guide.md` — Per-reviewer instructions and inventory guidance
 
+## Related Skills
+- `skill-creator` — skill creation
+- `skill-reviewer-and-enhancer` — skill review
+- `skill-template` — skill template
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/skillguard/.gitnexus
+Index path: /Users/localuser/.claude/skills/skillguard/.gitnexus
 Last indexed: 2026-05-23

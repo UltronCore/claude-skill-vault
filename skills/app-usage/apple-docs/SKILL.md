@@ -131,7 +131,12 @@ The underlying MCP server includes:
 - Apple Developer Documentation: https://developer.apple.com/documentation/
 - Apple Developer: https://developer.apple.com/
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI implementation
+- `swift-concurrency-expert` — Swift async patterns
+- `ios-architecture` — iOS app architecture
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/apple-docs/.gitnexus
+Index path: /Users/localuser/.claude/skills/apple-docs/.gitnexus
 Last indexed: 2026-05-23

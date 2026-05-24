@@ -314,7 +314,12 @@ For deep dives, see:
 - `references/instruments.md` — Time Profiler, Allocations, Leaks, Energy, Core Animation, SwiftUI instrument
 - `references/optimization.md` — App launch, network, battery, build performance, anti-patterns
 
+## Related Skills
+- `instruments-profiling` — Instruments profiling
+- `swiftui-performance-audit` — SwiftUI performance
+- `ios-testing` — performance tests
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-performance/.gitnexus
+Index path: /Users/localuser/.claude/skills/ios-performance/.gitnexus
 Last indexed: 2026-05-23

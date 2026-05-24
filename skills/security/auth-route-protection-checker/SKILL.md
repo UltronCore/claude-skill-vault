@@ -497,7 +497,12 @@ When finished:
 4. List implementation steps
 5. Offer to apply fixes or provide guidance
 
+## Related Skills
+- `oauth2-oidc-implementation` — authentication implementation
+- `api-security-hardening` — API security
+- `supabase-auth-ssr-setup` — Supabase authentication
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/auth-route-protection-checker/.gitnexus
+Index path: /Users/localuser/.claude/skills/auth-route-protection-checker/.gitnexus
 Last indexed: 2026-05-23

@@ -87,27 +87,3 @@ RETURN [n IN nodes(path) | n.name] AS chain
 
 4. Root cause: fetchRates calls external API without proper timeout
 ```
-
-## GitHub Regression Debugging
-When debugging a regression introduced by a recent commit or PR:
-```bash
-# Find the breaking commit
-git bisect start
-git bisect bad HEAD
-git bisect good <last-known-good-sha>
-# Then re-run gitnexus analyze after each bisect step
-
-# Inspect PR diff
-gh pr diff <pr-number>
-```
-
-## Related Skills
-- `gitnexus-exploring` — understand full context before debugging
-- `gitnexus-impact-analysis` — blast radius of the fix
-- `gitnexus-pr-review` — debug regressions introduced by a specific PR
-- `gitnexus-guide` — full tool reference
-
-## GitNexus Index
-This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/.claude/skills/gitnexus-debugging/.gitnexus
-Last indexed: 2026-05-23

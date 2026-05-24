@@ -256,7 +256,12 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/engineering_metrics.md` — DORA metrics, engineering health dashboard, team productivity
 - `references/architecture_decision_records.md` — ADR templates, decision governance, review process
 
+## Related Skills
+- `ceo-advisor` — executive alignment
+- `tech-debt-tracker` — technical debt management
+- `improve-codebase-architecture` — architecture improvement
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/product-business/cto-advisor/.gitnexus
+Index path: /Users/localuser/.claude/skills/cto-advisor/.gitnexus
 Last indexed: 2026-05-23

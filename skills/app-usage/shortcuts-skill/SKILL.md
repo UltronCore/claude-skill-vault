@@ -188,7 +188,12 @@ The signing process:
 4. **The placeholder character**: `￼` (U+FFFC) marks where variables are inserted
 5. **Control flow needs matching ends**: Every repeat/if/menu start needs an end action with same `GroupingIdentifier`
 
+## Related Skills
+- `applescript-jxa` — Mac automation
+- `keyboard-maestro` — workflow automation
+- `raycast-extensions` — Raycast shortcuts
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/shortcuts-skill/.gitnexus
+Index path: /Users/localuser/.claude/skills/shortcuts-skill/.gitnexus
 Last indexed: 2026-05-23

@@ -417,7 +417,12 @@ This skill is applicable to execute the workflow or actions described in the ove
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `kubernetes-architect` — container orchestration
+- `container-security` — Docker security
+- `ci-cd-pipeline-builder` — containerized CI
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/docker-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/docker-expert/.gitnexus
 Last indexed: 2026-05-23

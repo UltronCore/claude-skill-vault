@@ -186,7 +186,12 @@ Before using a prompt in production:
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `dspy` — programmatic prompt optimization
+- `prompt-versioning` — prompt management
+- `llm-evaluation` — measuring improvements
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/llm-prompt-optimizer/.gitnexus
+Index path: /Users/localuser/.claude/skills/llm-prompt-optimizer/.gitnexus
 Last indexed: 2026-05-23

@@ -1,3 +1,8 @@
+---
+name: ffuf-web-fuzzing
+description: Expert web fuzzing with ffuf for penetration testing: discover hidden endpoints, parameters, subdomains, virtual hosts, and vulnerabilities.
+---
+
 # ffuf Web Fuzzing
 
 ## Overview
@@ -125,7 +130,12 @@ Provide:
 - Interesting findings with follow-up recommendations
 - Suggested next steps for manual investigation
 
+## Related Skills
+- `security-pen-testing` — penetration testing
+- `semgrep-rule-creator` — vulnerability detection
+- `api-security-hardening` — API security
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/ffuf-web-fuzzing/.gitnexus
+Index path: /Users/localuser/.claude/skills/ffuf-web-fuzzing/.gitnexus
 Last indexed: 2026-05-23

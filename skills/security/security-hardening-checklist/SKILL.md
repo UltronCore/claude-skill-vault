@@ -501,7 +501,12 @@ When finished:
 4. Offer to implement fixes
 5. Generate implementation scripts
 
+## Related Skills
+- `security-advisor` — security guidance
+- `security-scanner` — automated scanning
+- `container-security` — container hardening
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/security-hardening-checklist/.gitnexus
+Index path: /Users/localuser/.claude/skills/security-hardening-checklist/.gitnexus
 Last indexed: 2026-05-23

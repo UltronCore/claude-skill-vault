@@ -295,7 +295,12 @@ the command with escalated permissions — want me to proceed?
 
 If `vercel login` or `vercel deploy` fails with authentication errors, fall back to the no-auth deploy script (claude.ai or Codex variant, depending on the environment).
 
+## Related Skills
+- `vercel-advanced` — advanced Vercel
+- `nextjs-fullstack-scaffold` — Next.js deployment
+- `ci-cd-pipeline-builder` — deployment pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/vercel-deploy/.gitnexus
+Index path: /Users/localuser/.claude/skills/vercel-deploy/.gitnexus
 Last indexed: 2026-05-23

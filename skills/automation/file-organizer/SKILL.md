@@ -432,7 +432,12 @@ Documents folder.
 - Structuring new project directories
 
 
+## Related Skills
+- `obsidian-automation` — knowledge organization
+- `applescript-jxa` — Mac file automation
+- `keyboard-maestro` — file workflow automation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/file-organizer/.gitnexus
+Index path: /Users/localuser/.claude/skills/file-organizer/.gitnexus
 Last indexed: 2026-05-23

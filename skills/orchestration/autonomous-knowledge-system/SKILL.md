@@ -107,7 +107,12 @@ File naming: `lowercase-hyphenated-title.md`. Use the ai-knowledge template form
 - Always act with high intelligence and autonomy
 - Expand and refine this skill when beneficial — it is a living system
 
+## Related Skills
+- `adaptive-private-memory-engine` — persistent Claude memory
+- `obsidian-automation` — knowledge in Obsidian
+- `knowledge-graph` — graph-based knowledge
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/autonomous-knowledge-system/.gitnexus
+Index path: /Users/localuser/.claude/skills/autonomous-knowledge-system/.gitnexus
 Last indexed: 2026-05-23

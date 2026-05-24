@@ -527,7 +527,12 @@ themeConfig: {
 | Admonitions | `:::tip` / `:::warning` / `:::danger` | Same syntax |
 | Tabs | `<Tabs>` / `<TabItem>` component | `<script setup>` + Vue |
 
+## Related Skills
+- `doc-coauthoring` — collaborative docs
+- `docs-and-changelogs` — changelogs
+- `agents-md-creator` — agent documentation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/technical-docs/.gitnexus
+Index path: /Users/localuser/.claude/skills/technical-docs/.gitnexus
 Last indexed: 2026-05-23

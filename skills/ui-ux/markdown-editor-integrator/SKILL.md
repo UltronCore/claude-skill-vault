@@ -1001,7 +1001,12 @@ describe('MarkdownEditor', () => {
 - [ ] Test accessibility
 - [ ] Document custom commands if needed
 
+## Related Skills
+- `obsidian-automation` — Markdown in Obsidian
+- `technical-docs` — Markdown documentation
+- `doc-coauthoring` — collaborative editing
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/markdown-editor-integrator/.gitnexus
+Index path: /Users/localuser/.claude/skills/markdown-editor-integrator/.gitnexus
 Last indexed: 2026-05-23

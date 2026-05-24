@@ -195,7 +195,12 @@ Required dependencies (install if not available):
 - **LibreOffice**: `sudo apt-get install libreoffice` (for PDF conversion)
 - **Poppler**: `sudo apt-get install poppler-utils` (for pdftoppm to convert PDF to images)
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
+## Related Skills
+- `office-pdf` — PDF output
+- `office-xlsx` — Excel output
+- `doc-coauthoring` — document collaboration
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/office-docx/.gitnexus
+Index path: /Users/localuser/.claude/skills/office-docx/.gitnexus
 Last indexed: 2026-05-23

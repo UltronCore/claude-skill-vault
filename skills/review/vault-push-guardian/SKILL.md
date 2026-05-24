@@ -300,7 +300,12 @@ Point the scheduled trigger at: `Run vault-push-guardian for weekly maintenance 
 
 The skill handles the rest — it checks for changes, reviews, sanitizes if needed, and pushes.
 
+## Related Skills
+- `vault-auto-sync` — vault sync
+- `git-guardrails-claude-code` — git safety
+- `private-repo-backup` — backup patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/review/vault-push-guardian/.gitnexus
+Index path: /Users/localuser/.claude/skills/vault-push-guardian/.gitnexus
 Last indexed: 2026-05-23

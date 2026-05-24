@@ -210,7 +210,12 @@ ANTHROPIC_API_KEY=       # For Aider with Claude
 SANDBOX_FUSION_URL=      # SandboxFusion server URL (default: http://localhost:8080)
 ```
 
+## Related Skills
+- `docker-expert` — container-based sandboxing
+- `web-artifacts-builder` — sandboxed web artifacts
+- `security-scanner` — sandbox security
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/misc/code-sandbox/.gitnexus
+Index path: /Users/localuser/.claude/skills/code-sandbox/.gitnexus
 Last indexed: 2026-05-23

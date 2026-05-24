@@ -245,7 +245,12 @@ When finished:
 3. Provide testing instructions
 4. Offer to generate additional policies or modify existing ones
 
+## Related Skills
+- `supabase-prisma-database-management` — Supabase database
+- `supabase-auth-ssr-setup` — Supabase auth
+- `role-permission-table-builder` — permission design
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/supabase-rls-policy-generator/.gitnexus
+Index path: /Users/localuser/.claude/skills/supabase-rls-policy-generator/.gitnexus
 Last indexed: 2026-05-23

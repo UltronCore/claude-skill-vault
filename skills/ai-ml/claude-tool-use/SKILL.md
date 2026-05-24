@@ -426,7 +426,12 @@ messages.append({"role": "user", "content": [result_1, result_2]})
 {"type": "tool_result", "tool_use_id": tool_use_block.id, "content": "..."}
 ```
 
+## Related Skills
+- `claude-api-skill` — Claude API foundation
+- `mcp-builder` — build MCP tools for Claude
+- `structured-output-extraction` — structured responses
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/claude-tool-use/.gitnexus
+Index path: /Users/localuser/.claude/skills/claude-tool-use/.gitnexus
 Last indexed: 2026-05-23

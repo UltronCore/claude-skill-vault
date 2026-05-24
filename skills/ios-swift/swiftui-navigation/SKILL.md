@@ -378,7 +378,12 @@ struct ChapterReaderView: View {
 | Tab + deep navigation | `router.selectedTab = .library; libraryPath.append(route)` |
 | Preserve on background | Encode `path.codable` to UserDefaults |
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI patterns
+- `ios-architecture` — navigation architecture
+- `swiftui-data-flow` — data flow in navigation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/swiftui-navigation/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftui-navigation/.gitnexus
 Last indexed: 2026-05-23

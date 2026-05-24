@@ -148,7 +148,12 @@ Each rule file contains:
 
 For the complete guide with all rules expanded: `AGENTS.md`
 
+## Related Skills
+- `react-query-tanstack` — data fetching
+- `react-server-components` — RSC patterns
+- `framer-motion` — animations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/react-best-practices/.gitnexus
+Index path: /Users/localuser/.claude/skills/react-best-practices/.gitnexus
 Last indexed: 2026-05-23

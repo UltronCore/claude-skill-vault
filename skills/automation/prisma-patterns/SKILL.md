@@ -546,7 +546,12 @@ async function createPostWithImage(data: CreatePostData, imageFile: File, userId
 }
 ```
 
+## Related Skills
+- `drizzle-orm` — alternative ORM
+- `database-schema-designer` — schema design
+- `supabase-prisma-database-management` — Supabase + Prisma
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/prisma-patterns/.gitnexus
+Index path: /Users/localuser/.claude/skills/prisma-patterns/.gitnexus
 Last indexed: 2026-05-23

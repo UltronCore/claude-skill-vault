@@ -566,7 +566,12 @@ Common component templates (card, button-group, list-item, etc.).
 9. **Code organization** - Follow consistent file structure
 10. **Version control** - Commit frequently with meaningful messages
 
+## Related Skills
+- `react-native-best-practices` — cross-platform patterns
+- `flutter-development` — alternative cross-platform
+- `frontend-design` — UI patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/uniapp-frontend/.gitnexus
+Index path: /Users/localuser/.claude/skills/uniapp-frontend/.gitnexus
 Last indexed: 2026-05-23

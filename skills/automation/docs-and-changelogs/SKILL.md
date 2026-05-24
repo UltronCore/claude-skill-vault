@@ -284,7 +284,12 @@ Common issues:
 - **Duplicate Entries**: Check for merge conflicts in CHANGELOG.md
 - **Broken Links**: Verify commit SHAs and PR numbers are correct
 
+## Related Skills
+- `changelog-generator` — automated changelogs
+- `technical-docs` — documentation writing
+- `release-manager` — release documentation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/docs-and-changelogs/.gitnexus
+Index path: /Users/localuser/.claude/skills/docs-and-changelogs/.gitnexus
 Last indexed: 2026-05-23

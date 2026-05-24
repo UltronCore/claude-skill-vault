@@ -79,7 +79,12 @@ To refresh this skill with updated documentation:
 
 
 
+## Related Skills
+- `peft-fine-tuning` — efficient fine-tuning
+- `huggingface-llm-trainer` — HuggingFace training
+- `mlops-engineer` — training operations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/unsloth/.gitnexus
+Index path: /Users/localuser/.claude/skills/unsloth/.gitnexus
 Last indexed: 2026-05-23

@@ -146,7 +146,12 @@ Then layer advanced behavior (matrix builds, security scans, deploy gates).
 - Separate deploy jobs from CI jobs to keep feedback fast.
 - Track pipeline duration and flakiness as first-class metrics.
 
+## Related Skills
+- `github-actions-ci-workflow` — GitHub Actions CI
+- `docker-expert` — containerized builds
+- `blue-green-deployments` — deployment strategies
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/ci-cd-pipeline-builder/.gitnexus
+Index path: /Users/localuser/.claude/skills/ci-cd-pipeline-builder/.gitnexus
 Last indexed: 2026-05-23

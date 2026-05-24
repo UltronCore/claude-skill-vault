@@ -482,7 +482,12 @@ Required dependencies (should already be installed):
 - **LibreOffice**: `sudo apt-get install libreoffice` (for PDF conversion)
 - **Poppler**: `sudo apt-get install poppler-utils` (for pdftoppm to convert PDF to images)
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
+## Related Skills
+- `office-docx` — document output
+- `canvas-design` — slide design
+- `investor-materials` — pitch decks
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/office-pptx/.gitnexus
+Index path: /Users/localuser/.claude/skills/office-pptx/.gitnexus
 Last indexed: 2026-05-23

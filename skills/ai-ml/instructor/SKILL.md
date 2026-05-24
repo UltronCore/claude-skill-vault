@@ -739,7 +739,12 @@ class PartialData(BaseModel):
 
 
 
+## Related Skills
+- `structured-output-extraction` — structured LLM output
+- `zod-expert` — schema validation
+- `dspy` — LLM pipeline optimization
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/instructor/.gitnexus
+Index path: /Users/localuser/.claude/skills/instructor/.gitnexus
 Last indexed: 2026-05-23

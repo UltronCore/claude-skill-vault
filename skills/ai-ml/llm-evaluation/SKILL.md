@@ -490,7 +490,12 @@ class BenchmarkRunner:
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `llm-eval` — LLM evaluation
+- `mlflow-experiment-tracking` — evaluation tracking
+- `statistical-analyst` — evaluation statistics
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/llm-evaluation/.gitnexus
+Index path: /Users/localuser/.claude/skills/llm-evaluation/.gitnexus
 Last indexed: 2026-05-23

@@ -541,7 +541,12 @@ prompts/
     └── classifier_eval.jsonl
 ```
 
+## Related Skills
+- `llm-prompt-optimizer` — prompt improvement
+- `git-guardrails-claude-code` — version control
+- `dspy` — programmatic versioning
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/prompt-versioning/.gitnexus
+Index path: /Users/localuser/.claude/skills/prompt-versioning/.gitnexus
 Last indexed: 2026-05-23

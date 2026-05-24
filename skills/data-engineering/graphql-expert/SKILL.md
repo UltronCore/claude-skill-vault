@@ -414,7 +414,12 @@ const server = new ApolloServer({
 | Typed errors | Union result types |
 | Large responses | Cursor pagination + field selection |
 
+## Related Skills
+- `graphql-subscriptions` — real-time GraphQL
+- `trpc-expert` — alternative API layer
+- `openapi-spec-generation` — API documentation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/graphql-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/graphql-expert/.gitnexus
 Last indexed: 2026-05-23

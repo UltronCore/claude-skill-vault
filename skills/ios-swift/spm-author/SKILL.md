@@ -319,7 +319,12 @@ typealias PlatformImage = NSImage
 )
 ```
 
+## Related Skills
+- `swift-macros` — Swift macro packages
+- `ios-architecture` — package architecture
+- `xcode-cloud` — package CI
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/spm-author/.gitnexus
+Index path: /Users/localuser/.claude/skills/spm-author/.gitnexus
 Last indexed: 2026-05-23

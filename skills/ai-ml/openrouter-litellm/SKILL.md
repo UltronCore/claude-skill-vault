@@ -447,7 +447,12 @@ def select_model(
     return model
 ```
 
+## Related Skills
+- `llm-routing-and-fallback` — model routing
+- `ai-cost-optimizer` — cost optimization
+- `ollama-integration` — local model routing
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/openrouter-litellm/.gitnexus
+Index path: /Users/localuser/.claude/skills/openrouter-litellm/.gitnexus
 Last indexed: 2026-05-23

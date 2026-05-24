@@ -332,7 +332,12 @@ python spec_validator.py --file specs/auth.md --strict
 python test_extractor.py --file specs/auth.md --framework pytest --output tests/test_auth.py
 ```
 
+## Related Skills
+- `planning-with-files` — specification planning
+- `tdd` — test-driven from spec
+- `openapi-first-development` — API spec workflow
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/spec-driven-workflow/.gitnexus
+Index path: /Users/localuser/.claude/skills/spec-driven-workflow/.gitnexus
 Last indexed: 2026-05-23

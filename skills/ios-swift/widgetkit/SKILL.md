@@ -316,7 +316,12 @@ struct AccessoryCircularView: View {
 - Use `AppIntentConfiguration` + `WidgetConfigurationIntent` instead of `StaticConfiguration`
 - The intent provides a series picker; Xcode 16 generates most boilerplate
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI for widgets
+- `swift-concurrency-expert` — async widget updates
+- `ios-architecture` — widget architecture
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/widgetkit/.gitnexus
+Index path: /Users/localuser/.claude/skills/widgetkit/.gitnexus
 Last indexed: 2026-05-23

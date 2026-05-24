@@ -369,7 +369,12 @@ OR
 {{order.customer.vip}} Equal to: true
 ```
 
+## Related Skills
+- `gmail-integration` — email automation
+- `shopify-integration` — e-commerce automation
+- `resend-email` — transactional email
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/zapier-make/.gitnexus
+Index path: /Users/localuser/.claude/skills/zapier-make/.gitnexus
 Last indexed: 2026-05-23

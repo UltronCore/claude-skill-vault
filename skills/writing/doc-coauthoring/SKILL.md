@@ -374,7 +374,12 @@ Announce document completion. Provide a few final tips:
 - Each iteration should make meaningful improvements
 - The goal is a document that actually works for readers
 
+## Related Skills
+- `technical-docs` — technical documentation
+- `docs-and-changelogs` — changelogs
+- `writing-skills` — writing quality
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/writing/doc-coauthoring/.gitnexus
+Index path: /Users/localuser/.claude/skills/doc-coauthoring/.gitnexus
 Last indexed: 2026-05-23

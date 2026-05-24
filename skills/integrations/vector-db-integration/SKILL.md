@@ -86,7 +86,12 @@ results = collection.query.hybrid(
 ## Related skills
 rag-pipeline-setup, supabase-prisma-database-management
 
+## Related Skills
+- `qdrant` — Qdrant integration
+- `pinecone` — Pinecone integration
+- `embedding-pipeline` — embedding generation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/vector-db-integration/.gitnexus
+Index path: /Users/localuser/.claude/skills/vector-db-integration/.gitnexus
 Last indexed: 2026-05-23

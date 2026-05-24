@@ -83,7 +83,12 @@ subtasks = decompose_goal(main_goal)  # list of independent tasks
 ## Related skills
 dispatching-parallel-agents, subagent-driven-development, claude-usage-orchestrator
 
+## Related Skills
+- `multi-agent-orchestration` — orchestrating multiple agents
+- `dispatching-parallel-agents` — parallel agent execution
+- `self-healing-execution` — error recovery in agents
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/orchestration/agent-loop-patterns/.gitnexus
+Index path: /Users/localuser/.claude/skills/agent-loop-patterns/.gitnexus
 Last indexed: 2026-05-23

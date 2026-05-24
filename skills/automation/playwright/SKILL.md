@@ -146,7 +146,12 @@ Open only what you need:
 - When capturing artifacts in this repo, use `output/playwright/` and avoid introducing new top-level artifact folders.
 - Default to CLI commands and workflows, not Playwright test specs.
 
+## Related Skills
+- `playwright-flow-recorder` — record Playwright flows
+- `webapp-testing` — web app testing
+- `firecrawl-browser` — browser-based scraping
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/playwright/.gitnexus
+Index path: /Users/localuser/.claude/skills/playwright/.gitnexus
 Last indexed: 2026-05-23

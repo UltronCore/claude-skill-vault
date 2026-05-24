@@ -558,7 +558,12 @@ const response = await stub.fetch(new Request("http://do/increment"));
 const { count } = await response.json();
 ```
 
+## Related Skills
+- `cloudflare-pages-autopush` — Cloudflare Pages deployment
+- `edge-computing-patterns` — edge computing
+- `vercel-deploy` — alternative deployment
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/cloudflare-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/cloudflare-expert/.gitnexus
 Last indexed: 2026-05-23

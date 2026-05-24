@@ -280,7 +280,12 @@ Common patterns in worldbuilding applications:
 
 Consult `references/decision_matrix.md` for detailed analysis of each pattern.
 
+## Related Skills
+- `react-server-components` — RSC patterns
+- `nextjs-fullstack-scaffold` — Next.js architecture
+- `trpc-expert` — type-safe API alternative
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/optimization/server-actions-vs-api-optimizer/.gitnexus
+Index path: /Users/localuser/.claude/skills/server-actions-vs-api-optimizer/.gitnexus
 Last indexed: 2026-05-23

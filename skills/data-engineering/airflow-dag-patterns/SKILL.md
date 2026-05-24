@@ -48,7 +48,12 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `data-pipeline-engineer` — data pipeline construction
+- `data-orchestration` — orchestration patterns
+- `mlops-engineer` — ML operations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/airflow-dag-patterns/.gitnexus
+Index path: /Users/localuser/.claude/skills/airflow-dag-patterns/.gitnexus
 Last indexed: 2026-05-23

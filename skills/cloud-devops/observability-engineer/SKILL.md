@@ -239,7 +239,12 @@ Expert observability engineer specializing in comprehensive monitoring strategie
 - Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
+## Related Skills
+- `opentelemetry-instrumentation` — OTel implementation
+- `sentry-and-otel-setup` — error monitoring
+- `llm-observability` — LLM observability
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/observability-engineer/.gitnexus
+Index path: /Users/localuser/.claude/skills/observability-engineer/.gitnexus
 Last indexed: 2026-05-23

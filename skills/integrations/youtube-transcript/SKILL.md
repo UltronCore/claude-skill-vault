@@ -89,7 +89,12 @@ pip install yt-dlp
 - Does not download video or audio files
 - Description truncated to 500 characters in frontmatter
 
+## Related Skills
+- `content-research-writer` — transcript to content
+- `deep-research` — research from videos
+- `notebooklm` — knowledge from transcripts
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/youtube-transcript/.gitnexus
+Index path: /Users/localuser/.claude/skills/youtube-transcript/.gitnexus
 Last indexed: 2026-05-23

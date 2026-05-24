@@ -235,7 +235,12 @@ Load these resources as needed during development:
   - Example questions and answers
   - Running an evaluation with the provided scripts
 
+## Related Skills
+- `claude-tool-use` — Claude tool integration
+- `claude-api-skill` — Claude API foundation
+- `agents-md-creator` — agent configuration
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/mcp-builder/.gitnexus
+Index path: /Users/localuser/.claude/skills/mcp-builder/.gitnexus
 Last indexed: 2026-05-23

@@ -94,7 +94,12 @@ with sync_playwright() as p:
   - `element_discovery.py` - Discovering buttons, links, and inputs on a page
   - `static_html_automation.py` - Using file:// URLs for local HTML
   - `console_logging.py` - Capturing console logs during automation
+## Related Skills
+- `playwright` — E2E testing
+- `playwright-flow-recorder` — test recording
+- `testing-next-stack` — test framework setup
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/webapp-testing/.gitnexus
+Index path: /Users/localuser/.claude/skills/webapp-testing/.gitnexus
 Last indexed: 2026-05-23

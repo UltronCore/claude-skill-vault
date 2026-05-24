@@ -61,7 +61,12 @@ No additional folders, packages, workspaces, scripts, or assets should be presen
 - Do not add icons/scripts, packages, workspaces, or architecture scaffolding
 - This skill is for **app initialization only**, not feature scaffolding
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI patterns
+- `swiftui-navigation` — navigation setup
+- `ios-architecture` — app architecture
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/swiftui-empty-app-init/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftui-empty-app-init/.gitnexus
 Last indexed: 2026-05-23

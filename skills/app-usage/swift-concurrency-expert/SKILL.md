@@ -36,7 +36,12 @@ Common fixes:
 - See `references/swift-6-2-concurrency.md` for Swift 6.2 changes, patterns, and examples.
 - See `references/swiftui-concurrency-tour-wwdc.md` for SwiftUI-specific concurrency guidance.
 
+## Related Skills
+- `ios-concurrency` — iOS concurrency patterns
+- `swift-macros` — macro-based concurrency
+- `ios-networking` — async networking
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/swift-concurrency-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/swift-concurrency-expert/.gitnexus
 Last indexed: 2026-05-23

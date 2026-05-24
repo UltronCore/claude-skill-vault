@@ -819,7 +819,12 @@ These templates work with vanilla JavaScript, React, Vue, Svelte, or any other J
 
 To use these resources, read the relevant files when detailed guidance is needed for specific visualisation types or patterns.
 
+## Related Skills
+- `canvas-design` — canvas-based visuals
+- `algorithmic-art` — generative art
+- `statistical-analyst` — data for visualization
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/d3js-visualizations/.gitnexus
+Index path: /Users/localuser/.claude/skills/d3js-visualizations/.gitnexus
 Last indexed: 2026-05-23

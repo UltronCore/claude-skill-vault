@@ -247,7 +247,12 @@ Read the appropriate reference file for detailed patterns, code examples, and im
 - `references/modular.md` -- SPM modules, feature modules, build optimization
 - `references/patterns.md` -- Repository, Coordinator, error handling, POP, DI, code organization
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI implementation
+- `swift-concurrency-expert` — async patterns
+- `clean-architecture` — architectural principles
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-architecture/.gitnexus
+Index path: /Users/localuser/.claude/skills/ios-architecture/.gitnexus
 Last indexed: 2026-05-23

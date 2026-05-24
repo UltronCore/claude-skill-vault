@@ -416,7 +416,12 @@ python scripts/gap_analyzer.py --controls current_controls.json --type type2 --j
 - **[information-security-manager-iso27001](../information-security-manager-iso27001/SKILL.md)** — ISO 27001 Annex A controls map closely to SOC 2 Security criteria; organizations pursuing both can share evidence
 - **[isms-audit-expert](../isms-audit-expert/SKILL.md)** — Audit methodology and finding management patterns transfer directly to SOC 2 audit preparation
 
+## Related Skills
+- `iso27001-isms` — ISO 27001 compliance
+- `gdpr-expert` — data privacy
+- `security-advisor` — security guidance
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/compliance/soc2-compliance/.gitnexus
+Index path: /Users/localuser/.claude/skills/soc2-compliance/.gitnexus
 Last indexed: 2026-05-23

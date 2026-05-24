@@ -125,7 +125,12 @@ firecrawl credit-usage
 firecrawl credit-usage --json --pretty -o .firecrawl/credits.json
 ```
 
+## Related Skills
+- `firecrawl-agent` — agent-based scraping
+- `web-scraping-pipeline` — scraping pipelines
+- `web-researcher` — research automation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl/.gitnexus
+Index path: /Users/localuser/.claude/skills/firecrawl/.gitnexus
 Last indexed: 2026-05-23

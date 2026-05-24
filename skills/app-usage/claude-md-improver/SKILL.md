@@ -178,7 +178,12 @@ When presenting recommendations, remind users:
 - Gotchas (quirks, common mistakes)
 - Workflow (when to do what)
 
+## Related Skills
+- `agents-md-creator` — create AGENTS.md
+- `context-engineer` — context optimization
+- `claude-settings-audit` — settings review
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/claude-md-improver/.gitnexus
+Index path: /Users/localuser/.claude/skills/claude-md-improver/.gitnexus
 Last indexed: 2026-05-23

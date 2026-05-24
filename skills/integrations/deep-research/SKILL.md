@@ -279,7 +279,12 @@ python3 deep_research.py --prompt-file prompt.txt --no-save
 - Simplify prompt to reduce research scope
 - Run during off-peak hours for potentially faster API responses
 
+## Related Skills
+- `web-researcher` — web research
+- `firecrawl` — scraping for research
+- `content-research-writer` — research to content
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/deep-research/.gitnexus
+Index path: /Users/localuser/.claude/skills/deep-research/.gitnexus
 Last indexed: 2026-05-23

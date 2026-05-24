@@ -294,7 +294,12 @@ MyApp/
 - Modifiers: adjective or style name (`CardModifier`, `PrimaryButtonStyle`)
 - Use `some View` return type, never concrete view types in public API
 
+## Related Skills
+- `swiftui-navigation` — navigation patterns
+- `swiftui-performance-audit` — performance
+- `swiftdata-expert` — data persistence
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-swiftui-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/ios-swiftui-expert/.gitnexus
 Last indexed: 2026-05-23

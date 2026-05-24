@@ -425,7 +425,12 @@ files.forEach((file, i) => {
 });
 ```
 
+## Related Skills
+- `keyboard-maestro` — Mac automation orchestration
+- `shortcuts-skill` — Apple Shortcuts automation
+- `obsidian-automation` — Obsidian via AppleScript
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/applescript-jxa/.gitnexus
+Index path: /Users/localuser/.claude/skills/applescript-jxa/.gitnexus
 Last indexed: 2026-05-23

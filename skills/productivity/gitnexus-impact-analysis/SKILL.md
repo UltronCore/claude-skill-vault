@@ -95,21 +95,3 @@ gitnexus_detect_changes({scope: "staged"})
 
 3. Risk: 2 direct callers, 2 processes = MEDIUM
 ```
-
-## PR-Scoped Impact Analysis
-To run impact analysis scoped to a PR's changes:
-```javascript
-gitnexus_detect_changes({ scope: "compare", base_ref: "main" })
-```
-Then pass the changed symbols list into `gitnexus_impact` for blast radius.
-
-## Related Skills
-- `gitnexus-refactoring` — next step after understanding impact
-- `gitnexus-pr-review` — impact analysis in context of PR review
-- `gitnexus-exploring` — explore the affected clusters
-- `gitnexus-guide` — full tool reference
-
-## GitNexus Index
-This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/.claude/skills/gitnexus-impact-analysis/.gitnexus
-Last indexed: 2026-05-23

@@ -339,7 +339,12 @@ For complex maps with animated routes or flyovers, load the maps rule: [rules/ma
 
 See [rules/voiceover.md](rules/voiceover.md) for adding AI-generated voiceover to Remotion compositions using ElevenLabs TTS.
 
+## Related Skills
+- `ffmpeg-media` — video processing
+- `algorithmic-art` — generative visuals
+- `canvas-design` — visual design
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/remotion-video-builder/.gitnexus
+Index path: /Users/localuser/.claude/skills/remotion-video-builder/.gitnexus
 Last indexed: 2026-05-23

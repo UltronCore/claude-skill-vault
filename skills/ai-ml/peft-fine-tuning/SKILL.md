@@ -430,7 +430,12 @@ TrainingArguments(learning_rate=1e-4)
 - **QLoRA Paper**: arXiv:2305.14314
 - **Models**: https://huggingface.co/models?library=peft
 
+## Related Skills
+- `huggingface-llm-trainer` — training framework
+- `unsloth` — fast fine-tuning
+- `mlops-engineer` — training operations
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/peft-fine-tuning/.gitnexus
+Index path: /Users/localuser/.claude/skills/peft-fine-tuning/.gitnexus
 Last indexed: 2026-05-23

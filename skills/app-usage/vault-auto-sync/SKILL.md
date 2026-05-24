@@ -76,7 +76,12 @@ Load with: `launchctl load ~/Library/LaunchAgents/com.localuser.vault-auto-sync.
 | Claude desktop app | `~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/<id>/skills/<slug>/SKILL.md` |
 | Vault (source) | `~/claude-skill-vault/skills/<category>/<slug>/SKILL.md` |
 
+## Related Skills
+- `vault-push-guardian` — safe vault push
+- `obsidian-automation` — Obsidian sync
+- `private-repo-backup` — backup patterns
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/app-usage/vault-auto-sync/.gitnexus
+Index path: /Users/localuser/.claude/skills/vault-auto-sync/.gitnexus
 Last indexed: 2026-05-23

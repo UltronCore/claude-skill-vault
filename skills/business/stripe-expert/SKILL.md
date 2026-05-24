@@ -528,7 +528,12 @@ export async function POST(req: Request) {
 }
 ```
 
+## Related Skills
+- `ecommerce-patterns` — e-commerce patterns
+- `shopify-integration` — Shopify payments
+- `api-security-hardening` — payment security
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/business/stripe-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/stripe-expert/.gitnexus
 Last indexed: 2026-05-23

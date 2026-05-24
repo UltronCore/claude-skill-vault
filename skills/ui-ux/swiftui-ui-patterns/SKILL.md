@@ -94,7 +94,12 @@ Use `references/components-index.md` as the entry point. Each component referenc
 - Keep it short and actionable; link to concrete files in the current repo.
 - Update `references/components-index.md` with the new entry.
 
+## Related Skills
+- `ios-swiftui-expert` — SwiftUI expert
+- `swiftui-navigation` — navigation patterns
+- `swiftui-liquid-glass` — advanced UI effects
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/swiftui-ui-patterns/.gitnexus
+Index path: /Users/localuser/.claude/skills/swiftui-ui-patterns/.gitnexus
 Last indexed: 2026-05-23

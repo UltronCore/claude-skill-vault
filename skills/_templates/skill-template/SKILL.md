@@ -21,7 +21,12 @@ Step-by-step instructions for the skill.
 
 Description of what the skill produces.
 
+## Related Skills
+- `skill-creator` — using the template
+- `skill-reviewer-and-enhancer` — skill review
+- `skillguard` — template validation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/_templates/skill-template/.gitnexus
+Index path: /Users/localuser/.claude/skills/skill-template/.gitnexus
 Last indexed: 2026-05-23

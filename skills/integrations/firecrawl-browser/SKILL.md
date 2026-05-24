@@ -84,7 +84,12 @@ firecrawl scrape "https://app.example.com" --profile my-app --no-save-changes
 - [firecrawl-search](../firecrawl-search/SKILL.md) — for web searches (never use interact for searching)
 - [firecrawl-agent](../firecrawl-agent/SKILL.md) — AI-powered extraction (less manual control)
 
+## Related Skills
+- `firecrawl` — core Firecrawl
+- `playwright` — browser automation
+- `webscraping-anti-detection` — stealth scraping
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-browser/.gitnexus
+Index path: /Users/localuser/.claude/skills/firecrawl-browser/.gitnexus
 Last indexed: 2026-05-23

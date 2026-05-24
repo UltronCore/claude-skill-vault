@@ -446,7 +446,12 @@ httpBatchLink({ url: '/api/trpc', maxURLLength: 2083 })
 // import { httpLink } from '@trpc/client'
 ```
 
+## Related Skills
+- `graphql-expert` — alternative API layer
+- `react-best-practices` — React + tRPC
+- `server-actions-vs-api-optimizer` — API vs actions
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/trpc-expert/.gitnexus
+Index path: /Users/localuser/.claude/skills/trpc-expert/.gitnexus
 Last indexed: 2026-05-23

@@ -589,7 +589,12 @@ for call in dspy.settings.trace:
 
 
 
+## Related Skills
+- `llm-prompt-optimizer` — prompt optimization
+- `structured-output-extraction` — structured LLM output
+- `llm-evaluation` — LLM evaluation
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/dspy/.gitnexus
+Index path: /Users/localuser/.claude/skills/dspy/.gitnexus
 Last indexed: 2026-05-23

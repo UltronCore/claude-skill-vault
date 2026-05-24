@@ -1,3 +1,8 @@
+---
+name: insecure-defaults-finder
+description: Systematically identify weak configurations, hardcoded secrets, insecure defaults, and misconfigured security controls across a codebase.
+---
+
 # Insecure Defaults Finder
 
 ## Overview
@@ -94,7 +99,12 @@ Report organized by category:
 
 Each finding includes: location, evidence snippet (redacted), severity, and specific remediation steps.
 
+## Related Skills
+- `c-security-review` — C/C++ security
+- `static-code-analysis` — static analysis
+- `security-hardening-checklist` — security checklist
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/security/insecure-defaults-finder/.gitnexus
+Index path: /Users/localuser/.claude/skills/insecure-defaults-finder/.gitnexus
 Last indexed: 2026-05-23

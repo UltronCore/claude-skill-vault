@@ -313,7 +313,12 @@ ffmpeg -i input.mp4 -vcodec libx264 -b:v 2000k -pass 1 -an -f null /dev/null
 ffmpeg -i input.mp4 -vcodec libx264 -b:v 2000k -pass 2 -acodec aac output.mp4
 ```
 
+## Related Skills
+- `remotion-video-builder` — programmatic video
+- `image-optimization` — media optimization
+- `data-pipeline-engineer` — media pipelines
+
 ## GitNexus Index
 This skill is indexed by GitNexus for knowledge graph traversal.
-Index path: /Users/localuser/claude-skill-vault/skills/automation/ffmpeg-media/.gitnexus
+Index path: /Users/localuser/.claude/skills/ffmpeg-media/.gitnexus
 Last indexed: 2026-05-23
