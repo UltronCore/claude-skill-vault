@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **claude-skill-vault** (19822 symbols, 19999 relationships, 16 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **claude-skill-vault** (25068 symbols, 25139 relationships, 16 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
@@ -39,11 +39,6 @@ This project is indexed by GitNexus as **claude-skill-vault** (19822 symbols, 19
 | Rename / extract / split / refactor | `.claude/skills/gitnexus/gitnexus-refactoring/SKILL.md` |
 | Tools, resources, schema reference | `.claude/skills/gitnexus/gitnexus-guide/SKILL.md` |
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
-| Work in the Scripts area (29 symbols) | `.claude/skills/generated/scripts/SKILL.md` |
-| Work in the Eval-viewer area (10 symbols) | `.claude/skills/generated/eval-viewer/SKILL.md` |
-| Work in the Ease_ area (3 symbols) | `.claude/skills/generated/ease/SKILL.md` |
-| Work in the Cluster_5 area (3 symbols) | `.claude/skills/generated/cluster-5/SKILL.md` |
-| Work in the Templates area (3 symbols) | `.claude/skills/generated/templates/SKILL.md` |
 
 <!-- gitnexus:end -->
 
