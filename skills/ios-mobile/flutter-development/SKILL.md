@@ -404,7 +404,7 @@ class ResponsiveLayout extends StatelessWidget {
 
 - `ios-swiftui-expert` — When pure native iOS is preferred
 - `react-native-best-practices` — React Native alternative
-- `mobile-testing` — Flutter integration test strategies
+- `mobile-ci-cd` — Flutter integration test and CI/CD strategies
 - `app-store-connect` — Publishing Flutter apps to App Store
 
 ## GitNexus Index

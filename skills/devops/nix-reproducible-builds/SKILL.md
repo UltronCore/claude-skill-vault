@@ -565,7 +565,7 @@ home-manager switch --flake ~/.config/home-manager#bryan
 
 - `docker-expert` — When Nix-built Docker images are deployed into orchestrated containers
 - `senior-devops` — Infrastructure-as-code patterns that Nix enables at the system level
-- `rust-systems-programming` — Rust projects with `cargo2nix` or `crane` for Nix-reproducible Cargo builds
+- `rust-systems-programming` — Rust projects with cargo2nix or crane for Nix-reproducible Cargo builds
 - `ci-cd-pipeline-builder` — Integrating Nix-based builds into GitHub Actions or GitLab CI
 
 ## GitNexus Index
