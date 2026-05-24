@@ -218,3 +218,8 @@ When recommending experiments, consider tests for:
 - **email-sequence**: For onboarding email series
 - **paywall-upgrade-cro**: For converting to paid during/after onboarding
 - **ab-test-setup**: For testing onboarding changes
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/onboarding-cro/.gitnexus
+Last indexed: 2026-05-23

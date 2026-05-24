@@ -129,3 +129,8 @@ Push automatically (without being asked) after:
 - Never push client-specific changes to a shared template repo
 - Always run QA gate (if configured) before pushing client sites
 - Include `Co-Authored-By` trailer in all AI-assisted commits
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/multi-repo-push-workflow/.gitnexus
+Last indexed: 2026-05-23

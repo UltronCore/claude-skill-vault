@@ -48,3 +48,8 @@ firecrawl map "<url>" --limit 500 --json -o .firecrawl/urls.json
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape the URLs you discover
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extract instead of map + scrape
 - [firecrawl-download](../firecrawl-download/SKILL.md) — download entire site (uses map internally)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-map/.gitnexus
+Last indexed: 2026-05-23

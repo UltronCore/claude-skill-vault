@@ -313,3 +313,8 @@ For deep dives, see:
 - `references/swiftui-perf.md` — View identity, @Observable, lazy containers, images, .task
 - `references/instruments.md` — Time Profiler, Allocations, Leaks, Energy, Core Animation, SwiftUI instrument
 - `references/optimization.md` — App launch, network, battery, build performance, anti-patterns
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-performance/.gitnexus
+Last indexed: 2026-05-23

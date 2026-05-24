@@ -412,3 +412,8 @@ const docEmbs = await embedBatch(["Python ML guide", "JavaScript basics", "Deep 
 const scores = docEmbs.map((emb) => cosineSimilarity(queryEmb, emb));
 console.log(scores); // e.g., [0.82, 0.41, 0.79]
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/embeddings-expert/.gitnexus
+Last indexed: 2026-05-23

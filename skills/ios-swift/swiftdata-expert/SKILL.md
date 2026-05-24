@@ -339,3 +339,8 @@ let count = try context.fetchCount(FetchDescriptor<Chapter>(
     predicate: #Predicate { $0.isDownloaded == true }
 ))
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/swiftdata-expert/.gitnexus
+Last indexed: 2026-05-23

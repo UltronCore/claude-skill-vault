@@ -480,3 +480,8 @@ Common issues:
 - **Slow Page Loads**: Add streaming for slow components
 - **Cache Not Working**: Verify fetch options and dynamic/static configuration
 - **Development vs Production**: Remember ISR only works in production builds
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/revalidation-strategy-planner/.gitnexus
+Last indexed: 2026-05-23

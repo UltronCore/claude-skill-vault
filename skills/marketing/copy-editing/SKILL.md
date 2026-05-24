@@ -445,3 +445,8 @@ This iterative process ensures each edit doesn't create new problems while respe
 | Reviewing and improving existing copy | copy-editing (this skill) |
 | Editing copy you just wrote | copy-editing (this skill) |
 | Structural or strategic page changes | page-cro |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/copy-editing/.gitnexus
+Last indexed: 2026-05-23

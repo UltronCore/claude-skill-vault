@@ -533,3 +533,8 @@ function StaggeredList({ items }: { items: string[] }) {
   )
 }
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/framer-motion/.gitnexus
+Last indexed: 2026-05-23

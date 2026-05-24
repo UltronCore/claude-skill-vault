@@ -294,3 +294,8 @@ No executable scripts needed for this skill.
 - `login-page.tsx` - Complete login page with email/password and OAuth
 - `dashboard-page.tsx` - Example protected page using requireAuth
 - `auth-callback-route.ts` - OAuth callback handler for provider authentication
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/supabase-auth-ssr-setup/.gitnexus
+Last indexed: 2026-05-23

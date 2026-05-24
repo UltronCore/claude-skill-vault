@@ -87,3 +87,8 @@ Structured report with:
 - Suspicious package flags with evidence
 - Recommended dependency pinning and lockfile strategies
 - Suggested replacements for high-risk dependencies
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/supply-chain-risk-auditor/.gitnexus
+Last indexed: 2026-05-23

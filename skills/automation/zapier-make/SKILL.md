@@ -368,3 +368,8 @@ AND
 OR
 {{order.customer.vip}} Equal to: true
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/zapier-make/.gitnexus
+Last indexed: 2026-05-23

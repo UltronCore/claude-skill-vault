@@ -407,3 +407,8 @@ fly secrets set PB_ADMIN_EMAIL=admin@example.com PB_ADMIN_PASSWORD=secret
 | File URL | `pb.files.getUrl(record, record.field)` |
 | Subscribe | `pb.collection('x').subscribe('*', handler)` |
 | Expand relation | `{ expand: 'fieldName' }` option |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/pocketbase/.gitnexus
+Last indexed: 2026-05-23

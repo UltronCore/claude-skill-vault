@@ -122,3 +122,8 @@ function push-skills() {
 ---
 
 *Last updated: 2026-05-08*
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/auto-push/.gitnexus
+Last indexed: 2026-05-23

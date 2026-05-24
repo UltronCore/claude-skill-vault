@@ -280,3 +280,8 @@ fi
 /usr/libexec/PlistBuddy -c "Add :BuildBranch string $CI_BRANCH" "$PLIST"
 /usr/libexec/PlistBuddy -c "Add :BuildCommit string $CI_COMMIT" "$PLIST"
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/xcode-cloud/.gitnexus
+Last indexed: 2026-05-23

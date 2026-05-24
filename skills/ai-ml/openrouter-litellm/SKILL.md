@@ -446,3 +446,8 @@ def select_model(
         return f"openrouter/{model}"
     return model
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/openrouter-litellm/.gitnexus
+Last indexed: 2026-05-23

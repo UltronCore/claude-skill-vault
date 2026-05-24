@@ -307,3 +307,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analy
 - **seo-audit**: For organic traffic analysis
 - **page-cro**: For conversion optimization (uses this data)
 - **revops**: For pipeline metrics, CRM tracking, and revenue attribution
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/analytics-tracking/.gitnexus
+Last indexed: 2026-05-23

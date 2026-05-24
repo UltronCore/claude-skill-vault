@@ -561,3 +561,8 @@ When finished:
 3. Explain implementation approach
 4. Provide testing instructions
 5. Offer to implement or adjust configuration
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/csp-config-generator/.gitnexus
+Last indexed: 2026-05-23

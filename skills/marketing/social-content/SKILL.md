@@ -276,3 +276,8 @@ Instead of guessing, analyze what's working for top creators in your niche:
 - **launch-strategy**: For coordinating social with launches
 - **email-sequence**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/social-content/.gitnexus
+Last indexed: 2026-05-23

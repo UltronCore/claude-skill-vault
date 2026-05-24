@@ -106,3 +106,8 @@ At the end of any session where project files were modified:
 - Never force-push (`--force`) to the deploy branch
 - Never skip pre-commit hooks (`--no-verify`)
 - Always include `Co-Authored-By` trailer in commit message
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/cloudflare-pages-autopush/.gitnexus
+Last indexed: 2026-05-23

@@ -640,3 +640,8 @@ jobs:
 | `google-github-actions/auth@v2` | OIDC GCP auth |
 | `tj-actions/changed-files@v44` | Detect changed files |
 | `codecov/codecov-action@v4` | Upload coverage |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/github-actions-advanced/.gitnexus
+Last indexed: 2026-05-23

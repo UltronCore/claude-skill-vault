@@ -166,3 +166,8 @@ Common issues and solutions:
 - **Permission Errors**: Check repository secrets and permissions
 - **Build Failures**: Ensure environment variables are set correctly
 - **Preview URL Not Commented**: Verify PR comment permissions and token scope
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/github-actions-ci-workflow/.gitnexus
+Last indexed: 2026-05-23

@@ -145,3 +145,8 @@ Before delivering any visual output:
 | Building one-offs | Design components and systems |
 | Over-asking the user | Infer style direction from context, product type, and brand signals |
 | Stopping after generation | Validate, iterate, and deliver complete outputs |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/ui-visual-creation-stack/.gitnexus
+Last indexed: 2026-05-23

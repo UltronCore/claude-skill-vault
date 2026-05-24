@@ -106,3 +106,8 @@ File naming: `lowercase-hyphenated-title.md`. Use the ai-knowledge template form
 - No permission requests unless strictly required
 - Always act with high intelligence and autonomy
 - Expand and refine this skill when beneficial — it is a living system
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/orchestration/autonomous-knowledge-system/.gitnexus
+Last indexed: 2026-05-23

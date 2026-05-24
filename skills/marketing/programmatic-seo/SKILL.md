@@ -236,3 +236,8 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 - **schema-markup**: For adding structured data
 - **site-architecture**: For page hierarchy, URL structure, and internal linking
 - **competitor-alternatives**: For comparison page frameworks
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/programmatic-seo/.gitnexus
+Last indexed: 2026-05-23

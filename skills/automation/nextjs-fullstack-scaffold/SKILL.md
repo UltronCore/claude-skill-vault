@@ -188,3 +188,8 @@ When finished:
 2. List all major files and directories
 3. Provide next steps
 4. Offer to answer questions
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/nextjs-fullstack-scaffold/.gitnexus
+Last indexed: 2026-05-23

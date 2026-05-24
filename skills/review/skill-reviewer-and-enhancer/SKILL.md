@@ -608,3 +608,8 @@ After enhancing skills:
 4. Share learnings in team documentation
 5. Adjust review criteria based on findings
 6. Schedule regular skill audits
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/review/skill-reviewer-and-enhancer/.gitnexus
+Last indexed: 2026-05-23

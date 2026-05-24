@@ -77,3 +77,8 @@ digraph system_builder {
 ## Continuous Improvement
 
 When a gap, inefficiency, or duplicate is detected in existing skills or systems — flag it and propose an upgrade.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/orchestration/system-builder/.gitnexus
+Last indexed: 2026-05-23

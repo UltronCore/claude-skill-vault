@@ -181,3 +181,8 @@ experiment.visualize()  # Jupyter notebook output
 | phoenix | None (fully local) |
 | langsmith-sdk | `LANGCHAIN_API_KEY`, `LANGCHAIN_TRACING_V2=true` |
 | prompttools | Provider keys (e.g. `OPENAI_API_KEY`) |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-processing/llm-eval/.gitnexus
+Last indexed: 2026-05-23

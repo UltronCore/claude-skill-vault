@@ -474,3 +474,8 @@ To re-analyze the source repos and update this skill:
 - `references/security-report.md` — Security findings from repo analysis
 - `references/repo-intake.md` — Per-repo analysis and source data
 - `references/changelog.md` — Version history of this skill
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/orchestration/ultra-lovable-orchestrator/.gitnexus
+Last indexed: 2026-05-23

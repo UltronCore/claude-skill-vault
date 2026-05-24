@@ -655,3 +655,8 @@ Use assets/ directory for starting templates:
 - assets/form-template.tsx - Copy and customize
 - assets/field-templates/ - Individual field implementations
 - assets/validation-schemas.ts - Common validation patterns
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/form-generator-rhf-zod/.gitnexus
+Last indexed: 2026-05-23

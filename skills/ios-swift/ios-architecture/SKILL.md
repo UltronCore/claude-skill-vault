@@ -246,3 +246,8 @@ Read the appropriate reference file for detailed patterns, code examples, and im
 - `references/tca.md` -- The Composable Architecture patterns
 - `references/modular.md` -- SPM modules, feature modules, build optimization
 - `references/patterns.md` -- Repository, Coordinator, error handling, POP, DI, code organization
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-architecture/.gitnexus
+Last indexed: 2026-05-23

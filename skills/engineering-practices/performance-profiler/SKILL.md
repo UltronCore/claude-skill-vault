@@ -168,3 +168,8 @@ API
 5. **Monitor continuously** — add Datadog/Prometheus metrics for key paths
 6. **Cache invalidation strategy** — cache aggressively, invalidate precisely
 7. **Document the win** — before/after in the PR description motivates the team
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/performance-profiler/.gitnexus
+Last indexed: 2026-05-23

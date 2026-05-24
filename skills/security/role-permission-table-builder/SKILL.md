@@ -478,3 +478,8 @@ Common issues:
 - **Cached Permissions**: Clear session cache after permission changes
 - **Inconsistent Checks**: Ensure same logic in middleware, components, and actions
 - **Performance Issues**: Cache permission checks, use database indexes
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/role-permission-table-builder/.gitnexus
+Last indexed: 2026-05-23

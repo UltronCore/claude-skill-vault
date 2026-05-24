@@ -461,3 +461,8 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 5 patterns: web app, microservices/AKS, serverless, data pipeline, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging, networking |
 | `references/best_practices.md` | Naming conventions, tagging, RBAC, network security, monitoring, DR |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/azure-cloud-architect/.gitnexus
+Last indexed: 2026-05-23

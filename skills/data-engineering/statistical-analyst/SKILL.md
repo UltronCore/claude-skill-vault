@@ -244,3 +244,8 @@ Structure all results as:
 ## References
 
 - `references/statistical-testing-concepts.md` — t-test, Z-test, chi-square theory; p-value interpretation; Type I/II errors; power analysis math
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/statistical-analyst/.gitnexus
+Last indexed: 2026-05-23

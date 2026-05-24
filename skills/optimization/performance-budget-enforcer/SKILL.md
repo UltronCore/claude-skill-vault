@@ -454,3 +454,8 @@ Common issues:
 - **Missing Metrics**: Verify analytics integration and data collection
 - **Slow CI**: Cache dependencies and optimize build process
 - **Bundle Size Spikes**: Use bundle analyzer to identify culprits
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/performance-budget-enforcer/.gitnexus
+Last indexed: 2026-05-23

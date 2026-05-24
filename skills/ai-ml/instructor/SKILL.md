@@ -738,3 +738,8 @@ class PartialData(BaseModel):
 - `references/examples.md` - Real-world use cases
 
 
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/instructor/.gitnexus
+Last indexed: 2026-05-23

@@ -429,3 +429,8 @@ TrainingArguments(learning_rate=1e-4)
 - **LoRA Paper**: arXiv:2106.09685
 - **QLoRA Paper**: arXiv:2305.14314
 - **Models**: https://huggingface.co/models?library=peft
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/peft-fine-tuning/.gitnexus
+Last indexed: 2026-05-23

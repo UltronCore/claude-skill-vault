@@ -424,3 +424,8 @@ def build_rag_context(
 
     return "\n---\n".join(context_parts)
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/ai-cost-optimizer/.gitnexus
+Last indexed: 2026-05-23

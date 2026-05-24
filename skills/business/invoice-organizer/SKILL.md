@@ -444,3 +444,8 @@ For unusual receipt formats:
 - Preparing for audits
 - Tracking subscription costs over time
 
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/business/invoice-organizer/.gitnexus
+Last indexed: 2026-05-23

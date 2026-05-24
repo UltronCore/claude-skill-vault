@@ -213,3 +213,8 @@ Run through both checklists:
 - Post doesn't duplicate what's in the changelog
 
 When providing feedback, be specific and constructive. Quote the weak passage, explain why it's weak, and rewrite it to show the standard.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/engineering-blog-writer/.gitnexus
+Last indexed: 2026-05-23

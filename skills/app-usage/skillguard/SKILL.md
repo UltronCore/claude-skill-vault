@@ -176,3 +176,8 @@ If dangerous permission modes are active: Explicitly warn that installing malici
 - `references/threat-catalog.md` — Full threat taxonomy with detection patterns for Pass 2
 - `references/report-template.md` — Complete 12-section report template (copy and fill)
 - `references/reviewer-guide.md` — Per-reviewer instructions and inventory guidance
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/skillguard/.gitnexus
+Last indexed: 2026-05-23

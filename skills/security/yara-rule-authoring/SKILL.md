@@ -137,3 +137,8 @@ Deliver:
 - Test command to validate against samples
 - Notes on expected false positive rate and tuning tips
 - References to samples or threat reports used
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/yara-rule-authoring/.gitnexus
+Last indexed: 2026-05-23

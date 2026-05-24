@@ -209,3 +209,8 @@ OPENAI_API_KEY=          # For Aider with GPT-4
 ANTHROPIC_API_KEY=       # For Aider with Claude
 SANDBOX_FUSION_URL=      # SandboxFusion server URL (default: http://localhost:8080)
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/misc/code-sandbox/.gitnexus
+Last indexed: 2026-05-23

@@ -122,3 +122,8 @@ When given a research goal, proceed autonomously:
 5. Flag what couldn't be verified and what sources to check manually
 
 Do not ask for permission between steps. Deliver a complete research package.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/research/web-researcher/.gitnexus
+Last indexed: 2026-05-23

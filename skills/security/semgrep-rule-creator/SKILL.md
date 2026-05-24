@@ -116,3 +116,8 @@ Deliver:
 - `.yaml` rule file(s) ready to run with `semgrep --config`
 - Test case files demonstrating true positives and true negatives
 - Brief explanation of what each rule detects and why
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/semgrep-rule-creator/.gitnexus
+Last indexed: 2026-05-23

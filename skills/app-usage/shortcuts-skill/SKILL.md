@@ -187,3 +187,8 @@ The signing process:
 3. **Range keys use format**: `{position, length}` - e.g., `{0, 1}` for first character
 4. **The placeholder character**: `￼` (U+FFFC) marks where variables are inserted
 5. **Control flow needs matching ends**: Every repeat/if/menu start needs an end action with same `GroupingIdentifier`
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/shortcuts-skill/.gitnexus
+Last indexed: 2026-05-23

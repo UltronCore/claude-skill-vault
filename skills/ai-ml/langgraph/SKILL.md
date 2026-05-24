@@ -104,3 +104,8 @@ pip install langgraph-checkpoint-postgres
 - Use `interrupt_before`/`interrupt_after` for human-in-the-loop workflows
 - Sub-graphs can be compiled and used as nodes in parent graphs
 - Fan-out to parallel nodes: `graph.add_edge("start", ["node_a", "node_b"])`
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/langgraph/.gitnexus
+Last indexed: 2026-05-23

@@ -270,3 +270,8 @@ curl -X POST "$BASE/betaGroups/$GROUP_ID/relationships/betaTesters" \
 curl "$BASE/betaTesters?filter[email]=tester@example.com" \
   -H "Authorization: Bearer $TOKEN"
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/app-store-connect/.gitnexus
+Last indexed: 2026-05-23

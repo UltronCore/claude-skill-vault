@@ -545,3 +545,8 @@ async function createPostWithImage(data: CreatePostData, imageFile: File, userId
   })
 }
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/prisma-patterns/.gitnexus
+Last indexed: 2026-05-23

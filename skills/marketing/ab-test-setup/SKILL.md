@@ -264,3 +264,8 @@ Document every test with:
 - **page-cro**: For generating test ideas based on CRO principles
 - **analytics-tracking**: For setting up test measurement
 - **copywriting**: For creating variant copy
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/ab-test-setup/.gitnexus
+Last indexed: 2026-05-23

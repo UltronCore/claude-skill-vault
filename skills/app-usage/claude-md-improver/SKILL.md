@@ -177,3 +177,8 @@ When presenting recommendations, remind users:
 - Testing (commands, patterns)
 - Gotchas (quirks, common mistakes)
 - Workflow (when to do what)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/claude-md-improver/.gitnexus
+Last indexed: 2026-05-23

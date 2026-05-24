@@ -304,3 +304,8 @@ Use this table when deciding update note depth:
 | Major restructure, supersession, or workflow change | Yes (major) | Short paragraph |
 
 When in doubt: if a public downloader would notice or benefit from knowing, include it. If they wouldn't care, skip it.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/review/public-release-review/.gitnexus
+Last indexed: 2026-05-23

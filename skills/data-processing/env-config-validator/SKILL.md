@@ -398,3 +398,8 @@ SMTP_PASSWORD="..."
 ```
 
 Consult `references/env_best_practices.md` for detailed guidance and `assets/.env.example` for a complete template.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-processing/env-config-validator/.gitnexus
+Last indexed: 2026-05-23

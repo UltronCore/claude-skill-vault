@@ -222,3 +222,8 @@ LLMs (ChatGPT, Claude, Perplexity) pull from:
 For audits: Issue → Impact → Fix → Priority (High/Med/Low)
 For strategy: Keyword cluster → content plan → timeline
 For programmatic: Template spec → data requirements → quality checklist
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/seo-ai-search/.gitnexus
+Last indexed: 2026-05-23

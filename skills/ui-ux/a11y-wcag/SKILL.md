@@ -498,3 +498,8 @@ test('Home page is accessible', async ({ page }) => {
 <label htmlFor="email">Email address</label>   // ✓ always visible
 <input id="email" placeholder="name@example.com" />
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/a11y-wcag/.gitnexus
+Last indexed: 2026-05-23

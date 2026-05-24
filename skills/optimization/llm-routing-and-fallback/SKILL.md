@@ -80,3 +80,8 @@ const { text } = await generateText({
 ## Related skills
 - claude-usage-orchestrator (routing decisions)
 - sentry-and-otel-setup (observability for LLM calls)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/llm-routing-and-fallback/.gitnexus
+Last indexed: 2026-05-23

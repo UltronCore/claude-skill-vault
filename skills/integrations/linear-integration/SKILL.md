@@ -84,3 +84,8 @@ linear labels --team GLE
 - Use `--due today` for same-day tasks.
 - The CLI outputs human-readable text by default; pass `--json` for machine-readable output.
 - When creating issues from conversation context, write a concise title and structured markdown description.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/linear-integration/.gitnexus
+Last indexed: 2026-05-23

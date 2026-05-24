@@ -55,3 +55,8 @@ firecrawl agent "get feature list" --urls "<url>" --wait -o .firecrawl/features.
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — simpler single-page extraction
 - [firecrawl-browser](../firecrawl-browser/SKILL.md) — scrape + interact for manual page interaction (more control)
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extraction without AI
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-agent/.gitnexus
+Last indexed: 2026-05-23

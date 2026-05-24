@@ -391,3 +391,8 @@ No executable scripts needed for this skill.
 - `seed.ts` - Idempotent seed script template for initial data
 - `prisma-client.ts` - Singleton Prisma Client for Next.js to prevent connection exhaustion
 - `github-workflows-schema-check.yml` - CI workflow for schema validation and migration checks
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/supabase-prisma-database-management/.gitnexus
+Last indexed: 2026-05-23

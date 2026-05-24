@@ -100,3 +100,8 @@ A numbered list of RED-GREEN cycles:
 </issue-template>
 
 After creating the issue, print the issue URL and a one-line summary of the root cause.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/review/triage-issue/.gitnexus
+Last indexed: 2026-05-23

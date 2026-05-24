@@ -229,3 +229,8 @@ Identifies which features customers value most:
 - **ab-test-setup**: For testing pricing changes
 - **revops**: For deal desk processes and pipeline pricing
 - **sales-enablement**: For proposal templates and pricing presentations
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/pricing-strategy/.gitnexus
+Last indexed: 2026-05-23

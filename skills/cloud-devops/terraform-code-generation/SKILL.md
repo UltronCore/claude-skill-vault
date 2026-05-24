@@ -71,3 +71,8 @@ When generating Terraform code:
 - Monolithic single-file configurations
 - Missing `lifecycle` rules for critical resources
 - No backend configuration (local state in production)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/terraform-code-generation/.gitnexus
+Last indexed: 2026-05-23

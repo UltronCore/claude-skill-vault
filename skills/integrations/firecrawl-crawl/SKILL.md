@@ -56,3 +56,8 @@ firecrawl crawl <job-id>
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape individual pages
 - [firecrawl-map](../firecrawl-map/SKILL.md) — discover URLs before deciding to crawl
 - [firecrawl-download](../firecrawl-download/SKILL.md) — download site to local files (uses map + scrape)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-crawl/.gitnexus
+Last indexed: 2026-05-23

@@ -308,3 +308,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **ab-test-setup**: For testing email elements
 - **popup-cro**: For email capture popups
 - **revops**: For lifecycle stages that trigger email sequences
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/email-sequence/.gitnexus
+Last indexed: 2026-05-23

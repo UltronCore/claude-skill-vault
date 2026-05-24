@@ -597,3 +597,8 @@ After implementing fixes:
 4. Share learnings with team
 5. Adjust audit criteria based on findings
 6. Schedule regular audits (monthly/quarterly)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/ui-library-usage-auditor/.gitnexus
+Last indexed: 2026-05-23

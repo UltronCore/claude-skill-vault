@@ -299,3 +299,8 @@ To enable automatic weekly pushes, run once:
 Point the scheduled trigger at: `Run vault-push-guardian for weekly maintenance on both vaults`
 
 The skill handles the rest — it checks for changes, reviews, sanitizes if needed, and pushes.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/review/vault-push-guardian/.gitnexus
+Last indexed: 2026-05-23

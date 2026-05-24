@@ -413,3 +413,8 @@ const server = new ApolloServer({
 | Auth | Context + requireAuth helper |
 | Typed errors | Union result types |
 | Large responses | Cursor pagination + field selection |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/graphql-expert/.gitnexus
+Last indexed: 2026-05-23

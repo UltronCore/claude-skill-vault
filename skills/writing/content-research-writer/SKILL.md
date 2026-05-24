@@ -535,3 +535,8 @@ Recommended structure for writing projects:
 - Creating presentation content
 - Writing case studies
 - Developing course outlines
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/content-research-writer/.gitnexus
+Last indexed: 2026-05-23

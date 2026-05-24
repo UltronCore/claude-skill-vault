@@ -283,3 +283,8 @@ Common issues:
 - **Missing Version**: Tag releases in git with semantic version numbers
 - **Duplicate Entries**: Check for merge conflicts in CHANGELOG.md
 - **Broken Links**: Verify commit SHAs and PR numbers are correct
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/docs-and-changelogs/.gitnexus
+Last indexed: 2026-05-23

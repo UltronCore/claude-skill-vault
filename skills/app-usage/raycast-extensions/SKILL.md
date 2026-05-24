@@ -542,3 +542,8 @@ export default function Command() {
 import { open } from "@raycast/api";
 await open("https://example.com");
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/raycast-extensions/.gitnexus
+Last indexed: 2026-05-23

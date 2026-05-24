@@ -336,3 +336,8 @@ extension User {
 - [references/xctest.md](references/xctest.md) -- XCTest assertions, async, performance
 - [references/ui-testing.md](references/ui-testing.md) -- XCUIApplication, Page Object, accessibility
 - [references/mocking.md](references/mocking.md) -- Protocol mocks, URLProtocol, snapshot testing
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-testing/.gitnexus
+Last indexed: 2026-05-23

@@ -210,3 +210,8 @@ Target: "best [competitor] alternatives" / "[competitor] vs [your product]" keyw
 For ad copy: hook variations + full ad + audience recommendation
 For launches: full sequence with dates and copy
 For lead magnets: concept + landing page copy + delivery sequence
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/growth-marketing/.gitnexus
+Last indexed: 2026-05-23

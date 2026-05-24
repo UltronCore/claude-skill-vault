@@ -207,3 +207,8 @@ XCTAssertEqual(user.name, "Test")
 - [API Client Architecture](references/api-client.md) — Endpoint protocol, generic client, interceptors, Codable patterns
 - [Error Handling & Retry](references/error-retry.md) — NetworkError, exponential backoff, token management
 - [Advanced Topics](references/advanced.md) — WebSocket, caching, NWPathMonitor, multipart, GraphQL
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-networking/.gitnexus
+Last indexed: 2026-05-23

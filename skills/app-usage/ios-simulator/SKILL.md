@@ -138,3 +138,8 @@ node {baseDir}/scripts/ios-sim.mjs <command> [subcommand] [flags]
 ## Troubleshooting
 
 See: [references/TROUBLESHOOTING.md](references/TROUBLESHOOTING.md)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/ios-simulator/.gitnexus
+Last indexed: 2026-05-23

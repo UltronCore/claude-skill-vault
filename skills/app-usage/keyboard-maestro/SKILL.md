@@ -380,3 +380,8 @@ tail -f ~/Library/Logs/Keyboard\ Maestro/Engine.log
 osascript -e 'tell application "Keyboard Maestro Engine" to setvariable "Test" to "hello"'
 osascript -e 'tell application "Keyboard Maestro Engine" to getvariable "Test"'
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/keyboard-maestro/.gitnexus
+Last indexed: 2026-05-23

@@ -94,3 +94,8 @@ define flow check bot response
 
 ## Related skills
 security-hardening-checklist, auth-route-protection-checker, structured-output-extraction
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/output-guardrails/.gitnexus
+Last indexed: 2026-05-23

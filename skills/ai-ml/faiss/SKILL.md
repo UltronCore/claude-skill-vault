@@ -219,3 +219,8 @@ vector_store = FaissVectorStore(faiss_index=faiss_index)
 - **License**: MIT
 
 
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/faiss/.gitnexus
+Last indexed: 2026-05-23

@@ -111,3 +111,8 @@ curl http://localhost:8080/v1/chat/completions \
 - Hugging Face Local Apps docs: `https://huggingface.co/docs/hub/main/local-apps`
 - Hugging Face Local Agents docs: `https://huggingface.co/docs/hub/agents-local`
 - GGUF converter Space: `https://huggingface.co/spaces/ggml-org/gguf-my-repo`
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/huggingface-local-models/.gitnexus
+Last indexed: 2026-05-23

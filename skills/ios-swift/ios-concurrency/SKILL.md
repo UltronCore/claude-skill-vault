@@ -328,3 +328,8 @@ withCheckedContinuation { continuation in
 - [async-await.md](references/async-await.md) — async/await, Task, TaskGroup, continuations, AsyncSequence
 - [actors.md](references/actors.md) — actor, @MainActor, GlobalActor, nonisolated, Sendable
 - [patterns.md](references/patterns.md) — common patterns, Swift 6 migration, Combine vs async/await
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-concurrency/.gitnexus
+Last indexed: 2026-05-23

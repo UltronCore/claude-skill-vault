@@ -565,3 +565,8 @@ Common component templates (card, button-group, list-item, etc.).
 8. **Accessibility** - Use semantic HTML and ARIA labels
 9. **Code organization** - Follow consistent file structure
 10. **Version control** - Commit frequently with meaningful messages
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/uniapp-frontend/.gitnexus
+Last indexed: 2026-05-23

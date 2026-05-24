@@ -222,3 +222,8 @@ No executable scripts needed for this skill.
 - `.prettierrc` - Prettier configuration with recommended settings
 - `.prettierignore` - Files and directories to exclude from formatting
 - `github-workflows-lint.yml` - GitHub Actions workflow for automated lint checks
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/eslint-prettier-husky-config/.gitnexus
+Last indexed: 2026-05-23

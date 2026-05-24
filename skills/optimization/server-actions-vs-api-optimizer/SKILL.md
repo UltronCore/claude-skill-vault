@@ -279,3 +279,8 @@ Common patterns in worldbuilding applications:
 - **Export to external format**: API route (custom headers, streaming)
 
 Consult `references/decision_matrix.md` for detailed analysis of each pattern.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/server-actions-vs-api-optimizer/.gitnexus
+Last indexed: 2026-05-23

@@ -87,3 +87,8 @@ Use these rules:
 - Confirm stacks show expected app frames.
 - Capture covers the slow operation (startup/refresh). 
 - Export stacks for automated diffing if optimizing.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/instruments-profiling/.gitnexus
+Last indexed: 2026-05-23

@@ -99,3 +99,8 @@ hf auth login                                          # or set HF_TOKEN with wr
 ```
 
 GPU strongly recommended. CPU works only for demos and `[SentenceTransformer]` `StaticEmbedding`.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/train-sentence-transformers/.gitnexus
+Last indexed: 2026-05-23

@@ -596,3 +596,8 @@ Bundle:
 □ Ensure page-level code splitting is working (check .next/analyze)
 □ Remove unused dependencies
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/optimization/core-web-vitals/.gitnexus
+Last indexed: 2026-05-23

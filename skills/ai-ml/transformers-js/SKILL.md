@@ -690,3 +690,8 @@ For detailed patterns (React cleanup, servers, browser), see **[Code Examples](.
 ---
 
 This skill enables you to integrate state-of-the-art machine learning capabilities directly into JavaScript applications without requiring separate ML servers or Python environments.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/transformers-js/.gitnexus
+Last indexed: 2026-05-23

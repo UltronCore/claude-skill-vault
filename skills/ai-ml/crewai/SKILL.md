@@ -496,3 +496,8 @@ os.environ["CREWAI_STORAGE_DIR"] = "./my_storage"
 - **Examples**: https://github.com/crewAIInc/crewAI-examples
 - **Version**: 1.2.0+
 - **License**: MIT
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/crewai/.gitnexus
+Last indexed: 2026-05-23

@@ -65,3 +65,8 @@ For each finding:
 
 ## Output
 Produce a structured security review report with an executive summary, findings table sorted by severity, and detailed per-finding writeups.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/c-security-review/.gitnexus
+Last indexed: 2026-05-23

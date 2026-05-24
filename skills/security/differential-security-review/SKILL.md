@@ -79,3 +79,8 @@ PR review comments (inline where possible) or a structured diff security report 
 - Findings by severity with line references
 - Pass/Fail recommendation with justification
 - Questions for the author about intent
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/differential-security-review/.gitnexus
+Last indexed: 2026-05-23

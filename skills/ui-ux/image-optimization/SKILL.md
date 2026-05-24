@@ -388,3 +388,8 @@ function LazySection() {
 | Lazy load | Default behavior (no `priority`) |
 | Intersection Observer | Custom hook for non-image lazy loading |
 | Supabase images | Storage transform API (width/height/format) |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/image-optimization/.gitnexus
+Last indexed: 2026-05-23

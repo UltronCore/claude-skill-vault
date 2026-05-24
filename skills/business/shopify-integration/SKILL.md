@@ -603,3 +603,8 @@ import {
 // Image with Shopify CDN optimization
 <Image data={product.images.edges[0].node} width={800} />
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/business/shopify-integration/.gitnexus
+Last indexed: 2026-05-23

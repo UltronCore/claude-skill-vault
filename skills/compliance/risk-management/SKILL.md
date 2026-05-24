@@ -449,3 +449,8 @@ What is the risk level?
 | [capa-officer](../capa-officer/) | Risk-based CAPA |
 | [regulatory-affairs-head](../regulatory-affairs-head/) | Regulatory submissions |
 | [quality-documentation-manager](../quality-documentation-manager/) | Risk file management |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/compliance/risk-management/.gitnexus
+Last indexed: 2026-05-23

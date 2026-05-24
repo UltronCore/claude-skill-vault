@@ -384,3 +384,8 @@ WHERE completed AND file.mtime >= date(today) - dur(7 days)
 TABLE status, date FROM #project WHERE status = "active" SORT date ASC
 ```
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/obsidian-automation/.gitnexus
+Last indexed: 2026-05-23

@@ -200,3 +200,8 @@ snyk monitor
 All tools support `--exit-code 1` or equivalent to fail pipelines on findings.
 Trivy, semgrep, and snyk have native GitHub Actions integrations.
 Gitleaks has a pre-commit hook mode (`gitleaks protect --staged`).
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/security-scanner/.gitnexus
+Last indexed: 2026-05-23

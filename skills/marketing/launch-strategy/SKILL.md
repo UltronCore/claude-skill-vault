@@ -351,3 +351,8 @@ Even small changelog updates remind customers your product is evolving. This bui
 - **marketing-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
 - **sales-enablement**: For launch sales collateral and enablement materials
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/launch-strategy/.gitnexus
+Last indexed: 2026-05-23

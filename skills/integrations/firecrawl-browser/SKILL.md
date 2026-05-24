@@ -83,3 +83,8 @@ firecrawl scrape "https://app.example.com" --profile my-app --no-save-changes
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — try scrape first, escalate to interact only when needed
 - [firecrawl-search](../firecrawl-search/SKILL.md) — for web searches (never use interact for searching)
 - [firecrawl-agent](../firecrawl-agent/SKILL.md) — AI-powered extraction (less manual control)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-browser/.gitnexus
+Last indexed: 2026-05-23

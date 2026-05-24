@@ -253,3 +253,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **email-sequence**: For referral nurture campaigns
 - **marketing-psychology**: For understanding referral motivation
 - **analytics-tracking**: For tracking referral attribution
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/referral-program/.gitnexus
+Last indexed: 2026-05-23

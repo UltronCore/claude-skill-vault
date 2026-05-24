@@ -57,3 +57,8 @@ firecrawl search "your query" --sources news --tbs qdr:d -o .firecrawl/news.json
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape a specific URL
 - [firecrawl-map](../firecrawl-map/SKILL.md) — discover URLs within a site
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extract from a site
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-search/.gitnexus
+Last indexed: 2026-05-23

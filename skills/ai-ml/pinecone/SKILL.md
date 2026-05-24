@@ -356,3 +356,8 @@ index.delete(delete_all=True)
 - **Pricing**: https://www.pinecone.io/pricing
 
 
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/pinecone/.gitnexus
+Last indexed: 2026-05-23

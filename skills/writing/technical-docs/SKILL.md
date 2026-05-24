@@ -526,3 +526,8 @@ themeConfig: {
 | Deploy output | `build/` | `.vitepress/dist/` |
 | Admonitions | `:::tip` / `:::warning` / `:::danger` | Same syntax |
 | Tabs | `<Tabs>` / `<TabItem>` component | `<script setup>` + Vue |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/technical-docs/.gitnexus
+Last indexed: 2026-05-23

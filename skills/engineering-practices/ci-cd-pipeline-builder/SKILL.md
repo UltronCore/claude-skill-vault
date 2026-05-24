@@ -145,3 +145,8 @@ Then layer advanced behavior (matrix builds, security scans, deploy gates).
 - Introduce test matrix only when compatibility truly requires it.
 - Separate deploy jobs from CI jobs to keep feedback fast.
 - Track pipeline duration and flakiness as first-class metrics.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/ci-cd-pipeline-builder/.gitnexus
+Last indexed: 2026-05-23

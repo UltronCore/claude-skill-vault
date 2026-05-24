@@ -122,3 +122,8 @@ Common patterns for applications:
 - **Import/export**: Validate file formats and data structure
 
 Consult `references/zod_patterns.md` for specific validation patterns applicable to your data models.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-processing/api-contracts-and-zod-validation/.gitnexus
+Last indexed: 2026-05-23

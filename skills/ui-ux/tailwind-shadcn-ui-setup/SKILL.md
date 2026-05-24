@@ -491,3 +491,8 @@ This skill provides a complete, production-ready Tailwind CSS + shadcn/ui setup 
 [OK] Documentation (README updates, customization guides)
 
 The setup is forward-compatible with Tailwind v4 and follows official Anthropic skill best practices.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/tailwind-shadcn-ui-setup/.gitnexus
+Last indexed: 2026-05-23

@@ -124,3 +124,8 @@ Provide:
 - Summary of discovered paths/parameters
 - Interesting findings with follow-up recommendations
 - Suggested next steps for manual investigation
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/ffuf-web-fuzzing/.gitnexus
+Last indexed: 2026-05-23

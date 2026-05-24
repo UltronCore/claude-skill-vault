@@ -420,3 +420,8 @@ function formatError(err: unknown): string {
   return 'Unknown error'
 }
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/typescript-expert/.gitnexus
+Last indexed: 2026-05-23

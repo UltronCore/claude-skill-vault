@@ -93,3 +93,8 @@ Good:
 - duplicated content from `README.md`, `CONTRIBUTING.md`, or policy docs
 - project-wide commands when file-scoped commands are available
 - nested `AGENTS.md` files that repeat root instructions
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/agents-md-creator/.gitnexus
+Last indexed: 2026-05-23

@@ -60,3 +60,8 @@ No additional folders, packages, workspaces, scripts, or assets should be presen
 - Keep the project minimal and unopinionated
 - Do not add icons/scripts, packages, workspaces, or architecture scaffolding
 - This skill is for **app initialization only**, not feature scaffolding
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/swiftui-empty-app-init/.gitnexus
+Last indexed: 2026-05-23

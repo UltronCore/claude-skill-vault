@@ -301,3 +301,8 @@ return [newFunc.with(\.leadingTrivia, .newlines(1))]
 | Accessor | `@attached(accessor)` | get/set/willSet/didSet |
 | Extension | `@attached(extension)` | Conformance + members |
 | MemberAttribute | `@attached(memberAttribute)` | Attributes on members |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/swift-macros/.gitnexus
+Last indexed: 2026-05-23

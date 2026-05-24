@@ -74,3 +74,8 @@ After comparing, give your own recommendation: which design you think is stronge
 ### 7. Create GitHub issue
 
 Create a refactor RFC as a GitHub issue using `gh issue create`. Use the template in [REFERENCE.md](REFERENCE.md). Do NOT ask the user to review before creating — just create it and share the URL.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/review/improve-codebase-architecture/.gitnexus
+Last indexed: 2026-05-23

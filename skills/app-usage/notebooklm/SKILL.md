@@ -563,3 +563,8 @@ notebooklm language --help     # Language settings
 **Re-authenticate:** `notebooklm login`
 **Check version:** `notebooklm --version`
 **Update skill:** `notebooklm skill install`
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/notebooklm/.gitnexus
+Last indexed: 2026-05-23

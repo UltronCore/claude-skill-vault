@@ -279,3 +279,8 @@ if let sub = product.subscription {
 | Non-consumable | Yes | Yes (restore) | Chapter unlock, theme |
 | Auto-renewable | Yes | Yes (entitlement) | Pro subscription |
 | Non-renewing | Yes | No (manual restore) | Season pass |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/storekit-iap/.gitnexus
+Last indexed: 2026-05-23

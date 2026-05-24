@@ -171,3 +171,8 @@ python3 ~/.claude/skills/tufte-report/scripts/serve.py report.html
 Serves on `localhost:8042`, auto-reloads on file change with scroll position preserved. Zero dependencies — Python stdlib only.
 
 Read `references/preview-server.md` for details. After generating a report, offer to start the preview server for the user.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/tufte-report-creator/.gitnexus
+Last indexed: 2026-05-23

@@ -160,3 +160,8 @@ npx agent-fetch "<url>" --preset "ios-safari-18"
 # Android Chrome 143
 npx agent-fetch "<url>" --preset "android-chrome-143"
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/agent-fetch/.gitnexus
+Last indexed: 2026-05-23

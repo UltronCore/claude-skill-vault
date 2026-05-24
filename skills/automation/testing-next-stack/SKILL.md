@@ -393,3 +393,8 @@ After scaffolding the testing infrastructure:
 6. Configure CI/CD pipeline with test execution
 7. Set up coverage reporting in CI
 8. Document testing guidelines for team
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/testing-next-stack/.gitnexus
+Last indexed: 2026-05-23

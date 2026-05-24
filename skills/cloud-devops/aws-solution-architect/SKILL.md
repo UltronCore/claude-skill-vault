@@ -379,3 +379,8 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 6 patterns: serverless, microservices, three-tier, data processing, GraphQL, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging |
 | `references/best_practices.md` | Serverless design, cost optimization, security hardening, scalability |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/aws-solution-architect/.gitnexus
+Last indexed: 2026-05-23

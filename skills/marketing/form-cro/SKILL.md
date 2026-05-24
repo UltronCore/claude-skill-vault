@@ -427,3 +427,8 @@ Ideas to A/B test with expected outcomes
 - **popup-cro**: For forms inside popups/modals
 - **page-cro**: For the page containing the form
 - **ab-test-setup**: For testing form changes
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/form-cro/.gitnexus
+Last indexed: 2026-05-23

@@ -343,3 +343,8 @@ Ask if user wants to:
 ## Privacy Note
 
 This skill processes your personal and professional information to generate tailored resumes. Always review the output before submitting to ensure accuracy and appropriateness. Remove or modify any information you prefer not to share with potential employers.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/tailored-resume-generator/.gitnexus
+Last indexed: 2026-05-23

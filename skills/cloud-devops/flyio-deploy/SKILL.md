@@ -401,3 +401,8 @@ fly apps destroy my-app
 | Scale machines | `fly scale count 2` |
 | Scale to zero | `min_machines_running = 0` in fly.toml |
 | Run migration | `release_command` in fly.toml `[deploy]` |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/flyio-deploy/.gitnexus
+Last indexed: 2026-05-23

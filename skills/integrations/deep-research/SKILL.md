@@ -278,3 +278,8 @@ python3 deep_research.py --prompt-file prompt.txt --no-save
 - Increase timeout: `--timeout 5400` (90 minutes)
 - Simplify prompt to reduce research scope
 - Run during off-peak hours for potentially faster API responses
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/deep-research/.gitnexus
+Last indexed: 2026-05-23

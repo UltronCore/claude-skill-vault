@@ -393,3 +393,8 @@ export function useWebSocket(url: string) {
 | Collaborative editing | Socket.io or Liveblocks |
 | Who's online in a room | Supabase presence or Socket.io rooms |
 | One-way push to client | SSE (simpler than WebSocket) |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/data-engineering/websocket-realtime/.gitnexus
+Last indexed: 2026-05-23

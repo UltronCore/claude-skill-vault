@@ -407,3 +407,8 @@ Story is complete when:
 
 - **Scrum Master** (`project-management/scrum-master/`) — Velocity data and sprint ceremonies complement backlog management
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — RICE prioritization feeds backlog ordering
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/product-business/agile-product-owner/.gitnexus
+Last indexed: 2026-05-23

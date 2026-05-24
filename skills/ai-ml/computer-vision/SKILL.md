@@ -521,3 +521,8 @@ for label, prob in results:
 | Classification | timm + EfficientNet | Wide model zoo |
 | Manga panel detection | OpenCV contours | Custom thresholds |
 | Batch processing | ThreadPoolExecutor | I/O bound → threads |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/computer-vision/.gitnexus
+Last indexed: 2026-05-23

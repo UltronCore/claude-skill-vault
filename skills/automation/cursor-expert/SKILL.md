@@ -335,3 +335,8 @@ rules: |
 | Tab completions are off | Close unused tabs; too many open files dilutes context |
 | Agent running wrong commands | Add "ask before running any terminal command" to rules |
 | Rules file too long | Keep under ~2,000 tokens; cut anything that hasn't helped in a week |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/cursor-expert/.gitnexus
+Last indexed: 2026-05-23

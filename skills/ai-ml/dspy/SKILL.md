@@ -588,3 +588,8 @@ for call in dspy.settings.trace:
 - `references/examples.md` - Real-world examples (RAG, agents, classifiers)
 
 
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/dspy/.gitnexus
+Last indexed: 2026-05-23

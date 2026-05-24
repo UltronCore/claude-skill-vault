@@ -105,3 +105,8 @@ Default to private dataset repos because traces can contain prompts, file paths,
 hf repos create <namespace>/<repo> --type dataset --private --exist-ok
 hf upload <namespace>/<repo> ~/.codex/sessions codex/<project-or-cwd> --type dataset
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/huggingface-datasets/.gitnexus
+Last indexed: 2026-05-23

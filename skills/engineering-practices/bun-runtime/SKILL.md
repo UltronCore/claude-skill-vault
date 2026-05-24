@@ -384,3 +384,8 @@ import.meta.file  // full path of current file
 | SQLite | `import { Database } from 'bun:sqlite'` |
 | Shell command | `await $\`command\`` (Bun shell) |
 | Current dir | `import.meta.dir` |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/bun-runtime/.gitnexus
+Last indexed: 2026-05-23

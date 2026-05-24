@@ -293,3 +293,8 @@ MyApp/
 - ViewModels: `<Feature>ViewModel` with `@Observable`
 - Modifiers: adjective or style name (`CardModifier`, `PrimaryButtonStyle`)
 - Use `some View` return type, never concrete view types in public API
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/ios-swiftui-expert/.gitnexus
+Last indexed: 2026-05-23

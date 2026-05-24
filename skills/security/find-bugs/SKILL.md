@@ -73,3 +73,8 @@ For each issue:
 If you find nothing significant, say so - don't invent issues.
 
 Do not make changes - just report findings. I'll decide what to address.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/find-bugs/.gitnexus
+Last indexed: 2026-05-23

@@ -314,3 +314,8 @@ Only include the package manager actually used by the project:
 | `Pipfile.lock`      | pipenv commands | pip, poetry                            |
 
 If multiple lock files exist, include only the commands for each detected manager.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/claude-settings-audit/.gitnexus
+Last indexed: 2026-05-23

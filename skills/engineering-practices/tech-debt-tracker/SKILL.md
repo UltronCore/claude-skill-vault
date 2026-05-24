@@ -91,3 +91,8 @@ Together, these tools enable engineering teams to make data-driven decisions abo
 **Solution**: Start simple, iterate based on actual usage patterns.
 
 Technical debt management is not just about writing better code - it's about creating sustainable development practices that balance short-term delivery pressure with long-term system health. Use these tools and frameworks to make informed decisions about when and how to invest in debt reduction.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/engineering-practices/tech-debt-tracker/.gitnexus
+Last indexed: 2026-05-23

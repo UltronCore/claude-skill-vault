@@ -469,3 +469,8 @@ results = asyncio.run(analyze_images_batch(
 | Batch processing | `claude-haiku-4-5` | Cost-efficient at scale |
 | Code/UI screenshots | `claude-opus-4-5` | Best detail recognition |
 | Medical/scientific images | `claude-opus-4-5` | Nuanced understanding |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/multimodal-ai/.gitnexus
+Last indexed: 2026-05-23

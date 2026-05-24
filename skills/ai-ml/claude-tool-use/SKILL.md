@@ -425,3 +425,8 @@ messages.append({"role": "user", "content": [result_1, result_2]})
 # CORRECT
 {"type": "tool_result", "tool_use_id": tool_use_block.id, "content": "..."}
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/claude-tool-use/.gitnexus
+Last indexed: 2026-05-23

@@ -88,3 +88,8 @@ pip install yt-dlp
 - Requires video to have subtitles (auto-generated or manual)
 - Does not download video or audio files
 - Description truncated to 500 characters in frontmatter
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/youtube-transcript/.gitnexus
+Last indexed: 2026-05-23

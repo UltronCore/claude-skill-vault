@@ -185,3 +185,8 @@ This skill applies to any future screenshot-based tool discovery:
 5. Output structured report
 
 Apply to: plugin marketplaces, node ecosystems, CLI registries, agent-native toolchains.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/automation/agent-native-automation-research-install/.gitnexus
+Last indexed: 2026-05-23

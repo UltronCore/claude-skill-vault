@@ -377,3 +377,8 @@ struct ChapterReaderView: View {
 | Show fullscreen | `.fullScreenCover(isPresented:)` |
 | Tab + deep navigation | `router.selectedTab = .library; libraryPath.append(route)` |
 | Preserve on background | Encode `path.codable` to UserDefaults |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ios-swift/swiftui-navigation/.gitnexus
+Last indexed: 2026-05-23

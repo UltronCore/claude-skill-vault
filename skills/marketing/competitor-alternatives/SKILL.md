@@ -254,3 +254,8 @@ Recommended pages to create with priority order based on search volume.
 - **seo-audit**: For optimizing competitor pages
 - **schema-markup**: For FAQ and comparison schema
 - **sales-enablement**: For internal sales collateral, decks, and objection docs
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/competitor-alternatives/.gitnexus
+Last indexed: 2026-05-23

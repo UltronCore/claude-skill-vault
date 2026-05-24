@@ -238,3 +238,8 @@ MEILISEARCH_API_KEY=    # Meilisearch master key
 TYPESENSE_API_KEY=      # Typesense API key
 RAGFLOW_API_KEY=        # Set in ragflow UI after startup
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/orchestration/rag-pipeline/.gitnexus
+Last indexed: 2026-05-23

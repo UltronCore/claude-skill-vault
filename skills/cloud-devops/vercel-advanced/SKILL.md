@@ -541,3 +541,8 @@ import { put } from "@vercel/blob";
 const blob = await put("product.jpg", file, { access: "public" });
 console.log(blob.url);
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/cloud-devops/vercel-advanced/.gitnexus
+Last indexed: 2026-05-23

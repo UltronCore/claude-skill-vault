@@ -144,3 +144,8 @@ Produce:
 - List of surviving mutations (test gaps) sorted by security relevance
 - Specific test cases to write for critical survivors
 - CI configuration snippet for ongoing monitoring
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/mutation-testing/.gitnexus
+Last indexed: 2026-05-23

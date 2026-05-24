@@ -174,3 +174,8 @@ Run again when active skills > 60 or > 10 new skills added.
 3. Every skill in `~/.claude/skills/` must be backed up in vault
 4. firecrawl and similar multi-command tools stay as one consolidated skill
 5. Maximum 75 active skills before automatic audit is triggered
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/misc/skill-portfolio-architect/.gitnexus
+Last indexed: 2026-05-23

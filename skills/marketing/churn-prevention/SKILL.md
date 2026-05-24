@@ -422,3 +422,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **onboarding-cro**: For activation to prevent early churn
 - **analytics-tracking**: For setting up churn signal events
 - **ab-test-setup**: For testing cancel flow variations with statistical rigor
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/churn-prevention/.gitnexus
+Last indexed: 2026-05-23

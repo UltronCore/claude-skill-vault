@@ -67,3 +67,8 @@ firecrawl download https://docs.example.com \
 - [firecrawl-map](../firecrawl-map/SKILL.md) — just discover URLs without downloading
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape individual pages
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extract as JSON (not local files)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/integrations/firecrawl-download/.gitnexus
+Last indexed: 2026-05-23

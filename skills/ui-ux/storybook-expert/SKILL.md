@@ -477,3 +477,8 @@ const meta: Meta<typeof Button> = {
 8. Push to GitHub:           Chromatic runs visual diff automatically
 9. Integrate into page:      copy from Storybook into real page — already battle-tested
 ```
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/storybook-expert/.gitnexus
+Last indexed: 2026-05-23

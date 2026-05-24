@@ -452,3 +452,8 @@ Ideas to A/B test with expected outcomes
 - **page-cro**: For the page context around popups
 - **email-sequence**: For what happens after popup conversion
 - **ab-test-setup**: For testing popup variations
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/marketing/popup-cro/.gitnexus
+Last indexed: 2026-05-23

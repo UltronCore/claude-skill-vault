@@ -167,3 +167,8 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/executive_decision_framework.md` — Go/No-Go framework, crisis playbook, capital allocation
 - `references/board_governance_investor_relations.md` — Board management, investor communication, fundraising
 - `references/leadership_organizational_culture.md` — Culture development, CEO routines, succession planning
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/product-business/ceo-advisor/.gitnexus
+Last indexed: 2026-05-23

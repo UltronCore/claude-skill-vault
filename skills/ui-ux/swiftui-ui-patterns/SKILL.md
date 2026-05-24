@@ -93,3 +93,8 @@ Use `references/components-index.md` as the entry point. Each component referenc
 - Create `references/<component>.md`.
 - Keep it short and actionable; link to concrete files in the current repo.
 - Update `references/components-index.md` with the new entry.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ui-ux/swiftui-ui-patterns/.gitnexus
+Last indexed: 2026-05-23

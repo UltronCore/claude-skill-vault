@@ -82,3 +82,8 @@ When invoked again in the same conversation:
 After writing the file, state:
 
 > I've written/updated `UBIQUITOUS_LANGUAGE.md`. From this point forward I will use these terms consistently. If I drift from this language or you notice a term that should be added, let me know.
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/writing/ubiquitous-language/.gitnexus
+Last indexed: 2026-05-23

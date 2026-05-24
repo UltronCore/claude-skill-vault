@@ -351,3 +351,8 @@ if not is_ollama_available("llama3.2"):
 | `OLLAMA_MAX_LOADED_MODELS` | `1` | Models in VRAM |
 | `OLLAMA_KEEP_ALIVE` | `5m` | How long to keep model loaded |
 | `OLLAMA_DEBUG` | `0` | Enable debug logging |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/ai-ml/ollama-integration/.gitnexus
+Last indexed: 2026-05-23

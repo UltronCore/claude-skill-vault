@@ -485,3 +485,8 @@ return NextResponse.json({ error: 'Invalid or expired token' }, { status: 401 })
 | Broken auth | JWT validation via Supabase auth.getUser() |
 | API scraping | API key auth + rate limiting |
 | Timing attacks | `timingSafeEqual` for secret comparison |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/api-security-hardening/.gitnexus
+Last indexed: 2026-05-23

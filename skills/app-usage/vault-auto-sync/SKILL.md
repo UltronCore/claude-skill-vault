@@ -75,3 +75,8 @@ Load with: `launchctl load ~/Library/LaunchAgents/com.localuser.vault-auto-sync.
 | Claude Code CLI | `~/.claude/skills/<slug>/SKILL.md` |
 | Claude desktop app | `~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/<id>/skills/<slug>/SKILL.md` |
 | Vault (source) | `~/claude-skill-vault/skills/<category>/<slug>/SKILL.md` |
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/app-usage/vault-auto-sync/.gitnexus
+Last indexed: 2026-05-23

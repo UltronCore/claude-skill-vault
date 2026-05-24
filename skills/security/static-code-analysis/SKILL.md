@@ -73,3 +73,8 @@ Structured report with:
 - Detailed findings with code snippets
 - Remediation guidance per finding
 - SARIF file for CI integration
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/security/static-code-analysis/.gitnexus
+Last indexed: 2026-05-23

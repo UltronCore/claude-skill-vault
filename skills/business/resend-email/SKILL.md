@@ -583,3 +583,8 @@ const text = render(OrderConfirmation(props), { plainText: true });
 - [ ] Footer includes physical mailing address
 - [ ] Tested in Gmail, Apple Mail, Outlook
 - [ ] Mobile-responsive (single column, 600px max width)
+
+## GitNexus Index
+This skill is indexed by GitNexus for knowledge graph traversal.
+Index path: /Users/localuser/claude-skill-vault/skills/business/resend-email/.gitnexus
+Last indexed: 2026-05-23
