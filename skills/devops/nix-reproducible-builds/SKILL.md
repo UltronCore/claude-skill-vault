@@ -510,7 +510,7 @@ echo "use flake" > .envrc && direnv allow
 { config, pkgs, ... }:
 
 {
-  home.username = "bryan";
+  home.username = "localuser";
   home.homeDirectory = "/Users/localuser";
   home.stateVersion = "24.05";
 
@@ -550,7 +550,7 @@ echo "use flake" > .envrc && direnv allow
 
 ```bash
 # Apply home-manager config
-home-manager switch --flake ~/.config/home-manager#bryan
+home-manager switch --flake ~/.config/home-manager#localuser
 ```
 
 ## Pitfalls to Avoid

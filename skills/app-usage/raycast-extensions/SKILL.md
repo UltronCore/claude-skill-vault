@@ -45,7 +45,7 @@ my-extension/
   "title": "My Extension",
   "description": "What it does in one sentence",
   "icon": "extension-icon.png",
-  "author": "bryanfee1",
+  "author": "example-author",
   "categories": ["Productivity"],
   "license": "MIT",
   "commands": [

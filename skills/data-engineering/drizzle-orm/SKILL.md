@@ -156,7 +156,7 @@ const results = await db
   .select()
   .from(users)
   .where(like(users.name, '%Example User%'));   // case-sensitive
-  // .where(ilike(users.name, '%bryan%')); // case-insensitive
+  // .where(ilike(users.name, '%example%')); // case-insensitive
 
 // In array
 const specific = await db
