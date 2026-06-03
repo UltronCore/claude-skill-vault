@@ -22,7 +22,7 @@ This directory contains 45 skills for automating development workflows, testing,
 | [multi-repo-push-workflow](multi-repo-push-workflow/SKILL.md) | Manage git push discipline across multiple repos with QA gates and backup aliases |
 | [new-website-repo](new-website-repo/SKILL.md) | Scaffold a new website repository with standard structure and configuration |
 | [nextjs-fullstack-scaffold](nextjs-fullstack-scaffold/SKILL.md) | Scaffold full-stack Next.js 16 apps with React 19, Tailwind v4, Supabase, and Prisma |
-| [private-cleaners-project-autopush](private-cleaners-project-autopush/SKILL.md) | Auto-commit and push the Example Cleaners Site site to GitHub |
+| [private-cleaners-project-autopush](private-cleaners-project-autopush/SKILL.md) | Auto-commit and push the Example Cleaners Site to GitHub |
 | [playwright](playwright/SKILL.md) | Automate browsers from the terminal with Playwright for navigation, forms, and scraping |
 | [playwright-flow-recorder](playwright-flow-recorder/SKILL.md) | Create Playwright E2E test scripts from natural language user flow descriptions |
 | [prisma-patterns](prisma-patterns/SKILL.md) | Prisma ORM patterns for schema design, migrations, and type-safe database access |

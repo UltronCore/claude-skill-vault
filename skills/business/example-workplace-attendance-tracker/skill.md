@@ -1,8 +1,8 @@
 ---
-name: biolife-attendance-tracker
-description: Build, maintain, generate fake test data for, and distribute the Example Workplace Attendance Tracker Excel/VBA tool. Use when asked about the attendance tracker, generating fake Example Workplace data, fixing tracker issues, or creating center-specific templates.
+name: example-workplace-attendance-tracker
+description: Build, maintain, generate fake test data for, and distribute the Example Workplace Attendance Tracker Excel/VBA tool. Use when asked about the attendance tracker, generating fake workplace data, fixing tracker issues, or creating center-specific templates.
 type: domain
-tags: [biolife, excel, vba, attendance, hr-tools, operations]
+tags: [workplace, excel, vba, attendance, hr-tools, operations]
 ---
 
 # Example Workplace Attendance Tracker Skill

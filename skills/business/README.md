@@ -6,7 +6,7 @@ This directory contains 13 skills for business operations, client work, financia
 
 | Skill | Description |
 |-------|-------------|
-| [biolife-attendance-tracker](biolife-attendance-tracker/SKILL.md) | Build, maintain, and generate test data for the Example Workplace Attendance Tracker Excel/VBA tool |
+| [example-workplace-attendance-tracker](example-workplace-attendance-tracker/skill.md) | Build, maintain, and generate test data for the Example Workplace Attendance Tracker Excel/VBA tool |
 | [domain-name-brainstormer](domain-name-brainstormer/SKILL.md) | Generate creative domain name ideas and check availability across multiple TLDs |
 | [ecommerce-patterns](ecommerce-patterns/SKILL.md) | E-commerce integration patterns for product catalogs, carts, checkout, and payments |
 | [invoice-organizer](invoice-organizer/SKILL.md) | Automatically organize invoices and receipts for tax prep — extract, rename, and sort |
