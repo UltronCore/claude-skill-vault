@@ -183,7 +183,7 @@ JWT_SECRET="secret"
 **Solution**:
 ```bash
 # [OK] CORRECT - strong, random, 32+ characters
-JWT_SECRET="a8f3d9c2e1b7f4a6d8c3e9b2f1a7d4c8e3b9f2a1d7c4e8b3f9a2d1c7e4b8f3a9"
+JWT_SECRET="REPLACE-WITH-64-CHAR-RANDOM-HEX-FROM-openssl-rand-hex-32"
 ```
 
 Generate with:

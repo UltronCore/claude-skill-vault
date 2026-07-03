@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code-orange)](https://claude.ai/code)
 [![Maintained](https://img.shields.io/badge/maintained-yes-green)](https://github.com/UltronCore/claude-skill-vault/commits/main)
 
-A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **645 active skills** across 27 categories, with full version history, lineage tracking, and auto-save tooling.
+A versioned, categorized backup and distribution vault for [Claude Code](https://claude.ai/code) skills — **515 active skills** across 28 categories (verified 2026-07-02), with full version history, lineage tracking, and auto-save tooling.
 
 ---
 
