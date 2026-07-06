@@ -10,6 +10,21 @@ A versioned, categorized backup and distribution vault for [Claude Code](https:/
 
 ---
 
+## Project pickup spotlight
+
+### EDC Vegas Notion Trip OS
+
+Use these files when Claude or Codex needs to continue Bryan's EDC Vegas / Notion / creator travel planning workflow:
+
+- [EDC Vegas Notion Trip OS](skills/travel/edc-vegas-notion-trip-os/SKILL.md)
+- [Claude pickup guide](skills/travel/edc-vegas-notion-trip-os/CLAUDE_PICKUP.md)
+- [Codex pickup guide](skills/travel/edc-vegas-notion-trip-os/CODEX_PICKUP.md)
+- [30-skill Notion travel pack](skills/notion/edc-vegas-notion-30-skill-pack/SKILL.md)
+
+Rules: GitHub stores reusable, public-safe process docs. Private reservation details, personal emails, payment/account details, and uploaded PDFs stay out of the repo.
+
+---
+
 ## Why it exists
 
 Claude Code skills live in `~/.claude/skills/`. They accumulate, get updated, and occasionally get replaced — but there is no built-in persistence or version history. This vault solves that:
@@ -71,6 +86,8 @@ This is not a plugin marketplace. It is a structured, actively maintained person
 
 | Skill | Category | What it does |
 |-------|----------|--------------|
+| [edc-vegas-notion-trip-os](skills/travel/edc-vegas-notion-trip-os/) | travel | EDC Vegas / Notion trip OS with Claude and Codex pickup docs |
+| [edc-vegas-notion-30-skill-pack](skills/notion/edc-vegas-notion-30-skill-pack/) | notion | 30 compact skills for Notion travel, festival, creator, and research planning |
 | [adaptive-private-memory-engine](skills/orchestration/adaptive-private-memory-engine/) | orchestration | Privacy-hardened Claude memory — selective loading, zero personal data in shared artifacts |
 | [vault-push-guardian](skills/review/vault-push-guardian/) | review | Block git commits that contain credentials or private data before they leave your machine |
 | [skillguard](skills/app-usage/skillguard/) | app-usage | Protect and manage installed Claude Code skills — prevent accidental overwrites |
@@ -93,7 +110,7 @@ This is not a plugin marketplace. It is a structured, actively maintained person
 
 Every skill in the vault follows this layout:
 
-```
+```bash
 skills/{category}/{skill-slug}/
   SKILL.md          ← the working skill file (install this one)
   README.md         ← human-friendly description and usage notes
@@ -129,11 +146,14 @@ Old skills are never deleted — they move to `skills/_archive/` with a notice p
 ### Use an individual skill
 
 ```bash
-# Install the vault-push-guardian skill
-cp skills/review/vault-push-guardian/SKILL.md ~/.claude/skills/vault-push-guardian.md
+# Install the EDC Vegas Notion Trip OS skill
+cp skills/travel/edc-vegas-notion-trip-os/SKILL.md ~/.claude/skills/edc-vegas-notion-trip-os.md
+
+# Install the 30-skill Notion travel pack
+cp skills/notion/edc-vegas-notion-30-skill-pack/SKILL.md ~/.claude/skills/edc-vegas-notion-30-skill-pack.md
 ```
 
-Then invoke it in Claude Code with `/vault-push-guardian` or by describing the task.
+Then invoke it in Claude Code with `/edc-vegas-notion-trip-os` or by describing the task.
 
 ### Clone and bootstrap your own vault
 
@@ -202,7 +222,7 @@ All content is reviewed against [docs/public-safety-policy.md](docs/public-safet
 
 ## Repository structure
 
-```
+```bash
 claude-skill-vault/
   skills/
     _registry/       ← registry.json, categories.json, lineage.json, featured.json
